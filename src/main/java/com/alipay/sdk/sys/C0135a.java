@@ -35,7 +35,7 @@ public final class C0135a {
             jSONObject.put("av", this.f411a);
             return jSONObject.toString();
         } catch (JSONException e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 }

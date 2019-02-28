@@ -24,7 +24,7 @@ abstract class C0428k<T, V> extends bu {
     /* renamed from: b */
     protected int f2479b = 1;
     /* renamed from: c */
-    protected String f2480c = bi_常量类.f6358b;
+    protected String f2480c = bi_常量类.f6358b_空串;
     /* renamed from: d */
     protected Context f2481d;
     /* renamed from: e */
@@ -98,7 +98,7 @@ abstract class C0428k<T, V> extends bu {
             az.m3143a(e, "ProtocalHandler", "loadData Exception");
             str = null;
         }
-        if (str == null || str.equals(bi_常量类.f6358b)) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串)) {
             return null;
         }
         C0405u.m3464a(str);

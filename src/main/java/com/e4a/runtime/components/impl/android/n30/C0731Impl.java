@@ -63,7 +63,7 @@ public class C0731Impl extends ViewComponent implements C0726, OnItemClickListen
     private float TitletextSize = 9.0f;
     private int TotalItemCount;
     private int VisibleItemCount;
-    private String backgroundImage = bi_常量类.f6358b;
+    private String backgroundImage = bi_常量类.f6358b_空串;
     private int backgroundImage2 = -1;
     private int horizontalSpacing = 15;
     private ImageAdapter imageAdapter;
@@ -464,8 +464,8 @@ public class C0731Impl extends ViewComponent implements C0726, OnItemClickListen
         Map<String, String> map = new HashMap();
         map.put("image", image);
         map.put("title", title);
-        map.put("副标题", bi_常量类.f6358b);
-        map.put("tag", bi_常量类.f6358b);
+        map.put("副标题", bi_常量类.f6358b_空串);
+        map.put("tag", bi_常量类.f6358b_空串);
         map.put("count", "0");
         this.listItems.add(map);
         this.imageAdapter.notifyDataSetChanged();
@@ -476,8 +476,8 @@ public class C0731Impl extends ViewComponent implements C0726, OnItemClickListen
         Map<String, String> map = new HashMap();
         map.put("image", image);
         map.put("title", title);
-        map.put("副标题", bi_常量类.f6358b);
-        map.put("tag", bi_常量类.f6358b);
+        map.put("副标题", bi_常量类.f6358b_空串);
+        map.put("tag", bi_常量类.f6358b_空串);
         map.put("count", "0");
         this.listItems.add(index, map);
         this.imageAdapter.notifyDataSetChanged();

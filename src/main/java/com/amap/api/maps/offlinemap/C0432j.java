@@ -60,9 +60,9 @@ class C0432j extends C0428k<String, List<OfflineMapProvince>> {
             str = new String(bArr, "utf-8");
             try {
                 C0405u.m3464a(str);
-                if (!(str == null || bi_常量类.f6358b.equals(str))) {
+                if (!(str == null || bi_常量类.f6358b_空串.equals(str))) {
                     String optString = new JSONObject(str).optString("status");
-                    if (!(optString == null || optString.equals(bi_常量类.f6358b) || optString.equals("0"))) {
+                    if (!(optString == null || optString.equals(bi_常量类.f6358b_空串) || optString.equals("0"))) {
                         if (this.f2485j != null) {
                             m3696c(str);
                         }
@@ -95,7 +95,7 @@ class C0432j extends C0428k<String, List<OfflineMapProvince>> {
     /* renamed from: c */
     private void m3696c(String str) {
         Throwable e;
-        if (!C0405u.m3476b(this.f2485j).equals(bi_常量类.f6358b)) {
+        if (!C0405u.m3476b(this.f2485j).equals(bi_常量类.f6358b_空串)) {
             File file = new File(C0405u.m3476b(this.f2485j) + "offlinemap3.png");
             if (!file.exists()) {
                 try {

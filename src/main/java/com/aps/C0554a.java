@@ -700,15 +700,15 @@ public class C0554a implements C0553k {
     /* renamed from: h */
     private String m4269h() {
         m4283u();
-        String str = bi_常量类.f6358b;
-        String str2 = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
+        String str2 = bi_常量类.f6358b_空串;
         str2 = LocationManagerProxy.NETWORK_PROVIDER;
         if (m4281s()) {
             this.f3288s = this.f3278i.getConnectionInfo();
         } else {
             m4276n();
         }
-        String str3 = bi_常量类.f6358b;
+        String str3 = bi_常量类.f6358b_空串;
         C0559e c0559e;
         StringBuilder stringBuilder;
         switch (this.f3276g) {
@@ -815,7 +815,7 @@ public class C0554a implements C0553k {
         }
         if (m4281s()) {
             String bssid;
-            String str = bi_常量类.f6358b;
+            String str = bi_常量类.f6358b_空串;
             if (m4248a(this.f3288s)) {
                 bssid = this.f3288s.getBSSID();
             } else {
@@ -859,13 +859,13 @@ public class C0554a implements C0553k {
         String str4 = "0";
         String str5 = "0";
         String str6 = "0";
-        String str7 = bi_常量类.f6358b;
+        String str7 = bi_常量类.f6358b_空串;
         C0560f.f3455a = "888888888888888";
         C0560f.f3456b = "888888888888888";
-        C0560f.f3457c = bi_常量类.f6358b;
-        String str8 = bi_常量类.f6358b;
-        String str9 = bi_常量类.f6358b;
-        String str10 = bi_常量类.f6358b;
+        C0560f.f3457c = bi_常量类.f6358b_空串;
+        String str8 = bi_常量类.f6358b_空串;
+        String str9 = bi_常量类.f6358b_空串;
+        String str10 = bi_常量类.f6358b_空串;
         StringBuilder stringBuilder2 = new StringBuilder();
         StringBuilder stringBuilder3 = new StringBuilder();
         StringBuilder stringBuilder4 = new StringBuilder();
@@ -899,10 +899,10 @@ public class C0554a implements C0553k {
             }
             this.f3268K = C0560f.f3456b;
             if (TextUtils.isEmpty(C0560f.f3457c)) {
-                C0560f.f3457c = bi_常量类.f6358b;
+                C0560f.f3457c = bi_常量类.f6358b_空串;
             }
             if (C0560f.f3457c == null) {
-                C0560f.f3457c = bi_常量类.f6358b;
+                C0560f.f3457c = bi_常量类.f6358b_空串;
             }
         }
         NetworkInfo networkInfo = null;
@@ -1163,7 +1163,7 @@ public class C0554a implements C0553k {
             throw e;
         } catch (Exception e2) {
         }
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         String[] a2 = C0569l.m4538a(this.f3289t);
         if (a != null && a.indexOf("<saps>") != -1) {
             a = this.f3284o.m4415a(c0573m.m4543a(a), "GBK");

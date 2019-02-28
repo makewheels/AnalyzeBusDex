@@ -352,7 +352,7 @@ public class AMapHudView extends FrameLayout implements OnClickListener, OnTouch
                 this.resId = naviInfo.m_Icon;
                 this.distanceTimeTextStr = C0615f.m4839b(naviInfo.m_RouteRemainTime);
                 if (this.mAMapNavi.getNaviSetting().m3846a() && this.mAMapNavi.getEngineType() == 0 && naviInfo.getCameraDistance() > 0 && this.limitSpeedTextView != null && naviInfo.m_CameraSpeed > 0) {
-                    this.limitSpeedTextView.setText(bi_常量类.f6358b + naviInfo.m_CameraSpeed);
+                    this.limitSpeedTextView.setText(bi_常量类.f6358b_空串 + naviInfo.m_CameraSpeed);
                     this.limitSpeedTextView.setVisibility(0);
                 } else if (naviInfo.m_CameraSpeed == 0 && this.limitSpeedTextView != null) {
                     this.limitSpeedTextView.setVisibility(8);
@@ -366,9 +366,9 @@ public class AMapHudView extends FrameLayout implements OnClickListener, OnTouch
 
     private SpannableString switchStrFromMeter(int i) {
         if (i < 1000) {
-            return getSpanableString(this.mContext, i + bi_常量类.f6358b, "米");
+            return getSpanableString(this.mContext, i + bi_常量类.f6358b_空串, "米");
         }
-        return getSpanableString(this.mContext, (((float) Math.round((((float) i) / 1000.0f) * 10.0f)) / 10.0f) + bi_常量类.f6358b, "公里");
+        return getSpanableString(this.mContext, (((float) Math.round((((float) i) / 1000.0f) * 10.0f)) / 10.0f) + bi_常量类.f6358b_空串, "公里");
     }
 
     private SpannableString getSpanableString(Context context, String str, String str2) {

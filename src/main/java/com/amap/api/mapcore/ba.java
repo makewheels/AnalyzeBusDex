@@ -12,7 +12,7 @@ import p054u.aly.bi_常量类;
 /* compiled from: ScaleView */
 class ba extends View {
     /* renamed from: a */
-    private String f1620a = bi_常量类.f6358b;
+    private String f1620a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     private int f1621b = 0;
     /* renamed from: c */
@@ -52,7 +52,7 @@ class ba extends View {
     }
 
     protected void onDraw(Canvas canvas) {
-        if (this.f1620a != null && !this.f1620a.equals(bi_常量类.f6358b) && this.f1621b != 0) {
+        if (this.f1620a != null && !this.f1620a.equals(bi_常量类.f6358b_空串) && this.f1621b != 0) {
             Point D = this.f1622c.m2186D();
             if (D != null) {
                 this.f1624e.getTextBounds(this.f1620a, 0, this.f1620a.length(), this.f1625f);

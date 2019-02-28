@@ -306,7 +306,7 @@ public class C0480e {
     /* renamed from: a */
     public static String m4014a(LatLonPoint latLonPoint) {
         if (latLonPoint == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         double a = C0480e.m4011a(latLonPoint.getLongitude());
         return a + "," + C0480e.m4011a(latLonPoint.getLatitude());
@@ -326,7 +326,7 @@ public class C0480e {
     /* renamed from: d */
     public static Date m4027d(String str) {
         Date date = null;
-        if (!(str == null || str.trim().equals(bi_常量类.f6358b))) {
+        if (!(str == null || str.trim().equals(bi_常量类.f6358b_空串))) {
             try {
                 date = new SimpleDateFormat("HHmm").parse(str);
             } catch (ParseException e) {
@@ -338,13 +338,13 @@ public class C0480e {
 
     /* renamed from: a */
     public static String m4016a(Date date) {
-        return date != null ? new SimpleDateFormat("HH:mm").format(date) : bi_常量类.f6358b;
+        return date != null ? new SimpleDateFormat("HH:mm").format(date) : bi_常量类.f6358b_空串;
     }
 
     /* renamed from: e */
     public static Date m4028e(String str) {
         Date date = null;
-        if (!(str == null || str.trim().equals(bi_常量类.f6358b))) {
+        if (!(str == null || str.trim().equals(bi_常量类.f6358b_空串))) {
             try {
                 date = new SimpleDateFormat("HH:mm").parse(str);
             } catch (ParseException e) {
@@ -357,7 +357,7 @@ public class C0480e {
     /* renamed from: a */
     public static String m4017a(List<LatLonPoint> list) {
         if (list == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         StringBuffer stringBuffer = new StringBuffer();
         for (int i = 0; i < list.size(); i++) {

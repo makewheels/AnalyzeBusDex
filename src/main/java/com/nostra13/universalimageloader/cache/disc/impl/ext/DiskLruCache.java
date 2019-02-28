@@ -374,7 +374,7 @@ final class DiskLruCache implements Closeable {
             String appVersionString = reader.readLine();
             String valueCountString = reader.readLine();
             String blank = reader.readLine();
-            if (MAGIC.equals(magic) && "1".equals(version) && Integer.toString(this.appVersion).equals(appVersionString) && Integer.toString(this.valueCount).equals(valueCountString) && bi_常量类.f6358b.equals(blank)) {
+            if (MAGIC.equals(magic) && "1".equals(version) && Integer.toString(this.appVersion).equals(appVersionString) && Integer.toString(this.valueCount).equals(valueCountString) && bi_常量类.f6358b_空串.equals(blank)) {
                 lineCount = 0;
                 while (true) {
                     readJournalLine(reader.readLine());

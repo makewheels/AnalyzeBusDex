@@ -8,9 +8,9 @@ public class C1267d {
     /* renamed from: a */
     private int f5691a = -1;
     /* renamed from: b */
-    private String f5692b = bi_常量类.f6358b;
+    private String f5692b = bi_常量类.f6358b_空串;
     /* renamed from: c */
-    private String f5693c = bi_常量类.f6358b;
+    private String f5693c = bi_常量类.f6358b_空串;
     /* renamed from: d */
     private Exception f5694d = null;
 

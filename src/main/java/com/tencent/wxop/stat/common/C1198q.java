@@ -18,7 +18,7 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.tencent.wxop.stat.common.q */
 public class C1198q {
     /* renamed from: a */
-    private static String f5506a = bi_常量类.f6358b;
+    private static String f5506a = bi_常量类.f6358b_空串;
 
     /* renamed from: a */
     public static String m8328a(Context context) {
@@ -111,14 +111,14 @@ public class C1198q {
         if (C1198q.m8332a(context, "android.permission.ACCESS_WIFI_STATE")) {
             try {
                 WifiManager wifiManager = (WifiManager) context.getSystemService("wifi");
-                return wifiManager == null ? bi_常量类.f6358b : wifiManager.getConnectionInfo().getMacAddress();
+                return wifiManager == null ? bi_常量类.f6358b_空串 : wifiManager.getConnectionInfo().getMacAddress();
             } catch (Throwable e) {
                 Log.e(StatConstants.LOG_TAG, "get wifi address error", e);
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
         }
         Log.e(StatConstants.LOG_TAG, "Could not get permission of android.permission.ACCESS_WIFI_STATE");
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     /* renamed from: b */

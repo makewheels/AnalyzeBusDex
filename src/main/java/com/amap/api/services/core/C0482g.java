@@ -27,7 +27,7 @@ public class C0482g extends C0476s<DriveRouteQuery, DriveRouteResult> {
         if (!C0488m.m4078h(((DriveRouteQuery) this.task).getFromAndTo().getDestinationPoiID())) {
             stringBuffer.append("&destinationid=").append(((DriveRouteQuery) this.task).getFromAndTo().getDestinationPoiID());
         }
-        stringBuffer.append("&strategy=").append(bi_常量类.f6358b + ((DriveRouteQuery) this.task).getMode());
+        stringBuffer.append("&strategy=").append(bi_常量类.f6358b_空串 + ((DriveRouteQuery) this.task).getMode());
         stringBuffer.append("&extensions=all");
         if (((DriveRouteQuery) this.task).hasPassPoint()) {
             stringBuffer.append("&waypoints=").append(((DriveRouteQuery) this.task).getPassedPointStr());

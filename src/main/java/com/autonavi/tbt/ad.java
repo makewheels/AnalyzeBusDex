@@ -19,7 +19,7 @@ class ad {
     /* renamed from: b */
     static String m4668b(String str) {
         if (str.length() < 2) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         return C0624m.m4909a(str.substring(1));
     }

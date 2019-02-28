@@ -8,8 +8,8 @@ public class AnalyticsConfig {
     public static boolean CATCH_EXCEPTION = true;
     public static boolean COMPRESS_DATA = true;
     public static boolean ENABLE_MEMORY_BUFFER = true;
-    public static String GPU_RENDERER = bi_常量类.f6358b;
-    public static String GPU_VENDER = bi_常量类.f6358b;
+    public static String GPU_RENDERER = bi_常量类.f6358b_空串;
+    public static String GPU_VENDER = bi_常量类.f6358b_空串;
     /* renamed from: a */
     private static String f5562a = null;
     /* renamed from: b */

@@ -13,7 +13,7 @@ public class C1450s {
     /* renamed from: a */
     public static String m10462a(Serializable serializable) {
         if (serializable == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         try {
             OutputStream byteArrayOutputStream = new ByteArrayOutputStream();

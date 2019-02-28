@@ -37,7 +37,7 @@ public final class C0063b {
             jSONObject.put("error", str);
             return jSONObject.toString();
         } catch (JSONException e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 

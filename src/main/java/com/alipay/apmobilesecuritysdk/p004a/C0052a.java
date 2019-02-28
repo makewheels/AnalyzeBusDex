@@ -39,7 +39,7 @@ public class C0052a {
 
     /* renamed from: a */
     public static String m134a(Context context) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         try {
             str = C0060i.m170b();
             if (C0159a.m556a(str)) {
@@ -91,11 +91,11 @@ public class C0052a {
             Context context = this.f100a;
             DeviceDataReportRequest deviceDataReportRequest = new DeviceDataReportRequest();
             String str = "3";
-            String str2 = bi_常量类.f6358b;
-            String str3 = bi_常量类.f6358b;
-            String str4 = bi_常量类.f6358b;
-            String str5 = bi_常量类.f6358b;
-            String a = C0159a.m555a(map, "umid", bi_常量类.f6358b);
+            String str2 = bi_常量类.f6358b_空串;
+            String str3 = bi_常量类.f6358b_空串;
+            String str4 = bi_常量类.f6358b_空串;
+            String str5 = bi_常量类.f6358b_空串;
+            String a = C0159a.m555a(map, "umid", bi_常量类.f6358b_空串);
             C0056e b = C0055d.m144b(context);
             if (b != null) {
                 str2 = b.m149c();
@@ -134,7 +134,7 @@ public class C0052a {
                 str4 = C0059h.m166d(context);
                 str2 = C0059h.m165c(context);
                 if (C0159a.m556a(str4) || C0159a.m556a(str2)) {
-                    obj = bi_常量类.f6358b;
+                    obj = bi_常量类.f6358b_空串;
                 } else {
                     C0163a.m566a();
                     obj = C0069a.m184a(C0163a.m589m(context), str2, str4);
@@ -166,31 +166,31 @@ public class C0052a {
             a = C0070b.m185a(context);
             return !C0159a.m556a(a) ? a : a;
         } catch (Throwable th) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
     /* renamed from: a */
     public final String m140a(Map<String, String> map) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         if (map == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         String str2 = this.f100a.getFilesDir().getAbsolutePath() + "/log/ap";
         String str3 = Build.MODEL;
         String str4 = this.f100a.getApplicationContext().getApplicationInfo().packageName;
         String str5 = "security-sdk-token";
         String str6 = "3.0.2.20150525";
-        String a = C0159a.m555a(map, C0109b.f277c, bi_常量类.f6358b);
-        String a2 = C0159a.m555a(map, C0109b.f281g, bi_常量类.f6358b);
-        String str7 = bi_常量类.f6358b;
+        String a = C0159a.m555a(map, C0109b.f277c, bi_常量类.f6358b_空串);
+        String a2 = C0159a.m555a(map, C0109b.f281g, bi_常量类.f6358b_空串);
+        String str7 = bi_常量类.f6358b_空串;
         C0056e a3 = C0055d.m142a(this.f100a);
         if (a3 != null) {
             str7 = a3.m147a();
         }
         C0161c.m562a(str2, new SimpleDateFormat("yyyyMMdd").format(Calendar.getInstance().getTime()) + ".log", new C0062a(str3, str4, str5, str6, a, a2, str7).toString());
         new Thread(new C0053b(this)).start();
-        str3 = C0159a.m555a(map, "userId", bi_常量类.f6358b);
+        str3 = C0159a.m555a(map, "userId", bi_常量类.f6358b_空串);
         C0068d.m181a();
         String b = C0068d.m182b(this.f100a, map);
         C0056e a4 = C0055d.m142a(this.f100a);
@@ -211,7 +211,7 @@ public class C0052a {
                     } else {
                         C0161c.m561a("Server error, response is null");
                     }
-                    b = (a4 == null || C0159a.m556a(a4.m149c())) ? bi_常量类.f6358b : a4.m149c();
+                    b = (a4 == null || C0159a.m556a(a4.m149c())) ? bi_常量类.f6358b_空串 : a4.m149c();
                 } else {
                     b = f98b;
                     Context context = this.f100a;
@@ -227,7 +227,7 @@ public class C0052a {
                     b = C0059h.m166d(this.f100a);
                     if (!(C0159a.m556a(b2.m160g()) || C0159a.m557a(b, b2.m160g()))) {
                         b = b2.m156c();
-                        str4 = bi_常量类.f6358b;
+                        str4 = bi_常量类.f6358b_空串;
                         if (!C0052a.m137a()) {
                             C0052a.m136a(true);
                             new C0054c(this, str3, b, str4).start();

@@ -44,8 +44,8 @@ public final class C1026c {
         long j2;
         Editor edit;
         C1023a c;
-        this.f4714a = bi_常量类.f6358b;
-        this.f4715b = bi_常量类.f6358b;
+        this.f4714a = bi_常量类.f6358b_空串;
+        this.f4715b = bi_常量类.f6358b_空串;
         this.f4716c = false;
         this.f4717d = false;
         this.f4718e = false;
@@ -342,7 +342,7 @@ public final class C1026c {
 
     /* renamed from: b */
     private static String m7407b() {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         try {
             str = Environment.getExternalStorageState();
         } catch (NullPointerException e) {
@@ -501,14 +501,14 @@ public final class C1026c {
     public final String m7409a(String str) {
         m7408c();
         if (this.f4719f != null) {
-            String string = this.f4719f.getString(str, bi_常量类.f6358b);
+            String string = this.f4719f.getString(str, bi_常量类.f6358b_空串);
             if (!C1020h.m7383a(string)) {
                 return string;
             }
         }
         if (this.f4720g != null) {
-            return this.f4720g.mo1700a(str, bi_常量类.f6358b);
+            return this.f4720g.mo1700a(str, bi_常量类.f6358b_空串);
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 }

@@ -167,7 +167,7 @@ public class C0286e {
     private static SecretKeySpec m1857c(String str) {
         byte[] bArr = null;
         if (str == null) {
-            str = bi_常量类.f6358b;
+            str = bi_常量类.f6358b_空串;
         }
         StringBuffer stringBuffer = new StringBuffer(16);
         stringBuffer.append(str);

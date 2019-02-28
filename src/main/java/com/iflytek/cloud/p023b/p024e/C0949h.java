@@ -58,7 +58,7 @@ public class C0949h {
             if (networkInfo.getType() == 1) {
                 return "none";
             }
-            return (bi_常量类.f6358b + networkInfo.getSubtypeName()) + ";" + networkInfo.getSubtype();
+            return (bi_常量类.f6358b_空串 + networkInfo.getSubtypeName()) + ";" + networkInfo.getSubtype();
         } catch (Exception e) {
             C0939a.m7120a(e.toString());
             return "none";

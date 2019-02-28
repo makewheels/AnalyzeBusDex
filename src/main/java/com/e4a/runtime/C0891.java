@@ -230,19 +230,19 @@ public final class C0891 {
     @SimpleFunction
     /* renamed from: 时间戳到时间文本 */
     public static String m6843(String timestamp) {
-        if (timestamp == null || timestamp.equals(bi_常量类.f6358b)) {
-            return bi_常量类.f6358b;
+        if (timestamp == null || timestamp.equals(bi_常量类.f6358b_空串)) {
+            return bi_常量类.f6358b_空串;
         }
         Long stamp;
         if (timestamp.length() == 10) {
             stamp = Long.valueOf(Long.parseLong(timestamp) * 1000);
         } else if (timestamp.length() != 13) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } else {
             stamp = Long.valueOf(Long.parseLong(timestamp));
         }
         Date date = new Date(stamp.longValue());
-        String strs = bi_常量类.f6358b;
+        String strs = bi_常量类.f6358b_空串;
         try {
             return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(date);
         } catch (Exception e) {

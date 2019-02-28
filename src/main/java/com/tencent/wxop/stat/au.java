@@ -37,9 +37,9 @@ public class au {
     /* renamed from: e */
     private C1186e f5390e = null;
     /* renamed from: f */
-    private String f5391f = bi_常量类.f6358b;
+    private String f5391f = bi_常量类.f6358b_空串;
     /* renamed from: g */
-    private String f5392g = bi_常量类.f6358b;
+    private String f5392g = bi_常量类.f6358b_空串;
     /* renamed from: k */
     private int f5393k = 0;
     /* renamed from: l */
@@ -465,7 +465,7 @@ Error: jadx.core.utils.exceptions.JadxRuntimeException: Exception block dominato
                     f5383h.m8243i("cacheEventsInMemory.size():" + this.f5394l.size() + ",numEventsCachedInMemory:" + StatConfig.f5240m + ",numStoredEvents:" + this.f5386a);
                     f5383h.m8243i("cache event:" + c1166e.m8140g());
                 }
-                this.f5394l.put(c1166e, bi_常量类.f6358b);
+                this.f5394l.put(c1166e, bi_常量类.f6358b_空串);
                 if (this.f5394l.size() >= StatConfig.f5240m) {
                     m8224i();
                 }

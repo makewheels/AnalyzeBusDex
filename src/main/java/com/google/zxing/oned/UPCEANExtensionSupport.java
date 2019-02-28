@@ -128,7 +128,7 @@ final class UPCEANExtensionSupport {
                 if (!"90000".equals(raw)) {
                     if (!"99991".equals(raw)) {
                         if (!"99990".equals(raw)) {
-                            currency = bi_常量类.f6358b;
+                            currency = bi_常量类.f6358b_空串;
                             break;
                         }
                         return "Used";
@@ -137,7 +137,7 @@ final class UPCEANExtensionSupport {
                 }
                 return null;
             default:
-                currency = bi_常量类.f6358b;
+                currency = bi_常量类.f6358b_空串;
                 break;
         }
         int rawAmount = Integer.parseInt(raw.substring(1));

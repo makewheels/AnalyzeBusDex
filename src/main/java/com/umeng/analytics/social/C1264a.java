@@ -10,7 +10,7 @@ public class C1264a extends RuntimeException {
     /* renamed from: a */
     protected int f5689a = 5000;
     /* renamed from: c */
-    private String f5690c = bi_常量类.f6358b;
+    private String f5690c = bi_常量类.f6358b_空串;
 
     /* renamed from: a */
     public int m8468a() {

@@ -14,7 +14,7 @@ public class C0408x {
     /* renamed from: a */
     public static int f2198a = -1;
     /* renamed from: b */
-    public static String f2199b = bi_常量类.f6358b;
+    public static String f2199b = bi_常量类.f6358b_空串;
     /* renamed from: c */
     private static ad f2200c;
     /* renamed from: d */

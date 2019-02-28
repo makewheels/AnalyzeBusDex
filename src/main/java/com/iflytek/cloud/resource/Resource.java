@@ -57,7 +57,7 @@ public class Resource {
         } else if (f4552a.equals(Locale.TRADITIONAL_CHINESE)) {
             strArr = C0962c.f4564d;
         }
-        return (i < 0 || i >= strArr.length) ? bi_常量类.f6358b : strArr[i];
+        return (i < 0 || i >= strArr.length) ? bi_常量类.f6358b_空串 : strArr[i];
     }
 
     public static String getLanguage() {
@@ -71,7 +71,7 @@ public class Resource {
         } else if (f4552a.equals(Locale.TRADITIONAL_CHINESE)) {
             strArr = C0962c.f4561a;
         }
-        return (i < 0 || i >= strArr.length) ? bi_常量类.f6358b : strArr[i];
+        return (i < 0 || i >= strArr.length) ? bi_常量类.f6358b_空串 : strArr[i];
     }
 
     public static String getTitle(int i) {
@@ -81,11 +81,11 @@ public class Resource {
         } else if (f4552a.equals(Locale.TRADITIONAL_CHINESE)) {
             strArr = C0962c.f4562b;
         }
-        return (i < 0 || i >= strArr.length) ? bi_常量类.f6358b : strArr[i];
+        return (i < 0 || i >= strArr.length) ? bi_常量类.f6358b_空串 : strArr[i];
     }
 
     public static boolean matchLanguage(String str) {
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         if (str != null) {
             str2 = str.trim();
         }

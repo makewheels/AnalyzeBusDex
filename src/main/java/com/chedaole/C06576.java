@@ -45,7 +45,7 @@ public class C06576 extends C0645Impl {
     /* renamed from: 窗口6 */
     public static C0644 f42246;
     @SimpleDataElement
-    public String huo = bi_常量类.f6358b;
+    public String huo = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: i */
     public int f4225i;
@@ -53,9 +53,9 @@ public class C06576 extends C0645Impl {
     /* renamed from: v */
     public int f4226v;
     @SimpleDataElement
-    public String wl = bi_常量类.f6358b;
+    public String wl = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String zz = bi_常量类.f6358b;
+    public String zz = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 启动时间 */
     public long f4227;
@@ -147,7 +147,7 @@ public class C06576 extends C0645Impl {
         this.f42311.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42311.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.617d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f42311.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f42311.mo895(bi_常量类.f6358b);
+        this.f42311.mo895(bi_常量类.f6358b_空串);
         this.f42311.mo797(0);
         this.f42311.mo889(-1);
         this.f42311.mo896(false);
@@ -220,10 +220,10 @@ public class C06576 extends C0645Impl {
 
     /* renamed from: 窗口6$创建完毕 */
     public void m53276$() {
-        String f = bi_常量类.f6358b;
-        String p = bi_常量类.f6358b;
-        String gg = bi_常量类.f6358b;
-        String ggb = bi_常量类.f6358b;
+        String f = bi_常量类.f6358b_空串;
+        String p = bi_常量类.f6358b_空串;
+        String gg = bi_常量类.f6358b_空串;
+        String ggb = bi_常量类.f6358b_空串;
         this.wl = C0898_读写设置类.m6937_通过SP读取设置("网").getString();
         this.f42331.mo976(C0897_网络操作.m6922(this.wl + "/taokea.txt", "utf-8", 5000));
         this.f42331.mo960JS("hua");
@@ -242,7 +242,7 @@ public class C06576 extends C0645Impl {
             this.f4225i = 0;
         }
         this.f4225i = (int) C0899.m6943(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
-        this.f42311.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4225i), ".0", bi_常量类.f6358b));
+        this.f42311.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4225i), ".0", bi_常量类.f6358b_空串));
         if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(C0897_网络操作.m6922(this.wl + "/1.txt", "GBK", 5000), "alifangxiang", 1)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             gg = C0897_网络操作.m6922(this.wl + "/taokeshi.txt", "utf-8", 5000);
             if (!gg.equals(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt", "UTF-8"), "yangbosen123"))) {
@@ -266,20 +266,20 @@ public class C06576 extends C0645Impl {
         this.f4226v = IntegerVariant.getIntegerVariant(this.f4226v).add(ByteVariant.getByteVariant((byte) 2)).getInteger();
         if (IntegerVariant.getIntegerVariant(this.f4226v).cmp(ShortVariant.getShortVariant((short) 200)) > 0) {
             this.f4225i = (int) C0899.m6943(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
-            this.f42311.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4225i), ".0", bi_常量类.f6358b));
+            this.f42311.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4225i), ".0", bi_常量类.f6358b_空串));
             C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt", C0843.m6603Authcode(C0899.m6945((double) this.f4226v), "yangbosen123"), "UTF-8");
             return;
         }
         C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt", C0843.m6603Authcode(C0899.m6945((double) this.f4226v), "yangbosen123"), "UTF-8");
         this.f4225i = (int) C0899.m6943(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
         this.f4225i = IntegerVariant.getIntegerVariant(this.f4225i).add(ByteVariant.getByteVariant((byte) 2)).getInteger();
-        this.f42311.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4225i), ".0", bi_常量类.f6358b));
+        this.f42311.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4225i), ".0", bi_常量类.f6358b_空串));
         C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", C0843.m6603Authcode(C0899.m6945((double) this.f4225i), "yangbosen123"), "UTF-8");
     }
 
     /* renamed from: 图片框1$被单击 */
     public void m53191$() {
-        String f = bi_常量类.f6358b;
+        String f = bi_常量类.f6358b_空串;
         this.f42331.mo976(C0897_网络操作.m6922(this.wl + "/taokea.txt", "utf-8", 5000));
     }
 
@@ -298,7 +298,7 @@ public class C06576 extends C0645Impl {
 
     /* renamed from: 浏览框1$接口事件 */
     public void m53251$(String 网页消息) {
-        String fff = bi_常量类.f6358b;
+        String fff = bi_常量类.f6358b_空串;
         if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页消息, "bao", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             fff = C0894.m6881();
             C0881.m6734("com.taobao.taobao");

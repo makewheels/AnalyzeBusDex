@@ -42,8 +42,8 @@ public class TbsReaderView extends FrameLayout {
     public static final String TAG = "TbsReaderView";
     /* renamed from: f */
     static boolean f4863f = false;
-    public static String gReaderPackName = bi_常量类.f6358b;
-    public static String gReaderPackVersion = bi_常量类.f6358b;
+    public static String gReaderPackName = bi_常量类.f6358b_空串;
+    public static String gReaderPackVersion = bi_常量类.f6358b_空串;
     /* renamed from: a */
     Context f4864a = null;
     /* renamed from: b */
@@ -122,7 +122,7 @@ public class TbsReaderView extends FrameLayout {
     }
 
     public static String getResString(Context context, int i) {
-        return m7625a(context) ? C1109h.m7836b(i) : bi_常量类.f6358b;
+        return m7625a(context) ? C1109h.m7836b(i) : bi_常量类.f6358b_空串;
     }
 
     public static boolean isSupportExt(Context context, String str) {

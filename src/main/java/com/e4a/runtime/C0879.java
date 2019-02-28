@@ -125,7 +125,7 @@ public final class C0879 {
             }
 
             public void onClick(DialogInterface dialog, int which) {
-                String result = bi_常量类.f6358b;
+                String result = bi_常量类.f6358b_空串;
                 boolean[] s = DialogBox.this.getState();
                 String[] it = DialogBox.this.getItems();
                 for (int i = 0; i < s.length; i++) {
@@ -143,7 +143,7 @@ public final class C0879 {
             }
 
             public void onClick(DialogInterface dialog, int which) {
-                DialogBox.this.endDialog(bi_常量类.f6358b);
+                DialogBox.this.endDialog(bi_常量类.f6358b_空串);
             }
         }
 
@@ -165,12 +165,12 @@ public final class C0879 {
             }
 
             public void onClick(DialogInterface dialog, int which) {
-                String result = bi_常量类.f6358b;
+                String result = bi_常量类.f6358b_空串;
                 boolean[] s = DialogBox.this.getState();
                 String[] it = DialogBox.this.getItems();
                 for (int i = 0; i < s.length; i++) {
                     if (s[i]) {
-                        if (result == bi_常量类.f6358b) {
+                        if (result == bi_常量类.f6358b_空串) {
                             result = it[i];
                         } else {
                             result = result + "\n" + it[i];
@@ -187,7 +187,7 @@ public final class C0879 {
             }
 
             public void onClick(DialogInterface dialog, int which) {
-                DialogBox.this.endDialog(bi_常量类.f6358b);
+                DialogBox.this.endDialog(bi_常量类.f6358b_空串);
             }
         }
 
@@ -323,7 +323,7 @@ public final class C0879 {
             }).setNegativeButton(C0879.CANCEL, new OnClickListener() {
                 public void onClick(DialogInterface dialog, int which) {
                     choice.set(false);
-                    InputBox.this.endDialog(bi_常量类.f6358b);
+                    InputBox.this.endDialog(bi_常量类.f6358b_空串);
                 }
             }).show();
             this.mHandler = new Handler(Looper.getMainLooper()) {
@@ -374,7 +374,7 @@ public final class C0879 {
             }).setNegativeButton(C0879.CANCEL, new OnClickListener() {
                 public void onClick(DialogInterface dialog, int which) {
                     choice.set(false);
-                    InputBox.this.endDialog(bi_常量类.f6358b);
+                    InputBox.this.endDialog(bi_常量类.f6358b_空串);
                 }
             }).show();
             this.mHandler = new Handler(Looper.getMainLooper()) {
@@ -611,7 +611,7 @@ public final class C0879 {
     @SimpleFunction
     /* renamed from: 显示进度对话框 */
     public static void m6678(String msg) {
-        progressDialog = ProgressDialog.show(mainActivity.getContext(), bi_常量类.f6358b, msg, true, f4333);
+        progressDialog = ProgressDialog.show(mainActivity.getContext(), bi_常量类.f6358b_空串, msg, true, f4333);
     }
 
     @SimpleFunction

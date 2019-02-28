@@ -25,7 +25,7 @@ public final class C1043h {
         } catch (Throwable th) {
             Log.w("MID", th);
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     /* renamed from: a */
@@ -55,14 +55,14 @@ public final class C1043h {
         if (C1043h.m7498a(context, "android.permission.ACCESS_WIFI_STATE")) {
             try {
                 WifiManager wifiManager = (WifiManager) context.getSystemService("wifi");
-                return wifiManager == null ? bi_常量类.f6358b : wifiManager.getConnectionInfo().getMacAddress();
+                return wifiManager == null ? bi_常量类.f6358b_空串 : wifiManager.getConnectionInfo().getMacAddress();
             } catch (Exception e) {
                 Log.i("MID", "get wifi address error" + e);
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
         }
         Log.i("MID", "Could not get permission of android.permission.ACCESS_WIFI_STATE");
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     /* renamed from: b */
@@ -84,7 +84,7 @@ public final class C1043h {
             return str;
         }
         try {
-            return new String(C1187f.m8259b(Base64.decode(str.getBytes("UTF-8"), 0)), "UTF-8").trim().replace("\t", bi_常量类.f6358b).replace("\n", bi_常量类.f6358b).replace("\r", bi_常量类.f6358b);
+            return new String(C1187f.m8259b(Base64.decode(str.getBytes("UTF-8"), 0)), "UTF-8").trim().replace("\t", bi_常量类.f6358b_空串).replace("\n", bi_常量类.f6358b_空串).replace("\r", bi_常量类.f6358b_空串);
         } catch (Throwable th) {
             C1043h.m7496a("decode error", th);
             return str;
@@ -100,7 +100,7 @@ public final class C1043h {
             return str;
         }
         try {
-            return new String(Base64.encode(C1187f.m8257a(str.getBytes("UTF-8")), 0), "UTF-8").trim().replace("\t", bi_常量类.f6358b).replace("\n", bi_常量类.f6358b).replace("\r", bi_常量类.f6358b);
+            return new String(Base64.encode(C1187f.m8257a(str.getBytes("UTF-8")), 0), "UTF-8").trim().replace("\t", bi_常量类.f6358b_空串).replace("\n", bi_常量类.f6358b_空串).replace("\r", bi_常量类.f6358b_空串);
         } catch (Throwable th) {
             C1043h.m7496a("decode error", th);
             return str;

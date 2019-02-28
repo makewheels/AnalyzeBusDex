@@ -65,7 +65,7 @@ public final class C0892 {
         if (matcher != null) {
             return matcher.replaceAll(text);
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     @SimpleFunction
@@ -83,7 +83,7 @@ public final class C0892 {
         if (matcher != null) {
             return matcher.group();
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     @SimpleFunction
@@ -119,6 +119,6 @@ public final class C0892 {
         if (matcher != null) {
             return matcher.group(索引);
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 }

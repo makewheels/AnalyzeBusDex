@@ -102,7 +102,7 @@ public class TbsCoreLoadStat {
 
         public String toString() {
             if (empty()) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
             int i;
             StringBuilder stringBuilder = new StringBuilder("[");
@@ -169,7 +169,7 @@ public class TbsCoreLoadStat {
             if (a != null) {
                 SharedPreferences sharedPreferences = context.getSharedPreferences("tbs_load_stat_flag", 4);
                 String tbsSequenceQueue = this.f4822a.toString();
-                String string = sharedPreferences.getString(tbsSequenceQueue, bi_常量类.f6358b);
+                String string = sharedPreferences.getString(tbsSequenceQueue, bi_常量类.f6358b_空串);
                 CharSequence charSequence = String.valueOf(ac.m7706a().m7744c(context)) + ";";
                 if (sharedPreferences.contains(tbsSequenceQueue) && string.contains(charSequence)) {
                     obj = null;
@@ -247,7 +247,7 @@ public class TbsCoreLoadStat {
     /* renamed from: a */
     void m7563a(Context context, int i) {
         m7564a(context, i, null);
-        TbsLog.m7925e(TbsListener.tag_load_error, bi_常量类.f6358b + i);
+        TbsLog.m7925e(TbsListener.tag_load_error, bi_常量类.f6358b_空串 + i);
     }
 
     /* renamed from: a */

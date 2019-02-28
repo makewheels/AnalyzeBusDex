@@ -6,9 +6,9 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.aps.e */
 public class C0559e {
     /* renamed from: a */
-    String f3445a = bi_常量类.f6358b;
+    String f3445a = bi_常量类.f6358b_空串;
     /* renamed from: b */
-    String f3446b = bi_常量类.f6358b;
+    String f3446b = bi_常量类.f6358b_空串;
     /* renamed from: c */
     int f3447c = 0;
     /* renamed from: d */

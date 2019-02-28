@@ -23,7 +23,7 @@ public class C0915c {
     /* renamed from: f */
     private int f4372f = -1;
     /* renamed from: g */
-    private String f4373g = bi_常量类.f6358b;
+    private String f4373g = bi_常量类.f6358b_空串;
     /* renamed from: h */
     private String f4374h = null;
     /* renamed from: i */
@@ -32,7 +32,7 @@ public class C0915c {
     public C0915c(String str, String str2, int i) {
         this.f4374h = str;
         this.f4375i = str2;
-        this.f4370d = bi_常量类.f6358b + i;
+        this.f4370d = bi_常量类.f6358b_空串 + i;
     }
 
     public C0915c(JSONObject jSONObject, boolean z) {
@@ -54,7 +54,7 @@ public class C0915c {
 
     /* renamed from: a */
     public String m6983a(ArrayList<Integer> arrayList) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         int i = 0;
         while (i < arrayList.size()) {
             if (i != 0) {

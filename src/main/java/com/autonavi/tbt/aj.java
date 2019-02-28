@@ -50,7 +50,7 @@ abstract class aj {
         List<C0629p> a = m4680a(context);
         if (a != null && a.size() != 0) {
             String a2 = m4689a(th);
-            if (a2 != null && !bi_常量类.f6358b.equals(a2)) {
+            if (a2 != null && !bi_常量类.f6358b_空串.equals(a2)) {
                 for (C0629p c0629p : a) {
                     if (m4692a(c0629p.m4943f(), a2)) {
                         m4691a(c0629p);
@@ -58,7 +58,7 @@ abstract class aj {
                         String a3 = m4677a(context, c0629p);
                         String b = m4683b(context);
                         String b2 = m4684b(th);
-                        if (b2 != null && !bi_常量类.f6358b.equals(b2)) {
+                        if (b2 != null && !bi_常量类.f6358b_空串.equals(b2)) {
                             int a4 = mo742a();
                             StringBuilder stringBuilder = new StringBuilder();
                             if (str != null) {
@@ -70,7 +70,7 @@ abstract class aj {
                             stringBuilder.append(a2);
                             String a5 = mo744a(a2);
                             String a6 = m4679a(b, a3, c, a4, b2, stringBuilder.toString());
-                            if (a6 != null && !bi_常量类.f6358b.equals(a6)) {
+                            if (a6 != null && !bi_常量类.f6358b_空串.equals(a6)) {
                                 String a7 = m4678a(context, a6);
                                 String b3 = mo745b();
                                 synchronized (Looper.getMainLooper()) {

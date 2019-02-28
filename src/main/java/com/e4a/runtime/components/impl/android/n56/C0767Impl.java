@@ -58,7 +58,7 @@ public class C0767Impl extends ViewComponent implements C0757 {
     private int ImageHeight = 50;
     private int ImageWitdh = 50;
     private ExpandableAdapter adapter;
-    private String backgroundImage = bi_常量类.f6358b;
+    private String backgroundImage = bi_常量类.f6358b_空串;
     private int backgroundImage2 = -1;
     private int childButtontextColor = -16777216;
     private float childButtontextSize = 6.0f;
@@ -267,7 +267,7 @@ public class C0767Impl extends ViewComponent implements C0757 {
                 gv.info.setTextSize(C0767Impl.this.groupInfotextSize);
             }
             gv.info.setTextColor(C0767Impl.this.groupInfotextColor);
-            if (((String) ((Map) C0767Impl.this.groups.get(groupPosition)).get("info")).equals(bi_常量类.f6358b)) {
+            if (((String) ((Map) C0767Impl.this.groups.get(groupPosition)).get("info")).equals(bi_常量类.f6358b_空串)) {
                 gv.info.setVisibility(8);
             } else {
                 gv.info.setVisibility(0);
@@ -379,7 +379,7 @@ public class C0767Impl extends ViewComponent implements C0757 {
                 civ.info.setTextSize(C0767Impl.this.childInfotextSize);
             }
             civ.info.setTextColor(C0767Impl.this.childInfotextColor);
-            if (((String) map.get("info")).equals(bi_常量类.f6358b)) {
+            if (((String) map.get("info")).equals(bi_常量类.f6358b_空串)) {
                 civ.info.setVisibility(8);
             } else {
                 civ.info.setVisibility(0);
@@ -522,7 +522,7 @@ public class C0767Impl extends ViewComponent implements C0757 {
         Map<String, String> map = new HashMap();
         map.put("title", title);
         map.put("info", info);
-        map.put("tag", bi_常量类.f6358b);
+        map.put("tag", bi_常量类.f6358b_空串);
         this.groups.add(map);
         this.childlist.add(new ArrayList());
         this.adapter.notifyDataSetChanged();
@@ -589,7 +589,7 @@ public class C0767Impl extends ViewComponent implements C0757 {
         map.put("info", info);
         map.put("buttonimage", buttonimage);
         map.put("buttontitle", buttontitle);
-        map.put("tag", bi_常量类.f6358b);
+        map.put("tag", bi_常量类.f6358b_空串);
         map.put("check", "0");
         ((List) this.childlist.get(groupid)).add(map);
         this.adapter.notifyDataSetChanged();

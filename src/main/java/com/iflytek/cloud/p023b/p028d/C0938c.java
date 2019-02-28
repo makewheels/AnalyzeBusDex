@@ -128,7 +128,7 @@ public class C0938c extends C0920c {
     public String m7117c() {
         String str;
         Exception exception;
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         try {
             String str3 = new String(MSC.QTTSAudioInfo(this.a));
             try {

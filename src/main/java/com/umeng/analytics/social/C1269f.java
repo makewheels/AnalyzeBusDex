@@ -117,8 +117,8 @@ public abstract class C1269f {
                 }
             }
             JSONObject jSONObject2 = new JSONObject();
-            jSONObject2.put("gender", gender == null ? bi_常量类.f6358b : String.valueOf(gender.value));
-            jSONObject2.put(C0110c.f289e, name == null ? bi_常量类.f6358b : String.valueOf(name));
+            jSONObject2.put("gender", gender == null ? bi_常量类.f6358b_空串 : String.valueOf(gender.value));
+            jSONObject2.put(C0110c.f289e, name == null ? bi_常量类.f6358b_空串 : String.valueOf(name));
             jSONObject.put(uMPlatformData.getMeida().toString(), jSONObject2);
         }
         if (jSONObject.length() == 0) {
@@ -235,7 +235,7 @@ public abstract class C1269f {
                 return wifiManager.getConnectionInfo().getMacAddress();
             }
             C1265b.m8477e(C1233a.f5589e, "Could not get mac address.[no permission android.permission.ACCESS_WIFI_STATE");
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (Exception e) {
             C1265b.m8477e(C1233a.f5589e, "Could not get mac address." + e.toString());
         }

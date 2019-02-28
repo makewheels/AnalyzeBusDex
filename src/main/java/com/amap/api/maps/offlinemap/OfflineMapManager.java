@@ -22,7 +22,7 @@ import p054u.aly.bi_常量类;
 public final class OfflineMapManager {
     protected static final String UPDATE_OFFLINE_FILE = "update_file";
     /* renamed from: a */
-    static String f2421a = bi_常量类.f6358b;
+    static String f2421a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     private static String f2422b = "citycode";
     /* renamed from: c */
@@ -47,9 +47,9 @@ public final class OfflineMapManager {
     /* renamed from: l */
     private boolean f2432l = false;
     /* renamed from: m */
-    private String f2433m = bi_常量类.f6358b;
+    private String f2433m = bi_常量类.f6358b_空串;
     /* renamed from: n */
-    private String f2434n = bi_常量类.f6358b;
+    private String f2434n = bi_常量类.f6358b_空串;
     /* renamed from: o */
     private OfflineDBDao f2435o;
     /* renamed from: p */
@@ -205,8 +205,8 @@ public final class OfflineMapManager {
                 } else if (state == 0) {
                     this.f2417b.setStart(false);
                     this.f2417b.f2426f.m3664a(0);
-                    this.f2417b.f2433m = bi_常量类.f6358b;
-                    this.f2417b.f2434n = bi_常量类.f6358b;
+                    this.f2417b.f2433m = bi_常量类.f6358b_空串;
+                    this.f2417b.f2434n = bi_常量类.f6358b_空串;
                 } else if (state == 6) {
                     this.f2417b.f2427g.onRemove(false, str, "本地无数据");
                     return;
@@ -223,7 +223,7 @@ public final class OfflineMapManager {
                     if (c || r0) {
                         z = true;
                     }
-                    b.onRemove(z, str, bi_常量类.f6358b);
+                    b.onRemove(z, str, bi_常量类.f6358b_空串);
                 }
             }
         });
@@ -340,7 +340,7 @@ public final class OfflineMapManager {
     }
 
     public OfflineMapCity getItemByCityCode(String str) {
-        if (str == null || str.equals(bi_常量类.f6358b)) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串)) {
             return null;
         }
         Iterator it = this.f2428h.iterator();
@@ -371,7 +371,7 @@ public final class OfflineMapManager {
     }
 
     public OfflineMapCity getItemByCityName(String str) {
-        if (str == null || str.equals(bi_常量类.f6358b)) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串)) {
             return null;
         }
         Iterator it = this.f2430j.iterator();
@@ -403,7 +403,7 @@ public final class OfflineMapManager {
     }
 
     public OfflineMapProvince getItemByProvinceName(String str) {
-        if (str == null || str.equals(bi_常量类.f6358b)) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串)) {
             return null;
         }
         Iterator it = this.f2431k.iterator();
@@ -502,7 +502,7 @@ public final class OfflineMapManager {
             if (this.f2427g != null) {
                 this.f2427g.onCheckUpdate(false, str);
             }
-        } else if (str == null || str.equals(bi_常量类.f6358b)) {
+        } else if (str == null || str.equals(bi_常量类.f6358b_空串)) {
             throw new AMapException("无效的参数 - IllegalArgumentException");
         } else {
             int i = 0;
@@ -538,7 +538,7 @@ public final class OfflineMapManager {
                         String adcode;
                         boolean z;
                         OfflineMapProvince offlineMapProvince;
-                        String str = bi_常量类.f6358b;
+                        String str = bi_常量类.f6358b_空串;
                         Iterator it = this.f2419b.f2428h.iterator();
                         boolean z2 = false;
                         while (it.hasNext()) {
@@ -757,7 +757,7 @@ public final class OfflineMapManager {
     }
 
     protected void updateAllCityList() throws AMapException {
-        C0432j c0432j = new C0432j(this.f2424d, bi_常量类.f6358b);
+        C0432j c0432j = new C0432j(this.f2424d, bi_常量类.f6358b_空串);
         c0432j.m3700a(this.f2424d);
         List list = (List) c0432j.m3686f();
         if (list != null) {
@@ -1012,7 +1012,7 @@ public final class OfflineMapManager {
     /* renamed from: d */
     private boolean m3641d(String str, String str2) {
         String i = this.f2435o.m3605i(str);
-        if (i == null || bi_常量类.f6358b.equals(i) || !str2.equals(i)) {
+        if (i == null || bi_常量类.f6358b_空串.equals(i) || !str2.equals(i)) {
             return true;
         }
         return false;
@@ -1036,7 +1036,7 @@ public final class OfflineMapManager {
 
     /* renamed from: e */
     private boolean m3643e(String str) {
-        if (str == null || bi_常量类.f6358b.equals(str)) {
+        if (str == null || bi_常量类.f6358b_空串.equals(str)) {
             return false;
         }
         if (str.equals("北京") || str.equals("上海") || str.equals("天津") || str.equals("重庆") || str.equals("香港") || str.equals("澳门") || str.equals("全国概要图")) {
@@ -1077,7 +1077,7 @@ public final class OfflineMapManager {
                     if (m3618a(i, i2)) {
                         this.f2428h.remove(offlineMapCity);
                         this.f2430j.add(offlineMapCity);
-                        this.f2433m = bi_常量类.f6358b;
+                        this.f2433m = bi_常量类.f6358b_空串;
                         setStart(false);
                         OfflineMapProvince d = m3635d(offlineMapCity);
                         if (d != null) {
@@ -1105,7 +1105,7 @@ public final class OfflineMapManager {
                 if (m3618a(i, i2)) {
                     this.f2429i.remove(offlineMapProvince);
                     this.f2431k.add(offlineMapProvince);
-                    this.f2434n = bi_常量类.f6358b;
+                    this.f2434n = bi_常量类.f6358b_空串;
                     setStart(false);
                 }
                 Iterator it2 = offlineMapProvince.getCityList().iterator();

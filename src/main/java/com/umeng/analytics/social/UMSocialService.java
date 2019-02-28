@@ -104,7 +104,7 @@ public abstract class UMSocialService {
                 Log.e(C1233a.f5589e, "unable send event.", e);
                 return;
             } catch (Throwable e2) {
-                Log.e(C1233a.f5589e, bi_常量类.f6358b, e2);
+                Log.e(C1233a.f5589e, bi_常量类.f6358b_空串, e2);
                 return;
             }
         }

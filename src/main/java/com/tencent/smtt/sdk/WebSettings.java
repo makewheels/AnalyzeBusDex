@@ -150,7 +150,7 @@ public class WebSettings {
 
     public synchronized String getCursiveFontFamily() {
         String cursiveFontFamily;
-        cursiveFontFamily = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b : this.f4885b.getCursiveFontFamily() : this.f4884a.getCursiveFontFamily();
+        cursiveFontFamily = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b_空串 : this.f4885b.getCursiveFontFamily() : this.f4884a.getCursiveFontFamily();
         return cursiveFontFamily;
     }
 
@@ -164,7 +164,7 @@ public class WebSettings {
     @TargetApi(5)
     public synchronized String getDatabasePath() {
         String databasePath;
-        databasePath = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b : this.f4885b.getDatabasePath() : this.f4884a.getDatabasePath();
+        databasePath = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b_空串 : this.f4885b.getDatabasePath() : this.f4884a.getDatabasePath();
         return databasePath;
     }
 
@@ -182,7 +182,7 @@ public class WebSettings {
 
     public synchronized String getDefaultTextEncodingName() {
         String defaultTextEncodingName;
-        defaultTextEncodingName = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b : this.f4885b.getDefaultTextEncodingName() : this.f4884a.getDefaultTextEncodingName();
+        defaultTextEncodingName = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b_空串 : this.f4885b.getDefaultTextEncodingName() : this.f4884a.getDefaultTextEncodingName();
         return defaultTextEncodingName;
     }
 
@@ -212,13 +212,13 @@ public class WebSettings {
 
     public synchronized String getFantasyFontFamily() {
         String fantasyFontFamily;
-        fantasyFontFamily = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b : this.f4885b.getFantasyFontFamily() : this.f4884a.getFantasyFontFamily();
+        fantasyFontFamily = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b_空串 : this.f4885b.getFantasyFontFamily() : this.f4884a.getFantasyFontFamily();
         return fantasyFontFamily;
     }
 
     public synchronized String getFixedFontFamily() {
         String fixedFontFamily;
-        fixedFontFamily = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b : this.f4885b.getFixedFontFamily() : this.f4884a.getFixedFontFamily();
+        fixedFontFamily = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b_空串 : this.f4885b.getFixedFontFamily() : this.f4884a.getFixedFontFamily();
         return fixedFontFamily;
     }
 
@@ -349,19 +349,19 @@ public class WebSettings {
         if (this.f4886c && this.f4884a != null) {
             pluginsPath = this.f4884a.getPluginsPath();
         } else if (this.f4886c || this.f4885b == null) {
-            pluginsPath = bi_常量类.f6358b;
+            pluginsPath = bi_常量类.f6358b_空串;
         } else if (VERSION.SDK_INT <= 17) {
             Object a = C1157u.m8041a(this.f4885b, "getPluginsPath");
             pluginsPath = a == null ? null : (String) a;
         } else {
-            pluginsPath = bi_常量类.f6358b;
+            pluginsPath = bi_常量类.f6358b_空串;
         }
         return pluginsPath;
     }
 
     public synchronized String getSansSerifFontFamily() {
         String sansSerifFontFamily;
-        sansSerifFontFamily = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b : this.f4885b.getSansSerifFontFamily() : this.f4884a.getSansSerifFontFamily();
+        sansSerifFontFamily = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b_空串 : this.f4885b.getSansSerifFontFamily() : this.f4884a.getSansSerifFontFamily();
         return sansSerifFontFamily;
     }
 
@@ -375,13 +375,13 @@ public class WebSettings {
 
     public synchronized String getSerifFontFamily() {
         String serifFontFamily;
-        serifFontFamily = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b : this.f4885b.getSerifFontFamily() : this.f4884a.getSerifFontFamily();
+        serifFontFamily = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b_空串 : this.f4885b.getSerifFontFamily() : this.f4884a.getSerifFontFamily();
         return serifFontFamily;
     }
 
     public synchronized String getStandardFontFamily() {
         String standardFontFamily;
-        standardFontFamily = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b : this.f4885b.getStandardFontFamily() : this.f4884a.getStandardFontFamily();
+        standardFontFamily = (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b_空串 : this.f4885b.getStandardFontFamily() : this.f4884a.getStandardFontFamily();
         return standardFontFamily;
     }
 
@@ -423,7 +423,7 @@ public class WebSettings {
 
     @TargetApi(3)
     public String getUserAgentString() {
-        return (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b : this.f4885b.getUserAgentString() : this.f4884a.getUserAgentString();
+        return (!this.f4886c || this.f4884a == null) ? (this.f4886c || this.f4885b == null) ? bi_常量类.f6358b_空串 : this.f4885b.getUserAgentString() : this.f4884a.getUserAgentString();
     }
 
     @TargetApi(11)

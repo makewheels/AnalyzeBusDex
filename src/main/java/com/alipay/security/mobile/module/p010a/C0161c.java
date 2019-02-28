@@ -12,11 +12,11 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.alipay.security.mobile.module.a.c */
 public final class C0161c {
     /* renamed from: a */
-    private static String f479a = bi_常量类.f6358b;
+    private static String f479a = bi_常量类.f6358b_空串;
     /* renamed from: b */
-    private static String f480b = bi_常量类.f6358b;
+    private static String f480b = bi_常量类.f6358b_空串;
     /* renamed from: c */
-    private static String f481c = bi_常量类.f6358b;
+    private static String f481c = bi_常量类.f6358b_空串;
 
     /* renamed from: a */
     public static synchronized void m561a(String str) {
@@ -78,7 +78,7 @@ public final class C0161c {
     /* renamed from: b */
     public static String m565b(Throwable th) {
         if (th == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         Writer stringWriter = new StringWriter();
         th.printStackTrace(new PrintWriter(stringWriter));

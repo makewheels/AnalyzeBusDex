@@ -29,7 +29,7 @@ public final class C0889_文件操作 {
     static FileInputStream fin;
     static FileOutputStream fout;
     static InputStreamReader isr;
-    static String line = bi_常量类.f6358b;
+    static String line = bi_常量类.f6358b_空串;
     static OutputStreamWriter osw;
 
     private C0889_文件操作() {
@@ -136,7 +136,7 @@ public final class C0889_文件操作 {
     /* renamed from: 取文件编码 */
     public static String m6790(String filename) {
         File file = new File(filename);
-        String charset = bi_常量类.f6358b;
+        String charset = bi_常量类.f6358b_空串;
         try {
             BufferedInputStream in = new BufferedInputStream(new FileInputStream(file));
             in.mark(4);
@@ -169,7 +169,7 @@ public final class C0889_文件操作 {
     /* renamed from: 读入文本文件 */
     public static String m6802(String filename, String charset) {
         Exception e;
-        String res = bi_常量类.f6358b;
+        String res = bi_常量类.f6358b_空串;
         if (!new File(filename).exists()) {
             return res;
         }
@@ -282,11 +282,11 @@ public final class C0889_文件操作 {
     /* renamed from: 读入资源文件 */
     public static String m6803_读入资源文件(String filename, String charset) {
         Exception e;
-        String res = bi_常量类.f6358b;
+        String res = bi_常量类.f6358b_空串;
         try {
             InputStream inputstream = C0841.m6594().getAssets().open(filename);
             if (inputstream == null) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
             int length = inputstream.available();
             byte[] buffer = new byte[length];
@@ -300,12 +300,12 @@ public final class C0889_文件操作 {
                 e = e2;
                 res = res2;
                 e.printStackTrace();
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
         } catch (Exception e3) {
             e = e3;
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -411,7 +411,7 @@ public final class C0889_文件操作 {
     @SimpleFunction
     /* renamed from: 寻找文件关键词 */
     public static String m6792(String Path, String keyword) {
-        String result = bi_常量类.f6358b;
+        String result = bi_常量类.f6358b_空串;
         for (File f : new File(Path).listFiles()) {
             if (f.getName().indexOf(keyword) >= 0) {
                 result = f.getPath() + "\n" + result;
@@ -423,7 +423,7 @@ public final class C0889_文件操作 {
     @SimpleFunction
     /* renamed from: 寻找文件后缀名 */
     public static String m6793(String Path, String Extension) {
-        String result = bi_常量类.f6358b;
+        String result = bi_常量类.f6358b_空串;
         for (File f : new File(Path).listFiles()) {
             if (f.getPath().substring(f.getPath().length() - Extension.length()).equals(Extension) && !f.isDirectory()) {
                 result = f.getPath() + "\n" + result;
@@ -516,7 +516,7 @@ public final class C0889_文件操作 {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     @SimpleFunction
@@ -566,7 +566,7 @@ public final class C0889_文件操作 {
     @SimpleFunction
     /* renamed from: 取子目录 */
     public static String m6787(String dir) {
-        String pa = bi_常量类.f6358b;
+        String pa = bi_常量类.f6358b_空串;
         File[] ff = new File(dir).listFiles();
         for (int i = 0; i < ff.length; i++) {
             if (ff[i].isDirectory()) {

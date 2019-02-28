@@ -13,7 +13,7 @@ class C0422b {
     RandomAccessFile f2448a;
 
     public C0422b() throws IOException {
-        this(bi_常量类.f6358b, 0);
+        this(bi_常量类.f6358b_空串, 0);
     }
 
     public C0422b(String str, long j) throws IOException {

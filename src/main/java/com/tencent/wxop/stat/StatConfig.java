@@ -65,7 +65,7 @@ public class StatConfig {
     /* renamed from: e */
     static String f5232e = "__MTA_KILL__";
     /* renamed from: f */
-    static String f5233f = bi_常量类.f6358b;
+    static String f5233f = bi_常量类.f6358b_空串;
     /* renamed from: g */
     static boolean f5234g = false;
     /* renamed from: h */
@@ -428,7 +428,7 @@ public class StatConfig {
             return null;
         }
         if (f5225Q == null) {
-            f5225Q = C1197p.m8324a(context, "MTA_CUSTOM_UID", bi_常量类.f6358b);
+            f5225Q = C1197p.m8324a(context, "MTA_CUSTOM_UID", bi_常量类.f6358b_空串);
         }
         return f5225Q;
     }
@@ -443,7 +443,7 @@ public class StatConfig {
             if (f5211C != null) {
                 str = f5211C;
             } else {
-                str = C1197p.m8324a(context, f5212D, bi_常量类.f6358b);
+                str = C1197p.m8324a(context, f5212D, bi_常量类.f6358b_空串);
                 f5211C = str;
                 if (str == null || f5211C.trim().length() == 0) {
                     f5211C = C1192k.m8294g(context);

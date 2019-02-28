@@ -11,7 +11,7 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.aps.c */
 public class C0556c {
     /* renamed from: a */
-    private String f3417a = bi_常量类.f6358b;
+    private String f3417a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     private double f3418b = 0.0d;
     /* renamed from: c */
@@ -29,29 +29,29 @@ public class C0556c {
     /* renamed from: i */
     private String f3425i = "new";
     /* renamed from: j */
-    private String f3426j = bi_常量类.f6358b;
+    private String f3426j = bi_常量类.f6358b_空串;
     /* renamed from: k */
-    private String f3427k = bi_常量类.f6358b;
+    private String f3427k = bi_常量类.f6358b_空串;
     /* renamed from: l */
-    private String f3428l = bi_常量类.f6358b;
+    private String f3428l = bi_常量类.f6358b_空串;
     /* renamed from: m */
-    private String f3429m = bi_常量类.f6358b;
+    private String f3429m = bi_常量类.f6358b_空串;
     /* renamed from: n */
-    private String f3430n = bi_常量类.f6358b;
+    private String f3430n = bi_常量类.f6358b_空串;
     /* renamed from: o */
-    private String f3431o = bi_常量类.f6358b;
+    private String f3431o = bi_常量类.f6358b_空串;
     /* renamed from: p */
-    private String f3432p = bi_常量类.f6358b;
+    private String f3432p = bi_常量类.f6358b_空串;
     /* renamed from: q */
-    private String f3433q = bi_常量类.f6358b;
+    private String f3433q = bi_常量类.f6358b_空串;
     /* renamed from: r */
-    private String f3434r = bi_常量类.f6358b;
+    private String f3434r = bi_常量类.f6358b_空串;
     /* renamed from: s */
-    private String f3435s = bi_常量类.f6358b;
+    private String f3435s = bi_常量类.f6358b_空串;
     /* renamed from: t */
-    private String f3436t = bi_常量类.f6358b;
+    private String f3436t = bi_常量类.f6358b_空串;
     /* renamed from: u */
-    private String f3437u = bi_常量类.f6358b;
+    private String f3437u = bi_常量类.f6358b_空串;
     /* renamed from: v */
     private JSONObject f3438v = null;
 

@@ -59,7 +59,7 @@ public class GeoPoint implements Parcelable {
     }
 
     public String toString() {
-        return bi_常量类.f6358b + this.f1288a + "," + this.f1289b;
+        return bi_常量类.f6358b_空串 + this.f1288a + "," + this.f1289b;
     }
 
     public int getLongitudeE6() {

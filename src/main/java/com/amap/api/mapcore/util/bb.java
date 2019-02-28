@@ -107,7 +107,7 @@ class bb extends bj {
                                 str = a;
                                 obj2 = obj;
                             }
-                            if (str.equals(bi_常量类.f6358b)) {
+                            if (str.equals(bi_常量类.f6358b_空串)) {
                                 obj = null;
                             } else {
                                 obj = obj2;

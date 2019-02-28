@@ -78,7 +78,7 @@ public final class C0163a {
         Camera open;
         Throwable th;
         String str = "%2$d*%3$d";
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         float o = C0163a.m590o(context.getApplicationContext());
         Camera camera = null;
         try {
@@ -451,7 +451,7 @@ public final class C0163a {
     public static String m580h() {
         try {
             BluetoothAdapter defaultAdapter = BluetoothAdapter.getDefaultAdapter();
-            return (defaultAdapter == null || defaultAdapter.isEnabled()) ? defaultAdapter.getAddress() : bi_常量类.f6358b;
+            return (defaultAdapter == null || defaultAdapter.isEnabled()) ? defaultAdapter.getAddress() : bi_常量类.f6358b_空串;
         } catch (Exception e) {
             return null;
         }
@@ -709,7 +709,7 @@ public final class C0163a {
             }
         } catch (Throwable th) {
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     /* renamed from: m */

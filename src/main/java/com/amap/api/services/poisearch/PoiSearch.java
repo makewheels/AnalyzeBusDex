@@ -126,7 +126,7 @@ public class PoiSearch {
 
         /* renamed from: a */
         private String m4148a() {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
 
         public String getCity() {

@@ -40,13 +40,13 @@ class C0429g extends C0428k<String, C0427f> {
             JSONObject jSONObject = new JSONObject(str);
             if (jSONObject.has("offlinemap")) {
                 jSONObject = jSONObject.getJSONObject("offlinemap");
-                String optString = jSONObject.optString("update", bi_常量类.f6358b);
+                String optString = jSONObject.optString("update", bi_常量类.f6358b_空串);
                 if (optString.equals("0")) {
                     c0427f.m3678a(false);
                 } else if (optString.equals(C0108a.f262e)) {
                     c0427f.m3678a(true);
                 }
-                c0427f.m3677a(jSONObject.optString("version", bi_常量类.f6358b));
+                c0427f.m3677a(jSONObject.optString("version", bi_常量类.f6358b_空串));
             }
         } catch (Throwable th) {
             az.m3143a(th, "OfflineInitHandler", "loadData parseJson");

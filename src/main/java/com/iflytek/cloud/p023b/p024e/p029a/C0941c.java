@@ -37,7 +37,7 @@ public class C0941c {
                 f4480c = System.currentTimeMillis();
                 return;
             }
-            String str3 = bi_常量类.f6358b + (System.currentTimeMillis() - f4480c);
+            String str3 = bi_常量类.f6358b_空串 + (System.currentTimeMillis() - f4480c);
             if (TextUtils.isEmpty(str2)) {
                 str2 = str3;
             }

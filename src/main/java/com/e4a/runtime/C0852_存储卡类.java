@@ -33,7 +33,7 @@ public final class C0852_存储卡类 {
         if ("mounted".equals(Environment.getExternalStorageState()) && Environment.getExternalStorageDirectory().canWrite()) {
             return Environment.getExternalStorageDirectory().getPath();
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     @SimpleFunction

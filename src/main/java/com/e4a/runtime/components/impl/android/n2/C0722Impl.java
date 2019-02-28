@@ -30,10 +30,10 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.e4a.runtime.components.impl.android.n2.编辑框Impl */
 public class C0722Impl extends TextViewComponent implements C0717, OnClickListener {
     private int InputType;
-    private String backgroundImage = bi_常量类.f6358b;
+    private String backgroundImage = bi_常量类.f6358b_空串;
     private int backgroundImage2 = -1;
     private float fontsize = 9.0f;
-    private String hint = bi_常量类.f6358b;
+    private String hint = bi_常量类.f6358b_空串;
     private Handler mHandler = new C07203();
     /* renamed from: 次数 */
     private int f4293 = 0;

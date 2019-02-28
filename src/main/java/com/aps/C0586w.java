@@ -8,7 +8,7 @@ public final class C0586w {
     /* renamed from: a */
     private boolean f3560a = false;
     /* renamed from: b */
-    private String f3561b = bi_常量类.f6358b;
+    private String f3561b = bi_常量类.f6358b_空串;
     /* renamed from: c */
     private boolean f3562c = false;
     /* renamed from: d */
@@ -47,7 +47,7 @@ public final class C0586w {
                     }
                     split = substring.split(",", i + 1);
                     if (split.length < 6) {
-                        if (!(split[2].equals(bi_常量类.f6358b) || split[split.length - 3].equals(bi_常量类.f6358b) || split[split.length - 2].equals(bi_常量类.f6358b) || split[split.length - 1].equals(bi_常量类.f6358b))) {
+                        if (!(split[2].equals(bi_常量类.f6358b_空串) || split[split.length - 3].equals(bi_常量类.f6358b_空串) || split[split.length - 2].equals(bi_常量类.f6358b_空串) || split[split.length - 1].equals(bi_常量类.f6358b_空串))) {
                             Integer.valueOf(split[2]).intValue();
                             this.f3563d = Double.valueOf(split[split.length - 3]).doubleValue();
                             this.f3564e = Double.valueOf(split[split.length - 2]).doubleValue();

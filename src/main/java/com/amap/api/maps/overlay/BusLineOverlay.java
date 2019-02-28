@@ -159,7 +159,7 @@ public class BusLineOverlay {
     }
 
     protected String getSnippet(int i) {
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     public int getBusStationIndex(Marker marker) {

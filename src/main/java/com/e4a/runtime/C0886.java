@@ -36,7 +36,7 @@ public final class C0886 {
     @SimpleFunction
     /* renamed from: 取汉字拼音 */
     public static String m6749(String str) {
-        String result = bi_常量类.f6358b;
+        String result = bi_常量类.f6358b_空串;
         int ascii = C0886.getChsAscii(str);
         if (ascii > 0 && ascii < 160) {
             return String.valueOf((char) ascii);
@@ -52,8 +52,8 @@ public final class C0886 {
     @SimpleFunction
     /* renamed from: 取词组拼音 */
     public static String m6750(String chs) {
-        String key = bi_常量类.f6358b;
-        String value = bi_常量类.f6358b;
+        String key = bi_常量类.f6358b_空串;
+        String value = bi_常量类.f6358b_空串;
         StringBuilder buffer = new StringBuilder();
         for (int i = 0; i < chs.length(); i++) {
             key = chs.substring(i, i + 1);

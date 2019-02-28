@@ -94,7 +94,7 @@ public final class C0117a {
         }
         int length = bArr.length * 8;
         if (length == 0) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         int i2 = length % 24;
         int i3 = length / 24;

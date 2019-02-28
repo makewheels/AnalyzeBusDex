@@ -38,7 +38,7 @@ public class bd {
 
     /* renamed from: b */
     public String m1301b() {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         switch (new Random(System.currentTimeMillis()).nextInt(100000) % 4) {
             case 0:
                 if (C0269x.f1186g != 2) {
@@ -80,7 +80,7 @@ public class bd {
 
     /* renamed from: d */
     public String m1303d() {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         switch (new Random(System.currentTimeMillis()).nextInt(100000) % 4) {
             case 0:
                 str = "http://mst01.is.autonavi.com";

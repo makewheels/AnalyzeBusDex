@@ -47,7 +47,7 @@ public class C1009c {
     public static String m7362a(Context context, String str, String str2) {
         if (context == null) {
             Log.e(f4678a, "no context!");
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         String a = C1009c.m7363a(str, str2);
         String str3 = (String) f4679b.get(a);
@@ -57,7 +57,7 @@ public class C1009c {
         if (!C1020h.m7383a(str3)) {
             return str3;
         }
-        str3 = context.getSharedPreferences("UTCommon", 0).getString("EvQwnbilKezpOJey".concat(a), bi_常量类.f6358b);
+        str3 = context.getSharedPreferences("UTCommon", 0).getString("EvQwnbilKezpOJey".concat(a), bi_常量类.f6358b_空串);
         f4679b.put(a, str3);
         return str3;
     }

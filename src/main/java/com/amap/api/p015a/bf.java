@@ -125,7 +125,7 @@ class bf {
 
         /* renamed from: a */
         boolean m1369a(String str, boolean z) {
-            if (str.equals(bi_常量类.f6358b)) {
+            if (str.equals(bi_常量类.f6358b_空串)) {
                 return false;
             }
             int size = this.f807a.size();
@@ -152,7 +152,7 @@ class bf {
 
         /* renamed from: b */
         private void m1359b(String str) {
-            if (!str.equals(bi_常量类.f6358b)) {
+            if (!str.equals(bi_常量类.f6358b_空串)) {
                 int size = this.f807a.size();
                 for (int i = 0; i < size; i++) {
                     as asVar = (as) this.f807a.get(i);
@@ -180,7 +180,7 @@ class bf {
 
         /* renamed from: a */
         boolean m1368a(as asVar, Context context) {
-            if (asVar == null || asVar.f636a.equals(bi_常量类.f6358b) || m1361c(asVar.f636a)) {
+            if (asVar == null || asVar.f636a.equals(bi_常量类.f6358b_空串) || m1361c(asVar.f636a)) {
                 return false;
             }
             boolean add;
@@ -222,7 +222,7 @@ class bf {
 
         /* renamed from: a */
         as m1362a(String str) {
-            if (str.equals(bi_常量类.f6358b) || this.f807a == null || this.f807a.size() == 0) {
+            if (str.equals(bi_常量类.f6358b_空串) || this.f807a == null || this.f807a.size() == 0) {
                 return null;
             }
             int size = this.f807a.size();

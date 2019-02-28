@@ -32,7 +32,7 @@ public class bi_常量类 {
     /* renamed from: a */
     protected static final String f6357a = bi_常量类.class.getName();
     /* renamed from: b */
-    public static final String f6358b = "";
+    public static final String f6358b_空串 = "";
     /* renamed from: c */
     public static final String f6359c = "2G/3G";
     /* renamed from: d */
@@ -68,7 +68,7 @@ public class bi_常量类 {
         try {
             return String.valueOf(context.getPackageManager().getPackageInfo(context.getPackageName(), 0).versionCode);
         } catch (NameNotFoundException e) {
-            return f6358b;
+            return f6358b_空串;
         }
     }
 
@@ -77,7 +77,7 @@ public class bi_常量类 {
         try {
             return context.getPackageManager().getPackageInfo(context.getPackageName(), 0).versionName;
         } catch (NameNotFoundException e) {
-            return f6358b;
+            return f6358b_空串;
         }
     }
 
@@ -98,7 +98,7 @@ public class bi_常量类 {
         } catch (NameNotFoundException e) {
             applicationInfo = null;
         }
-        return (String) (applicationInfo != null ? packageManager.getApplicationLabel(applicationInfo) : f6358b);
+        return (String) (applicationInfo != null ? packageManager.getApplicationLabel(applicationInfo) : f6358b_空串);
     }
 
     /* renamed from: a */
@@ -137,7 +137,7 @@ public class bi_常量类 {
         if (str != null) {
             return str.substring(str.indexOf(58) + 1).trim();
         }
-        return f6358b;
+        return f6358b_空串;
     }
 
     /* renamed from: f */
@@ -147,7 +147,7 @@ public class bi_常量类 {
         if (telephonyManager == null) {
             bj.m10008e(f6357a, "No IMEI.");
         }
-        String str = f6358b;
+        String str = f6358b_空串;
         try {
             if (bi_常量类.m9972a(context, "android.permission.READ_PHONE_STATE")) {
                 deviceId = telephonyManager.getDeviceId();
@@ -192,12 +192,12 @@ public class bi_常量类 {
         try {
             TelephonyManager telephonyManager = (TelephonyManager) context.getSystemService("phone");
             if (telephonyManager == null) {
-                return f6358b;
+                return f6358b_空串;
             }
             return telephonyManager.getNetworkOperatorName();
         } catch (Exception e) {
             e.printStackTrace();
-            return f6358b;
+            return f6358b_空串;
         }
     }
 
@@ -209,21 +209,21 @@ public class bi_常量类 {
             return new StringBuilder(String.valueOf(String.valueOf(displayMetrics.heightPixels))).append("*").append(String.valueOf(displayMetrics.widthPixels)).toString();
         } catch (Exception e) {
             e.printStackTrace();
-            return f6358b;
+            return f6358b_空串;
         }
     }
 
     /* renamed from: j */
     public static String[] m9985j(Context context) {
-        String[] strArr = new String[]{f6358b, f6358b};
+        String[] strArr = new String[]{f6358b_空串, f6358b_空串};
         try {
             if (context.getPackageManager().checkPermission("android.permission.ACCESS_NETWORK_STATE", context.getPackageName()) != 0) {
-                strArr[0] = f6358b;
+                strArr[0] = f6358b_空串;
                 return strArr;
             }
             ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService("connectivity");
             if (connectivityManager == null) {
-                strArr[0] = f6358b;
+                strArr[0] = f6358b_空串;
                 return strArr;
             } else if (connectivityManager.getNetworkInfo(1).getState() == State.CONNECTED) {
                 strArr[0] = f6360d;
@@ -346,7 +346,7 @@ public class bi_常量类 {
                 return wifiManager.getConnectionInfo().getMacAddress();
             }
             bj.m10008e(f6357a, "Could not get mac address.[no permission android.permission.ACCESS_WIFI_STATE");
-            return f6358b;
+            return f6358b_空串;
         } catch (Exception e) {
             bj.m10008e(f6357a, "Could not get mac address." + e.toString());
         }

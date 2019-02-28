@@ -59,7 +59,7 @@ public class MobclickAgentJSInterface {
                 try {
                     JSONObject jSONObject2 = new JSONObject(str3);
                     String optString = jSONObject2.optString("label");
-                    if (bi_常量类.f6358b.equals(optString)) {
+                    if (bi_常量类.f6358b_空串.equals(optString)) {
                         optString = null;
                     }
                     MobclickAgent.getAgent().m8387a(this.f5571b.f5574a, jSONObject2.getString("tag"), optString, (long) jSONObject2.optInt("duration"), 1);

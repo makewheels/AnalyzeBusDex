@@ -42,7 +42,7 @@ public class C0936a extends C0923a {
 
     public C0936a(Context context, C0950a c0950a) {
         super(context);
-        this.f4463c = bi_常量类.f6358b;
+        this.f4463c = bi_常量类.f6358b_空串;
         this.f4464d = null;
         this.f4465e = null;
         this.f4466f = null;
@@ -96,7 +96,7 @@ public class C0936a extends C0923a {
             if (!this.f4464d.m7119d()) {
                 Object a = this.f4464d.m7114a();
                 if (!(a == null || this.f4465e == null)) {
-                    C0941c.m7127a("QTTSAudioGet", bi_常量类.f6358b + a.length);
+                    C0941c.m7127a("QTTSAudioGet", bi_常量类.f6358b_空串 + a.length);
                     int b = (this.f4464d.m7115b() / 2) - 1;
                     if (this.f4471k) {
                         r0 = this.f4464d.m7117c();

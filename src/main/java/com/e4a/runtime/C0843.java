@@ -34,7 +34,7 @@ public final class C0843 {
             return new String(str);
         } catch (Exception e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -42,7 +42,7 @@ public final class C0843 {
     /* renamed from: RC4加密 */
     public static String m6609RC4(String data, String key) {
         if (data == null || key == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         try {
             char[] hexDigits = new char[]{'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
@@ -57,7 +57,7 @@ public final class C0843 {
             return new String(str);
         } catch (Exception e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -65,13 +65,13 @@ public final class C0843 {
     /* renamed from: RC4解密 */
     public static String m6611RC4(String data, String key) {
         if (data == null || key == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         try {
             return new String(C0843.RC4Base(C0843.HexString2Bytes(data), key), "GBK");
         } catch (Exception e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -185,7 +185,7 @@ public final class C0843 {
             cipher.init(1, key, zeroIv);
             return C0843.m6605BASE64(cipher.doFinal(encryptString.getBytes("GBK")));
         } catch (Exception e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -201,7 +201,7 @@ public final class C0843 {
             cipher.init(2, key, zeroIv);
             return new String(cipher.doFinal(byteMi), "GBK");
         } catch (Exception e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -211,7 +211,7 @@ public final class C0843 {
         try {
             return Base64.encode(data);
         } catch (Exception e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -231,7 +231,7 @@ public final class C0843 {
         try {
             return Authcode.Encode(source, key);
         } catch (Exception e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -241,7 +241,7 @@ public final class C0843 {
         try {
             return Authcode.Decode(source, key);
         } catch (Exception e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 }

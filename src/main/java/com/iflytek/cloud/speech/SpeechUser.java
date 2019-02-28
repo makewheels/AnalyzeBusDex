@@ -14,9 +14,9 @@ public class SpeechUser extends C0931d {
     /* renamed from: e */
     private static SpeechUser f4575e = new SpeechUser();
     /* renamed from: f */
-    private String f4576f = bi_常量类.f6358b;
+    private String f4576f = bi_常量类.f6358b_空串;
     /* renamed from: g */
-    private String f4577g = bi_常量类.f6358b;
+    private String f4577g = bi_常量类.f6358b_空串;
     /* renamed from: h */
     private C0950a f4578h = new C0950a();
     /* renamed from: i */

@@ -96,8 +96,8 @@ public class C1160x {
                 try {
                     Properties properties = new Properties();
                     properties.load(fileInputStream);
-                    String property = properties.getProperty("setting_forceUseSystemWebview", bi_常量类.f6358b);
-                    if (!bi_常量类.f6358b.equals(property)) {
+                    String property = properties.getProperty("setting_forceUseSystemWebview", bi_常量类.f6358b_空串);
+                    if (!bi_常量类.f6358b_空串.equals(property)) {
                         this.f5179a = Boolean.parseBoolean(property);
                     }
                     try {

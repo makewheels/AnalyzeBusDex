@@ -6,7 +6,7 @@ import p054u.aly.bi_常量类;
 
 public final class be {
     /* renamed from: a */
-    private static String f3416a = bi_常量类.f6358b;
+    private static String f3416a = bi_常量类.f6358b_空串;
 
     /* renamed from: a */
     protected static void m4426a(String str) {

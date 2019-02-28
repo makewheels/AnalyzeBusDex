@@ -491,7 +491,7 @@ class TbsLogReport {
     private String m7594f(String str) {
         StringBuilder stringBuilder = new StringBuilder();
         if (str == null) {
-            str = bi_常量类.f6358b;
+            str = bi_常量类.f6358b_空串;
         }
         return stringBuilder.append(str).append("|").toString();
     }
@@ -819,7 +819,7 @@ class TbsLogReport {
     /* renamed from: a */
     public void m7606a(Throwable th) {
         if (th == null) {
-            this.f4861r = bi_常量类.f6358b;
+            this.f4861r = bi_常量类.f6358b_空串;
             return;
         }
         String stackTraceString = Log.getStackTraceString(th);

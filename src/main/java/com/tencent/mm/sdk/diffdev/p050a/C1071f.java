@@ -146,7 +146,7 @@ final class C1071f extends AsyncTask<Void, Void, C1070a> {
             return c1070a;
         }
         while (!isCancelled()) {
-            String str = this.url + (this.aw == 0 ? bi_常量类.f6358b : "&last=" + this.aw);
+            String str = this.url + (this.aw == 0 ? bi_常量类.f6358b_空串 : "&last=" + this.aw);
             long currentTimeMillis = System.currentTimeMillis();
             byte[] b = C1069e.m7541b(str, 60000);
             long currentTimeMillis2 = System.currentTimeMillis();

@@ -161,7 +161,7 @@ public final class C0893 {
         int j = 0;
         int fu = 0;
         while (i < expstr.length()) {
-            String shu = bi_常量类.f6358b;
+            String shu = bi_常量类.f6358b_空串;
             char ch = expstr.charAt(i);
             switch (ch) {
                 case Component.KEYCODE_L /*40*/:

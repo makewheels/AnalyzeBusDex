@@ -47,7 +47,7 @@ public class C1447n {
         if (m10429a(str) && m10431b(str2)) {
             Map hashMap = new HashMap();
             if (str2 == null) {
-                str2 = bi_常量类.f6358b;
+                str2 = bi_常量类.f6358b_空串;
             }
             hashMap.put(str, str2);
             this.f6582e.mo1999a(new ab(str, hashMap, j, i));

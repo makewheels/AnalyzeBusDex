@@ -14,15 +14,15 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.tencent.smtt.utils.b */
 public class C1135b {
     /* renamed from: a */
-    public static String f5119a = bi_常量类.f6358b;
+    public static String f5119a = bi_常量类.f6358b_空串;
     /* renamed from: b */
-    public static String f5120b = bi_常量类.f6358b;
+    public static String f5120b = bi_常量类.f6358b_空串;
     /* renamed from: c */
-    public static String f5121c = bi_常量类.f6358b;
+    public static String f5121c = bi_常量类.f6358b_空串;
     /* renamed from: d */
-    public static String f5122d = bi_常量类.f6358b;
+    public static String f5122d = bi_常量类.f6358b_空串;
     /* renamed from: e */
-    public static String f5123e = bi_常量类.f6358b;
+    public static String f5123e = bi_常量类.f6358b_空串;
 
     /* renamed from: a */
     public static String m7947a() {
@@ -138,7 +138,7 @@ public class C1135b {
 
     /* renamed from: a */
     private static String m7950a(String str) {
-        return str == null ? bi_常量类.f6358b : str;
+        return str == null ? bi_常量类.f6358b_空串 : str;
     }
 
     /* renamed from: b */
@@ -153,7 +153,7 @@ public class C1135b {
 
     /* renamed from: c */
     public static String m7952c(Context context) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         if (!TextUtils.isEmpty(f5119a)) {
             return f5119a;
         }
@@ -167,7 +167,7 @@ public class C1135b {
 
     /* renamed from: d */
     public static String m7953d(Context context) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         if (!TextUtils.isEmpty(f5120b)) {
             return f5120b;
         }
@@ -181,14 +181,14 @@ public class C1135b {
 
     /* renamed from: e */
     public static String m7954e(Context context) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         if (!TextUtils.isEmpty(f5122d)) {
             return f5122d;
         }
         try {
             WifiManager wifiManager = (WifiManager) context.getApplicationContext().getSystemService("wifi");
             WifiInfo connectionInfo = wifiManager == null ? null : wifiManager.getConnectionInfo();
-            return connectionInfo == null ? bi_常量类.f6358b : connectionInfo.getMacAddress();
+            return connectionInfo == null ? bi_常量类.f6358b_空串 : connectionInfo.getMacAddress();
         } catch (Exception e) {
             e.printStackTrace();
             return str;

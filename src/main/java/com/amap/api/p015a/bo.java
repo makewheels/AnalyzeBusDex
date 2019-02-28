@@ -13,7 +13,7 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.amap.api.a.bo */
 class bo extends View {
     /* renamed from: a */
-    private String f912a = bi_常量类.f6358b;
+    private String f912a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     private int f913b = 0;
     /* renamed from: c */
@@ -49,7 +49,7 @@ class bo extends View {
     }
 
     protected void onDraw(Canvas canvas) {
-        if (!this.f912a.equals(bi_常量类.f6358b) && this.f913b != 0) {
+        if (!this.f912a.equals(bi_常量类.f6358b_空串) && this.f913b != 0) {
             int i;
             int i2 = this.f913b;
             try {

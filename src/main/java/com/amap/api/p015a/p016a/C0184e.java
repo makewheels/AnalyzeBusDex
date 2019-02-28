@@ -32,7 +32,7 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.amap.api.a.a.e */
 public class C0184e {
     /* renamed from: a */
-    public static String f524a = bi_常量类.f6358b;
+    public static String f524a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     public static int f525b = 2048;
     /* renamed from: c */
@@ -48,7 +48,7 @@ public class C0184e {
     /* renamed from: h */
     private static String f531h;
     /* renamed from: i */
-    private static String f532i = bi_常量类.f6358b;
+    private static String f532i = bi_常量类.f6358b_空串;
 
     /* renamed from: a */
     public static C0184e m646a(Context context) {
@@ -169,21 +169,21 @@ public class C0184e {
     /* renamed from: f */
     public String m658f() {
         if (f527d.checkCallingOrSelfPermission("android.permission.ACCESS_NETWORK_STATE") != 0) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         if (f529f == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         NetworkInfo activeNetworkInfo = f529f.getActiveNetworkInfo();
         if (activeNetworkInfo == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         return activeNetworkInfo.getTypeName();
     }
 
     /* renamed from: b */
     public static String m649b(Context context) {
-        if (f524a == null || f524a.equals(bi_常量类.f6358b)) {
+        if (f524a == null || f524a.equals(bi_常量类.f6358b_空串)) {
             try {
                 f524a = context.getPackageManager().getApplicationInfo(context.getPackageName(), 128).metaData.getString("com.amap.api.v2.apikey");
             } catch (Exception e) {
@@ -263,7 +263,7 @@ public class C0184e {
                             i2 = query.getColumnIndex("proxy");
                             if (i2 != -1) {
                                 host = query.getString(i2);
-                                if (host != null && host.equals(bi_常量类.f6358b)) {
+                                if (host != null && host.equals(bi_常量类.f6358b_空串)) {
                                     host = null;
                                 }
                             } else {
@@ -272,7 +272,7 @@ public class C0184e {
                             i2 = query.getColumnIndex("port");
                             if (i2 != -1) {
                                 string = query.getString(i2);
-                                if (!(string == null || string.equals(bi_常量类.f6358b))) {
+                                if (!(string == null || string.equals(bi_常量类.f6358b_空串))) {
                                     i2 = Integer.parseInt(string);
                                 }
                             }
@@ -283,7 +283,7 @@ public class C0184e {
                                 query.close();
                             } catch (Exception e) {
                                 host = activeNetworkInfo.getExtraInfo();
-                                if (host != null || host.equals(bi_常量类.f6358b)) {
+                                if (host != null || host.equals(bi_常量类.f6358b_空串)) {
                                     host = android.net.Proxy.getDefaultHost();
                                     i = android.net.Proxy.getDefaultPort();
                                     if (host != null) {
@@ -294,7 +294,7 @@ public class C0184e {
                                 host = host.toLowerCase(Locale.US);
                                 if (host.startsWith("cmwap") || host.startsWith("3gwap") || host.startsWith("uniwap")) {
                                     string = android.net.Proxy.getDefaultHost();
-                                    if (string == null || string.equals(bi_常量类.f6358b) || string.equals("null")) {
+                                    if (string == null || string.equals(bi_常量类.f6358b_空串) || string.equals("null")) {
                                         string = "10.0.0.172";
                                     }
                                     host = string;
@@ -305,7 +305,7 @@ public class C0184e {
                                 }
                                 if (host.startsWith("ctwap")) {
                                     string = android.net.Proxy.getDefaultHost();
-                                    if (string == null || string.equals(bi_常量类.f6358b) || string.equals("null")) {
+                                    if (string == null || string.equals(bi_常量类.f6358b_空串) || string.equals("null")) {
                                         string = "10.0.0.200";
                                     }
                                     host = string;

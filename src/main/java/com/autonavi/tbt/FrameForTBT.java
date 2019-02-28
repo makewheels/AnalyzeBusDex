@@ -255,7 +255,7 @@ public class FrameForTBT implements IFrameForTBT {
                 this.playBuff = new StringBuffer();
             }
             if (i == 8) {
-                this.playBuff.append(bi_常量类.f6358b);
+                this.playBuff.append(bi_常量类.f6358b_空串);
             } else {
                 this.playBuff.append(str);
             }
@@ -433,7 +433,7 @@ public class FrameForTBT implements IFrameForTBT {
 
     public void notifyMessage(int i, int i2, int i3, String str) {
         if (i == 8 && i2 == 1 && i3 == 1) {
-            playNaviSound(8, bi_常量类.f6358b);
+            playNaviSound(8, bi_常量类.f6358b_空串);
         }
     }
 

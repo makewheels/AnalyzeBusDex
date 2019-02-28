@@ -39,7 +39,7 @@ public class C0944c {
                 stringBuffer = stringBuffer2.toString();
             } catch (Exception e) {
                 e.printStackTrace();
-                stringBuffer = bi_常量类.f6358b;
+                stringBuffer = bi_常量类.f6358b_空串;
             }
         }
         return stringBuffer;

@@ -74,7 +74,7 @@ public class C1452v {
         edit.remove(f6602c);
         edit.remove("a_start_time");
         edit.remove("a_end_time");
-        edit.putString(f6603f, bi_常量类.f6358b);
+        edit.putString(f6603f, bi_常量类.f6358b_空串);
         edit.commit();
     }
 

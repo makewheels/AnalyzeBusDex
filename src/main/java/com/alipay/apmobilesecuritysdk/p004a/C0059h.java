@@ -28,7 +28,7 @@ public final class C0059h {
     public static boolean m162a(Context context) {
         boolean z = true;
         try {
-            String a = C0169c.m616a(context, "vkeyid_settings", "log_switch", bi_常量类.f6358b);
+            String a = C0169c.m616a(context, "vkeyid_settings", "log_switch", bi_常量类.f6358b_空串);
             if (!C0159a.m556a(a)) {
                 a = C0158c.m553b(C0158c.m550a(), a);
                 if (!C0159a.m556a(a)) {
@@ -44,7 +44,7 @@ public final class C0059h {
     public static long m163b(Context context) {
         long j = 0;
         try {
-            String string = context.getSharedPreferences("vkeyid_settings", 0).getString("vkey_valid", bi_常量类.f6358b);
+            String string = context.getSharedPreferences("vkeyid_settings", 0).getString("vkey_valid", bi_常量类.f6358b_空串);
             if (!C0159a.m556a(string)) {
                 string = C0158c.m553b(C0158c.m550a(), string);
                 if (!C0159a.m556a(string)) {
@@ -75,17 +75,17 @@ public final class C0059h {
         String string;
         synchronized (C0059h.class) {
             try {
-                string = context.getSharedPreferences("vkeyid_settings", 0).getString("vkey_applist", bi_常量类.f6358b);
+                string = context.getSharedPreferences("vkeyid_settings", 0).getString("vkey_applist", bi_常量类.f6358b_空串);
                 if (C0159a.m556a(string)) {
-                    string = bi_常量类.f6358b;
+                    string = bi_常量类.f6358b_空串;
                 } else {
                     string = C0158c.m553b(C0158c.m550a(), string);
                     if (C0159a.m556a(string)) {
-                        string = bi_常量类.f6358b;
+                        string = bi_常量类.f6358b_空串;
                     }
                 }
             } catch (Throwable th) {
-                string = bi_常量类.f6358b;
+                string = bi_常量类.f6358b_空串;
             }
         }
         return string;
@@ -96,17 +96,17 @@ public final class C0059h {
         String string;
         synchronized (C0059h.class) {
             try {
-                string = context.getSharedPreferences("vkeyid_settings", 0).getString("vkey_applist_version", bi_常量类.f6358b);
+                string = context.getSharedPreferences("vkeyid_settings", 0).getString("vkey_applist_version", bi_常量类.f6358b_空串);
                 if (C0159a.m556a(string)) {
-                    string = bi_常量类.f6358b;
+                    string = bi_常量类.f6358b_空串;
                 } else {
                     string = C0158c.m553b(C0158c.m550a(), string);
                     if (C0159a.m556a(string)) {
-                        string = bi_常量类.f6358b;
+                        string = bi_常量类.f6358b_空串;
                     }
                 }
             } catch (Throwable th) {
-                string = bi_常量类.f6358b;
+                string = bi_常量类.f6358b_空串;
             }
         }
         return string;

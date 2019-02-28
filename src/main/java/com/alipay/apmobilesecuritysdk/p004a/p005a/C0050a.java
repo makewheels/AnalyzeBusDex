@@ -72,9 +72,9 @@ public final class C0050a {
     public static synchronized String m131b(Context context) {
         String str = null;
         synchronized (C0050a.class) {
-            String str2 = bi_常量类.f6358b;
+            String str2 = bi_常量类.f6358b_空串;
             try {
-                String a = C0169c.m616a(context, "profiles", "deviceid", bi_常量类.f6358b);
+                String a = C0169c.m616a(context, "profiles", "deviceid", bi_常量类.f6358b_空串);
                 a = C0159a.m556a(a) ? null : C0158c.m553b(C0158c.m550a(), a);
                 if (!C0159a.m556a(a)) {
                     C0051b c0051b = new C0051b();

@@ -9,7 +9,7 @@ public class C0961b {
     /* renamed from: b */
     public static String[] f4558b = new String[]{"Help", "Connecting server...", "Speak now", "Getting result...", "Getting audio...", "Error", "iFLYTEK TTS", "Uploading data"};
     /* renamed from: c */
-    public static String[] f4559c = new String[]{bi_常量类.f6358b, "Network failure", "Connect timeout", "Invalid network connection", "Permission denied", "Invalid result", "Connect to server failed", "Invalid parameter", "Unexpected error", "Recording failed", "No match", "No speech detected", "Coding error", "Invalid text", "Open file failed", "Audioplayer error", "Out of memory", "Text overflow", "Login check failed", "Network is busy", "Invalid data", "Invalid grammar", "Local resource failed", "invalid user", "invalid password", "Permission denied VoiceApp", "Browser not installed", "Play interrupt"};
+    public static String[] f4559c = new String[]{bi_常量类.f6358b_空串, "Network failure", "Connect timeout", "Invalid network connection", "Permission denied", "Invalid result", "Connect to server failed", "Invalid parameter", "Unexpected error", "Recording failed", "No match", "No speech detected", "Coding error", "Invalid text", "Open file failed", "Audioplayer error", "Out of memory", "Text overflow", "Login check failed", "Network is busy", "Invalid data", "Invalid grammar", "Local resource failed", "invalid user", "invalid password", "Permission denied VoiceApp", "Browser not installed", "Play interrupt"};
     /* renamed from: d */
     public static String[] f4560d = new String[]{"Error code", "Unexpected error"};
 }

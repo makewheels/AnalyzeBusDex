@@ -37,7 +37,7 @@ public class C1008b {
         /* renamed from: a */
         HttpPost f4667a;
         /* renamed from: b */
-        String f4668b = bi_常量类.f6358b;
+        String f4668b = bi_常量类.f6358b_空串;
         /* renamed from: c */
         AidCallback f4669c;
         /* renamed from: d */
@@ -45,7 +45,7 @@ public class C1008b {
         /* renamed from: e */
         String f4671e;
         /* renamed from: f */
-        String f4672f = bi_常量类.f6358b;
+        String f4672f = bi_常量类.f6358b_空串;
         /* renamed from: g */
         final /* synthetic */ C1008b f4673g;
 
@@ -216,7 +216,7 @@ public class C1008b {
                 if (C1015c.f4699a) {
                     Log.d(f4674a, "remove the AID, status:" + string2);
                 }
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
         } catch (JSONException e) {
             Log.e(f4674a, e.toString());

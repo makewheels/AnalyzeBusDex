@@ -109,7 +109,7 @@ public class AuthTask {
                     if (c0089m == null) {
                         c0089m = C0089m.m229a(C0089m.FAILED.m232a());
                     }
-                    return C0088l.m225a(c0089m.m232a(), c0089m.m233b(), bi_常量类.f6358b);
+                    return C0088l.m225a(c0089m.m232a(), c0089m.m233b(), bi_常量类.f6358b_空串);
                 }
             } catch (Exception e) {
                 c0151a = null;
@@ -162,7 +162,7 @@ public class AuthTask {
         if (c0089m == null) {
             c0089m = C0089m.m229a(C0089m.FAILED.m232a());
         }
-        return C0088l.m225a(c0089m.m232a(), c0089m.m233b(), bi_常量类.f6358b);
+        return C0088l.m225a(c0089m.m232a(), c0089m.m233b(), bi_常量类.f6358b_空串);
     }
 
     /* renamed from: b */

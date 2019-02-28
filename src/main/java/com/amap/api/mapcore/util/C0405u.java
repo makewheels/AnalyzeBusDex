@@ -267,7 +267,7 @@ public class C0405u {
         }
         File file;
         File file2;
-        if (MapsInitializer.sdcardDir == null || MapsInitializer.sdcardDir.equals(bi_常量类.f6358b)) {
+        if (MapsInitializer.sdcardDir == null || MapsInitializer.sdcardDir.equals(bi_常量类.f6358b_空串)) {
             file = new File(Environment.getExternalStorageDirectory(), "amap");
             if (!file.exists()) {
                 file.mkdir();
@@ -291,9 +291,9 @@ public class C0405u {
 
     /* renamed from: b */
     public static String m3476b(Context context) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         File file;
-        if (MapsInitializer.sdcardDir == null || MapsInitializer.sdcardDir.equals(bi_常量类.f6358b)) {
+        if (MapsInitializer.sdcardDir == null || MapsInitializer.sdcardDir.equals(bi_常量类.f6358b_空串)) {
             file = new File(Environment.getExternalStorageDirectory(), "amap");
             if (!file.exists()) {
                 file.mkdir();

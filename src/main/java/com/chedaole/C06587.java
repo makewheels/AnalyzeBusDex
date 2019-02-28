@@ -43,15 +43,15 @@ public class C06587 extends C0645Impl {
     public static C0644 f42347;
     @SimpleDataElement
     /* renamed from: f */
-    public String f4235f = bi_常量类.f6358b;
+    public String f4235f = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: i */
     public int f4236i;
     @SimpleDataElement
     /* renamed from: s */
-    public String f4237s = bi_常量类.f6358b;
+    public String f4237s = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String wl = bi_常量类.f6358b;
+    public String wl = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 启动时间 */
     public long f4238;
@@ -158,7 +158,7 @@ public class C06587 extends C0645Impl {
         this.f42441.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42441.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.667d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f42441.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f42441.mo895(bi_常量类.f6358b);
+        this.f42441.mo895(bi_常量类.f6358b_空串);
         this.f42441.mo797(0);
         this.f42441.mo889(-1);
         this.f42441.mo896(false);
@@ -192,7 +192,7 @@ public class C06587 extends C0645Impl {
         this.f4235f = C0897_网络操作.m6922(this.wl + "/choujiang.txt", "utf-8", 5000);
         this.f42451.mo976(this.f4235f);
         this.f4236i = (int) C0899.m6943(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
-        this.f42441.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4236i), ".0", bi_常量类.f6358b));
+        this.f42441.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4236i), ".0", bi_常量类.f6358b_空串));
     }
 
     /* renamed from: 取像素 */
@@ -210,7 +210,7 @@ public class C06587 extends C0645Impl {
             if (IntegerVariant.getIntegerVariant(this.f4236i).cmp(ShortVariant.getShortVariant((short) 200)) >= 0) {
                 this.f42451.mo976("javascript:run()");
                 this.f4236i = IntegerVariant.getIntegerVariant(this.f4236i).sub(ShortVariant.getShortVariant((short) 200)).getInteger();
-                this.f42441.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4236i), ".0", bi_常量类.f6358b));
+                this.f42441.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4236i), ".0", bi_常量类.f6358b_空串));
                 C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", C0843.m6603Authcode(C0899.m6945((double) this.f4236i), "yangbosen123"), "UTF-8");
             } else if (IntegerVariant.getIntegerVariant(C0879.m66692("提示", "您的积分不足200分,不能参加抽奖", "如何获取积分", "退出")).cmp(ByteVariant.getByteVariant((byte) 0)) == 0) {
                 C0897_网络操作.m6927_打开指定网址(this.wl + "/hexin.html");
@@ -223,36 +223,36 @@ public class C06587 extends C0645Impl {
             this.f4236i = (int) C0899.m6943(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
             this.f4236i = IntegerVariant.getIntegerVariant(this.f4236i).add(ByteVariant.getByteVariant((byte) 100)).getInteger();
             C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", C0843.m6603Authcode(C0899.m6945((double) this.f4236i), "yangbosen123"), "UTF-8");
-            this.f42441.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4236i), ".0", bi_常量类.f6358b));
+            this.f42441.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4236i), ".0", bi_常量类.f6358b_空串));
             C0879.m6668("奖品", "获得100积分", "确定");
         } else if (网页消息.equals("8")) {
             this.f4236i = (int) C0899.m6943(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
             this.f4236i = IntegerVariant.getIntegerVariant(this.f4236i).add(ByteVariant.getByteVariant((byte) 30)).getInteger();
             C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", C0843.m6603Authcode(C0899.m6945((double) this.f4236i), "yangbosen123"), "UTF-8");
-            this.f42441.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4236i), ".0", bi_常量类.f6358b));
+            this.f42441.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4236i), ".0", bi_常量类.f6358b_空串));
             C0879.m6668("奖品", "获得30积分", "确定");
         } else if (网页消息.equals("11")) {
             this.f4236i = (int) C0899.m6943(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
             this.f4236i = IntegerVariant.getIntegerVariant(this.f4236i).add(ShortVariant.getShortVariant((short) 500)).getInteger();
             C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", C0843.m6603Authcode(C0899.m6945((double) this.f4236i), "yangbosen123"), "UTF-8");
-            this.f42441.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4236i), ".0", bi_常量类.f6358b));
+            this.f42441.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4236i), ".0", bi_常量类.f6358b_空串));
             C0879.m6668("奖品", "获得500积分", "确定");
         } else {
             if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页消息, "fanxian", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
                 C0880_应用操作类.m6694(网页消息);
-                this.f4237s = C0890_文本操作.m6819(网页消息, "fanxian", bi_常量类.f6358b);
+                this.f4237s = C0890_文本操作.m6819(网页消息, "fanxian", bi_常量类.f6358b_空串);
                 this.f4236i = (int) C0899.m6943(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
                 this.f4236i += C0899.m6944(this.f4237s);
                 C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", C0843.m6603Authcode(C0899.m6945((double) this.f4236i), "yangbosen123"), "UTF-8");
-                this.f42441.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4236i), ".0", bi_常量类.f6358b));
+                this.f42441.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4236i), ".0", bi_常量类.f6358b_空串));
             }
             if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页消息, "jianfenok", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
-                this.f4237s = C0890_文本操作.m6819(网页消息, "jianfen", bi_常量类.f6358b);
+                this.f4237s = C0890_文本操作.m6819(网页消息, "jianfen", bi_常量类.f6358b_空串);
                 this.f4236i = (int) C0899.m6943(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
                 C0880_应用操作类.m6694("积分已经清空");
                 this.f4236i -= C0899.m6944(Integer.toString(this.f4236i));
                 C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", C0843.m6603Authcode(C0899.m6945((double) this.f4236i), "yangbosen123"), "UTF-8");
-                this.f42441.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4236i), ".0", bi_常量类.f6358b));
+                this.f42441.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4236i), ".0", bi_常量类.f6358b_空串));
             }
         }
     }

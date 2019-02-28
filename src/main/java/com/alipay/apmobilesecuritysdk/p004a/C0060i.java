@@ -8,9 +8,9 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.alipay.apmobilesecuritysdk.a.i */
 public final class C0060i {
     /* renamed from: a */
-    private static String f120a = bi_常量类.f6358b;
+    private static String f120a = bi_常量类.f6358b_空串;
     /* renamed from: b */
-    private static String f121b = bi_常量类.f6358b;
+    private static String f121b = bi_常量类.f6358b_空串;
 
     /* renamed from: a */
     public static String m167a() {

@@ -39,11 +39,11 @@ public class C0796okImpl extends ComponentImpl implements C0794ok {
     /* renamed from: 商品描述 */
     String f4327 = "微信支付";
     /* renamed from: 回调地址 */
-    String f4328 = bi_常量类.f6358b;
+    String f4328 = bi_常量类.f6358b_空串;
     /* renamed from: 支付金额 */
     String f4329 = C0108a.f262e;
     /* renamed from: 透传参数 */
-    String f4330 = bi_常量类.f6358b;
+    String f4330 = bi_常量类.f6358b_空串;
 
     /* renamed from: com.e4a.runtime.components.impl.android.ok微信支付类库.ok微信支付Impl$1 */
     class C07951 extends Handler {
@@ -74,12 +74,12 @@ public class C0796okImpl extends ComponentImpl implements C0794ok {
             if (this.dialog != null) {
                 this.dialog.dismiss();
             }
-            String str = bi_常量类.f6358b;
+            String str = bi_常量类.f6358b_空串;
             try {
                 str = ((String) map.get("prepay_id")).toString();
             } catch (Exception e) {
                 e.printStackTrace();
-                str = bi_常量类.f6358b;
+                str = bi_常量类.f6358b_空串;
             }
             if (str.length() == 0) {
                 C0796okImpl.this.mo1423(C0796okImpl.this.geturls(map));
@@ -110,11 +110,11 @@ public class C0796okImpl extends ComponentImpl implements C0794ok {
 
     /* renamed from: 获取订单 */
     public void mo1425(int i, String str, String str2, String str3) {
-        this.f4329 = bi_常量类.f6358b + i;
+        this.f4329 = bi_常量类.f6358b_空串 + i;
         this.f4327 = str;
         this.f4328 = str2;
         this.f4330 = str3;
-        if (this.f4328.equals(bi_常量类.f6358b)) {
+        if (this.f4328.equals(bi_常量类.f6358b_空串)) {
             this.f4328 = "http://127.0.0.1/test";
         }
         new GetPrepayIdTask().execute(new Void[0]);
@@ -133,7 +133,7 @@ public class C0796okImpl extends ComponentImpl implements C0794ok {
     private String geturls(Map<String, String> map) {
         List arrayList = new ArrayList(map.keySet());
         Collections.sort(arrayList);
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         for (int i = 0; i < arrayList.size(); i++) {
             if (i == 0) {
                 str = ((String) arrayList.get(i)) + "=" + ((String) map.get(arrayList.get(i)));
@@ -239,7 +239,7 @@ public class C0796okImpl extends ComponentImpl implements C0794ok {
 
     /* renamed from: 取随机文本 */
     private String m6472(int i) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         for (int i2 = 0; i2 < i; i2++) {
             if (m6475(1, 2) == 1) {
                 str = str + m6473(m6475(97, 102));

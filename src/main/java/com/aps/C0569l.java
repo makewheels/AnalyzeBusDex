@@ -82,7 +82,7 @@ public class C0569l {
         InputStreamReader inputStreamReader2 = null;
         BufferedReader bufferedReader = null;
         StringBuffer stringBuffer = new StringBuffer();
-        String str3 = bi_常量类.f6358b;
+        String str3 = bi_常量类.f6358b_空串;
         BufferedReader bufferedReader2;
         try {
             b = C0569l.m4535a(context, (NetworkInfo) b);
@@ -106,7 +106,7 @@ public class C0569l {
                         content = execute.getEntity().getContent();
                         try {
                             str3 = execute.getEntity().getContentType().getValue();
-                            CharSequence charSequence = bi_常量类.f6358b;
+                            CharSequence charSequence = bi_常量类.f6358b_空串;
                             int indexOf = str3.indexOf("charset=");
                             if (indexOf != -1) {
                                 charSequence = str3.substring(indexOf + 8);
@@ -257,7 +257,7 @@ public class C0569l {
                         try {
                             bufferedReader2 = new BufferedReader(inputStreamReader, 2048);
                             try {
-                                str4 = bi_常量类.f6358b;
+                                str4 = bi_常量类.f6358b_空串;
                                 while (true) {
                                     str4 = bufferedReader2.readLine();
                                     if (str4 == null) {
@@ -528,7 +528,7 @@ public class C0569l {
         StringBuffer stringBuffer = new StringBuffer();
         Object obj = null;
         int i = 0;
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         InputStreamReader inputStreamReader2 = null;
         InputStream inputStream2 = null;
         HttpClient httpClient = null;
@@ -571,7 +571,7 @@ public class C0569l {
                         if (statusCode == 200) {
                             inputStream2 = execute.getEntity().getContent();
                             String value = execute.getEntity().getContentType().getValue();
-                            CharSequence charSequence = bi_常量类.f6358b;
+                            CharSequence charSequence = bi_常量类.f6358b_空串;
                             statusCode = value.indexOf("charset=");
                             if (statusCode != -1) {
                                 charSequence = value.substring(statusCode + 8);
@@ -589,7 +589,7 @@ public class C0569l {
                             }
                             bufferedReader = new BufferedReader(inputStreamReader2, 2048);
                             try {
-                                String str5 = bi_常量类.f6358b;
+                                String str5 = bi_常量类.f6358b_空串;
                                 while (true) {
                                     str5 = bufferedReader.readLine();
                                     if (str5 == null) {
@@ -1169,7 +1169,7 @@ public class C0569l {
         BufferedReader bufferedReader2;
         Throwable th;
         Reader reader;
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         NetworkInfo b = C0583t.m4582b(context);
         if (C0569l.m4532a(b) == -1) {
             return null;
@@ -1565,7 +1565,7 @@ public class C0569l {
                                 inputStream2 = content;
                             }
                             try {
-                                String str4 = bi_常量类.f6358b;
+                                String str4 = bi_常量类.f6358b_空串;
                                 while (true) {
                                     str4 = bufferedReader4.readLine();
                                     if (str4 == null) {
@@ -2339,7 +2339,7 @@ public class C0569l {
             }
         }
         stringBuffer2.delete(0, stringBuffer2.length());
-        if (str3.equals(bi_常量类.f6358b)) {
+        if (str3.equals(bi_常量类.f6358b_空串)) {
             return null;
         }
         return str3;

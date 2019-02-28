@@ -69,7 +69,7 @@ public class Convert {
         try {
             return new String(bArr, i, i2, "UTF-8");
         } catch (Throwable th) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -128,7 +128,7 @@ public class Convert {
         } catch (Throwable th) {
             th.printStackTrace();
             c0591a.f3641a = 0;
-            c0591a.f3642b = bi_常量类.f6358b;
+            c0591a.f3642b = bi_常量类.f6358b_空串;
         }
     }
 
@@ -139,7 +139,7 @@ public class Convert {
         } catch (Throwable th) {
             th.printStackTrace();
             c0591a.f3641a = 0;
-            c0591a.f3642b = bi_常量类.f6358b;
+            c0591a.f3642b = bi_常量类.f6358b_空串;
         }
     }
 

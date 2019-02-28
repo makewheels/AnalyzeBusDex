@@ -1174,7 +1174,7 @@ class ac {
             C1131y.m7904a(context).m7911b(0);
             C1131y.m7904a(context).m7914c(0);
             C1131y.m7904a(context).m7912b(0, 3);
-            C1131y.m7904a(context).m7909a(bi_常量类.f6358b);
+            C1131y.m7904a(context).m7909a(bi_常量类.f6358b_空串);
             C1131y.m7904a(context).m7916d(-1);
             if (TbsShareManager.isThirdPartyApp(context)) {
                 TbsShareManager.writeCoreInfoForThirdPartyApp(context, m7746e(context), true);
@@ -1247,7 +1247,7 @@ class ac {
         C1131y.m7904a(context).m7911b(0);
         C1131y.m7904a(context).m7914c(0);
         C1131y.m7904a(context).m7912b(0, -1);
-        C1131y.m7904a(context).m7909a(bi_常量类.f6358b);
+        C1131y.m7904a(context).m7909a(bi_常量类.f6358b_空串);
         C1131y.m7904a(context).m7907a(0);
         C1131y.m7904a(context).m7908a(0, -1);
         C1131y.m7904a(context).m7916d(-1);

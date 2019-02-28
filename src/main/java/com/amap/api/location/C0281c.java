@@ -235,7 +235,7 @@ public class C0281c implements Runnable {
 
     /* renamed from: a */
     private AMapLocation m1801a(C0556c c0556c) {
-        AMapLocation aMapLocation = new AMapLocation(bi_常量类.f6358b);
+        AMapLocation aMapLocation = new AMapLocation(bi_常量类.f6358b_空串);
         aMapLocation.setProvider(LocationProviderProxy.AMapNetwork);
         aMapLocation.setLatitude(c0556c.m4442e());
         aMapLocation.setLongitude(c0556c.m4440d());
@@ -262,7 +262,7 @@ public class C0281c implements Runnable {
         String[] split = str3.split(" ");
         aMapLocation.setCityCode(str);
         aMapLocation.setAdCode(str2);
-        if (str.equals(bi_常量类.f6358b) || !m1803a(str)) {
+        if (str.equals(bi_常量类.f6358b_空串) || !m1803a(str)) {
             if (split.length > 3) {
                 aMapLocation.setProvince(split[0]);
                 aMapLocation.setCity(split[1]);
@@ -282,7 +282,7 @@ public class C0281c implements Runnable {
                 aMapLocation.m1758a(split[2] + split[3]);
             }
         }
-        aMapLocation.m1759b(str3.replace(" ", bi_常量类.f6358b));
+        aMapLocation.m1759b(str3.replace(" ", bi_常量类.f6358b_空串));
     }
 
     /* renamed from: a */

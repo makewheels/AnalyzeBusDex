@@ -356,7 +356,7 @@ public final class C0189f implements Closeable {
             String a3 = C0189f.m683a((InputStream) bufferedInputStream);
             String a4 = C0189f.m683a((InputStream) bufferedInputStream);
             String a5 = C0189f.m683a((InputStream) bufferedInputStream);
-            if ("libcore.io.DiskLruCache".equals(a) && C0108a.f262e.equals(a2) && Integer.toString(this.f551e).equals(a3) && Integer.toString(this.f553g).equals(a4) && bi_常量类.f6358b.equals(a5)) {
+            if ("libcore.io.DiskLruCache".equals(a) && C0108a.f262e.equals(a2) && Integer.toString(this.f551e).equals(a3) && Integer.toString(this.f553g).equals(a4) && bi_常量类.f6358b_空串.equals(a5)) {
                 while (true) {
                     try {
                         m694d(C0189f.m683a((InputStream) bufferedInputStream));

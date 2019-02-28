@@ -34,10 +34,10 @@ public final class C0888 {
     /* renamed from: 连接数组成员 */
     public static String m6775(String[] array, String separator) {
         if (separator == null || array == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         StringBuilder sb = new StringBuilder();
-        String sep = bi_常量类.f6358b;
+        String sep = bi_常量类.f6358b_空串;
         for (String a : array) {
             sb.append(sep).append(a);
             sep = separator;

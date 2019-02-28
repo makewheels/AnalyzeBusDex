@@ -11,7 +11,7 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.autonavi.tbt.f */
 public class C0615f {
     /* renamed from: a */
-    public static String f3785a = bi_常量类.f6358b;
+    public static String f3785a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     public static float f3786b = 1.0f;
     /* renamed from: c */
@@ -86,7 +86,7 @@ public class C0615f {
     /* renamed from: a */
     public static String m4831a(String str) {
         if (str == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         String[] split = str.split(":");
         StringBuffer stringBuffer = new StringBuffer();
@@ -97,7 +97,7 @@ public class C0615f {
             if (!"00".equals(split[0])) {
                 if (split[0].indexOf("0") != -1) {
                     indexOf = split[0].indexOf("0");
-                    str2 = bi_常量类.f6358b;
+                    str2 = bi_常量类.f6358b_空串;
                     if (indexOf + 1 < split[0].length()) {
                         substring = split[0].substring(indexOf + 1);
                     } else {
@@ -111,7 +111,7 @@ public class C0615f {
             if (!"00".equals(split[1])) {
                 if (split[1].indexOf("0") != -1) {
                     indexOf = split[1].indexOf("0");
-                    str2 = bi_常量类.f6358b;
+                    str2 = bi_常量类.f6358b_空串;
                     if (indexOf + 1 < split[1].length()) {
                         substring = split[1].substring(indexOf + 1);
                     } else {
@@ -129,7 +129,7 @@ public class C0615f {
     /* renamed from: a */
     public static String m4832a(String str, String str2, String str3) {
         if (str == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         String[] split = str.split(":");
         StringBuffer stringBuffer = new StringBuffer();
@@ -140,7 +140,7 @@ public class C0615f {
             if (!"00".equals(split[0])) {
                 if (split[0].indexOf("0") != -1) {
                     indexOf = split[0].indexOf("0");
-                    str4 = bi_常量类.f6358b;
+                    str4 = bi_常量类.f6358b_空串;
                     if (indexOf != 0 || indexOf + 1 >= split[0].length()) {
                         str5 = split[0];
                     } else {
@@ -154,7 +154,7 @@ public class C0615f {
             if (!"00".equals(split[1])) {
                 if (split[1].indexOf("0") != -1) {
                     indexOf = split[1].indexOf("0");
-                    str4 = bi_常量类.f6358b;
+                    str4 = bi_常量类.f6358b_空串;
                     if (indexOf + 1 < split[1].length()) {
                         str5 = split[1].substring(indexOf + 1);
                     } else {
@@ -191,7 +191,7 @@ public class C0615f {
         if (i < 10) {
             return "0" + i;
         }
-        return bi_常量类.f6358b + i;
+        return bi_常量类.f6358b_空串 + i;
     }
 
     /* renamed from: a */

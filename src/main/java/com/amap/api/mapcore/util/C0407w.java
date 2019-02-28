@@ -13,11 +13,11 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.amap.api.mapcore.util.w */
 public class C0407w {
     /* renamed from: a */
-    private static String f2193a = bi_常量类.f6358b;
+    private static String f2193a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     private static String f2194b = null;
     /* renamed from: c */
-    private static String f2195c = bi_常量类.f6358b;
+    private static String f2195c = bi_常量类.f6358b_空串;
     /* renamed from: d */
     private static String f2196d;
     /* renamed from: e */
@@ -26,7 +26,7 @@ public class C0407w {
     /* renamed from: a */
     public static String m3489a(Context context) {
         try {
-            if (!bi_常量类.f6358b.equals(f2193a)) {
+            if (!bi_常量类.f6358b_空串.equals(f2193a)) {
                 return f2193a;
             }
             PackageManager packageManager = context.getPackageManager();
@@ -44,7 +44,7 @@ public class C0407w {
     /* renamed from: b */
     public static String m3491b(Context context) {
         try {
-            if (f2194b != null && !bi_常量类.f6358b.equals(f2194b)) {
+            if (f2194b != null && !bi_常量类.f6358b_空串.equals(f2194b)) {
                 return f2194b;
             }
             f2194b = context.getApplicationContext().getPackageName();
@@ -58,7 +58,7 @@ public class C0407w {
     /* renamed from: c */
     public static String m3492c(Context context) {
         try {
-            if (!bi_常量类.f6358b.equals(f2195c)) {
+            if (!bi_常量类.f6358b_空串.equals(f2195c)) {
                 return f2195c;
             }
             f2195c = context.getPackageManager().getPackageInfo(context.getPackageName(), 0).versionName;
@@ -75,7 +75,7 @@ public class C0407w {
     /* renamed from: d */
     public static String m3493d(Context context) {
         try {
-            if (f2197e != null && !bi_常量类.f6358b.equals(f2197e)) {
+            if (f2197e != null && !bi_常量类.f6358b_空串.equals(f2197e)) {
                 return f2197e;
             }
             PackageInfo packageInfo = context.getPackageManager().getPackageInfo(context.getPackageName(), 64);
@@ -114,7 +114,7 @@ public class C0407w {
 
     /* renamed from: g */
     private static String m3496g(Context context) throws NameNotFoundException {
-        if (f2196d == null || f2196d.equals(bi_常量类.f6358b)) {
+        if (f2196d == null || f2196d.equals(bi_常量类.f6358b_空串)) {
             f2196d = context.getPackageManager().getApplicationInfo(context.getPackageName(), 128).metaData.getString("com.amap.api.v2.apikey");
         }
         return f2196d;

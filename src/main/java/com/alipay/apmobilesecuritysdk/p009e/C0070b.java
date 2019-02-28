@@ -12,7 +12,7 @@ import p054u.aly.bi_常量类;
 public final class C0070b {
     /* renamed from: a */
     public static String m185a(Context context) {
-        String a = C0169c.m616a(context, "alipay_vkey_random", "random", bi_常量类.f6358b);
+        String a = C0169c.m616a(context, "alipay_vkey_random", "random", bi_常量类.f6358b_空串);
         if (C0159a.m556a(a)) {
             a = C0157b.m549a(UUID.randomUUID().toString());
             String str = "alipay_vkey_random";

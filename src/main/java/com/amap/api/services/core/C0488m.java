@@ -332,7 +332,7 @@ public class C0488m {
     /* renamed from: a */
     public static boolean m4052a(String str) {
         try {
-            if (str.equals(bi_常量类.f6358b)) {
+            if (str.equals(bi_常量类.f6358b_空串)) {
                 return false;
             }
             int parseInt = Integer.parseInt(str);
@@ -552,7 +552,7 @@ public class C0488m {
         List arrayList = new ArrayList();
         for (int i = 0; i < jSONArray.length(); i++) {
             JSONObject jSONObject = jSONArray.getJSONObject(i);
-            PoiItem poiItem = new PoiItem(C0488m.m4055b(jSONObject, "id"), C0488m.m4060c(jSONObject, LocationManagerProxy.KEY_LOCATION_CHANGED), C0488m.m4055b(jSONObject, C0110c.f289e), bi_常量类.f6358b);
+            PoiItem poiItem = new PoiItem(C0488m.m4055b(jSONObject, "id"), C0488m.m4060c(jSONObject, LocationManagerProxy.KEY_LOCATION_CHANGED), C0488m.m4055b(jSONObject, C0110c.f289e), bi_常量类.f6358b_空串);
             poiItem.setDirection(C0488m.m4055b(jSONObject, "direction"));
             poiItem.setDistance(C0488m.m4079i(C0488m.m4055b(jSONObject, "distance")));
             poiItem.setTel(C0488m.m4055b(jSONObject, "tel"));
@@ -911,9 +911,9 @@ public class C0488m {
     /* renamed from: b */
     public static String m4055b(JSONObject jSONObject, String str) throws JSONException {
         if (jSONObject == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         if (!jSONObject.has(str) || jSONObject.getString(str).equals("[]")) {
             return str2;
         }
@@ -948,7 +948,7 @@ public class C0488m {
 
     /* renamed from: f */
     public static LatLonPoint m4074f(String str) {
-        if (str == null || str.equals(bi_常量类.f6358b) || str.equals("[]")) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串) || str.equals("[]")) {
             return null;
         }
         String[] split = str.split(",");
@@ -960,7 +960,7 @@ public class C0488m {
 
     /* renamed from: g */
     public static boolean m4076g(String str) {
-        if (str == null || str.equals(bi_常量类.f6358b) || str.equals("0")) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串) || str.equals("0")) {
             return true;
         }
         return false;
@@ -968,7 +968,7 @@ public class C0488m {
 
     /* renamed from: h */
     public static boolean m4078h(String str) {
-        if (str == null || str.equals(bi_常量类.f6358b)) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串)) {
             return true;
         }
         return false;
@@ -977,7 +977,7 @@ public class C0488m {
     /* renamed from: i */
     public static int m4079i(String str) {
         int i = 0;
-        if (!(str == null || str.equals(bi_常量类.f6358b) || str.equals("[]"))) {
+        if (!(str == null || str.equals(bi_常量类.f6358b_空串) || str.equals("[]"))) {
             try {
                 i = Integer.parseInt(str);
             } catch (NumberFormatException e) {
@@ -989,7 +989,7 @@ public class C0488m {
     /* renamed from: j */
     public static float m4081j(String str) {
         float f = 0.0f;
-        if (!(str == null || str.equals(bi_常量类.f6358b) || str.equals("[]"))) {
+        if (!(str == null || str.equals(bi_常量类.f6358b_空串) || str.equals("[]"))) {
             try {
                 f = Float.parseFloat(str);
             } catch (NumberFormatException e) {
@@ -1001,7 +1001,7 @@ public class C0488m {
     /* renamed from: k */
     public static long m4083k(String str) {
         long j = 0;
-        if (!(str == null || str.equals(bi_常量类.f6358b) || str.equals("[]"))) {
+        if (!(str == null || str.equals(bi_常量类.f6358b_空串) || str.equals("[]"))) {
             try {
                 j = Long.parseLong(str);
             } catch (NumberFormatException e) {
@@ -1012,7 +1012,7 @@ public class C0488m {
 
     /* renamed from: l */
     public static boolean m4086l(String str) {
-        if (str == null || str.equals(bi_常量类.f6358b) || str.equals("[]") || str.equals("0") || !str.equals(C0108a.f262e)) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串) || str.equals("[]") || str.equals("0") || !str.equals(C0108a.f262e)) {
             return false;
         }
         return true;

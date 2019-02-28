@@ -95,7 +95,7 @@ public class DistrictSearchQuery implements Parcelable, Cloneable {
     }
 
     public boolean checkKeyWords() {
-        if (this.f2975c == null || this.f2975c.trim().equalsIgnoreCase(bi_常量类.f6358b)) {
+        if (this.f2975c == null || this.f2975c.trim().equalsIgnoreCase(bi_常量类.f6358b_空串)) {
             return false;
         }
         return true;

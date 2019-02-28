@@ -35,7 +35,7 @@ public final class C1273c {
     private String m8507a(int i) {
         int i2 = 0;
         if (i == 0) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         char[] cArr = new char[i];
         if (this.f5724d) {
@@ -236,7 +236,7 @@ public final class C1273c {
                 }
                 m8509a();
                 String trim = stringBuffer2.toString().trim();
-                if (trim.equals(bi_常量类.f6358b)) {
+                if (trim.equals(bi_常量类.f6358b_空串)) {
                     throw m8508a("Missing value");
                 } else if (trim.equalsIgnoreCase("true")) {
                     return Boolean.TRUE;

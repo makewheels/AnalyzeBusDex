@@ -212,7 +212,7 @@ public class C1448q {
             } else {
                 this.f6587e.m9475a(ag.ACCESS_TYPE_UNKNOWN);
             }
-            if (!bi_常量类.f6358b.equals(j[1])) {
+            if (!bi_常量类.f6358b_空串.equals(j[1])) {
                 this.f6587e.m9493e(j[1]);
             }
             this.f6587e.m9487c(bi_常量类.m9994s(context));

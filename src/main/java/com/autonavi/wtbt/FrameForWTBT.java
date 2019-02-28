@@ -165,7 +165,7 @@ public class FrameForWTBT implements IFrameForWTBT {
         try {
             this.playType = i;
             if (i == 8) {
-                this.playSound = bi_常量类.f6358b;
+                this.playSound = bi_常量类.f6358b_空串;
             } else {
                 this.playSound = str;
             }

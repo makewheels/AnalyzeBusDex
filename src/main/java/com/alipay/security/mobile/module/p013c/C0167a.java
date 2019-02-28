@@ -11,7 +11,7 @@ import p054u.aly.bi_常量类;
 public final class C0167a {
     /* renamed from: a */
     public static String m612a(String str) {
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         try {
             str2 = System.getProperty(str);
         } catch (Throwable th) {

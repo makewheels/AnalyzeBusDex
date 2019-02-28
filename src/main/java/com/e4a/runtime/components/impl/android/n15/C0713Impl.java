@@ -84,7 +84,7 @@ public class C0713Impl extends ViewComponent implements C0698, OnActivityResultL
         }
 
         public void openFileChooser(ValueCallback uploadMsg) {
-            openFileChooser(uploadMsg, bi_常量类.f6358b);
+            openFileChooser(uploadMsg, bi_常量类.f6358b_空串);
         }
 
         public void openFileChooser(ValueCallback uploadMsg, String acceptType) {

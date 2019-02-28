@@ -22,7 +22,7 @@ public class C1092a {
             return f4947b;
         }
         String str = "/proc/meminfo";
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         BufferedReader bufferedReader;
         try {
             int indexOf;

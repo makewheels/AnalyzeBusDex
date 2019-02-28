@@ -49,30 +49,30 @@ public class C06598 extends C0645Impl {
     public static C0644 f42468;
     @SimpleDataElement
     /* renamed from: a */
-    public String f4247a = bi_常量类.f6358b;
+    public String f4247a = bi_常量类.f6358b_空串;
     @SimpleDataElement
     public String[] aav;
     @SimpleDataElement
-    public String dingdan = bi_常量类.f6358b;
+    public String dingdan = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: e */
-    public String f4248e = bi_常量类.f6358b;
+    public String f4248e = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: f */
-    public String f4249f = bi_常量类.f6358b;
+    public String f4249f = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: g */
-    public String f4250g = bi_常量类.f6358b;
+    public String f4250g = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: ok微信支付1 */
     public C0794ok f4251ok1;
     @SimpleDataElement
-    public String shijian = bi_常量类.f6358b;
+    public String shijian = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String wl = bi_常量类.f6358b;
+    public String wl = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: x */
-    public String f4252x = bi_常量类.f6358b;
+    public String f4252x = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 图片框1 */
     public C0739 f42531;
@@ -102,7 +102,7 @@ public class C06598 extends C0645Impl {
     public C0717 f42611;
     @SimpleDataElement
     /* renamed from: 额度 */
-    public String f4262 = bi_常量类.f6358b;
+    public String f4262 = bi_常量类.f6358b_空串;
 
     public C06598() {
         Objects.initializeProperties(this);
@@ -174,7 +174,7 @@ public class C06598 extends C0645Impl {
         this.f42611.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.041d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42611.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.883d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f42611.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f42611.mo887(bi_常量类.f6358b);
+        this.f42611.mo887(bi_常量类.f6358b_空串);
         this.f42611.mo889(-16777216);
         this.f42611.mo896(false);
         this.f42611.mo892(false);
@@ -183,7 +183,7 @@ public class C06598 extends C0645Impl {
         this.f42611.mo1041(1);
         this.f42611.mo891(3);
         this.f42611.mo772(true);
-        this.f42611.mo1035(bi_常量类.f6358b);
+        this.f42611.mo1035(bi_常量类.f6358b_空串);
         this.f42611.mo899(WebView.NORMAL_MODE_ALPHA);
         this.f42611.mo776(false);
         c0742Impl = new C0742Impl(f42468);
@@ -238,11 +238,11 @@ public class C06598 extends C0645Impl {
 
     /* renamed from: 窗口8$创建完毕 */
     public void m53458$() {
-        String str = bi_常量类.f6358b;
-        str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
+        str = bi_常量类.f6358b_空串;
         try {
-            String huo = bi_常量类.f6358b;
-            String huoo = bi_常量类.f6358b;
+            String huo = bi_常量类.f6358b_空串;
+            String huoo = bi_常量类.f6358b_空串;
             this.wl = C0898_读写设置类.m6937_通过SP读取设置("网").getString();
             this.f4251ok1.mo1417("wx3810718aaeeeafcd", "9VPnMa7VjKAtpdGENVL66d5pdbdfy28q", "1387406602");
             this.f42601.mo960JS("hua");
@@ -281,8 +281,8 @@ public class C06598 extends C0645Impl {
             } else {
                 this.shijian = C0899.m6945(ConvHelpers.string2double(((((Integer.toString(C0891.m6828(C0891.m6837())) + Integer.toString(C0891.m6834(C0891.m6837()))) + Integer.toString(C0891.m6830(C0891.m6837()))) + Integer.toString(C0891.m6827(C0891.m6837()))) + Integer.toString(C0891.m6825(C0891.m6837()))) + Integer.toString(C0891.m6840(C0891.m6837()))));
                 this.aav = C0890_文本操作.m6806_分割字符串(网页消息, "/");
-                this.shijian = C0890_文本操作.m6819(this.shijian, ".", bi_常量类.f6358b);
-                this.shijian = C0890_文本操作.m6819(this.shijian, "E", bi_常量类.f6358b);
+                this.shijian = C0890_文本操作.m6819(this.shijian, ".", bi_常量类.f6358b_空串);
+                this.shijian = C0890_文本操作.m6819(this.shijian, "E", bi_常量类.f6358b_空串);
                 if (this.aav[0].equals(C0108a.f262e)) {
                     this.dingdan = C0108a.f262e;
                     this.f4248e = Integer.toString(ConvHelpers.byte2integer((byte) 1));
@@ -332,8 +332,8 @@ public class C06598 extends C0645Impl {
 
     /* renamed from: 窗口8$切换完毕 */
     public void m53448$() {
-        String huo = bi_常量类.f6358b;
-        String huoo = bi_常量类.f6358b;
+        String huo = bi_常量类.f6358b_空串;
+        String huoo = bi_常量类.f6358b_空串;
         if (C0898_读写设置类.m6937_通过SP读取设置("购物").cmp(StringVariant.getStringVariant(C0108a.f262e)) == 0) {
             this.f42601.mo976(C0897_网络操作.m6922(this.wl + "/gouwu/gouwu.txt", "UTF-8", 5000));
             C0898_读写设置类.m6935_通过SP保存设置("购物", StringVariant.getStringVariant("0"));
@@ -360,9 +360,9 @@ public class C06598 extends C0645Impl {
 
     /* renamed from: 图片框1$被单击 */
     public void m53411$() {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         try {
-            String huo = bi_常量类.f6358b;
+            String huo = bi_常量类.f6358b_空串;
             if (C0890_文本操作.m6816(C0897_网络操作.m6922(this.wl + "/huo.txt", "UTF-8", 5000), 4).equals("http")) {
                 this.f42601.mo976(this.wl + "/shouji/index2.html");
                 return;

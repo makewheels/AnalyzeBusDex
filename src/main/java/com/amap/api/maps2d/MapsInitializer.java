@@ -8,7 +8,7 @@ import p054u.aly.bi_常量类;
 public final class MapsInitializer {
     /* renamed from: a */
     private static boolean f2564a = true;
-    public static String sdcardDir = bi_常量类.f6358b;
+    public static String sdcardDir = bi_常量类.f6358b_空串;
 
     public static void initialize(Context context) throws RemoteException {
         aw.f673a = context.getApplicationContext();

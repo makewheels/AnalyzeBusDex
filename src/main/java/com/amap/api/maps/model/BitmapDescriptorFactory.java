@@ -103,7 +103,7 @@ public final class BitmapDescriptorFactory {
             } else {
                 f2 = f3;
             }
-            String str = bi_常量类.f6358b;
+            String str = bi_常量类.f6358b_空串;
             if (f2 == 0.0f) {
                 str = "RED";
             } else if (f2 == 30.0f) {

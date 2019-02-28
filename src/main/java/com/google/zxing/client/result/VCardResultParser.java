@@ -115,7 +115,7 @@ public final class VCardResultParser extends ResultParser {
                 if (quotedPrintable) {
                     element = decodeQuotedPrintable(element, quotedPrintableCharset);
                 } else {
-                    element = VCARD_ESCAPES.matcher(NEWLINE_ESCAPE.matcher(CR_LF_SPACE_TAB.matcher(element).replaceAll(bi_常量类.f6358b)).replaceAll("\n")).replaceAll("$1");
+                    element = VCARD_ESCAPES.matcher(NEWLINE_ESCAPE.matcher(CR_LF_SPACE_TAB.matcher(element).replaceAll(bi_常量类.f6358b_空串)).replaceAll("\n")).replaceAll("$1");
                 }
                 if (metadata == null) {
                     List<String> match = new ArrayList(1);

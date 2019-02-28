@@ -12,7 +12,7 @@ public class C0612c extends au {
     /* renamed from: b */
     Map<String, String> f3781b = null;
     /* renamed from: c */
-    String f3782c = bi_常量类.f6358b;
+    String f3782c = bi_常量类.f6358b_空串;
     /* renamed from: d */
     HttpEntity f3783d = null;
 

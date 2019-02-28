@@ -39,7 +39,7 @@ public final class C0020e extends C0018b {
             return URLEncodedUtils.format(arrayList, "utf-8").getBytes();
         } catch (Throwable e) {
             Throwable th = e;
-            throw new RpcException(Integer.valueOf(9), new StringBuilder("request  =").append(this.b).append(":").append(th).toString() == null ? bi_常量类.f6358b : th.getMessage(), th);
+            throw new RpcException(Integer.valueOf(9), new StringBuilder("request  =").append(this.b).append(":").append(th).toString() == null ? bi_常量类.f6358b_空串 : th.getMessage(), th);
         }
     }
 }

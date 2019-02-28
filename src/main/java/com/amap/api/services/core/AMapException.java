@@ -30,7 +30,7 @@ public class AMapException extends Exception {
     public static final String ERROR_UNKNOW_SERVICE = "服务器连接失败 - UnknownServiceException";
     public static final String ERROR_URL = "url异常 - MalformedURLException";
     /* renamed from: a */
-    private String f2904a = bi_常量类.f6358b;
+    private String f2904a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     private int f2905b = 0;
 

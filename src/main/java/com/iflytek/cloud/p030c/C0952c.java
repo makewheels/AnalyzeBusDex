@@ -38,7 +38,7 @@ public class C0952c {
 
     /* renamed from: a */
     public static String m7182a(int i) {
-        return i >= 100 ? "10" : i <= 0 ? "0" : bi_常量类.f6358b + (i / 10);
+        return i >= 100 ? "10" : i <= 0 ? "0" : bi_常量类.f6358b_空串 + (i / 10);
     }
 
     /* renamed from: a */
@@ -67,8 +67,8 @@ public class C0952c {
         C0950a a = C0942a.m7128a(context);
         w.m7171a("mac", a.m7179d("net.mac"), false);
         w.m7171a("dvc", C0952c.m7183a(context), false);
-        w.m7171a("msc.lat", bi_常量类.f6358b + C0913a.m6973a(context).m6976a("msc.lat"), false);
-        w.m7171a("msc.lng", bi_常量类.f6358b + C0913a.m6973a(context).m6976a("msc.lng"), false);
+        w.m7171a("msc.lat", bi_常量类.f6358b_空串 + C0913a.m6973a(context).m6976a("msc.lat"), false);
+        w.m7171a("msc.lng", bi_常量类.f6358b_空串 + C0913a.m6973a(context).m6976a("msc.lng"), false);
         w.m7168a(a, "app.name");
         w.m7168a(a, "app.path");
         w.m7168a(a, "app.pkg");
@@ -181,7 +181,7 @@ public class C0952c {
             }
             C0945d.m7144c(str);
             c0950a.m7170a("log", str);
-            c0950a.m7170a("lvl", bi_常量类.f6358b + i);
+            c0950a.m7170a("lvl", bi_常量类.f6358b_空串 + i);
             c0950a.m7171a("output", C0108a.f262e, false);
         }
     }

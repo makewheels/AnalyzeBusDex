@@ -100,6 +100,6 @@ public class C0483h {
 
     /* renamed from: b */
     public static String m4036b(byte[] bArr) {
-        return bArr != null ? C0475a.m3989a(bArr) : bi_常量类.f6358b;
+        return bArr != null ? C0475a.m3989a(bArr) : bi_常量类.f6358b_空串;
     }
 }

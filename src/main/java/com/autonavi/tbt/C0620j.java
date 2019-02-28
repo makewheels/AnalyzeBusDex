@@ -14,7 +14,7 @@ public class C0620j {
     /* renamed from: a */
     public static int f3818a = -1;
     /* renamed from: b */
-    public static String f3819b = bi_常量类.f6358b;
+    public static String f3819b = bi_常量类.f6358b_空串;
     /* renamed from: c */
     private static C0629p f3820c;
     /* renamed from: d */

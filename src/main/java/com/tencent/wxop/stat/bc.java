@@ -12,7 +12,7 @@ import p054u.aly.bi_常量类;
 
 class bc extends SQLiteOpenHelper {
     /* renamed from: a */
-    private String f5420a = bi_常量类.f6358b;
+    private String f5420a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     private Context f5421b = null;
 

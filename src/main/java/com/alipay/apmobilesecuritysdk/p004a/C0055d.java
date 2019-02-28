@@ -109,7 +109,7 @@ public final class C0055d {
 
     /* renamed from: c */
     private static String m146c(Context context) {
-        String a = C0169c.m616a(context, "vkeyid_profiles_v3", "deviceid", bi_常量类.f6358b);
+        String a = C0169c.m616a(context, "vkeyid_profiles_v3", "deviceid", bi_常量类.f6358b_空串);
         return C0159a.m556a(a) ? null : C0158c.m553b(C0158c.m550a(), a);
     }
 }

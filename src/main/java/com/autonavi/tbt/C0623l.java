@@ -67,13 +67,13 @@ public class C0623l {
     /* renamed from: a */
     public static String m4882a(Context context) {
         try {
-            if (f3823a != null && !bi_常量类.f6358b.equals(f3823a)) {
+            if (f3823a != null && !bi_常量类.f6358b_空串.equals(f3823a)) {
                 return f3823a;
             }
             if (context.checkCallingOrSelfPermission("android.permission.WRITE_SETTINGS") == 0) {
                 f3823a = System.getString(context.getContentResolver(), "mqBRboGZkQPcAkyk");
             }
-            if (!(f3823a == null || bi_常量类.f6358b.equals(f3823a))) {
+            if (!(f3823a == null || bi_常量类.f6358b_空串.equals(f3823a))) {
                 return f3823a;
             }
             try {
@@ -139,7 +139,7 @@ public class C0623l {
     /* renamed from: c */
     static String m4888c(Context context) {
         try {
-            if (f3825c != null && !bi_常量类.f6358b.equals(f3825c)) {
+            if (f3825c != null && !bi_常量类.f6358b_空串.equals(f3825c)) {
                 return f3825c;
             }
             if (context.checkCallingOrSelfPermission("android.permission.ACCESS_WIFI_STATE") != 0) {
@@ -184,7 +184,7 @@ public class C0623l {
 
     /* renamed from: e */
     static String m4890e(Context context) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         try {
             str = C0623l.m4907v(context);
         } catch (Throwable th) {
@@ -254,7 +254,7 @@ public class C0623l {
     /* renamed from: j */
     static String m4895j(Context context) {
         try {
-            if (f3826d != null && !bi_常量类.f6358b.equals(f3826d)) {
+            if (f3826d != null && !bi_常量类.f6358b_空串.equals(f3826d)) {
                 return f3826d;
             }
             DisplayMetrics displayMetrics = new DisplayMetrics();
@@ -293,7 +293,7 @@ public class C0623l {
     /* renamed from: m */
     static String m4898m(Context context) {
         try {
-            if (f3827e != null && !bi_常量类.f6358b.equals(f3827e)) {
+            if (f3827e != null && !bi_常量类.f6358b_空串.equals(f3827e)) {
                 return f3827e;
             }
             if (context.checkCallingOrSelfPermission("android.permission.READ_PHONE_STATE") != 0) {
@@ -352,7 +352,7 @@ public class C0623l {
 
     /* renamed from: r */
     private static String m4903r(Context context) {
-        if (f3828f != null && !bi_常量类.f6358b.equals(f3828f)) {
+        if (f3828f != null && !bi_常量类.f6358b_空串.equals(f3828f)) {
             return f3828f;
         }
         if (context.checkCallingOrSelfPermission("android.permission.READ_PHONE_STATE") != 0) {
@@ -373,15 +373,15 @@ public class C0623l {
     /* renamed from: t */
     private static String m4905t(Context context) {
         if (context.checkCallingOrSelfPermission("android.permission.ACCESS_NETWORK_STATE") != 0) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService("connectivity");
         if (connectivityManager == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
         if (activeNetworkInfo == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         return activeNetworkInfo.getTypeName();
     }
@@ -404,7 +404,7 @@ public class C0623l {
 
     /* renamed from: v */
     private static String m4907v(Context context) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         String n = C0623l.m4899n(context);
         if (n == null || n.length() < 5) {
             return str;

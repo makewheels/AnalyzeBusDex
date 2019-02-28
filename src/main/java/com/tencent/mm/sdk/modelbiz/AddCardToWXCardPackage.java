@@ -44,7 +44,7 @@ public class AddCardToWXCardPackage {
                     jSONStringer.key("card_id");
                     jSONStringer.value(wXCardItem.cardId);
                     jSONStringer.key("card_ext");
-                    jSONStringer.value(wXCardItem.cardExtMsg == null ? bi_常量类.f6358b : wXCardItem.cardExtMsg);
+                    jSONStringer.value(wXCardItem.cardExtMsg == null ? bi_常量类.f6358b_空串 : wXCardItem.cardExtMsg);
                     jSONStringer.endObject();
                 }
                 jSONStringer.endArray();
@@ -105,7 +105,7 @@ public class AddCardToWXCardPackage {
                     jSONStringer.key("card_id");
                     jSONStringer.value(wXCardItem.cardId);
                     jSONStringer.key("card_ext");
-                    jSONStringer.value(wXCardItem.cardExtMsg == null ? bi_常量类.f6358b : wXCardItem.cardExtMsg);
+                    jSONStringer.value(wXCardItem.cardExtMsg == null ? bi_常量类.f6358b_空串 : wXCardItem.cardExtMsg);
                     jSONStringer.key("is_succ");
                     jSONStringer.value((long) wXCardItem.cardState);
                     jSONStringer.endObject();

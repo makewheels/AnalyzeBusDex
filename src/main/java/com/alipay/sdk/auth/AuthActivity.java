@@ -65,7 +65,7 @@ public class AuthActivity extends Activity {
             }
             Object obj = null;
             if (message.startsWith("h5container.message: ")) {
-                obj = message.replaceFirst("h5container.message: ", bi_常量类.f6358b);
+                obj = message.replaceFirst("h5container.message: ", bi_常量类.f6358b_空串);
             }
             if (TextUtils.isEmpty(obj)) {
                 return super.onConsoleMessage(consoleMessage);

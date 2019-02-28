@@ -53,7 +53,7 @@ public class C1006a {
                 z = false;
             }
             Log.e(str4, append2.append(z).toString());
-            aidCallback.onAidEventChanged(1002, bi_常量类.f6358b);
+            aidCallback.onAidEventChanged(1002, bi_常量类.f6358b_空串);
         } else {
             String a = C1009c.m7362a(this.f4666c, str, str2);
             if (!C1020h.m7383a(a) && C1021i.m7385a(C1009c.m7365b(this.f4666c, str, str2))) {
@@ -76,7 +76,7 @@ public class C1006a {
                 z = false;
             }
             Log.e(str4, append.append(z).toString());
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         String a = C1009c.m7362a(this.f4666c, str, str2);
         if ((C1020h.m7383a(a) || !C1021i.m7385a(C1009c.m7365b(this.f4666c, str, str2))) && C1017e.m7376a(this.f4666c)) {
@@ -90,9 +90,9 @@ public class C1006a {
         String str4;
         if (this.f4666c == null) {
             Log.e(f4665b, "no context!");
-            str4 = bi_常量类.f6358b;
+            str4 = bi_常量类.f6358b_空串;
         } else {
-            str4 = bi_常量类.f6358b;
+            str4 = bi_常量类.f6358b_空串;
             if (C1017e.m7376a(this.f4666c)) {
                 str4 = C1008b.m7353a(this.f4666c).m7360a(str, str2, str3, C1009c.m7362a(this.f4666c, str, str2));
             }

@@ -45,16 +45,16 @@ public class C06609 extends C0645Impl {
     @SimpleDataElement
     public int idc;
     @SimpleDataElement
-    public String mi = bi_常量类.f6358b;
+    public String mi = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: p */
-    public String f4264p = bi_常量类.f6358b;
+    public String f4264p = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String wl = bi_常量类.f6358b;
+    public String wl = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String zhang = bi_常量类.f6358b;
+    public String zhang = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String zz = bi_常量类.f6358b;
+    public String zz = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 图片框1 */
     public C0739 f42651;
@@ -112,7 +112,7 @@ public class C06609 extends C0645Impl {
 
     /* renamed from: 窗口9$创建完毕 */
     public void m53509$() {
-        String h = bi_常量类.f6358b;
+        String h = bi_常量类.f6358b_空串;
         this.f42671.mo768();
         this.f42671.mo782(0);
         this.f42671.mo804(0);
@@ -163,10 +163,10 @@ public class C06609 extends C0645Impl {
     public void m53491$(String 网页消息) {
         try {
             if (C0890_文本操作.m6815(网页消息, 1).equals("a")) {
-                网页消息 = C0890_文本操作.m6819(C0890_文本操作.m6819(C0890_文本操作.m6819(C0890_文本操作.m6819(网页消息, "路", bi_常量类.f6358b), "快", "k"), "线", bi_常量类.f6358b), "环", "h");
+                网页消息 = C0890_文本操作.m6819(C0890_文本操作.m6819(C0890_文本操作.m6819(C0890_文本操作.m6819(网页消息, "路", bi_常量类.f6358b_空串), "快", "k"), "线", bi_常量类.f6358b_空串), "环", "h");
                 if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页消息, "ji", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
                     C0898_读写设置类.m6935_通过SP保存设置("高级", StringVariant.getStringVariant(C0108a.f262e));
-                    网页消息 = C0890_文本操作.m6819(网页消息, "gaoji", bi_常量类.f6358b);
+                    网页消息 = C0890_文本操作.m6819(网页消息, "gaoji", bi_常量类.f6358b_空串);
                     this.idc = (int) C0899.m6943(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
                     if (IntegerVariant.getIntegerVariant(this.idc).cmp(ByteVariant.getByteVariant((byte) 20)) < 0) {
                         this.ddv = C0879.m66692("提示", "您的积分不足", "如何获取积分", "退出");

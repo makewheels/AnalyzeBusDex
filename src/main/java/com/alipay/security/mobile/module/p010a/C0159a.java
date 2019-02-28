@@ -75,7 +75,7 @@ public final class C0159a {
             System.arraycopy(byteArrayOutputStream.toByteArray(), 0, obj, 4, byteArrayOutputStream.toByteArray().length);
             return Base64.encodeToString(obj, 8);
         } catch (Exception e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 }

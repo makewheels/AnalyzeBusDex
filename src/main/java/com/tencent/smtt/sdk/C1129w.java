@@ -124,7 +124,7 @@ class C1129w {
 
     /* renamed from: a */
     private String m7875a(URL url) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         try {
             str = InetAddress.getByName(url.getHost()).getHostAddress();
         } catch (Exception e) {

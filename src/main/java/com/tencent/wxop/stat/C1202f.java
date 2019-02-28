@@ -10,7 +10,7 @@ class C1202f {
     /* renamed from: b */
     JSONObject f5512b = new JSONObject();
     /* renamed from: c */
-    String f5513c = bi_常量类.f6358b;
+    String f5513c = bi_常量类.f6358b_空串;
     /* renamed from: d */
     int f5514d = 0;
 

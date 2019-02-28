@@ -16,7 +16,7 @@ public class PoiItem implements Parcelable {
     /* renamed from: d */
     private String f2911d;
     /* renamed from: e */
-    private String f2912e = bi_常量类.f6358b;
+    private String f2912e = bi_常量类.f6358b_空串;
     /* renamed from: f */
     private int f2913f = -1;
     /* renamed from: g */

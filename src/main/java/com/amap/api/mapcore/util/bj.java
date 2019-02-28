@@ -53,7 +53,7 @@ abstract class bj {
         List<ad> b = m3178b(context);
         if (b != null && b.size() != 0) {
             String a = m3184a(th);
-            if (a != null && !bi_常量类.f6358b.equals(a)) {
+            if (a != null && !bi_常量类.f6358b_空串.equals(a)) {
                 for (ad adVar : b) {
                     if (m3189a(adVar.m3038f(), a)) {
                         m3188a(adVar);
@@ -61,7 +61,7 @@ abstract class bj {
                         String a2 = m3172a(context, adVar);
                         String c2 = m3180c(context);
                         String b2 = m3177b(th);
-                        if (b2 != null && !bi_常量类.f6358b.equals(b2)) {
+                        if (b2 != null && !bi_常量类.f6358b_空串.equals(b2)) {
                             int a3 = mo600a();
                             StringBuilder stringBuilder = new StringBuilder();
                             if (str != null) {
@@ -73,7 +73,7 @@ abstract class bj {
                             stringBuilder.append(a);
                             String a4 = mo602a(a);
                             String a5 = m3174a(c2, a2, c, a3, b2, stringBuilder.toString());
-                            if (a5 != null && !bi_常量类.f6358b.equals(a5)) {
+                            if (a5 != null && !bi_常量类.f6358b_空串.equals(a5)) {
                                 String a6 = m3173a(context, a5);
                                 String b3 = mo604b();
                                 synchronized (Looper.getMainLooper()) {
@@ -96,12 +96,12 @@ abstract class bj {
         List b = m3178b(context);
         if (b != null && b.size() != 0) {
             String a = mo603a(b);
-            if (a != null && !bi_常量类.f6358b.equals(a)) {
+            if (a != null && !bi_常量类.f6358b_空串.equals(a)) {
                 String c = m3179c();
                 String a2 = m3172a(context, this.f2016a);
                 int a3 = mo600a();
                 String a4 = m3174a(m3180c(context), a2, c, a3, "ANR", a);
-                if (a4 != null && !bi_常量类.f6358b.equals(a4)) {
+                if (a4 != null && !bi_常量类.f6358b_空串.equals(a4)) {
                     String a5 = mo602a(a);
                     String a6 = m3173a(context, a4);
                     String b2 = mo604b();

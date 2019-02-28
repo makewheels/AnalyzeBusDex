@@ -23,17 +23,17 @@ import p054u.aly.bi_常量类;
 
 /* renamed from: com.e4a.runtime.components.impl.android.n1.按钮Impl */
 public class C0695Impl extends TextViewComponent implements C0693, OnTouchListener, OnClickListener, OnLongClickListener {
-    private String backgroundImage = bi_常量类.f6358b;
+    private String backgroundImage = bi_常量类.f6358b_空串;
     private int backgroundImage2 = -1;
     private int currX;
     private int currY;
-    private String downImage = bi_常量类.f6358b;
+    private String downImage = bi_常量类.f6358b_空串;
     private int downImage2 = -1;
     private float fontsize = 9.0f;
     private int lastX;
     private int lastY;
     private GestureDetector mGestureDetector;
-    private String upImage = bi_常量类.f6358b;
+    private String upImage = bi_常量类.f6358b_空串;
     private int upImage2 = -1;
     /* renamed from: 监听器 */
     private C0798Impl f4284;
@@ -96,7 +96,7 @@ public class C0695Impl extends TextViewComponent implements C0693, OnTouchListen
             case 0:
                 this.lastX = this.currX;
                 this.lastY = this.currY;
-                if (!this.downImage.equals(bi_常量类.f6358b)) {
+                if (!this.downImage.equals(bi_常量类.f6358b_空串)) {
                     mo902(this.downImage);
                 } else if (this.downImage2 != -1) {
                     mo9042(this.downImage2);
@@ -110,7 +110,7 @@ public class C0695Impl extends TextViewComponent implements C0693, OnTouchListen
             case 1:
                 this.lastX = this.currX;
                 this.lastY = this.currY;
-                if (!this.upImage.equals(bi_常量类.f6358b)) {
+                if (!this.upImage.equals(bi_常量类.f6358b_空串)) {
                     mo902(this.upImage);
                 } else if (this.upImage2 != -1) {
                     mo9042(this.upImage2);

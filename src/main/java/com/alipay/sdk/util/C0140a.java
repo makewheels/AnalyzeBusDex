@@ -22,7 +22,7 @@ public final class C0140a {
             for (indexOf = 0; indexOf < split.length; indexOf++) {
                 if (!TextUtils.isEmpty(split[indexOf])) {
                     split[indexOf] = split[indexOf].trim();
-                    split[indexOf] = split[indexOf].replaceAll("'", bi_常量类.f6358b).replaceAll("\"", bi_常量类.f6358b);
+                    split[indexOf] = split[indexOf].replaceAll("'", bi_常量类.f6358b_空串).replaceAll("\"", bi_常量类.f6358b_空串);
                 }
             }
         }

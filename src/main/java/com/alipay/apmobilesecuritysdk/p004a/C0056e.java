@@ -5,13 +5,13 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.alipay.apmobilesecuritysdk.a.e */
 public final class C0056e {
     /* renamed from: a */
-    private String f106a = bi_常量类.f6358b;
+    private String f106a = bi_常量类.f6358b_空串;
     /* renamed from: b */
-    private String f107b = bi_常量类.f6358b;
+    private String f107b = bi_常量类.f6358b_空串;
     /* renamed from: c */
-    private String f108c = bi_常量类.f6358b;
+    private String f108c = bi_常量类.f6358b_空串;
     /* renamed from: d */
-    private String f109d = bi_常量类.f6358b;
+    private String f109d = bi_常量类.f6358b_空串;
 
     public C0056e(C0058g c0058g, String str) {
         this.f106a = c0058g.m155b();

@@ -64,7 +64,7 @@ public class QbSdk {
     /* renamed from: f */
     private static int f4787f;
     /* renamed from: g */
-    private static String f4788g = bi_常量类.f6358b;
+    private static String f4788g = bi_常量类.f6358b_空串;
     /* renamed from: h */
     private static Class<?> f4789h;
     /* renamed from: i */
@@ -314,7 +314,7 @@ public class QbSdk {
                         f4788g = "0" + f4788g;
                     }
                     if (f4788g.length() != 6) {
-                        f4788g = bi_常量类.f6358b;
+                        f4788g = bi_常量类.f6358b_空串;
                     }
                 } else {
                     if (VERSION.SDK_INT >= 12) {
@@ -371,7 +371,7 @@ public class QbSdk {
                 }
             } else {
                 f4786e.onCallBackErrorCode(ErrorCode.ERROR_QBSDK_INIT_ERROR_RET_TYPE_NOT_BUNDLE, ErrorCode.INFO_ERROR_QBSDK_INIT_ERROR_RET_TYPE_NOT_BUNDLE);
-                TbsCoreLoadStat.getInstance().m7564a(context, ErrorCode.ERROR_QBSDK_INIT_ERROR_RET_TYPE_NOT_BUNDLE, new Throwable(bi_常量类.f6358b + a));
+                TbsCoreLoadStat.getInstance().m7564a(context, ErrorCode.ERROR_QBSDK_INIT_ERROR_RET_TYPE_NOT_BUNDLE, new Throwable(bi_常量类.f6358b_空串 + a));
                 TbsLog.m7925e(TbsListener.tag_load_error, "ret not instance of bundle");
             }
             if (!z3) {
@@ -820,7 +820,7 @@ public class QbSdk {
         }
         Object a = C1157u.m8042a(f4790i, "getJarFiles", new Class[]{Context.class, Context.class, String.class}, context, context2, str);
         if (a == null) {
-            a = bi_常量类.f6358b;
+            a = bi_常量类.f6358b_空串;
         }
         return (String[]) a;
     }
@@ -853,7 +853,7 @@ public class QbSdk {
 
     public static String getX5CoreTimestamp() {
         Object a = C1157u.m8040a(f4789h, "getX5CoreTimestamp", null, new Object[0]);
-        return a == null ? bi_常量类.f6358b : (String) a;
+        return a == null ? bi_常量类.f6358b_空串 : (String) a;
     }
 
     public static boolean installLocalQbApk(Context context, String str, String str2, Bundle bundle) {

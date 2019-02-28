@@ -13,7 +13,7 @@ public final class C0890_文本操作 {
     @SimpleFunction
     /* renamed from: 寻找文本 */
     public static int m6821(String str1, String str2, int start) {
-        if (start < 0 || start > str1.length() || bi_常量类.f6358b.equals(str1) || bi_常量类.f6358b.equals(str2)) {
+        if (start < 0 || start > str1.length() || bi_常量类.f6358b_空串.equals(str1) || bi_常量类.f6358b_空串.equals(str2)) {
             return -1;
         }
         return str1.indexOf(str2, start);
@@ -22,7 +22,7 @@ public final class C0890_文本操作 {
     @SimpleFunction
     /* renamed from: 倒找文本 */
     public static int m6805(String str1, String str2, int start) {
-        if (start < 0 || start > str1.length() || bi_常量类.f6358b.equals(str1) || bi_常量类.f6358b.equals(str2)) {
+        if (start < 0 || start > str1.length() || bi_常量类.f6358b_空串.equals(str1) || bi_常量类.f6358b_空串.equals(str2)) {
             return -1;
         }
         return str1.lastIndexOf(str2, start);
@@ -43,8 +43,8 @@ public final class C0890_文本操作 {
     @SimpleFunction
     /* renamed from: 取文本左边 */
     public static String m6816(String str, int len) {
-        if (bi_常量类.f6358b.equals(str) || len <= 0) {
-            return bi_常量类.f6358b;
+        if (bi_常量类.f6358b_空串.equals(str) || len <= 0) {
+            return bi_常量类.f6358b_空串;
         }
         return len <= str.length() ? str.substring(0, len) : str;
     }
@@ -52,8 +52,8 @@ public final class C0890_文本操作 {
     @SimpleFunction
     /* renamed from: 取文本右边 */
     public static String m6815(String str, int len) {
-        if (bi_常量类.f6358b.equals(str) || len <= 0) {
-            return bi_常量类.f6358b;
+        if (bi_常量类.f6358b_空串.equals(str) || len <= 0) {
+            return bi_常量类.f6358b_空串;
         }
         return len <= str.length() ? str.substring(str.length() - len, str.length()) : str;
     }
@@ -61,8 +61,8 @@ public final class C0890_文本操作 {
     @SimpleFunction
     /* renamed from: 取文本中间 */
     public static String m6814_截取子串(String str, int start, int len) {
-        if (bi_常量类.f6358b.equals(str) || start < 0 || len <= 0 || start > str.length()) {
-            return bi_常量类.f6358b;
+        if (bi_常量类.f6358b_空串.equals(str) || start < 0 || len <= 0 || start > str.length()) {
+            return bi_常量类.f6358b_空串;
         }
         int end = start + len;
         if (end > str.length()) {
@@ -126,8 +126,8 @@ public final class C0890_文本操作 {
     @SimpleFunction
     /* renamed from: 子文本替换 */
     public static String m6819(String str, String find, String replace) {
-        if (bi_常量类.f6358b.equals(find) || bi_常量类.f6358b.equals(str)) {
-            return bi_常量类.f6358b;
+        if (bi_常量类.f6358b_空串.equals(find) || bi_常量类.f6358b_空串.equals(str)) {
+            return bi_常量类.f6358b_空串;
         }
         return str.replaceAll("\\Q" + find + "\\E", replace);
     }
@@ -135,8 +135,8 @@ public final class C0890_文本操作 {
     @SimpleFunction
     /* renamed from: 子文本替换2 */
     public static String m68202(String str, int start, int end, String replace) {
-        if (bi_常量类.f6358b.equals(str) || start < 0 || start > str.length() || end < start || end > str.length()) {
-            return bi_常量类.f6358b;
+        if (bi_常量类.f6358b_空串.equals(str) || start < 0 || start > str.length() || end < start || end > str.length()) {
+            return bi_常量类.f6358b_空串;
         }
         return str.substring(0, start) + replace + str.substring(end + 1);
     }
@@ -156,11 +156,11 @@ public final class C0890_文本操作 {
     @SimpleFunction
     /* renamed from: 分割文本 */
     public static String[] m6806_分割字符串(String str, String separator) {
-        if (bi_常量类.f6358b.equals(separator) || bi_常量类.f6358b.equals(str)) {
+        if (bi_常量类.f6358b_空串.equals(separator) || bi_常量类.f6358b_空串.equals(str)) {
             return new String[0];
         }
         if (separator.equals("\n")) {
-            str = C0890_文本操作.m6819(str, "\r", bi_常量类.f6358b);
+            str = C0890_文本操作.m6819(str, "\r", bi_常量类.f6358b_空串);
         }
         if (C0890_文本操作.m6815(str, C0890_文本操作.m6817_获取字符串长度(separator)).equals(separator)) {
             return C0890_文本操作.m6812(separator + str, separator, separator);
@@ -171,7 +171,7 @@ public final class C0890_文本操作 {
     @SimpleFunction
     /* renamed from: 取指定文本 */
     public static String[] m6812(String str, String left, String right) {
-        if (bi_常量类.f6358b.equals(str) || bi_常量类.f6358b.equals(left) || bi_常量类.f6358b.equals(right)) {
+        if (bi_常量类.f6358b_空串.equals(str) || bi_常量类.f6358b_空串.equals(left) || bi_常量类.f6358b_空串.equals(right)) {
             return new String[0];
         }
         return C0892.m6854(str, "(?<=\\Q" + left + "\\E).*?(?=\\Q" + right + "\\E)");
@@ -184,6 +184,6 @@ public final class C0890_文本操作 {
         if (temp.length > 0) {
             return temp[0];
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 }

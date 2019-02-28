@@ -24,7 +24,7 @@ class C0436o {
     /* renamed from: f */
     private String f2509f = null;
     /* renamed from: g */
-    private String f2510g = bi_常量类.f6358b;
+    private String f2510g = bi_常量类.f6358b_空串;
     /* renamed from: h */
     private long f2511h = 0;
     /* renamed from: i */
@@ -40,7 +40,7 @@ class C0436o {
     /* renamed from: n */
     private int f2517n;
     /* renamed from: o */
-    private String f2518o = bi_常量类.f6358b;
+    private String f2518o = bi_常量类.f6358b_空串;
 
     public C0436o(OfflineMapCity offlineMapCity) {
         this.f2506c = offlineMapCity.getCity();
@@ -218,7 +218,7 @@ class C0436o {
     public void m3742i(String str) {
         if (str != null) {
             try {
-                if (!str.equals(bi_常量类.f6358b)) {
+                if (!str.equals(bi_常量类.f6358b_空串)) {
                     JSONObject jSONObject = new JSONObject(str).getJSONObject("file");
                     if (jSONObject != null) {
                         this.f2506c = jSONObject.optString("title");

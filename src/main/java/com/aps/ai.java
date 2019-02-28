@@ -48,11 +48,11 @@ public final class ai {
     /* renamed from: d */
     private WifiManager f3339d = null;
     /* renamed from: e */
-    private String f3340e = bi_常量类.f6358b;
+    private String f3340e = bi_常量类.f6358b_空串;
     /* renamed from: f */
-    private String f3341f = bi_常量类.f6358b;
+    private String f3341f = bi_常量类.f6358b_空串;
     /* renamed from: g */
-    private String f3342g = bi_常量类.f6358b;
+    private String f3342g = bi_常量类.f6358b_空串;
     /* renamed from: h */
     private boolean f3343h = false;
     /* renamed from: i */
@@ -62,9 +62,9 @@ public final class ai {
     /* renamed from: k */
     private long f3346k = -1;
     /* renamed from: l */
-    private String f3347l = bi_常量类.f6358b;
+    private String f3347l = bi_常量类.f6358b_空串;
     /* renamed from: m */
-    private String f3348m = bi_常量类.f6358b;
+    private String f3348m = bi_常量类.f6358b_空串;
     /* renamed from: n */
     private int f3349n = 0;
     /* renamed from: o */
@@ -72,7 +72,7 @@ public final class ai {
     /* renamed from: p */
     private int f3351p = 0;
     /* renamed from: q */
-    private String f3352q = bi_常量类.f6358b;
+    private String f3352q = bi_常量类.f6358b_空串;
     /* renamed from: r */
     private long f3353r = 0;
     /* renamed from: s */
@@ -107,7 +107,7 @@ public final class ai {
                 if (this.f3339d.getConnectionInfo() != null) {
                     this.f3348m = this.f3339d.getConnectionInfo().getMacAddress();
                     if (this.f3348m != null && this.f3348m.length() > 0) {
-                        this.f3348m = this.f3348m.replace(":", bi_常量类.f6358b);
+                        this.f3348m = this.f3348m.replace(":", bi_常量类.f6358b_空串);
                     }
                 }
                 String[] b = m4350b(this.f3337b);
@@ -303,7 +303,7 @@ public final class ai {
 
     /* renamed from: a */
     protected final void m4363a() {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         m4365b();
         if (this.f3335B != null) {
             this.f3335B.quit();
@@ -414,7 +414,7 @@ public final class ai {
         if (this.f3340e == null) {
             this.f3340e = Build.MODEL;
         }
-        return this.f3340e != null ? this.f3340e : bi_常量类.f6358b;
+        return this.f3340e != null ? this.f3340e : bi_常量类.f6358b_空串;
     }
 
     /* renamed from: g */
@@ -425,7 +425,7 @@ public final class ai {
                 this.f3341f = this.f3337b.getDeviceId();
             }
         }
-        return this.f3341f != null ? this.f3341f : bi_常量类.f6358b;
+        return this.f3341f != null ? this.f3341f : bi_常量类.f6358b_空串;
     }
 
     /* renamed from: h */
@@ -436,7 +436,7 @@ public final class ai {
                 this.f3342g = this.f3337b.getSubscriberId();
             }
         }
-        return this.f3342g != null ? this.f3342g : bi_常量类.f6358b;
+        return this.f3342g != null ? this.f3342g : bi_常量类.f6358b_空串;
     }
 
     /* renamed from: i */
@@ -510,7 +510,7 @@ public final class ai {
         long j;
         Object obj;
         List arrayList = new ArrayList();
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         if (m4368e()) {
             long j2 = this.f3346k;
             j = j2;
@@ -553,11 +553,11 @@ public final class ai {
             if (!(this.f3339d == null || this.f3339d.getConnectionInfo() == null)) {
                 this.f3348m = this.f3339d.getConnectionInfo().getMacAddress();
                 if (this.f3348m != null && this.f3348m.length() > 0) {
-                    this.f3348m = this.f3348m.replace(":", bi_常量类.f6358b);
+                    this.f3348m = this.f3348m.replace(":", bi_常量类.f6358b_空串);
                 }
             }
         }
-        return this.f3348m != null ? this.f3348m : bi_常量类.f6358b;
+        return this.f3348m != null ? this.f3348m : bi_常量类.f6358b_空串;
     }
 
     /* renamed from: q */
@@ -580,7 +580,7 @@ public final class ai {
         if (this.f3352q == null && this.f3336a != null) {
             this.f3352q = this.f3336a.getPackageName();
         }
-        return this.f3352q != null ? this.f3352q : bi_常量类.f6358b;
+        return this.f3352q != null ? this.f3352q : bi_常量类.f6358b_空串;
     }
 
     /* renamed from: u */
@@ -601,7 +601,7 @@ public final class ai {
                     }
                     if (scanResult != null) {
                         List arrayList2 = new ArrayList();
-                        arrayList2.add(scanResult.BSSID.replace(":", bi_常量类.f6358b));
+                        arrayList2.add(scanResult.BSSID.replace(":", bi_常量类.f6358b_空串));
                         arrayList2.add(Integer.valueOf(scanResult.level));
                         arrayList2.add(scanResult.SSID);
                         arrayList.add(arrayList2);

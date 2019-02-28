@@ -13,11 +13,11 @@ public class C0989e {
 
     /* renamed from: a */
     public static String m7340a(String str) {
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         if (str == null) {
             return str;
         }
-        str = str.replaceAll(" ", bi_常量类.f6358b).replaceAll("-", bi_常量类.f6358b);
+        str = str.replaceAll(" ", bi_常量类.f6358b_空串).replaceAll("-", bi_常量类.f6358b_空串);
         StringBuilder stringBuilder = new StringBuilder(str);
         return stringBuilder.length() > 5 ? (stringBuilder.substring(0, 3).equals("+86") || stringBuilder.substring(0, 3).equals("086")) ? stringBuilder.substring(3, stringBuilder.length()) : stringBuilder.substring(0, 2).equals("86") ? stringBuilder.substring(2, stringBuilder.length()) : (stringBuilder.substring(0, 5).equals("12530") || stringBuilder.substring(0, 5).equals("12520") || stringBuilder.substring(0, 5).equals("17951") || stringBuilder.substring(0, 5).equals("17911") || stringBuilder.subSequence(0, 5).equals("12593")) ? stringBuilder.substring(5, stringBuilder.length()) : str : str;
     }

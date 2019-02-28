@@ -69,7 +69,7 @@ public final class C0881 {
         PackageManager pm = mainActivity.getContext().getPackageManager();
         PackageInfo pkgInfo = pm.getPackageArchiveInfo(apkPath, 1);
         if (pkgInfo == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         ApplicationInfo appInfo = pkgInfo.applicationInfo;
         appInfo.sourceDir = apkPath;
@@ -82,7 +82,7 @@ public final class C0881 {
     public static String m6719apk(String apkPath) {
         PackageInfo pkgInfo = mainActivity.getContext().getPackageManager().getPackageArchiveInfo(apkPath, 1);
         if (pkgInfo == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         ApplicationInfo appInfo = pkgInfo.applicationInfo;
         appInfo.sourceDir = apkPath;
@@ -95,7 +95,7 @@ public final class C0881 {
     public static String m6722apk(String apkPath) {
         PackageInfo pkgInfo = mainActivity.getContext().getPackageManager().getPackageArchiveInfo(apkPath, 1);
         if (pkgInfo == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         ApplicationInfo appInfo = pkgInfo.applicationInfo;
         appInfo.sourceDir = apkPath;
@@ -175,7 +175,7 @@ public final class C0881 {
             return pm.getApplicationInfo(packagename, 0).loadLabel(pm).toString();
         } catch (NameNotFoundException e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -197,7 +197,7 @@ public final class C0881 {
             return mainActivity.getContext().getPackageManager().getPackageInfo(packagename, 64).signatures[0].toCharsString();
         } catch (NameNotFoundException e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -208,7 +208,7 @@ public final class C0881 {
             return mainActivity.getContext().getPackageManager().getApplicationInfo(packagename, 0).sourceDir;
         } catch (NameNotFoundException e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -264,7 +264,7 @@ public final class C0881 {
     /* renamed from: 一键分享 */
     public static void m6717(String text, String imagepath) {
         Intent intent = new Intent("android.intent.action.SEND");
-        if (bi_常量类.f6358b.equals(imagepath)) {
+        if (bi_常量类.f6358b_空串.equals(imagepath)) {
             intent.setType("text/plain");
         } else {
             intent.setType("image/*");

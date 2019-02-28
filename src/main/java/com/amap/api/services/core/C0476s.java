@@ -18,7 +18,7 @@ import p054u.aly.bi_常量类;
 public abstract class C0476s<T, V> {
     protected int maxTry = 1;
     protected Proxy proxy;
-    protected String recommandURL = bi_常量类.f6358b;
+    protected String recommandURL = bi_常量类.f6358b_空串;
     protected T task;
 
     protected abstract String getRequestString(boolean z);
@@ -59,7 +59,7 @@ public abstract class C0476s<T, V> {
             e.printStackTrace();
             str = null;
         }
-        if (str == null || str.equals(bi_常量类.f6358b)) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串)) {
             return null;
         }
         C0480e.m4024b(str);
@@ -211,7 +211,7 @@ public abstract class C0476s<T, V> {
     }
 
     protected String strEncoder(String str, boolean z) {
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         if (!z) {
             return str;
         }

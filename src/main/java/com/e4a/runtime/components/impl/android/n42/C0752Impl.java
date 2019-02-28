@@ -17,7 +17,7 @@ public class C0752Impl extends ComponentImpl implements C0743 {
     private Handler handler = new C07441();
     private Task task = null;
     /* renamed from: 网址 */
-    private String f4316 = bi_常量类.f6358b;
+    private String f4316 = bi_常量类.f6358b_空串;
 
     /* renamed from: com.e4a.runtime.components.impl.android.n42.多线程Impl$1 */
     class C07441 extends Handler {

@@ -13,7 +13,7 @@ public final class bd {
     /* renamed from: b */
     private af f3413b;
     /* renamed from: c */
-    private String f3414c = bi_常量类.f6358b;
+    private String f3414c = bi_常量类.f6358b_空串;
     /* renamed from: d */
     private File f3415d = null;
 

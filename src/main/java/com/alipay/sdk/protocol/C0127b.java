@@ -84,15 +84,15 @@ public final class C0127b {
         if (jSONObject != null && jSONObject.has(C0110c.f295k)) {
             z = jSONObject.optBoolean(C0110c.f295k);
         }
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         if (jSONObject != null && jSONObject.has(C0110c.f296l)) {
             str2 = jSONObject.optString(C0110c.f296l);
         }
-        String str3 = bi_常量类.f6358b;
+        String str3 = bi_常量类.f6358b_空串;
         if (jSONObject != null && jSONObject.has(C0110c.f297m)) {
             str3 = jSONObject.optString(C0110c.f297m);
         }
-        String str4 = bi_常量类.f6358b;
+        String str4 = bi_常量类.f6358b_空串;
         if (jSONObject != null && jSONObject.has(C0110c.f298n)) {
             str4 = jSONObject.optString(C0110c.f298n);
         }
@@ -116,15 +116,15 @@ public final class C0127b {
         if (optJSONObject != null && optJSONObject.has(C0110c.f295k)) {
             z = optJSONObject.optBoolean(C0110c.f295k);
         }
-        String str3 = bi_常量类.f6358b;
+        String str3 = bi_常量类.f6358b_空串;
         if (optJSONObject != null && optJSONObject.has(C0110c.f296l)) {
             str3 = optJSONObject.optString(C0110c.f296l);
         }
-        String str4 = bi_常量类.f6358b;
+        String str4 = bi_常量类.f6358b_空串;
         if (optJSONObject != null && optJSONObject.has(C0110c.f297m)) {
             str4 = optJSONObject.optString(C0110c.f297m);
         }
-        String str5 = bi_常量类.f6358b;
+        String str5 = bi_常量类.f6358b_空串;
         if (optJSONObject != null && optJSONObject.has(C0110c.f298n)) {
             str5 = optJSONObject.optString(C0110c.f298n);
         }

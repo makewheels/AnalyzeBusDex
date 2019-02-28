@@ -286,7 +286,7 @@ public class C0792Impl extends ComponentImpl implements C0790 {
 
     /* renamed from: 取通话记录 */
     public String mo1405() {
-        String result = bi_常量类.f6358b;
+        String result = bi_常量类.f6358b_空串;
         Cursor cursor = C0841.m6594().getContentResolver().query(Calls.CONTENT_URI, new String[]{"number", C0110c.f289e, C1248a.f5654a, "date", "duration"}, null, null, "date DESC");
         int i = 0;
         cursor.moveToFirst();
@@ -294,7 +294,7 @@ public class C0792Impl extends ComponentImpl implements C0790 {
             String strNumber = cursor.getString(0);
             String strName = cursor.getString(1);
             int type = cursor.getInt(2);
-            String str_type = bi_常量类.f6358b;
+            String str_type = bi_常量类.f6358b_空串;
             if (type == 1) {
                 str_type = "呼入";
             } else if (type == 2) {
@@ -304,7 +304,7 @@ public class C0792Impl extends ComponentImpl implements C0790 {
             }
             long duration = cursor.getLong(4);
             String time = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date(Long.parseLong(cursor.getString(3))));
-            if (result.equals(bi_常量类.f6358b)) {
+            if (result.equals(bi_常量类.f6358b_空串)) {
                 result = str_type + "," + strName + "," + strNumber + "," + time + "," + duration;
             } else {
                 result = result + "\n" + str_type + "," + strName + "," + strNumber + "," + time + "," + duration;
@@ -347,7 +347,7 @@ public class C0792Impl extends ComponentImpl implements C0790 {
         GsmCellLocation location2 = (GsmCellLocation) mTelephonyManager.getCellLocation();
         String LAC = Integer.toString(location2.getLac());
         String CID = Integer.toString(location2.getCid());
-        return new String[]{MCC, MNC, LAC, CID, bi_常量类.f6358b};
+        return new String[]{MCC, MNC, LAC, CID, bi_常量类.f6358b_空串};
     }
 
     /* renamed from: 取相邻基站信息 */

@@ -8,7 +8,7 @@ import p054u.aly.bi_常量类;
 public class RecognizerResult implements Parcelable {
     public static final Creator<RecognizerResult> CREATOR = new C0976a();
     /* renamed from: a */
-    private String f4565a = bi_常量类.f6358b;
+    private String f4565a = bi_常量类.f6358b_空串;
 
     public RecognizerResult(Parcel parcel) {
         this.f4565a = parcel.readString();

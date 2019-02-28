@@ -35,7 +35,7 @@ public class AMapUtils {
     /* renamed from: com.amap.api.maps.AMapUtils$a */
     static class C0412a extends Thread {
         /* renamed from: a */
-        String f2225a = bi_常量类.f6358b;
+        String f2225a = bi_常量类.f6358b_空串;
         /* renamed from: b */
         Context f2226b;
 

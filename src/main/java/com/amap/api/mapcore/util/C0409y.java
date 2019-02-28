@@ -26,7 +26,7 @@ public class C0409y {
         String str = null;
         try {
             String b = C0409y.m3508b(context, adVar, map);
-            if (!bi_常量类.f6358b.equals(b)) {
+            if (!bi_常量类.f6358b_空串.equals(b)) {
                 str = C0409y.m3509b(context, b.getBytes("utf-8"));
             }
         } catch (Throwable e) {
@@ -57,7 +57,7 @@ public class C0409y {
         if (a4 != null) {
             return aa.m3003a(a4);
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     /* renamed from: a */
@@ -66,31 +66,31 @@ public class C0409y {
             return C0409y.m3510c(context, bArr);
         } catch (InvalidKeyException e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (NoSuchAlgorithmException e2) {
             e2.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (NoSuchPaddingException e3) {
             e3.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (IllegalBlockSizeException e4) {
             e4.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (BadPaddingException e5) {
             e5.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (InvalidKeySpecException e6) {
             e6.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (CertificateException e7) {
             e7.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (IOException e8) {
             e8.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (Throwable th) {
             th.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -101,39 +101,39 @@ public class C0409y {
         } catch (Throwable e) {
             az.m3143a(e, "CInfo", "AESData");
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (Throwable e2) {
             az.m3143a(e2, "CInfo", "AESData");
             e2.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (Throwable e22) {
             az.m3143a(e22, "CInfo", "AESData");
             e22.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (Throwable e222) {
             az.m3143a(e222, "CInfo", "AESData");
             e222.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (Throwable e2222) {
             az.m3143a(e2222, "CInfo", "AESData");
             e2222.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (Throwable e22222) {
             az.m3143a(e22222, "CInfo", "AESData");
             e22222.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (Throwable e222222) {
             az.m3143a(e222222, "CInfo", "AESData");
             e222222.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (Throwable e2222222) {
             az.m3143a(e2222222, "CInfo", "AESData");
             e2222222.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (Throwable e22222222) {
             az.m3143a(e22222222, "CInfo", "AESData");
             e22222222.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -188,7 +188,7 @@ public class C0409y {
             stringBuilder.append("&ia=1&");
             m = C0411z.m3511a(context);
             if (m == null) {
-                m = bi_常量类.f6358b;
+                m = bi_常量类.f6358b_空串;
             }
             stringBuilder.append("utd=").append(m).append("&");
             m = C0407w.m3495f(context);

@@ -92,7 +92,7 @@ public class TbsDownloader {
                 stringBuffer.append(str);
             }
         }
-        str = Build.ID.replaceAll("[一-龥]", bi_常量类.f6358b);
+        str = Build.ID.replaceAll("[一-龥]", bi_常量类.f6358b_空串);
         if (str.length() > 0) {
             stringBuffer.append(" Build/");
             stringBuffer.append(str);
@@ -104,7 +104,7 @@ public class TbsDownloader {
 
     /* renamed from: a */
     private static String m7576a(String str) {
-        return str == null ? bi_常量类.f6358b : str;
+        return str == null ? bi_常量类.f6358b_空串 : str;
     }
 
     @TargetApi(11)

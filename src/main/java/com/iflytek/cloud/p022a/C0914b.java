@@ -29,9 +29,9 @@ public class C0914b {
         this.f4366a.m7170a("md5", C0952c.m7189b());
         this.f4366a.m7170a("msc.ver", Version.getVersion());
         C0952c.m7186a(context, this.f4366a);
-        this.f4366a.m7170a("logtime", bi_常量类.f6358b + System.currentTimeMillis());
-        this.f4366a.m7170a("msc.lat", bi_常量类.f6358b + C0913a.m6973a(context).m6976a("msc.lat"));
-        this.f4366a.m7170a("msc.lng", bi_常量类.f6358b + C0913a.m6973a(context).m6976a("msc.lng"));
+        this.f4366a.m7170a("logtime", bi_常量类.f6358b_空串 + System.currentTimeMillis());
+        this.f4366a.m7170a("msc.lat", bi_常量类.f6358b_空串 + C0913a.m6973a(context).m6976a("msc.lat"));
+        this.f4366a.m7170a("msc.lng", bi_常量类.f6358b_空串 + C0913a.m6973a(context).m6976a("msc.lng"));
     }
 
     /* renamed from: a */

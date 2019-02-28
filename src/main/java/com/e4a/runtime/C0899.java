@@ -28,7 +28,7 @@ public final class C0899 {
         try {
             return Character.toString((char) value);
         } catch (Exception e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -42,7 +42,7 @@ public final class C0899 {
             }
             return str;
         } catch (Exception e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -51,7 +51,7 @@ public final class C0899 {
     public static long m6942(String v) {
         long j = 0;
         try {
-            if (!bi_常量类.f6358b.equals(v)) {
+            if (!bi_常量类.f6358b_空串.equals(v)) {
                 j = Long.valueOf(v, 16).longValue();
             }
         } catch (Exception e) {
@@ -65,7 +65,7 @@ public final class C0899 {
         try {
             return Integer.toBinaryString(v);
         } catch (Exception e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -74,13 +74,13 @@ public final class C0899 {
     public static String m6960(String str) {
         try {
             char[] strChar = str.toCharArray();
-            String result = bi_常量类.f6358b;
+            String result = bi_常量类.f6358b_空串;
             for (char toBinaryString : strChar) {
                 result = result + Integer.toBinaryString(toBinaryString) + " ";
             }
             return result;
         } catch (Exception e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -90,7 +90,7 @@ public final class C0899 {
         try {
             return String.valueOf(v);
         } catch (Exception e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -99,7 +99,7 @@ public final class C0899 {
     public static double m6943(String v) {
         double d = 0.0d;
         try {
-            if (!bi_常量类.f6358b.equals(v)) {
+            if (!bi_常量类.f6358b_空串.equals(v)) {
                 d = Double.parseDouble(v);
             }
         } catch (Exception e) {
@@ -113,7 +113,7 @@ public final class C0899 {
         try {
             return new String(v, encoding);
         } catch (UnsupportedEncodingException e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -132,7 +132,7 @@ public final class C0899 {
     public static int m6944(String v) {
         int i = 0;
         try {
-            if (!bi_常量类.f6358b.equals(v)) {
+            if (!bi_常量类.f6358b_空串.equals(v)) {
                 i = Integer.parseInt(v);
             }
         } catch (Exception e) {
@@ -146,7 +146,7 @@ public final class C0899 {
         try {
             return Integer.toString(v);
         } catch (Exception e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -228,7 +228,7 @@ public final class C0899 {
     public static long m6946(String v) {
         long j = 0;
         try {
-            if (!bi_常量类.f6358b.equals(v)) {
+            if (!bi_常量类.f6358b_空串.equals(v)) {
                 j = Long.parseLong(v);
             }
         } catch (Exception e) {
@@ -242,7 +242,7 @@ public final class C0899 {
         try {
             return Long.toString(v);
         } catch (Exception e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -251,9 +251,9 @@ public final class C0899 {
     public static String m6956(double amount) {
         if (amount > 1.0E18d || amount < -1.0E18d) {
             try {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             } catch (Exception e) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
         }
         String[] chineseDigits = new String[]{"零", "壹", "贰", "叁", "肆", "伍", "陆", "柒", "捌", "玖"};
@@ -277,12 +277,12 @@ public final class C0899 {
             i++;
         }
         boolean beforeWanIsZero = true;
-        String chineseStr = bi_常量类.f6358b;
+        String chineseStr = bi_常量类.f6358b_空串;
         i = 0;
         while (i < numParts) {
             String partChinese = C0899.partTranslate(parts[i]);
             if (i % 2 == 0) {
-                if (bi_常量类.f6358b.equals(partChinese)) {
+                if (bi_常量类.f6358b_空串.equals(partChinese)) {
                     beforeWanIsZero = true;
                 } else {
                     beforeWanIsZero = false;
@@ -291,7 +291,7 @@ public final class C0899 {
             if (i != 0) {
                 if (i % 2 == 0) {
                     chineseStr = "亿" + chineseStr;
-                } else if (!bi_常量类.f6358b.equals(partChinese) || beforeWanIsZero) {
+                } else if (!bi_常量类.f6358b_空串.equals(partChinese) || beforeWanIsZero) {
                     if (parts[i - 1] < 1000 && parts[i - 1] > 0) {
                         chineseStr = "零" + chineseStr;
                     }
@@ -303,7 +303,7 @@ public final class C0899 {
             chineseStr = partChinese + chineseStr;
             i++;
         }
-        if (bi_常量类.f6358b.equals(chineseStr)) {
+        if (bi_常量类.f6358b_空串.equals(chineseStr)) {
             chineseStr = chineseDigits[0];
         } else if (negative) {
             chineseStr = "负" + chineseStr;
@@ -323,14 +323,14 @@ public final class C0899 {
 
     private static String partTranslate(int amountPart) {
         if (amountPart < 0 || amountPart > 10000) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         String[] chineseDigits = new String[]{"零", "壹", "贰", "叁", "肆", "伍", "陆", "柒", "捌", "玖"};
-        String[] units = new String[]{bi_常量类.f6358b, "拾", "佰", "仟"};
+        String[] units = new String[]{bi_常量类.f6358b_空串, "拾", "佰", "仟"};
         int temp = amountPart;
         int amountStrLength = new Integer(amountPart).toString().length();
         boolean lastIsZero = true;
-        String chineseStr = bi_常量类.f6358b;
+        String chineseStr = bi_常量类.f6358b_空串;
         for (int i = 0; i < amountStrLength && temp != 0; i++) {
             int digit = temp % 10;
             if (digit == 0) {
@@ -362,12 +362,12 @@ public final class C0899 {
     public static String m6954(byte[] b) {
         if (b == null) {
             try {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             } catch (Exception e) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
         } else if (b.length == 0) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } else {
             byte[] hex = "0123456789ABCDEF".getBytes();
             byte[] buff = new byte[(b.length * 2)];
@@ -388,7 +388,7 @@ public final class C0899 {
             } catch (Exception e) {
                 return new byte[0];
             }
-        } else if (hexstr.equals(bi_常量类.f6358b)) {
+        } else if (hexstr.equals(bi_常量类.f6358b_空串)) {
             return new byte[0];
         } else {
             byte[] b = new byte[(hexstr.length() / 2)];

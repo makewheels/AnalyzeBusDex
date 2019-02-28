@@ -38,7 +38,7 @@ public final class C0674Root {
     @SimpleFunction
     /* renamed from: 执行命令行2 */
     public static String m54022(String cmd) {
-        String str1 = bi_常量类.f6358b;
+        String str1 = bi_常量类.f6358b_空串;
         try {
             process = Runtime.getRuntime().exec("su");
             outputStream = new DataOutputStream(process.getOutputStream());
@@ -52,7 +52,7 @@ public final class C0674Root {
                 String str2 = reader.readLine();
                 if (str2 == null) {
                     break;
-                } else if (str1.equals(bi_常量类.f6358b)) {
+                } else if (str1.equals(bi_常量类.f6358b_空串)) {
                     str1 = str2;
                 } else {
                     str1 = str1 + "\n" + str2;
@@ -111,7 +111,7 @@ public final class C0674Root {
     @SimpleFunction
     /* renamed from: 执行命令行5 */
     public static String m54055(String cmd) {
-        String str1 = bi_常量类.f6358b;
+        String str1 = bi_常量类.f6358b_空串;
         try {
             process = Runtime.getRuntime().exec("sh");
             outputStream = new DataOutputStream(process.getOutputStream());
@@ -125,7 +125,7 @@ public final class C0674Root {
                 String str2 = reader.readLine();
                 if (str2 == null) {
                     break;
-                } else if (str1.equals(bi_常量类.f6358b)) {
+                } else if (str1.equals(bi_常量类.f6358b_空串)) {
                     str1 = str2;
                 } else {
                     str1 = str1 + "\n" + str2;

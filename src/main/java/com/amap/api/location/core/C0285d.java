@@ -59,17 +59,17 @@ public class C0285d {
     public static AMapLocation m1847b(Context context) {
         try {
             SharedPreferences sharedPreferences = context.getSharedPreferences("last_know_location", 0);
-            AMapLocation aMapLocation = new AMapLocation(bi_常量类.f6358b);
+            AMapLocation aMapLocation = new AMapLocation(bi_常量类.f6358b_空串);
             aMapLocation.setProvider(LocationProviderProxy.AMapNetwork);
             double parseDouble = Double.parseDouble(sharedPreferences.getString("last_know_lat", "0.0"));
             double parseDouble2 = Double.parseDouble(sharedPreferences.getString("last_know_lng", "0.0"));
             aMapLocation.setLatitude(parseDouble);
             aMapLocation.setLongitude(parseDouble2);
-            aMapLocation.setProvince(sharedPreferences.getString(DistrictSearchQuery.KEYWORDS_PROVINCE, bi_常量类.f6358b));
-            aMapLocation.setCity(sharedPreferences.getString(DistrictSearchQuery.KEYWORDS_CITY, bi_常量类.f6358b));
-            aMapLocation.setDistrict(sharedPreferences.getString(DistrictSearchQuery.KEYWORDS_DISTRICT, bi_常量类.f6358b));
-            aMapLocation.setCityCode(sharedPreferences.getString("cityCode", bi_常量类.f6358b));
-            aMapLocation.setAdCode(sharedPreferences.getString("adCode", bi_常量类.f6358b));
+            aMapLocation.setProvince(sharedPreferences.getString(DistrictSearchQuery.KEYWORDS_PROVINCE, bi_常量类.f6358b_空串));
+            aMapLocation.setCity(sharedPreferences.getString(DistrictSearchQuery.KEYWORDS_CITY, bi_常量类.f6358b_空串));
+            aMapLocation.setDistrict(sharedPreferences.getString(DistrictSearchQuery.KEYWORDS_DISTRICT, bi_常量类.f6358b_空串));
+            aMapLocation.setCityCode(sharedPreferences.getString("cityCode", bi_常量类.f6358b_空串));
+            aMapLocation.setAdCode(sharedPreferences.getString("adCode", bi_常量类.f6358b_空串));
             aMapLocation.setAccuracy(sharedPreferences.getFloat("accuracy", 0.0f));
             aMapLocation.setTime(sharedPreferences.getLong("time", 0));
             return aMapLocation;

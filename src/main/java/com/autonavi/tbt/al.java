@@ -327,7 +327,7 @@ public final class al implements Closeable {
             String a3 = apVar.m4763a();
             String a4 = apVar.m4763a();
             String a5 = apVar.m4763a();
-            if ("libcore.io.DiskLruCache".equals(a) && C0108a.f262e.equals(a2) && Integer.toString(this.f3734g).equals(a3) && Integer.toString(this.f3736i).equals(a4) && bi_常量类.f6358b.equals(a5)) {
+            if ("libcore.io.DiskLruCache".equals(a) && C0108a.f262e.equals(a2) && Integer.toString(this.f3734g).equals(a3) && Integer.toString(this.f3736i).equals(a4) && bi_常量类.f6358b_空串.equals(a5)) {
                 i = 0;
                 while (true) {
                     m4743d(apVar.m4763a());

@@ -332,7 +332,7 @@ public final class bl implements Closeable {
             String a3 = bpVar.m3279a();
             String a4 = bpVar.m3279a();
             String a5 = bpVar.m3279a();
-            if ("libcore.io.DiskLruCache".equals(a) && C0108a.f262e.equals(a2) && Integer.toString(this.f2065g).equals(a3) && Integer.toString(this.f2067i).equals(a4) && bi_常量类.f6358b.equals(a5)) {
+            if ("libcore.io.DiskLruCache".equals(a) && C0108a.f262e.equals(a2) && Integer.toString(this.f2065g).equals(a3) && Integer.toString(this.f2067i).equals(a4) && bi_常量类.f6358b_空串.equals(a5)) {
                 i = 0;
                 while (true) {
                     m3259d(bpVar.m3279a());

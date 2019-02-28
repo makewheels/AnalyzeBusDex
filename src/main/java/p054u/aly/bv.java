@@ -45,7 +45,7 @@ public class bv {
             }
             return stringBuffer.toString();
         } catch (Exception e) {
-            return str.replaceAll("[^[a-z][A-Z][0-9][.][_]]", bi_常量类.f6358b);
+            return str.replaceAll("[^[a-z][A-Z][0-9][.][_]]", bi_常量类.f6358b_空串);
         }
     }
 
@@ -62,7 +62,7 @@ public class bv {
             return stringBuffer.toString();
         } catch (Exception e) {
             bj.m10001a(f6384b, "getMD5 error", e);
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -71,7 +71,7 @@ public class bv {
         byte[] bArr = new byte[1024];
         try {
             if (!file.isFile()) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
             MessageDigest instance = MessageDigest.getInstance("MD5");
             FileInputStream fileInputStream = new FileInputStream(file);
@@ -92,7 +92,7 @@ public class bv {
 
     /* renamed from: a */
     public static String m10052a(Context context, long j) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         if (j < 1000) {
             return ((int) j) + "B";
         }
@@ -107,7 +107,7 @@ public class bv {
 
     /* renamed from: c */
     public static String m10064c(String str) {
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         try {
             long longValue = Long.valueOf(str).longValue();
             if (longValue < 1024) {
@@ -166,7 +166,7 @@ public class bv {
     /* renamed from: a */
     public static String m10056a(Date date) {
         if (date == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.US).format(date);
     }

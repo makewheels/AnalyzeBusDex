@@ -365,7 +365,7 @@ public class MapLoader {
         int i3 = i + 4;
         int i4 = i3 + 1;
         byte b = bArr[i3];
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         try {
             str = new String(bArr, i4, b, "utf-8");
         } catch (Throwable e) {

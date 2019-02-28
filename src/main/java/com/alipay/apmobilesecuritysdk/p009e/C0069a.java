@@ -11,7 +11,7 @@ public final class C0069a {
     /* renamed from: a */
     public static String m184a(Map<String, Integer> map, String str, String str2) {
         if (str2 == null || str2.length() <= 0) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(str2 + ":");

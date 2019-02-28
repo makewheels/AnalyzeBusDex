@@ -37,39 +37,39 @@ public class C06532 extends C0645Impl {
     /* renamed from: 窗口2 */
     public static C0644 f41262;
     @SimpleDataElement
-    public String wl = bi_常量类.f6358b;
+    public String wl = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String zz = bi_常量类.f6358b;
+    public String zz = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 启动时间 */
     public int f4127;
     @SimpleDataElement
     /* renamed from: 地址 */
-    public String f4128 = bi_常量类.f6358b;
+    public String f4128 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 坐标 */
-    public String f4129 = bi_常量类.f6358b;
+    public String f4129 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 多线程1 */
     public C0743 f41301;
     @SimpleDataElement
     /* renamed from: 广告 */
-    public String f4131 = bi_常量类.f6358b;
+    public String f4131 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 时间 */
-    public String f4132 = bi_常量类.f6358b;
+    public String f4132 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 站点 */
-    public String f4133 = bi_常量类.f6358b;
+    public String f4133 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 线路 */
-    public String f4134 = bi_常量类.f6358b;
+    public String f4134 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 编辑框1 */
     public C0717 f41351;
     @SimpleDataElement
     /* renamed from: 起始 */
-    public String f4136 = bi_常量类.f6358b;
+    public String f4136 = bi_常量类.f6358b_空串;
 
     public C06532() {
         Objects.initializeProperties(this);
@@ -93,7 +93,7 @@ public class C06532 extends C0645Impl {
         this.f41351.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.165d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41351.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.383d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41351.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.299d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41351.mo887(bi_常量类.f6358b);
+        this.f41351.mo887(bi_常量类.f6358b_空串);
         this.f41351.mo889(-16777216);
         this.f41351.mo896(false);
         this.f41351.mo892(false);
@@ -102,7 +102,7 @@ public class C06532 extends C0645Impl {
         this.f41351.mo1041(4);
         this.f41351.mo891(3);
         this.f41351.mo772(true);
-        this.f41351.mo1035(bi_常量类.f6358b);
+        this.f41351.mo1035(bi_常量类.f6358b_空串);
         this.f41351.mo899(WebView.NORMAL_MODE_ALPHA);
         this.f41351.mo776(false);
         EventDispatcher.registerEvent(this, "窗口2", "按下某键");
@@ -120,11 +120,11 @@ public class C06532 extends C0645Impl {
 
     /* renamed from: 获取车信息 */
     public void m5269() {
-        String str = bi_常量类.f6358b;
-        str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
+        str = bi_常量类.f6358b_空串;
         try {
-            String 路线 = bi_常量类.f6358b;
-            String 内容 = bi_常量类.f6358b;
+            String 路线 = bi_常量类.f6358b_空串;
+            String 内容 = bi_常量类.f6358b_空串;
             内容 = C0843.m6604Authcode(this.f41351.mo886(), "199071lh@zhaoqianwangpengluzhipengliuxueyingzhangdeiqian");
             this.f4133 = m5264(内容, "路开", "路束");
             this.f4129 = m5264(内容, "|1|", "|1|");
@@ -137,8 +137,8 @@ public class C06532 extends C0645Impl {
             C0898_读写设置类.m6935_通过SP保存设置("站点", StringVariant.getStringVariant(this.f4133));
             C0898_读写设置类.m6935_通过SP保存设置("坐标", StringVariant.getStringVariant(this.f4129));
             C0898_读写设置类.m6935_通过SP保存设置("时间", StringVariant.getStringVariant(this.f4132));
-            if (this.f4131.equals(bi_常量类.f6358b)) {
-                C0898_读写设置类.m6935_通过SP保存设置("广告", StringVariant.getStringVariant(bi_常量类.f6358b));
+            if (this.f4131.equals(bi_常量类.f6358b_空串)) {
+                C0898_读写设置类.m6935_通过SP保存设置("广告", StringVariant.getStringVariant(bi_常量类.f6358b_空串));
             } else {
                 C0898_读写设置类.m6935_通过SP保存设置("广告", StringVariant.getStringVariant(this.f4131));
             }
@@ -153,14 +153,14 @@ public class C06532 extends C0645Impl {
 
     /* renamed from: 取中间文本 */
     public String m5264(String 完整内容, String 左边文本, String 右边文本) {
-        String 取中间文本 = bi_常量类.f6358b;
+        String 取中间文本 = bi_常量类.f6358b_空串;
         int 左边 = C0890_文本操作.m6821(完整内容, 左边文本, 0) + C0890_文本操作.m6817_获取字符串长度(左边文本);
         if (IntegerVariant.getIntegerVariant(左边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         int 右边 = C0890_文本操作.m6821(完整内容, 右边文本, 左边);
         if (IntegerVariant.getIntegerVariant(右边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0 || 左边 > 右边) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         return C0890_文本操作.m6814_截取子串(完整内容, 左边, 右边 - 左边);
     }
@@ -168,7 +168,7 @@ public class C06532 extends C0645Impl {
     /* renamed from: 多线程1$取网页源码完毕 */
     public void m52651$(String 源码) {
         try {
-            if (源码.equals(bi_常量类.f6358b)) {
+            if (源码.equals(bi_常量类.f6358b_空串)) {
                 C0879.m6671();
                 C0880_应用操作类.m6693_切换窗口(C0880_应用操作类.m6712("窗口3"));
                 return;
@@ -197,13 +197,13 @@ public class C06532 extends C0645Impl {
 
     /* renamed from: 窗口2$切换完毕 */
     public void m52662$() {
-        String str = bi_常量类.f6358b;
-        str = bi_常量类.f6358b;
-        str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
+        str = bi_常量类.f6358b_空串;
+        str = bi_常量类.f6358b_空串;
         try {
-            String wl = bi_常量类.f6358b;
-            String c = bi_常量类.f6358b;
-            String wlw = bi_常量类.f6358b;
+            String wl = bi_常量类.f6358b_空串;
+            String c = bi_常量类.f6358b_空串;
+            String wlw = bi_常量类.f6358b_空串;
             this.zz = C0898_读写设置类.m6937_通过SP读取设置("成").getString();
             if (C0898_读写设置类.m6937_通过SP读取设置("小年").getString().equals(C0108a.f262e)) {
                 C0880_应用操作类.m6693_切换窗口(C0880_应用操作类.m6712("过"));
@@ -211,8 +211,8 @@ public class C06532 extends C0645Impl {
             }
             wl = C0898_读写设置类.m6937_通过SP读取设置("网").getString();
             this.f4134 = C0898_读写设置类.m6937_通过SP读取设置("线路").getString();
-            this.f4134 = C0890_文本操作.m6819(this.f4134, "fF", bi_常量类.f6358b);
-            this.f4134 = C0890_文本操作.m6819(this.f4134, "ff", bi_常量类.f6358b);
+            this.f4134 = C0890_文本操作.m6819(this.f4134, "fF", bi_常量类.f6358b_空串);
+            this.f4134 = C0890_文本操作.m6819(this.f4134, "ff", bi_常量类.f6358b_空串);
             if (C0889_文件操作.m6797(((((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/") + this.f4134) + ".TXT")) {
                 this.f41351.mo887(C0889_文件操作.m6802(((((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/") + this.f4134) + ".TXT", "GBK"));
                 m5269();

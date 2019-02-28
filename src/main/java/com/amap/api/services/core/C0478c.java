@@ -38,7 +38,7 @@ public class C0478c<T> extends C0476s<T, ArrayList<?>> {
     }
 
     protected String getUrl() {
-        String str = this.task instanceof BusLineQuery ? ((BusLineQuery) this.task).getCategory() == SearchType.BY_LINE_ID ? "lineid" : ((BusLineQuery) this.task).getCategory() == SearchType.BY_LINE_NAME ? "linename" : bi_常量类.f6358b : "stopname";
+        String str = this.task instanceof BusLineQuery ? ((BusLineQuery) this.task).getCategory() == SearchType.BY_LINE_ID ? "lineid" : ((BusLineQuery) this.task).getCategory() == SearchType.BY_LINE_NAME ? "linename" : bi_常量类.f6358b_空串 : "stopname";
         return "http://restapi.amap.com/v3/bus/" + str + "?";
     }
 

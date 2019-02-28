@@ -17,7 +17,7 @@ public class C1158v {
     /* renamed from: a */
     private static String f5162a = "9397";
     /* renamed from: b */
-    private static String f5163b = bi_常量类.f6358b;
+    private static String f5163b = bi_常量类.f6358b_空串;
     /* renamed from: c */
     private static String f5164c = "PP";
     /* renamed from: d */
@@ -34,7 +34,7 @@ public class C1158v {
 
     /* renamed from: a */
     public static String m8046a(Context context) {
-        if (!f5163b.equals(bi_常量类.f6358b)) {
+        if (!f5163b.equals(bi_常量类.f6358b_空串)) {
             return f5163b;
         }
         ApplicationInfo applicationInfo = context.getApplicationInfo();
@@ -128,7 +128,7 @@ public class C1158v {
         if (!TextUtils.isEmpty(str9)) {
             C1158v.m8049a(stringBuilder, "OS", str9);
         }
-        C1158v.m8049a(stringBuilder, "API", VERSION.SDK_INT + bi_常量类.f6358b);
+        C1158v.m8049a(stringBuilder, "API", VERSION.SDK_INT + bi_常量类.f6358b_空串);
         b2 = "CHID";
         if (TextUtils.isEmpty(charSequence)) {
             str6 = "0";
@@ -142,13 +142,13 @@ public class C1158v {
 
     /* renamed from: a */
     private static String m8048a(String str) {
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         try {
             str2 = (String) Class.forName("android.os.SystemProperties").getMethod("get", new Class[]{String.class}).invoke(null, new Object[]{str});
             return str2 != null ? str2 : str2;
         } catch (Exception e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -164,7 +164,7 @@ public class C1158v {
 
     /* renamed from: b */
     private static String m8051b() {
-        return " " + Build.MODEL.replaceAll("[ |\\/|\\_|\\&|\\|]", bi_常量类.f6358b) + " ";
+        return " " + Build.MODEL.replaceAll("[ |\\/|\\_|\\&|\\|]", bi_常量类.f6358b_空串) + " ";
     }
 
     /* renamed from: c */

@@ -21,7 +21,7 @@ public final class Decoder {
     private static final int[] NB_BITS_COMPACT = new int[]{0, TbsListener.ErrorCode.WRITE_DISK_ERROR, 240, 408, 608};
     private static final int[] NB_DATABLOCK = new int[]{0, 21, 48, 60, 88, TbsListener.ErrorCode.DOWNLOAD_HAS_LOCAL_TBS_ERROR, 156, 196, 240, 230, 272, TbsListener.ErrorCode.ERROR_QBSDK_INIT_END, 364, 416, 470, 528, 588, 652, 720, 790, 864, 940, 1020, 920, 992, 1066, 1144, 1224, 1306, 1392, 1480, 1570, 1664};
     private static final int[] NB_DATABLOCK_COMPACT = new int[]{0, 17, 40, 51, 76};
-    private static final String[] PUNCT_TABLE = new String[]{bi_常量类.f6358b, "\r", "\r\n", ". ", ", ", ": ", "!", "\"", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "[", "]", "{", "}", "CTRL_UL"};
+    private static final String[] PUNCT_TABLE = new String[]{bi_常量类.f6358b_空串, "\r", "\r\n", ". ", ", ", ": ", "!", "\"", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "[", "]", "{", "}", "CTRL_UL"};
     private static final String[] UPPER_TABLE = new String[]{"CTRL_PS", " ", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "CTRL_LL", "CTRL_ML", "CTRL_DL", "CTRL_BS"};
     private int codewordSize;
     private AztecDetectorResult ddata;
@@ -137,7 +137,7 @@ public final class Decoder {
             case DIGIT:
                 return DIGIT_TABLE[code];
             default:
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
         }
     }
 

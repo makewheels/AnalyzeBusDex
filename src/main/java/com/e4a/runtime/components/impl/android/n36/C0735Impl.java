@@ -41,7 +41,7 @@ public class C0735Impl extends ComponentImpl implements C0733 {
                         int[] data = msg.getData().getIntArray("done");
                         MyDownload.this.fileLen = data[0];
                         MyDownload.this.done = data[1];
-                        C0735Impl.this.mo1128(MyDownload.this.downloadID, MyDownload.this.fileLen, MyDownload.this.done, (int) (Double.parseDouble(MyDownload.this.m5932(bi_常量类.f6358b + MyDownload.this.done, bi_常量类.f6358b + MyDownload.this.fileLen, 2)) * 100.0d));
+                        C0735Impl.this.mo1128(MyDownload.this.downloadID, MyDownload.this.fileLen, MyDownload.this.done, (int) (Double.parseDouble(MyDownload.this.m5932(bi_常量类.f6358b_空串 + MyDownload.this.done, bi_常量类.f6358b_空串 + MyDownload.this.fileLen, 2)) * 100.0d));
                         if (MyDownload.this.done == MyDownload.this.fileLen) {
                             C0735Impl.this.mo1122(MyDownload.this.downloadID, true);
                             return;

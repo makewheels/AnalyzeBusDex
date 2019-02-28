@@ -34,7 +34,7 @@ public class C0956a {
     /* renamed from: i */
     private C0955a f4537i = null;
     /* renamed from: j */
-    private String f4538j = bi_常量类.f6358b;
+    private String f4538j = bi_常量类.f6358b_空串;
     /* renamed from: k */
     private String f4539k = null;
 

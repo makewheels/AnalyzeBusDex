@@ -188,8 +188,8 @@ public class TbsShareManager {
                     try {
                         Properties properties = new Properties();
                         properties.load(fileInputStream2);
-                        String property = properties.getProperty("core_packagename", bi_常量类.f6358b);
-                        if (!bi_常量类.f6358b.equals(property)) {
+                        String property = properties.getProperty("core_packagename", bi_常量类.f6358b_空串);
+                        if (!bi_常量类.f6358b_空串.equals(property)) {
                             if (fileInputStream2 != null) {
                                 try {
                                     fileInputStream2.close();
@@ -254,8 +254,8 @@ public class TbsShareManager {
                     try {
                         Properties properties = new Properties();
                         properties.load(fileInputStream2);
-                        String property = properties.getProperty("core_version", bi_常量类.f6358b);
-                        if (bi_常量类.f6358b.equals(property)) {
+                        String property = properties.getProperty("core_version", bi_常量类.f6358b_空串);
+                        if (bi_常量类.f6358b_空串.equals(property)) {
                             if (fileInputStream2 != null) {
                                 try {
                                     fileInputStream2.close();
@@ -431,7 +431,7 @@ public class TbsShareManager {
 
     /* renamed from: l */
     private static boolean m7642l(Context context) {
-        writeProperties(context, Integer.toString(0), bi_常量类.f6358b, bi_常量类.f6358b, Integer.toString(0));
+        writeProperties(context, Integer.toString(0), bi_常量类.f6358b_空串, bi_常量类.f6358b_空串, Integer.toString(0));
         return true;
     }
 
@@ -449,20 +449,20 @@ public class TbsShareManager {
                         try {
                             Properties properties = new Properties();
                             properties.load(fileInputStream);
-                            String property = properties.getProperty("core_version", bi_常量类.f6358b);
-                            if (!bi_常量类.f6358b.equals(property)) {
+                            String property = properties.getProperty("core_version", bi_常量类.f6358b_空串);
+                            if (!bi_常量类.f6358b_空串.equals(property)) {
                                 f4872d = Math.max(Integer.parseInt(property), 0);
                             }
-                            property = properties.getProperty("core_packagename", bi_常量类.f6358b);
-                            if (!bi_常量类.f6358b.equals(property)) {
+                            property = properties.getProperty("core_packagename", bi_常量类.f6358b_空串);
+                            if (!bi_常量类.f6358b_空串.equals(property)) {
                                 f4873e = property;
                             }
-                            property = properties.getProperty("core_path", bi_常量类.f6358b);
-                            if (!bi_常量类.f6358b.equals(property)) {
+                            property = properties.getProperty("core_path", bi_常量类.f6358b_空串);
+                            if (!bi_常量类.f6358b_空串.equals(property)) {
                                 f4871c = property;
                             }
-                            property = properties.getProperty("app_version", bi_常量类.f6358b);
-                            if (!bi_常量类.f6358b.equals(property)) {
+                            property = properties.getProperty("app_version", bi_常量类.f6358b_空串);
+                            if (!bi_常量类.f6358b_空串.equals(property)) {
                                 f4876h = property;
                             }
                             f4874f = Boolean.parseBoolean(properties.getProperty("core_disabled", "false"));

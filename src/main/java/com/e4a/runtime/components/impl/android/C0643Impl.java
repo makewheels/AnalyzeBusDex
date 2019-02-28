@@ -21,7 +21,7 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.e4a.runtime.components.impl.android.面板Impl */
 public class C0643Impl extends ViewComponent implements C0642, ViewComponentContainer {
     private int backgroundColor;
-    private String backgroundImage = bi_常量类.f6358b;
+    private String backgroundImage = bi_常量类.f6358b_空串;
     private int backgroundImage2 = -1;
     private Variant layout;
     private boolean layoutFixed = false;

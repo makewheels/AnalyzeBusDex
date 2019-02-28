@@ -61,7 +61,7 @@ public final class C1052b {
         if (aH != null && aH.getLogLevel() <= 4) {
             String format = objArr == null ? str2 : String.format(str2, objArr);
             if (format == null) {
-                format = bi_常量类.f6358b;
+                format = bi_常量类.f6358b_空串;
             }
             C1051a c1051a = aH;
             Process.myPid();
@@ -102,7 +102,7 @@ public final class C1052b {
     public static void m7518e(String str, String str2) {
         if (aH != null && aH.getLogLevel() <= 1) {
             if (str2 == null) {
-                str2 = bi_常量类.f6358b;
+                str2 = bi_常量类.f6358b_空串;
             }
             C1051a c1051a = aH;
             Process.myPid();

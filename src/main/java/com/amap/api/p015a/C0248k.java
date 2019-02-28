@@ -20,7 +20,7 @@ public class C0248k {
     /* renamed from: a */
     public static int f1036a = -1;
     /* renamed from: b */
-    static String f1037b = bi_常量类.f6358b;
+    static String f1037b = bi_常量类.f6358b_空串;
     /* renamed from: d */
     public static HttpURLConnection f1038d = null;
     /* renamed from: c */

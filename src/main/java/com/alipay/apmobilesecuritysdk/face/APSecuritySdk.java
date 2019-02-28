@@ -294,7 +294,7 @@ public class APSecuritySdk {
         try {
             return (String) Class.forName("com.ta.utdid2.device.UTDevice").getMethod("getUtdid", new Class[]{Context.class}).invoke(null, new Object[]{context});
         } catch (Exception e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -314,7 +314,7 @@ public class APSecuritySdk {
     }
 
     public void initToken(int i, Map<String, String> map, InitResultListener initResultListener) {
-        this.f153h.addLast(new RunningTask(this, i, C0159a.m555a(map, C0109b.f281g, bi_常量类.f6358b), C0159a.m555a(map, C0109b.f277c, bi_常量类.f6358b), C0159a.m555a(map, "userId", bi_常量类.f6358b), initResultListener));
+        this.f153h.addLast(new RunningTask(this, i, C0159a.m555a(map, C0109b.f281g, bi_常量类.f6358b_空串), C0159a.m555a(map, C0109b.f277c, bi_常量类.f6358b_空串), C0159a.m555a(map, "userId", bi_常量类.f6358b_空串), initResultListener));
         if (this.f152g == null) {
             this.f152g = new Thread(new C00711(this));
             this.f152g.setUncaughtExceptionHandler(new C00722(this));

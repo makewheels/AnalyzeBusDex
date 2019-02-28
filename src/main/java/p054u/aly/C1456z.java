@@ -78,7 +78,7 @@ public class C1456z {
         SharedPreferences a = C1451u.m10465a(context);
         Editor edit = a.edit();
         if (this.f6625c.size() > 0) {
-            Object string = a.getString(f6623a, bi_常量类.f6358b);
+            Object string = a.getString(f6623a, bi_常量类.f6358b_空串);
             StringBuilder stringBuilder = new StringBuilder();
             if (!TextUtils.isEmpty(string)) {
                 stringBuilder.append(string);
@@ -102,8 +102,8 @@ public class C1456z {
 
     /* renamed from: a */
     public static List<ay> m10488a(SharedPreferences sharedPreferences) {
-        String string = sharedPreferences.getString(f6623a, bi_常量类.f6358b);
-        if (bi_常量类.f6358b.equals(string)) {
+        String string = sharedPreferences.getString(f6623a, bi_常量类.f6358b_空串);
+        if (bi_常量类.f6358b_空串.equals(string)) {
             return null;
         }
         ArrayList arrayList = new ArrayList();

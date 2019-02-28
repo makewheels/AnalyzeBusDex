@@ -456,28 +456,28 @@ public class C0575o {
     /* renamed from: b */
     private void m4549b() {
         if (this.f3513a == null) {
-            this.f3513a = bi_常量类.f6358b;
+            this.f3513a = bi_常量类.f6358b_空串;
         }
         if (this.f3515c == null) {
-            this.f3515c = bi_常量类.f6358b;
+            this.f3515c = bi_常量类.f6358b_空串;
         }
         if (this.f3516d == null) {
-            this.f3516d = bi_常量类.f6358b;
+            this.f3516d = bi_常量类.f6358b_空串;
         }
         if (this.f3517e == null) {
-            this.f3517e = bi_常量类.f6358b;
+            this.f3517e = bi_常量类.f6358b_空串;
         }
         if (this.f3518f == null) {
-            this.f3518f = bi_常量类.f6358b;
+            this.f3518f = bi_常量类.f6358b_空串;
         }
         if (this.f3519g == null) {
-            this.f3519g = bi_常量类.f6358b;
+            this.f3519g = bi_常量类.f6358b_空串;
         }
         if (this.f3520h == null) {
-            this.f3520h = bi_常量类.f6358b;
+            this.f3520h = bi_常量类.f6358b_空串;
         }
         if (this.f3521i == null) {
-            this.f3521i = bi_常量类.f6358b;
+            this.f3521i = bi_常量类.f6358b_空串;
         }
         if (this.f3522j == null) {
             this.f3522j = "0";
@@ -490,35 +490,35 @@ public class C0575o {
             this.f3523k = "0";
         }
         if (this.f3524l == null) {
-            this.f3524l = bi_常量类.f6358b;
+            this.f3524l = bi_常量类.f6358b_空串;
         } else {
             this.f3524l = String.valueOf(Double.valueOf(Double.parseDouble(this.f3524l) * 1200000.0d).intValue());
         }
         if (this.f3525m == null) {
-            this.f3525m = bi_常量类.f6358b;
+            this.f3525m = bi_常量类.f6358b_空串;
         } else {
             this.f3525m = String.valueOf(Double.valueOf(Double.parseDouble(this.f3525m) * 1000000.0d).intValue());
         }
         if (this.f3526n == null) {
-            this.f3526n = bi_常量类.f6358b;
+            this.f3526n = bi_常量类.f6358b_空串;
         }
         if (this.f3527o == null) {
-            this.f3527o = bi_常量类.f6358b;
+            this.f3527o = bi_常量类.f6358b_空串;
         }
         if (this.f3528p == null) {
-            this.f3528p = bi_常量类.f6358b;
+            this.f3528p = bi_常量类.f6358b_空串;
         }
         if (this.f3529q == null) {
-            this.f3529q = bi_常量类.f6358b;
+            this.f3529q = bi_常量类.f6358b_空串;
         }
         if (this.f3530r == null) {
-            this.f3530r = bi_常量类.f6358b;
+            this.f3530r = bi_常量类.f6358b_空串;
         }
         if (this.f3531s == null) {
-            this.f3531s = bi_常量类.f6358b;
+            this.f3531s = bi_常量类.f6358b_空串;
         }
         if (this.f3532t == null) {
-            this.f3532t = bi_常量类.f6358b;
+            this.f3532t = bi_常量类.f6358b_空串;
         }
         if (this.f3533u == null) {
             this.f3533u = "0";
@@ -531,16 +531,16 @@ public class C0575o {
             this.f3534v = "0";
         }
         if (this.f3535w == null) {
-            this.f3535w = bi_常量类.f6358b;
+            this.f3535w = bi_常量类.f6358b_空串;
         }
         if (this.f3536x == null) {
-            this.f3536x = bi_常量类.f6358b;
+            this.f3536x = bi_常量类.f6358b_空串;
         }
         if (this.f3537y == null) {
-            this.f3537y = bi_常量类.f6358b;
+            this.f3537y = bi_常量类.f6358b_空串;
         }
         if (this.f3538z == null) {
-            this.f3538z = bi_常量类.f6358b;
+            this.f3538z = bi_常量类.f6358b_空串;
         }
         if (this.f3512A == null) {
             this.f3512A = new byte[0];

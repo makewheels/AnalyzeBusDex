@@ -8,7 +8,7 @@ import p054u.aly.bi_常量类;
 public class C0810Impl extends ComponentImpl implements C0809 {
     private Thread thread = new Thread(new C08081());
     /* renamed from: 参数 */
-    private String f4331 = bi_常量类.f6358b;
+    private String f4331 = bi_常量类.f6358b_空串;
 
     /* renamed from: com.e4a.runtime.components.impl.android.多线程操作Impl$1 */
     class C08081 implements Runnable {

@@ -21,7 +21,7 @@ public abstract class PoiHandler<T, V> extends C0476s<T, V> {
     }
 
     protected boolean isNullString(String str) {
-        if (str == null || str.equals(bi_常量类.f6358b) || str.equals("[]")) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串) || str.equals("[]")) {
             return true;
         }
         return false;

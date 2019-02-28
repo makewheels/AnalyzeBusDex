@@ -13,7 +13,7 @@ public final class C0119c {
             instance.update(str.getBytes());
             return C0119c.m363b(instance.digest());
         } catch (NoSuchAlgorithmException e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -24,7 +24,7 @@ public final class C0119c {
             instance.update(bArr);
             return C0119c.m363b(instance.digest());
         } catch (NoSuchAlgorithmException e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 

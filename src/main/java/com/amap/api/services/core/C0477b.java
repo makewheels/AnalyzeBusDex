@@ -25,7 +25,7 @@ public class C0477b extends C0476s<BusRouteQuery, BusRouteResult> {
         if (!C0488m.m4078h(city)) {
             stringBuffer.append("&city=").append(strEncoder(city, z));
         }
-        stringBuffer.append("&strategy=").append(bi_常量类.f6358b + ((BusRouteQuery) this.task).getMode());
+        stringBuffer.append("&strategy=").append(bi_常量类.f6358b_空串 + ((BusRouteQuery) this.task).getMode());
         stringBuffer.append("&nightflag=").append(((BusRouteQuery) this.task).getNightFlag());
         stringBuffer.append("&output=json");
         return C0480e.m4029f(stringBuffer.toString());

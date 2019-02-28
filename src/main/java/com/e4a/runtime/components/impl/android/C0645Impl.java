@@ -78,7 +78,7 @@ public abstract class C0645Impl extends C0643Impl implements C0644, OnResumeList
 
     public void onNewIntent(Intent intent) {
         String param1 = intent.getStringExtra("参数");
-        if (param1 == null || param1.equals(bi_常量类.f6358b)) {
+        if (param1 == null || param1.equals(bi_常量类.f6358b_空串)) {
             mo845(intent.getDataString());
         } else {
             mo845(param1);
@@ -87,8 +87,8 @@ public abstract class C0645Impl extends C0643Impl implements C0644, OnResumeList
 
     /* renamed from: 程序被启动 */
     public void mo845(String 参数) {
-        if (参数 == null || 参数.equals(bi_常量类.f6358b)) {
-            EventDispatcher.dispatchEvent(this, "程序被启动", bi_常量类.f6358b);
+        if (参数 == null || 参数.equals(bi_常量类.f6358b_空串)) {
+            EventDispatcher.dispatchEvent(this, "程序被启动", bi_常量类.f6358b_空串);
             return;
         }
         EventDispatcher.dispatchEvent(this, "程序被启动", 参数);

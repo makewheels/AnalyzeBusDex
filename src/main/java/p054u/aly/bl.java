@@ -73,7 +73,7 @@ public class bl extends bo {
         try {
             new C1418b(this, bmVar, c1417a).execute(new Integer[0]);
         } catch (Exception e) {
-            bj.m10003b(f6377a, bi_常量类.f6358b, e);
+            bj.m10003b(f6377a, bi_常量类.f6358b_空串, e);
             if (c1417a != null) {
                 c1417a.m10020a(C1419a.FAIL);
             }

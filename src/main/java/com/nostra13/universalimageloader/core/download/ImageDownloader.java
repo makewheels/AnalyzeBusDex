@@ -15,7 +15,7 @@ public interface ImageDownloader {
         CONTENT("content"),
         ASSETS("assets"),
         DRAWABLE("drawable"),
-        UNKNOWN(bi_常量类.f6358b);
+        UNKNOWN(bi_常量类.f6358b_空串);
         
         private String scheme;
         private String uriPrefix;

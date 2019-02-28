@@ -260,7 +260,7 @@ public class cr extends cy {
     /* renamed from: l */
     public ct mo1969l() throws cf {
         byte u = mo1978u();
-        return new ct(bi_常量类.f6358b, u, u == (byte) 0 ? (short) 0 : mo1979v());
+        return new ct(bi_常量类.f6358b_空串, u, u == (byte) 0 ? (short) 0 : mo1979v());
     }
 
     /* renamed from: m */

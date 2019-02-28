@@ -326,7 +326,7 @@ public final class C0565g implements Closeable {
             String a3 = c0581r.m4566a();
             String a4 = c0581r.m4566a();
             String a5 = c0581r.m4566a();
-            if ("libcore.io.DiskLruCache".equals(a) && C0108a.f262e.equals(a2) && Integer.toString(this.f3492g).equals(a3) && Integer.toString(this.f3494i).equals(a4) && bi_常量类.f6358b.equals(a5)) {
+            if ("libcore.io.DiskLruCache".equals(a) && C0108a.f262e.equals(a2) && Integer.toString(this.f3492g).equals(a3) && Integer.toString(this.f3494i).equals(a4) && bi_常量类.f6358b_空串.equals(a5)) {
                 i = 0;
                 while (true) {
                     m4516d(c0581r.m4566a());

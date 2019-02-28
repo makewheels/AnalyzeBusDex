@@ -234,7 +234,7 @@ public class MobclickAgent {
     }
 
     public static String getConfigParams(Context context, String str) {
-        return C1245f.m8407a(context).m8424g().getString(str, bi_常量类.f6358b);
+        return C1245f.m8407a(context).m8424g().getString(str, bi_常量类.f6358b_空串);
     }
 
     public static void updateOnlineConfig(Context context, String str, String str2) {

@@ -29,7 +29,7 @@ public class C1091d {
         /* renamed from: b */
         public int f4940b = -1;
         /* renamed from: c */
-        public String f4941c = bi_常量类.f6358b;
+        public String f4941c = bi_常量类.f6358b_空串;
         /* renamed from: d */
         public String f4942d = "0";
         /* renamed from: e */
@@ -44,8 +44,8 @@ public class C1091d {
         public String f4945b;
 
         private C1090b() {
-            this.f4944a = bi_常量类.f6358b;
-            this.f4945b = bi_常量类.f6358b;
+            this.f4944a = bi_常量类.f6358b_空串;
+            this.f4945b = bi_常量类.f6358b_空串;
         }
     }
 
@@ -68,7 +68,7 @@ public class C1091d {
                         str = encode;
                     }
                     obj2 = obj;
-                    stringBuilder.append("mttbrowser://url=").append(str).append(",product=").append("TBS").append(",packagename=").append(context.getPackageName()).append(",from=").append(str2).append(",version=").append(TbsConfig.TBS_SDK_VERSIONNAME).append(obj2 == null ? ",encoded=1" : bi_常量类.f6358b);
+                    stringBuilder.append("mttbrowser://url=").append(str).append(",product=").append("TBS").append(",packagename=").append(context.getPackageName()).append(",from=").append(str2).append(",version=").append(TbsConfig.TBS_SDK_VERSIONNAME).append(obj2 == null ? ",encoded=1" : bi_常量类.f6358b_空串);
                     return C1091d.m7698b(context, stringBuilder.toString(), hashMap);
                 }
             }
@@ -87,7 +87,7 @@ public class C1091d {
         }
         if (obj2 == null) {
         }
-        stringBuilder.append("mttbrowser://url=").append(str).append(",product=").append("TBS").append(",packagename=").append(context.getPackageName()).append(",from=").append(str2).append(",version=").append(TbsConfig.TBS_SDK_VERSIONNAME).append(obj2 == null ? ",encoded=1" : bi_常量类.f6358b);
+        stringBuilder.append("mttbrowser://url=").append(str).append(",product=").append("TBS").append(",packagename=").append(context.getPackageName()).append(",from=").append(str2).append(",version=").append(TbsConfig.TBS_SDK_VERSIONNAME).append(obj2 == null ? ",encoded=1" : bi_常量类.f6358b_空串);
         return C1091d.m7698b(context, stringBuilder.toString(), hashMap);
     }
 
@@ -108,8 +108,8 @@ public class C1091d {
                 c1089a.f4941c = "ADRQB_";
                 if (packageInfo != null && packageInfo.versionCode > 420000) {
                     c1089a.f4940b = packageInfo.versionCode;
-                    c1089a.f4941c += packageInfo.versionName.replaceAll("\\.", bi_常量类.f6358b);
-                    c1089a.f4942d = packageInfo.versionName.replaceAll("\\.", bi_常量类.f6358b);
+                    c1089a.f4941c += packageInfo.versionName.replaceAll("\\.", bi_常量类.f6358b_空串);
+                    c1089a.f4942d = packageInfo.versionName.replaceAll("\\.", bi_常量类.f6358b_空串);
                     return c1089a;
                 }
             } catch (NameNotFoundException e) {
@@ -154,8 +154,8 @@ public class C1091d {
             }
             if (packageInfo != null) {
                 c1089a.f4940b = packageInfo.versionCode;
-                c1089a.f4941c += packageInfo.versionName.replaceAll("\\.", bi_常量类.f6358b);
-                c1089a.f4942d = packageInfo.versionName.replaceAll("\\.", bi_常量类.f6358b);
+                c1089a.f4941c += packageInfo.versionName.replaceAll("\\.", bi_常量类.f6358b_空串);
+                c1089a.f4942d = packageInfo.versionName.replaceAll("\\.", bi_常量类.f6358b_空串);
             }
         } catch (Exception e7) {
         }

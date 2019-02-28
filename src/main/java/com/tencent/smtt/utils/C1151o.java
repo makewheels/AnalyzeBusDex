@@ -16,7 +16,7 @@ public class C1151o {
     /* renamed from: a */
     protected static final char[] f5143a = "0123456789abcdef".toCharArray();
     /* renamed from: b */
-    private static String f5144b = bi_常量类.f6358b;
+    private static String f5144b = bi_常量类.f6358b_空串;
     /* renamed from: c */
     private static byte[] f5145c = null;
     /* renamed from: f */

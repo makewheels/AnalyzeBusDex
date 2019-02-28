@@ -13,11 +13,11 @@ public final class C0116f {
     /* renamed from: c */
     public int f325c = 0;
     /* renamed from: d */
-    public String f326d = bi_常量类.f6358b;
+    public String f326d = bi_常量类.f6358b_空串;
     /* renamed from: e */
     public long f327e = 0;
     /* renamed from: f */
-    public String f328f = bi_常量类.f6358b;
+    public String f328f = bi_常量类.f6358b_空串;
     /* renamed from: g */
     public String f329g = null;
     /* renamed from: h */

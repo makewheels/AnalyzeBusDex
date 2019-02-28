@@ -25,7 +25,7 @@ public final class C0019d extends C0016a {
                 throw new RpcException(Integer.valueOf(i), jSONObject.optString("tips"));
             }
         } catch (Exception e) {
-            throw new RpcException(Integer.valueOf(10), new StringBuilder("response  =").append(new String(this.b)).append(":").append(e).toString() == null ? bi_常量类.f6358b : e.getMessage());
+            throw new RpcException(Integer.valueOf(10), new StringBuilder("response  =").append(new String(this.b)).append(":").append(e).toString() == null ? bi_常量类.f6358b_空串 : e.getMessage());
         }
     }
 }

@@ -67,7 +67,7 @@ public class C1109h {
 
     /* renamed from: b */
     public static String m7836b(int i) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         DexLoader b = C1109h.m7835b();
         if (b != null) {
             Object invokeStaticMethod = b.invokeStaticMethod("com.tencent.tbs.reader.TbsReader", "getResString", new Class[]{Integer.class}, Integer.valueOf(i));

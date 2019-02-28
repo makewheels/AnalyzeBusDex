@@ -519,7 +519,7 @@ public class GifDecoder extends Thread {
                             break;
                         case WebView.NORMAL_MODE_ALPHA /*255*/:
                             readBlock();
-                            String app = bi_常量类.f6358b;
+                            String app = bi_常量类.f6358b_空串;
                             for (int i = 0; i < 11; i++) {
                                 app = app + ((char) this.block[i]);
                             }
@@ -565,7 +565,7 @@ public class GifDecoder extends Thread {
     }
 
     private void readHeader() {
-        String id = bi_常量类.f6358b;
+        String id = bi_常量类.f6358b_空串;
         for (int i = 0; i < 6; i++) {
             id = id + ((char) read());
         }

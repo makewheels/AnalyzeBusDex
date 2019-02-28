@@ -43,7 +43,7 @@ public class C1086b {
                 instance.update(toByteArray);
                 toByteArray = instance.digest();
                 if (toByteArray != null) {
-                    StringBuilder stringBuilder = new StringBuilder(bi_常量类.f6358b);
+                    StringBuilder stringBuilder = new StringBuilder(bi_常量类.f6358b_空串);
                     if (toByteArray != null && toByteArray.length > 0) {
                         for (int i = 0; i < toByteArray.length; i++) {
                             String toUpperCase = Integer.toHexString(toByteArray[i] & WebView.NORMAL_MODE_ALPHA).toUpperCase();
@@ -73,7 +73,7 @@ public class C1086b {
     /* renamed from: a */
     public static void m7688a(Context context, String str, String str2, String str3, int i, boolean z) {
         String str4;
-        String str5 = bi_常量类.f6358b;
+        String str5 = bi_常量类.f6358b_空串;
         try {
             ApplicationInfo applicationInfo = context.getApplicationInfo();
             if (TbsConfig.APP_QQ.equals(applicationInfo.packageName)) {
@@ -106,16 +106,16 @@ public class C1086b {
             String c = C1135b.m7952c(context);
             String d = C1135b.m7953d(context);
             Object f = C1135b.m7955f(context);
-            if (!(c == null || bi_常量类.f6358b.equals(c))) {
+            if (!(c == null || bi_常量类.f6358b_空串.equals(c))) {
                 thirdAppInfoNew.sImei = c;
             }
-            if (!(d == null || bi_常量类.f6358b.equals(d))) {
+            if (!(d == null || bi_常量类.f6358b_空串.equals(d))) {
                 thirdAppInfoNew.sImsi = d;
             }
             if (!TextUtils.isEmpty(f)) {
                 thirdAppInfoNew.sAndroidID = f;
             }
-            if (!(str5 == null || bi_常量类.f6358b.equals(str5))) {
+            if (!(str5 == null || bi_常量类.f6358b_空串.equals(str5))) {
                 thirdAppInfoNew.sMac = str5;
             }
             thirdAppInfoNew.iPv = (long) i;

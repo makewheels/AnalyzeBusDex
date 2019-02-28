@@ -88,7 +88,7 @@ public class H5AuthActivity extends Activity {
                         C0088l.f189a = C0088l.m225a(a.m232a(), a.m233b(), decode);
                     } else {
                         a = C0089m.m229a(C0089m.FAILED.m232a());
-                        C0088l.f189a = C0088l.m225a(a.m232a(), a.m233b(), bi_常量类.f6358b);
+                        C0088l.f189a = C0088l.m225a(a.m232a(), a.m233b(), bi_常量类.f6358b_空串);
                     }
                 } catch (Exception e) {
                     C0088l.f189a = C0088l.m227b();
@@ -169,7 +169,7 @@ public class H5AuthActivity extends Activity {
             finish();
         } else if (this.f164e) {
             C0089m a = C0089m.m229a(C0089m.NETWORK_ERROR.m232a());
-            C0088l.f189a = C0088l.m225a(a.m232a(), a.m233b(), bi_常量类.f6358b);
+            C0088l.f189a = C0088l.m225a(a.m232a(), a.m233b(), bi_常量类.f6358b_空串);
             finish();
         }
     }

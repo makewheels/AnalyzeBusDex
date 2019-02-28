@@ -47,7 +47,7 @@ public class C0147h {
     private String m517a(String str, Intent intent) {
         this.f460i = null;
         if (this.f456e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         String str2;
         this.f456e = true;

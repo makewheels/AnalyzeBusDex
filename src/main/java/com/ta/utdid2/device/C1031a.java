@@ -6,13 +6,13 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.ta.utdid2.device.a */
 public final class C1031a {
     /* renamed from: a */
-    private String f4740a = bi_常量类.f6358b;
+    private String f4740a = bi_常量类.f6358b_空串;
     /* renamed from: b */
-    private String f4741b = bi_常量类.f6358b;
+    private String f4741b = bi_常量类.f6358b_空串;
     /* renamed from: c */
-    private String f4742c = bi_常量类.f6358b;
+    private String f4742c = bi_常量类.f6358b_空串;
     /* renamed from: d */
-    private String f4743d = bi_常量类.f6358b;
+    private String f4743d = bi_常量类.f6358b_空串;
     /* renamed from: e */
     private long f4744e = 0;
     /* renamed from: f */

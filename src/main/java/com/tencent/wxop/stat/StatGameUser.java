@@ -4,11 +4,11 @@ import p054u.aly.bi_常量类;
 
 public class StatGameUser implements Cloneable {
     /* renamed from: a */
-    private String f5254a = bi_常量类.f6358b;
+    private String f5254a = bi_常量类.f6358b_空串;
     /* renamed from: b */
-    private String f5255b = bi_常量类.f6358b;
+    private String f5255b = bi_常量类.f6358b_空串;
     /* renamed from: c */
-    private String f5256c = bi_常量类.f6358b;
+    private String f5256c = bi_常量类.f6358b_空串;
 
     public StatGameUser(String str, String str2, String str3) {
         this.f5255b = str;

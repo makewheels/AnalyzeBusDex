@@ -69,7 +69,7 @@ class C0425d {
                 c0427f = null;
             }
             if (c0427f != null && c0427f.f2476a) {
-                C0432j c0432j = new C0432j(C0425d.f2460j, bi_常量类.f6358b);
+                C0432j c0432j = new C0432j(C0425d.f2460j, bi_常量类.f6358b_空串);
                 c0432j.m3700a(C0425d.f2460j);
                 try {
                     ArrayList arrayList = (ArrayList) c0432j.m3686f();
@@ -297,7 +297,7 @@ class C0425d {
 
     /* renamed from: e */
     public void m3674e() {
-        if (!C0425d.m3655a().equals(bi_常量类.f6358b)) {
+        if (!C0425d.m3655a().equals(bi_常量类.f6358b_空串)) {
             this.f2462b.clear();
             File file = new File(C0425d.m3655a() + "offlinemap3.png");
             if (file.exists()) {

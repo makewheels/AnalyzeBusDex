@@ -7,7 +7,7 @@ public final class dd {
     public final String f6516a;
 
     public dd() {
-        this(bi_常量类.f6358b);
+        this(bi_常量类.f6358b_空串);
     }
 
     public dd(String str) {

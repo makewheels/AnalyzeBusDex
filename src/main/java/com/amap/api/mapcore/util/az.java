@@ -64,7 +64,7 @@ public class az implements UncaughtExceptionHandler {
         synchronized (az.class) {
             if (adVar == null) {
                 throw new C0406v("sdk info is null");
-            } else if (adVar.m3033a() == null || bi_常量类.f6358b.equals(adVar.m3033a())) {
+            } else if (adVar.m3033a() == null || bi_常量类.f6358b_空串.equals(adVar.m3033a())) {
                 throw new C0406v("sdk name is invalid");
             } else {
                 try {

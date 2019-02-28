@@ -78,7 +78,7 @@ public class C0942a {
             PackageInfo packageInfo = context.getPackageManager().getPackageInfo(context.getPackageName(), 0);
             ApplicationInfo applicationInfo = context.getPackageManager().getApplicationInfo(context.getPackageName(), 0);
             c0950a.m7170a("app.ver.name", packageInfo.versionName);
-            c0950a.m7170a("app.ver.code", bi_常量类.f6358b + packageInfo.versionCode);
+            c0950a.m7170a("app.ver.code", bi_常量类.f6358b_空串 + packageInfo.versionCode);
             c0950a.m7170a("app.pkg", applicationInfo.packageName);
             c0950a.m7170a("app.path", applicationInfo.dataDir);
             c0950a.m7170a("app.name", applicationInfo.loadLabel(context.getPackageManager()).toString());
@@ -95,7 +95,7 @@ public class C0942a {
             C0942a.m7130a(f4487c, context);
             DisplayMetrics displayMetrics = context.getResources().getDisplayMetrics();
             f4487c.m7170a("os.resolution", displayMetrics.widthPixels + "*" + displayMetrics.heightPixels);
-            f4487c.m7170a("os.density", bi_常量类.f6358b + displayMetrics.density);
+            f4487c.m7170a("os.density", bi_常量类.f6358b_空串 + displayMetrics.density);
             TelephonyManager telephonyManager = (TelephonyManager) context.getSystemService("phone");
             f4487c.m7170a("os.imei", telephonyManager.getDeviceId());
             f4487c.m7170a("os.imsi", telephonyManager.getSubscriberId());

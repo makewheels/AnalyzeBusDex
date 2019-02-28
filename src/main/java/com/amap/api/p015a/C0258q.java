@@ -32,7 +32,7 @@ class C0258q {
                 return;
             }
             boolean z2 = false;
-            if (!asVar.f647l.equals(bi_常量类.f6358b)) {
+            if (!asVar.f647l.equals(bi_常量类.f6358b_空串)) {
                 File file = new File(asVar.f647l);
                 z2 = file.exists();
                 if (!z2) {
@@ -50,7 +50,7 @@ class C0258q {
         if (!Environment.getExternalStorageState().equals("mounted")) {
             return context.getFilesDir().getPath();
         }
-        if (MapsInitializer.sdcardDir == null || MapsInitializer.sdcardDir.equals(bi_常量类.f6358b)) {
+        if (MapsInitializer.sdcardDir == null || MapsInitializer.sdcardDir.equals(bi_常量类.f6358b_空串)) {
             File file;
             File file2 = new File(Environment.getExternalStorageDirectory(), "Amap");
             if (!file2.exists()) {
@@ -136,7 +136,7 @@ class C0258q {
     /* renamed from: a */
     public int m1668a(C0252a c0252a) {
         String[] a = m1666a(c0252a.f1046b, c0252a.f1047c, c0252a.f1048d, true);
-        if (a == null || a.length != 2 || a[0].equals(bi_常量类.f6358b) || Arrays.equals(a, new String[a.length])) {
+        if (a == null || a.length != 2 || a[0].equals(bi_常量类.f6358b_空串) || Arrays.equals(a, new String[a.length])) {
             return -1;
         }
         File file = new File(a[0]);

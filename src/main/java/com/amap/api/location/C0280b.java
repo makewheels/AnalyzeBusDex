@@ -275,9 +275,9 @@ public class C0280b implements AMapLocationListener {
     /* renamed from: a */
     protected String m1798a(JSONObject jSONObject, String str) throws JSONException {
         if (jSONObject == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         if (!jSONObject.has(str) || jSONObject.getString(str).equals("[]")) {
             return str2;
         }

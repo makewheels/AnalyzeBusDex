@@ -37,7 +37,7 @@ public final class C0663MySQL {
         mysql_password = 密码;
         mysql_database = 数据库名;
         String str = C0663MySQL.m5396("Connect");
-        if (str == null || str.equals(bi_常量类.f6358b)) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串)) {
             connected = false;
             return false;
         } else if (C0890_文本操作.m6821(str, "ConnectSucceeded", 0) != -1) {
@@ -53,17 +53,17 @@ public final class C0663MySQL {
     /* renamed from: MySQL_取服务器信息 */
     public static String m5386MySQL_(int 欲取类型) {
         if (欲取类型 < 1 || 欲取类型 > 5 || !connected) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
-        String str = C0663MySQL.m5396("Getinfo|*|" + 欲取类型 + bi_常量类.f6358b);
-        if (str == null || str.equals(bi_常量类.f6358b)) {
-            return bi_常量类.f6358b;
+        String str = C0663MySQL.m5396("Getinfo|*|" + 欲取类型 + bi_常量类.f6358b_空串);
+        if (str == null || str.equals(bi_常量类.f6358b_空串)) {
+            return bi_常量类.f6358b_空串;
         }
         int i = C0890_文本操作.m6821(str, "Getinfo", 0);
         if (i != -1) {
             return str.substring(i + 7);
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     @SimpleFunction
@@ -73,7 +73,7 @@ public final class C0663MySQL {
             return "unknown";
         }
         String str = C0663MySQL.m5396("Getip");
-        if (str == null || str.equals(bi_常量类.f6358b)) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串)) {
             return "unknown";
         }
         int i = C0890_文本操作.m6821(str, "Getip", 0);
@@ -87,17 +87,17 @@ public final class C0663MySQL {
     /* renamed from: MySQL_取数据库下所有表 */
     public static String m5385MySQL_() {
         if (!connected) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         String str1 = C0663MySQL.m5396("STables");
-        if (str1 == null || str1.equals(bi_常量类.f6358b)) {
-            return bi_常量类.f6358b;
+        if (str1 == null || str1.equals(bi_常量类.f6358b_空串)) {
+            return bi_常量类.f6358b_空串;
         }
         int i = C0890_文本操作.m6821(str1, "STables", 0);
         if (i != -1) {
             return str1.substring(i + 7);
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     @SimpleFunction
@@ -107,7 +107,7 @@ public final class C0663MySQL {
             return "Error";
         }
         String str1 = C0663MySQL.m5396("RQuery|*|" + 语句);
-        if (str1 == null || str1.equals(bi_常量类.f6358b)) {
+        if (str1 == null || str1.equals(bi_常量类.f6358b_空串)) {
             return "Error";
         }
         int i = C0890_文本操作.m6821(str1, "RQuery", 0);
@@ -125,9 +125,9 @@ public final class C0663MySQL {
         }
         String str1;
         int i;
-        if (满足条件 == null || 满足条件.equals(bi_常量类.f6358b)) {
+        if (满足条件 == null || 满足条件.equals(bi_常量类.f6358b_空串)) {
             str1 = C0663MySQL.m5396("GRNumNC|*|" + 表名);
-            if (str1 == null || str1.equals(bi_常量类.f6358b)) {
+            if (str1 == null || str1.equals(bi_常量类.f6358b_空串)) {
                 return -1;
             }
             i = C0890_文本操作.m6821(str1, "GRNumNC", 0);
@@ -137,7 +137,7 @@ public final class C0663MySQL {
             return -1;
         }
         str1 = C0663MySQL.m5396("GRNum|*|" + 表名 + "|*|" + 满足条件);
-        if (str1 == null || str1.equals(bi_常量类.f6358b)) {
+        if (str1 == null || str1.equals(bi_常量类.f6358b_空串)) {
             return -1;
         }
         i = C0890_文本操作.m6821(str1, "GRNum", 0);
@@ -154,7 +154,7 @@ public final class C0663MySQL {
             return false;
         }
         String str = C0663MySQL.m5396("IsData|*|" + 表名 + "|*|" + 字段名 + "|*|" + 字段值);
-        if (str == null || str.equals(bi_常量类.f6358b) || C0890_文本操作.m6821(str, "IsData", 0) == -1) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串) || C0890_文本操作.m6821(str, "IsData", 0) == -1) {
             return false;
         }
         return true;
@@ -167,7 +167,7 @@ public final class C0663MySQL {
             return false;
         }
         String str = C0663MySQL.m5396("CgData|*|" + 表名 + "|*|" + 字段更改 + "|*|" + 满足条件);
-        if (str == null || str.equals(bi_常量类.f6358b) || C0890_文本操作.m6821(str, "CgData", 0) == -1) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串) || C0890_文本操作.m6821(str, "CgData", 0) == -1) {
             return false;
         }
         return true;
@@ -180,7 +180,7 @@ public final class C0663MySQL {
             return false;
         }
         String str = C0663MySQL.m5396("CcData|*|" + 表名 + "|*|" + 满足条件);
-        if (str == null || str.equals(bi_常量类.f6358b) || C0890_文本操作.m6821(str, "CcData", 0) == -1) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串) || C0890_文本操作.m6821(str, "CcData", 0) == -1) {
             return false;
         }
         return true;
@@ -190,44 +190,44 @@ public final class C0663MySQL {
     /* renamed from: MySQL_查询记录 */
     public static String m5391MySQL_(String 表名, String 欲取得字段名, String 满足条件) {
         if (!connected) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         String str1 = C0663MySQL.m5396("QrData|*|" + 表名 + "|*|" + 欲取得字段名 + "|*|" + 满足条件);
-        if (str1 == null || str1.equals(bi_常量类.f6358b)) {
-            return bi_常量类.f6358b;
+        if (str1 == null || str1.equals(bi_常量类.f6358b_空串)) {
+            return bi_常量类.f6358b_空串;
         }
         int i = C0890_文本操作.m6821(str1, "QrData", 0);
         if (i != -1) {
             return str1.substring(i + 6);
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     @SimpleFunction
     /* renamed from: MySQL_查询记录2 */
     public static String m5392MySQL_2(String 表名, String 欲取得字段名, String 满足条件, int 开始记录索引, int 结束记录索引) {
         if (!connected) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         String str1 = C0663MySQL.m5396("QLData|*|" + 表名 + "|*|" + 欲取得字段名 + "|*|" + 满足条件 + "|*|" + 开始记录索引 + "," + 结束记录索引);
-        if (str1 == null || str1.equals(bi_常量类.f6358b)) {
-            return bi_常量类.f6358b;
+        if (str1 == null || str1.equals(bi_常量类.f6358b_空串)) {
+            return bi_常量类.f6358b_空串;
         }
         int i = C0890_文本操作.m6821(str1, "QLData", 0);
         if (i != -1) {
             return str1.substring(i + 6);
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     @SimpleFunction
     /* renamed from: MySQL_查询最大值 */
     public static int m5390MySQL_(String 表名, String 字段名) {
-        if (!connected || 字段名 == null || 字段名.equals(bi_常量类.f6358b)) {
+        if (!connected || 字段名 == null || 字段名.equals(bi_常量类.f6358b_空串)) {
             return -1;
         }
         String str1 = C0663MySQL.m5396("GRMax|*|" + 表名 + "|*|" + 字段名);
-        if (str1 == null || str1.equals(bi_常量类.f6358b)) {
+        if (str1 == null || str1.equals(bi_常量类.f6358b_空串)) {
             return -1;
         }
         int i = C0890_文本操作.m6821(str1, "GRMax", 0);
@@ -266,7 +266,7 @@ public final class C0663MySQL {
         try {
             return new String(C0663MySQL.encodeToChar(paramString.getBytes("UTF-8"), false));
         } catch (UnsupportedEncodingException e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 

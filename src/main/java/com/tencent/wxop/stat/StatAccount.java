@@ -16,13 +16,13 @@ public class StatAccount {
     public static final int WECHAT_ID_TYPE = 2;
     public static final int WECHAT_OPENID_TYPE = 4;
     /* renamed from: a */
-    private String f5198a = bi_常量类.f6358b;
+    private String f5198a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     private int f5199b = 0;
     /* renamed from: c */
-    private String f5200c = bi_常量类.f6358b;
+    private String f5200c = bi_常量类.f6358b_空串;
     /* renamed from: d */
-    private String f5201d = bi_常量类.f6358b;
+    private String f5201d = bi_常量类.f6358b_空串;
 
     public StatAccount(String str) {
         this.f5198a = str;

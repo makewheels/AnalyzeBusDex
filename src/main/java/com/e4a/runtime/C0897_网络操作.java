@@ -66,7 +66,7 @@ public final class C0897_网络操作 {
     public static final int NETWORKTYPE_WAP = 1;
     public static final int NETWORKTYPE_WIFI = 4;
     private static DefaultHttpClient client = new DefaultHttpClient();
-    private static String cookies_get = bi_常量类.f6358b;
+    private static String cookies_get = bi_常量类.f6358b_空串;
     private static String cookies_set = null;
     private static Header[] reqHeaders = null;
     private static Header[] responseHeaders = null;
@@ -102,7 +102,7 @@ public final class C0897_网络操作 {
         CookieManager cookieManager = CookieManager.getInstance();
         cookieManager.setAcceptCookie(true);
         List<Cookie> cookies = client.getCookieStore().getCookies();
-        String cookieString = bi_常量类.f6358b;
+        String cookieString = bi_常量类.f6358b_空串;
         if (!cookies.isEmpty()) {
             for (Cookie cookie : cookies) {
                 cookieString = cookie.getName() + "=" + cookie.getValue() + ";" + cookieString;
@@ -125,13 +125,13 @@ public final class C0897_网络操作 {
     /* renamed from: 取请求头 */
     public static String m6924() {
         if (reqHeaders == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
-        String result = bi_常量类.f6358b;
+        String result = bi_常量类.f6358b_空串;
         for (int i = 0; i < reqHeaders.length; i++) {
             String name = reqHeaders[i].getName();
             String value = reqHeaders[i].getValue();
-            if (result.equals(bi_常量类.f6358b)) {
+            if (result.equals(bi_常量类.f6358b_空串)) {
                 result = name + ":" + value;
             } else {
                 result = result + "\n" + name + ":" + value;
@@ -144,13 +144,13 @@ public final class C0897_网络操作 {
     /* renamed from: 取响应头 */
     public static String m6915() {
         if (responseHeaders == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
-        String result = bi_常量类.f6358b;
+        String result = bi_常量类.f6358b_空串;
         for (int i = 0; i < responseHeaders.length; i++) {
             String name = responseHeaders[i].getName();
             String value = responseHeaders[i].getValue();
-            if (result.equals(bi_常量类.f6358b)) {
+            if (result.equals(bi_常量类.f6358b_空串)) {
                 result = name + ":" + value;
             } else {
                 result = result + "\n" + name + ":" + value;
@@ -167,18 +167,18 @@ public final class C0897_网络操作 {
             String param;
             HttpPost httpPost = new HttpPost(loginUrl);
             List<NameValuePair> params = new ArrayList();
-            String name = bi_常量类.f6358b;
-            String value = bi_常量类.f6358b;
-            if (!bi_常量类.f6358b.equals(paramdata)) {
+            String name = bi_常量类.f6358b_空串;
+            String value = bi_常量类.f6358b_空串;
+            if (!bi_常量类.f6358b_空串.equals(paramdata)) {
                 if (paramdata.indexOf("&", 0) > 0) {
                     for (String param2 : paramdata.split("\\Q&\\E")) {
                         keyPair = param2.split("\\Q=\\E");
-                        params.add(new BasicNameValuePair(keyPair[0], keyPair.length > 1 ? keyPair[1].trim() : bi_常量类.f6358b));
+                        params.add(new BasicNameValuePair(keyPair[0], keyPair.length > 1 ? keyPair[1].trim() : bi_常量类.f6358b_空串));
                     }
                     httpPost.setEntity(new UrlEncodedFormEntity(params, Charset));
                 } else if (paramdata.indexOf("=", 0) > 0) {
                     keyPair = paramdata.split("\\Q=\\E");
-                    params.add(new BasicNameValuePair(keyPair[0], keyPair.length > 1 ? keyPair[1].trim() : bi_常量类.f6358b));
+                    params.add(new BasicNameValuePair(keyPair[0], keyPair.length > 1 ? keyPair[1].trim() : bi_常量类.f6358b_空串));
                     httpPost.setEntity(new UrlEncodedFormEntity(params, Charset));
                 } else {
                     StringEntity entity = new StringEntity(paramdata, Charset);
@@ -186,7 +186,7 @@ public final class C0897_网络操作 {
                     httpPost.setEntity(entity);
                 }
             }
-            if (!(f4340 == null || f4340.equals(bi_常量类.f6358b))) {
+            if (!(f4340 == null || f4340.equals(bi_常量类.f6358b_空串))) {
                 for (String param22 : f4340.split("\\Q\n\\E")) {
                     param22 = C0890_文本操作.m6808(param22);
                     name = C0890_文本操作.m6816(param22, C0890_文本操作.m6821(param22, ":", 0));
@@ -199,7 +199,7 @@ public final class C0897_网络操作 {
                     f4341 = null;
                 }
             }
-            if (!(cookies_set == null || cookies_set.equals(bi_常量类.f6358b))) {
+            if (!(cookies_set == null || cookies_set.equals(bi_常量类.f6358b_空串))) {
                 httpPost.addHeader("Cookie", cookies_set);
             }
             reqHeaders = httpPost.getAllHeaders();
@@ -208,7 +208,7 @@ public final class C0897_网络操作 {
             HttpConnectionParams.setSoTimeout(httpparam, timeout);
             HttpResponse httpResponse = client.execute(httpPost);
             responseHeaders = httpResponse.getAllHeaders();
-            cookies_get = bi_常量类.f6358b;
+            cookies_get = bi_常量类.f6358b_空串;
             Header[] headers = httpResponse.getHeaders("Set-Cookie");
             if (headers != null) {
                 for (Header value2 : headers) {
@@ -216,8 +216,8 @@ public final class C0897_网络操作 {
                     for (String split : cookievalues) {
                         keyPair = split.split("=");
                         String key = keyPair[0].trim();
-                        String value22 = keyPair.length > 1 ? keyPair[1].trim() : bi_常量类.f6358b;
-                        if (cookies_get.equals(bi_常量类.f6358b)) {
+                        String value22 = keyPair.length > 1 ? keyPair[1].trim() : bi_常量类.f6358b_空串;
+                        if (cookies_get.equals(bi_常量类.f6358b_空串)) {
                             cookies_get = key + "=" + value22;
                         } else {
                             cookies_get += ";" + key + "=" + value22;
@@ -228,17 +228,17 @@ public final class C0897_网络操作 {
             return EntityUtils.toString(httpResponse.getEntity(), Charset);
         } catch (ClientProtocolException e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (IOException e2) {
             e2.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
     @SimpleFunction
     /* renamed from: 发送网络数据2 */
     public static String m69102(String IP, int PORT, String CONTENT, String CHARSET, int TIMEOUT) {
-        String str1 = bi_常量类.f6358b;
+        String str1 = bi_常量类.f6358b_空串;
         try {
             Socket localSocket = new Socket(IP, PORT);
             localSocket.setSoTimeout(TIMEOUT);
@@ -256,7 +256,7 @@ public final class C0897_网络操作 {
                 str1 = str1 + str2 + "\n";
             }
         } catch (IOException e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -266,13 +266,13 @@ public final class C0897_网络操作 {
         try {
             HttpPost httpPost = new HttpPost(loginUrl);
             List<NameValuePair> params = new ArrayList();
-            String name = bi_常量类.f6358b;
+            String name = bi_常量类.f6358b_空串;
             while (paramHashmap.m5451()) {
                 name = paramHashmap.m5444();
                 params.add(new BasicNameValuePair(name, paramHashmap.m5448(name).getString()));
             }
             httpPost.setEntity(new UrlEncodedFormEntity(params, Charset));
-            if (!(f4340 == null || f4340.equals(bi_常量类.f6358b))) {
+            if (!(f4340 == null || f4340.equals(bi_常量类.f6358b_空串))) {
                 for (String param : f4340.split("\\Q\n\\E")) {
                     String param2 = C0890_文本操作.m6808(param2);
                     name = C0890_文本操作.m6816(param2, C0890_文本操作.m6821(param2, ":", 0));
@@ -285,7 +285,7 @@ public final class C0897_网络操作 {
                     f4341 = null;
                 }
             }
-            if (!(cookies_set == null || cookies_set.equals(bi_常量类.f6358b))) {
+            if (!(cookies_set == null || cookies_set.equals(bi_常量类.f6358b_空串))) {
                 httpPost.addHeader("Cookie", cookies_set);
             }
             reqHeaders = httpPost.getAllHeaders();
@@ -294,7 +294,7 @@ public final class C0897_网络操作 {
             HttpConnectionParams.setSoTimeout(httpparam, timeout);
             HttpResponse httpResponse = client.execute(httpPost);
             responseHeaders = httpResponse.getAllHeaders();
-            cookies_get = bi_常量类.f6358b;
+            cookies_get = bi_常量类.f6358b_空串;
             Header[] headers = httpResponse.getHeaders("Set-Cookie");
             if (headers != null) {
                 for (Header value : headers) {
@@ -302,8 +302,8 @@ public final class C0897_网络操作 {
                     for (String split : cookievalues) {
                         String[] keyPair = split.split("=");
                         String key = keyPair[0].trim();
-                        String value2 = keyPair.length > 1 ? keyPair[1].trim() : bi_常量类.f6358b;
-                        if (cookies_get.equals(bi_常量类.f6358b)) {
+                        String value2 = keyPair.length > 1 ? keyPair[1].trim() : bi_常量类.f6358b_空串;
+                        if (cookies_get.equals(bi_常量类.f6358b_空串)) {
                             cookies_get = key + "=" + value2;
                         } else {
                             cookies_get += ";" + key + "=" + value2;
@@ -314,10 +314,10 @@ public final class C0897_网络操作 {
             return EntityUtils.toString(httpResponse.getEntity(), Charset);
         } catch (ClientProtocolException e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (IOException e2) {
             e2.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -350,9 +350,9 @@ public final class C0897_网络操作 {
     public static byte[] m6918(String Url, int timeout) {
         try {
             HttpGet httprequest = new HttpGet(Url);
-            if (!(f4340 == null || f4340.equals(bi_常量类.f6358b))) {
-                String name = bi_常量类.f6358b;
-                String value = bi_常量类.f6358b;
+            if (!(f4340 == null || f4340.equals(bi_常量类.f6358b_空串))) {
+                String name = bi_常量类.f6358b_空串;
+                String value = bi_常量类.f6358b_空串;
                 for (String param : f4340.split("\\Q\n\\E")) {
                     String param2 = C0890_文本操作.m6808(param2);
                     name = C0890_文本操作.m6816(param2, C0890_文本操作.m6821(param2, ":", 0));
@@ -365,7 +365,7 @@ public final class C0897_网络操作 {
                     f4341 = null;
                 }
             }
-            if (!(cookies_set == null || cookies_set.equals(bi_常量类.f6358b))) {
+            if (!(cookies_set == null || cookies_set.equals(bi_常量类.f6358b_空串))) {
                 httprequest.addHeader("Cookie", cookies_set);
             }
             reqHeaders = httprequest.getAllHeaders();
@@ -374,7 +374,7 @@ public final class C0897_网络操作 {
             HttpConnectionParams.setSoTimeout(httpparam, timeout);
             HttpResponse httpResponse = client.execute(httprequest);
             responseHeaders = httpResponse.getAllHeaders();
-            cookies_get = bi_常量类.f6358b;
+            cookies_get = bi_常量类.f6358b_空串;
             Header[] headers = httpResponse.getHeaders("Set-Cookie");
             if (headers != null) {
                 for (Header value2 : headers) {
@@ -382,8 +382,8 @@ public final class C0897_网络操作 {
                     for (String split : cookievalues) {
                         String[] keyPair = split.split("=");
                         String key = keyPair[0].trim();
-                        String value22 = keyPair.length > 1 ? keyPair[1].trim() : bi_常量类.f6358b;
-                        if (cookies_get.equals(bi_常量类.f6358b)) {
+                        String value22 = keyPair.length > 1 ? keyPair[1].trim() : bi_常量类.f6358b_空串;
+                        if (cookies_get.equals(bi_常量类.f6358b_空串)) {
                             cookies_get = key + "=" + value22;
                         } else {
                             cookies_get += ";" + key + "=" + value22;
@@ -406,9 +406,9 @@ public final class C0897_网络操作 {
     public static String m6922(String Url, String Charset, int timeout) {
         try {
             HttpGet httprequest = new HttpGet(Url);
-            if (!(f4340 == null || f4340.equals(bi_常量类.f6358b))) {
-                String name = bi_常量类.f6358b;
-                String value = bi_常量类.f6358b;
+            if (!(f4340 == null || f4340.equals(bi_常量类.f6358b_空串))) {
+                String name = bi_常量类.f6358b_空串;
+                String value = bi_常量类.f6358b_空串;
                 for (String param : f4340.split("\\Q\n\\E")) {
                     String param2 = C0890_文本操作.m6808(param2);
                     name = C0890_文本操作.m6816(param2, C0890_文本操作.m6821(param2, ":", 0));
@@ -421,7 +421,7 @@ public final class C0897_网络操作 {
                     f4341 = null;
                 }
             }
-            if (!(cookies_set == null || cookies_set.equals(bi_常量类.f6358b))) {
+            if (!(cookies_set == null || cookies_set.equals(bi_常量类.f6358b_空串))) {
                 httprequest.addHeader("Cookie", cookies_set);
             }
             reqHeaders = httprequest.getAllHeaders();
@@ -432,9 +432,9 @@ public final class C0897_网络操作 {
             responseHeaders = httpResponse.getAllHeaders();
             HttpEntity he = httpResponse.getEntity();
             if (he == null) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
-            cookies_get = bi_常量类.f6358b;
+            cookies_get = bi_常量类.f6358b_空串;
             Header[] headers = httpResponse.getHeaders("Set-Cookie");
             if (headers != null) {
                 for (Header value2 : headers) {
@@ -442,8 +442,8 @@ public final class C0897_网络操作 {
                     for (String split : cookievalues) {
                         String[] keyPair = split.split("=");
                         String key = keyPair[0].trim();
-                        String value22 = keyPair.length > 1 ? keyPair[1].trim() : bi_常量类.f6358b;
-                        if (cookies_get.equals(bi_常量类.f6358b)) {
+                        String value22 = keyPair.length > 1 ? keyPair[1].trim() : bi_常量类.f6358b_空串;
+                        if (cookies_get.equals(bi_常量类.f6358b_空串)) {
                             cookies_get = key + "=" + value22;
                         } else {
                             cookies_get += ";" + key + "=" + value22;
@@ -454,10 +454,10 @@ public final class C0897_网络操作 {
             return EntityUtils.toString(he, Charset);
         } catch (ClientProtocolException e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (IOException e2) {
             e2.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -473,14 +473,14 @@ public final class C0897_网络操作 {
             conn.setRequestProperty("Referer", url);
             conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
             conn.setRequestProperty("User-Agent", "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; BOIE9;ZHCN)");
-            if (cookies_set != null && !cookies_set.equals(bi_常量类.f6358b)) {
+            if (cookies_set != null && !cookies_set.equals(bi_常量类.f6358b_空串)) {
                 conn.setRequestProperty("Cookie", cookies_set);
-            } else if (!cookies_get.equals(bi_常量类.f6358b)) {
+            } else if (!cookies_get.equals(bi_常量类.f6358b_空串)) {
                 conn.setRequestProperty("Cookie", cookies_get);
             }
-            if (!(f4340 == null || f4340.equals(bi_常量类.f6358b))) {
-                String name = bi_常量类.f6358b;
-                String value = bi_常量类.f6358b;
+            if (!(f4340 == null || f4340.equals(bi_常量类.f6358b_空串))) {
+                String name = bi_常量类.f6358b_空串;
+                String value = bi_常量类.f6358b_空串;
                 for (String param : f4340.split("\\Q\n\\E")) {
                     String param2 = C0890_文本操作.m6808(param2);
                     name = C0890_文本操作.m6816(param2, C0890_文本操作.m6821(param2, ":", 0));
@@ -498,7 +498,7 @@ public final class C0897_网络操作 {
                 outStream.write(buffer, 0, i);
             }
             String str = new String(outStream.toByteArray(), charset);
-            String key = bi_常量类.f6358b;
+            String key = bi_常量类.f6358b_空串;
             if (conn != null) {
                 i = 1;
                 while (true) {
@@ -517,7 +517,7 @@ public final class C0897_网络操作 {
             return str;
         } catch (Exception e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -525,7 +525,7 @@ public final class C0897_网络操作 {
     /* renamed from: 发送网络数据4 */
     public static String m69124(String 网址, String 数据, String 编码, int 超时) {
         Exception e;
-        String result = bi_常量类.f6358b;
+        String result = bi_常量类.f6358b_空串;
         try {
             HttpURLConnection urlConnection = (HttpURLConnection) new URL(网址).openConnection();
             urlConnection.setRequestMethod("POST");
@@ -535,18 +535,18 @@ public final class C0897_网络操作 {
             urlConnection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
             urlConnection.setRequestProperty("Content-Length", String.valueOf(数据.getBytes().length));
             urlConnection.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0");
-            if (!(f4340 == null || f4340.equals(bi_常量类.f6358b))) {
-                String name = bi_常量类.f6358b;
-                String value = bi_常量类.f6358b;
+            if (!(f4340 == null || f4340.equals(bi_常量类.f6358b_空串))) {
+                String name = bi_常量类.f6358b_空串;
+                String value = bi_常量类.f6358b_空串;
                 for (String param : f4340.split("\\Q\n\\E")) {
                     String param2 = C0890_文本操作.m6808(param2);
                     name = C0890_文本操作.m6816(param2, C0890_文本操作.m6821(param2, ":", 0));
                     urlConnection.setRequestProperty(name, C0890_文本操作.m6815(param2, (C0890_文本操作.m6817_获取字符串长度(param2) - C0890_文本操作.m6817_获取字符串长度(name)) - 1));
                 }
             }
-            if (cookies_set != null && !cookies_set.equals(bi_常量类.f6358b)) {
+            if (cookies_set != null && !cookies_set.equals(bi_常量类.f6358b_空串)) {
                 urlConnection.setRequestProperty("Cookie", cookies_set);
-            } else if (!cookies_get.equals(bi_常量类.f6358b)) {
+            } else if (!cookies_get.equals(bi_常量类.f6358b_空串)) {
                 urlConnection.setRequestProperty("Cookie", cookies_get);
             }
             urlConnection.setDoOutput(true);
@@ -568,7 +568,7 @@ public final class C0897_网络操作 {
             baos.close();
             String str = new String(baos.toByteArray(), 编码);
             try {
-                String key = bi_常量类.f6358b;
+                String key = bi_常量类.f6358b_空串;
                 if (urlConnection != null) {
                     int i = 1;
                     while (true) {
@@ -699,7 +699,7 @@ public final class C0897_网络操作 {
     @SimpleFunction
     /* renamed from: JSON解析 */
     public static String m6908JSON(String json, String item, String name, int type) {
-        String value = bi_常量类.f6358b;
+        String value = bi_常量类.f6358b_空串;
         switch (type) {
             case 1:
                 try {
@@ -707,7 +707,7 @@ public final class C0897_网络操作 {
                     break;
                 } catch (Exception e) {
                     e.printStackTrace();
-                    return bi_常量类.f6358b;
+                    return bi_常量类.f6358b_空串;
                 }
             case 2:
                 try {
@@ -715,7 +715,7 @@ public final class C0897_网络操作 {
                     break;
                 } catch (Exception e2) {
                     e2.printStackTrace();
-                    return bi_常量类.f6358b;
+                    return bi_常量类.f6358b_空串;
                 }
             case 3:
                 try {
@@ -730,7 +730,7 @@ public final class C0897_网络操作 {
                     break;
                 } catch (Exception e22) {
                     e22.printStackTrace();
-                    return bi_常量类.f6358b;
+                    return bi_常量类.f6358b_空串;
                 }
         }
         return value;
@@ -739,9 +739,9 @@ public final class C0897_网络操作 {
     @SimpleFunction
     /* renamed from: 取外网IP */
     public static String m6916IP() {
-        String result = bi_常量类.f6358b;
+        String result = bi_常量类.f6358b_空串;
         String html = C0897_网络操作.m69232("http://www.123cha.com/", "UTF-8", 5000);
-        if (html.equals(bi_常量类.f6358b)) {
+        if (html.equals(bi_常量类.f6358b_空串)) {
             return result;
         }
         String[] html2 = C0892.m6854(html, "(?<=\\Q您的ip:[\\E).*?(?=\\Q</a>]\\E)");
@@ -758,9 +758,9 @@ public final class C0897_网络操作 {
     @SimpleFunction
     /* renamed from: 取手机所在地区 */
     public static String m6917() {
-        String result = bi_常量类.f6358b;
+        String result = bi_常量类.f6358b_空串;
         String html = C0897_网络操作.m69232("http://www.123cha.com/", "UTF-8", 5000);
-        if (html.equals(bi_常量类.f6358b)) {
+        if (html.equals(bi_常量类.f6358b_空串)) {
             return result;
         }
         String[] html2 = C0892.m6854(html, "(?<=\\Q来自:&nbsp;\\E).*?(?=\\Q&nbsp;++\\E)");
@@ -788,10 +788,10 @@ public final class C0897_网络操作 {
                     }
                 }
             }
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (SocketException ex) {
             ex.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -805,31 +805,31 @@ public final class C0897_网络操作 {
             HttpConnectionParams.setSoTimeout(httpparam, 5000);
             HttpResponse httpResponse = client.execute(httprequest);
             if (httpResponse.getStatusLine().getStatusCode() != 200) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
             String jieguo = EntityUtils.toString(httpResponse.getEntity(), "GBK");
             if (jieguo.length() <= 100) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
             String[] temp = C0892.m6854(jieguo, "(?<= >> ).*?(?=</font></h1></td>)");
             if (temp.length > 0) {
                 return temp[0].trim();
             }
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (ClientProtocolException e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } catch (IOException e2) {
             e2.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
     @SimpleFunction
     /* renamed from: 百度翻译 */
     public static String m6931(String appid, String token, String text, int from, int to) {
-        String from2 = bi_常量类.f6358b;
-        String to2 = bi_常量类.f6358b;
+        String from2 = bi_常量类.f6358b_空串;
+        String to2 = bi_常量类.f6358b_空串;
         switch (from) {
             case 0:
                 from2 = "auto";
@@ -931,16 +931,16 @@ public final class C0897_网络操作 {
         int salt = new Random().nextInt(10000);
         String temp = C0899.m6952(C0897_网络操作.m6918("http://api.fanyi.baidu.com/api/trans/vip/translate?q=" + C0895.m6905URL(text, "UTF-8") + "&from=" + from2 + "&to=" + to2 + "&appid=" + appid + "&salt=" + salt + "&sign=" + C0890_文本操作.m6811(C0843.m6613MD5(C0899.m6961(appid + text + salt + token, "UTF-8"))), 5000), "UTF-8");
         if (C0890_文本操作.m6817_获取字符串长度(temp) <= 5 || C0890_文本操作.m6821(temp, "error", 0) != -1) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         String[] shuzu1 = C0890_文本操作.m6806_分割字符串(temp, "dst\":\"");
         if (shuzu1.length < 2) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         String[] shuzu2 = C0890_文本操作.m6806_分割字符串(shuzu1[1], "\"");
         if (shuzu2.length >= 2) {
             return C0895.m6904UCS2(shuzu2[0]);
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 }

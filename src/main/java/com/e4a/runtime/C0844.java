@@ -25,11 +25,11 @@ public final class C0844 {
             ZipOutputStream out2 = new ZipOutputStream(new FileOutputStream(outFile));
             try {
                 if (fileOrDirectory.isFile()) {
-                    C0844.zipFileOrDirectory(out2, fileOrDirectory, bi_常量类.f6358b);
+                    C0844.zipFileOrDirectory(out2, fileOrDirectory, bi_常量类.f6358b_空串);
                 } else {
                     File[] entries = fileOrDirectory.listFiles();
                     for (File zipFileOrDirectory : entries) {
-                        C0844.zipFileOrDirectory(out2, zipFileOrDirectory, bi_常量类.f6358b);
+                        C0844.zipFileOrDirectory(out2, zipFileOrDirectory, bi_常量类.f6358b_空串);
                     }
                 }
                 if (out2 != null) {

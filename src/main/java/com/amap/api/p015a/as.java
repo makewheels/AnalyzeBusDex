@@ -11,7 +11,7 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.amap.api.a.as */
 public class as extends at {
     /* renamed from: a */
-    public String f636a = bi_常量类.f6358b;
+    public String f636a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     public int f637b = 18;
     /* renamed from: c */
@@ -33,7 +33,7 @@ public class as extends at {
     /* renamed from: k */
     public int f646k = -1;
     /* renamed from: l */
-    public String f647l = bi_常量类.f6358b;
+    public String f647l = bi_常量类.f6358b_空串;
     /* renamed from: m */
     C0257p f648m = null;
     /* renamed from: n */

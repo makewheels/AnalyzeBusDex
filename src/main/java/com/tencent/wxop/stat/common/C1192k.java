@@ -57,9 +57,9 @@ public class C1192k {
     /* renamed from: g */
     private static String f5486g = null;
     /* renamed from: h */
-    private static String f5487h = bi_常量类.f6358b;
+    private static String f5487h = bi_常量类.f6358b_空串;
     /* renamed from: i */
-    private static String f5488i = bi_常量类.f6358b;
+    private static String f5488i = bi_常量类.f6358b_空串;
     /* renamed from: j */
     private static int f5489j = -1;
     /* renamed from: k */
@@ -77,7 +77,7 @@ public class C1192k {
     /* renamed from: q */
     private static long f5496q = -1;
     /* renamed from: r */
-    private static String f5497r = bi_常量类.f6358b;
+    private static String f5497r = bi_常量类.f6358b_空串;
     /* renamed from: s */
     private static C1195n f5498s = null;
     /* renamed from: t */
@@ -89,7 +89,7 @@ public class C1192k {
     /* renamed from: w */
     private static int f5502w = 0;
     /* renamed from: x */
-    private static String f5503x = bi_常量类.f6358b;
+    private static String f5503x = bi_常量类.f6358b_空串;
 
     /* renamed from: A */
     public static int m8267A(Context context) {
@@ -507,7 +507,7 @@ public class C1192k {
             String str = context.getPackageManager().getPackageInfo(context.getPackageName(), 0).versionName;
             f5487h = str;
             if (str == null) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
         } catch (Throwable th) {
             f5490k.m8242e(th);
@@ -522,7 +522,7 @@ public class C1192k {
 
     /* renamed from: l */
     public static String m8301l(Context context) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         try {
             if (C1198q.m8332a(context, "android.permission.INTERNET") && C1198q.m8332a(context, "android.permission.ACCESS_NETWORK_STATE")) {
                 String typeName;

@@ -10,30 +10,30 @@ public class Authcode {
     public static String Encode(String source, String key) {
         if (source == null || key == null) {
             try {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             } catch (Exception e) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
         }
         key = MD52(key);
         String keya = MD52(CutString(key, 0, 16));
         String keyb = MD52(CutString(key, 16, 16));
-        String keyc = 4 > null ? RandomString(4) : bi_常量类.f6358b;
+        String keyc = 4 > null ? RandomString(4) : bi_常量类.f6358b_空串;
         return keyc + Base64.encode(RC4(("0000000000" + CutString(MD52(source + keyb), 0, 16) + source).getBytes("UTF-8"), keya + MD52(keya + keyc)));
     }
 
     public static String Decode(String source, String key) {
         if (source == null || key == null) {
             try {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             } catch (Exception e) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
         }
         key = MD52(key);
         String keya = MD52(CutString(key, 0, 16));
         String keyb = MD52(CutString(key, 16, 16));
-        String cryptkey = keya + MD52(keya + (4 > null ? CutString(source, 0, 4) : bi_常量类.f6358b));
+        String cryptkey = keya + MD52(keya + (4 > null ? CutString(source, 0, 4) : bi_常量类.f6358b_空串));
         String result = new String(RC4(Base64.decode(CutString(source, 4)), cryptkey));
         if (CutString(result, 10, 16).equals(CutString(MD52(CutString(result, 26) + keyb), 0, 16))) {
             return CutString(result, 26);
@@ -61,13 +61,13 @@ public class Authcode {
                 }
             }
             if (startIndex > str.length()) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
         } else if (length < 0) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         } else {
             if (length + startIndex <= 0) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
             length += startIndex;
             startIndex = 0;
@@ -101,7 +101,7 @@ public class Authcode {
     private static String RandomString(int lens) {
         char[] CharArray = new char[]{'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
         int clens = CharArray.length;
-        String sCode = bi_常量类.f6358b;
+        String sCode = bi_常量类.f6358b_空串;
         Random random = new Random();
         for (int i = 0; i < lens; i++) {
             sCode = sCode + CharArray[Math.abs(random.nextInt(clens))];

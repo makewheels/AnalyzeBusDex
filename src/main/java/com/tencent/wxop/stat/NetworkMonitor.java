@@ -10,11 +10,11 @@ public class NetworkMonitor {
     /* renamed from: b */
     private int f5194b = 0;
     /* renamed from: c */
-    private String f5195c = bi_常量类.f6358b;
+    private String f5195c = bi_常量类.f6358b_空串;
     /* renamed from: d */
     private int f5196d = 0;
     /* renamed from: e */
-    private String f5197e = bi_常量类.f6358b;
+    private String f5197e = bi_常量类.f6358b_空串;
 
     public String getDomain() {
         return this.f5195c;

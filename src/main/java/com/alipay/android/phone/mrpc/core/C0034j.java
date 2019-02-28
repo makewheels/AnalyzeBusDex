@@ -42,12 +42,12 @@ public final class C0034j extends C0022a {
             }
             throw new RpcException(Integer.valueOf(9), "response is null");
         } catch (Throwable e2) {
-            throw new RpcException(Integer.valueOf(13), bi_常量类.f6358b, e2);
+            throw new RpcException(Integer.valueOf(13), bi_常量类.f6358b_空串, e2);
         } catch (Throwable e22) {
             Throwable th = e22;
             e22 = th.getCause();
             if (e22 == null || !(e22 instanceof HttpException)) {
-                throw new RpcException(Integer.valueOf(9), bi_常量类.f6358b, th);
+                throw new RpcException(Integer.valueOf(9), bi_常量类.f6358b_空串, th);
             }
             HttpException httpException = (HttpException) e22;
             int code = httpException.getCode();
@@ -82,7 +82,7 @@ public final class C0034j extends C0022a {
             }
             throw new RpcException(Integer.valueOf(code), httpException.getMsg());
         } catch (Throwable e222) {
-            throw new RpcException(Integer.valueOf(13), bi_常量类.f6358b, e222);
+            throw new RpcException(Integer.valueOf(13), bi_常量类.f6358b_空串, e222);
         }
     }
 }

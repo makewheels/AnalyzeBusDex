@@ -97,11 +97,11 @@ public final class C0887 {
     @SimpleFunction
     /* renamed from: 条件查询 */
     public static String m6765(String BM, String hz, String SeperatorItem, String SeperatorLine) {
-        String tmpvalue = bi_常量类.f6358b;
+        String tmpvalue = bi_常量类.f6358b_空串;
         Cursor cursor = null;
         try {
             cursor = db.rawQuery("SELECT * FROM " + BM + " WHERE " + hz, null);
-            tmpvalue = bi_常量类.f6358b;
+            tmpvalue = bi_常量类.f6358b_空串;
             while (cursor.moveToNext()) {
                 int columnCount = cursor.getColumnCount();
                 for (int i = 0; i < columnCount; i++) {
@@ -127,11 +127,11 @@ public final class C0887 {
     @SimpleFunction
     /* renamed from: 范围查询 */
     public static String m6767(String BM, int from, int to, String SeperatorItem, String SeperatorLine) {
-        String tmpvalue = bi_常量类.f6358b;
+        String tmpvalue = bi_常量类.f6358b_空串;
         Cursor cursor = null;
         try {
             cursor = db.rawQuery("SELECT * FROM " + BM + " LIMIT " + Integer.toString(from) + "," + Integer.toString(to), null);
-            tmpvalue = bi_常量类.f6358b;
+            tmpvalue = bi_常量类.f6358b_空串;
             while (cursor.moveToNext()) {
                 int columnCount = cursor.getColumnCount();
                 for (int i = 0; i < columnCount; i++) {
@@ -181,11 +181,11 @@ public final class C0887 {
     @SimpleFunction
     /* renamed from: 数据库查询 */
     public static String m6763(String SQLSen, String SeperatorItem, String SeperatorLine) {
-        String tmpvalue = bi_常量类.f6358b;
+        String tmpvalue = bi_常量类.f6358b_空串;
         Cursor cursor = null;
         try {
             cursor = db.rawQuery(SQLSen, null);
-            tmpvalue = bi_常量类.f6358b;
+            tmpvalue = bi_常量类.f6358b_空串;
             while (cursor.moveToNext()) {
                 int columnCount = cursor.getColumnCount();
                 for (int i = 0; i < columnCount; i++) {

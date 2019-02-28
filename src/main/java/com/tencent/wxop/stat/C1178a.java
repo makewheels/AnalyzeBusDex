@@ -26,7 +26,7 @@ public class C1178a {
     /* renamed from: b */
     private volatile int f5332b = 2;
     /* renamed from: c */
-    private volatile String f5333c = bi_常量类.f6358b;
+    private volatile String f5333c = bi_常量类.f6358b_空串;
     /* renamed from: d */
     private volatile HttpHost f5334d = null;
     /* renamed from: e */
@@ -92,7 +92,7 @@ public class C1178a {
         } catch (Throwable e) {
             this.f5338i.m8242e(e);
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     /* renamed from: k */

@@ -11,7 +11,7 @@ public class ct {
     public final short f6486c;
 
     public ct() {
-        this(bi_常量类.f6358b, (byte) 0, (short) 0);
+        this(bi_常量类.f6358b_空串, (byte) 0, (short) 0);
     }
 
     public ct(String str, byte b, short s) {

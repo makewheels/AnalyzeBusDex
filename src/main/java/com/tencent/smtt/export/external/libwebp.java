@@ -38,7 +38,7 @@ public class libwebp {
     private String getCPUinfo() {
         String str;
         IOException e;
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         try {
             InputStream inputStream = new ProcessBuilder(new String[]{"/system/bin/cat", "/proc/cpuinfo"}).start().getInputStream();
             byte[] bArr = new byte[1024];

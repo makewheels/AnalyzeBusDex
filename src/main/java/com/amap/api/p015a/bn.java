@@ -32,7 +32,7 @@ public abstract class bn<T, V> {
     /* renamed from: g */
     protected String f910g;
     /* renamed from: h */
-    protected String f911h = bi_常量类.f6358b;
+    protected String f911h = bi_常量类.f6358b_空串;
 
     /* renamed from: a */
     protected abstract V mo229a(InputStream inputStream) throws AMapException;

@@ -693,7 +693,7 @@ public class LocationManagerProxy {
             return "V1.3.0";
         } catch (Exception e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 }

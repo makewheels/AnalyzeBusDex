@@ -244,7 +244,7 @@ public class bu implements ap {
         c0195a.m729a(tileOverlayOptions.getMemCacheSize());
         c0195a.m732b(tileOverlayOptions.getDiskCacheSize());
         String diskCacheDir = tileOverlayOptions.getDiskCacheDir();
-        if (!(diskCacheDir == null || diskCacheDir.equals(bi_常量类.f6358b))) {
+        if (!(diskCacheDir == null || diskCacheDir.equals(bi_常量类.f6358b_空串))) {
             c0195a.m730a(diskCacheDir);
         }
         this.f945j = new C0199k(this.f937a.getContext(), this.f942g, this.f943h);

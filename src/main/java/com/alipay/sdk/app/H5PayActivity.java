@@ -94,7 +94,7 @@ public class H5PayActivity extends Activity {
                         return true;
                     }
                     C0089m a2 = C0089m.m229a(C0089m.FAILED.m232a());
-                    C0088l.f189a = C0088l.m225a(a2.m232a(), a2.m233b(), bi_常量类.f6358b);
+                    C0088l.f189a = C0088l.m225a(a2.m232a(), a2.m233b(), bi_常量类.f6358b_空串);
                     this.f166a.runOnUiThread(new C0087k(this));
                     return true;
                 } catch (Exception e) {
@@ -171,7 +171,7 @@ public class H5PayActivity extends Activity {
             finish();
         } else if (this.f170d) {
             C0089m a = C0089m.m229a(C0089m.NETWORK_ERROR.m232a());
-            C0088l.f189a = C0088l.m225a(a.m232a(), a.m233b(), bi_常量类.f6358b);
+            C0088l.f189a = C0088l.m225a(a.m232a(), a.m233b(), bi_常量类.f6358b_空串);
             finish();
         }
     }

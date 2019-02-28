@@ -41,13 +41,13 @@ public class StatServiceImpl {
     /* renamed from: j */
     private static volatile long f5268j = 0;
     /* renamed from: k */
-    private static String f5269k = bi_常量类.f6358b;
+    private static String f5269k = bi_常量类.f6358b_空串;
     /* renamed from: l */
     private static volatile int f5270l = 0;
     /* renamed from: m */
-    private static volatile String f5271m = bi_常量类.f6358b;
+    private static volatile String f5271m = bi_常量类.f6358b_空串;
     /* renamed from: n */
-    private static volatile String f5272n = bi_常量类.f6358b;
+    private static volatile String f5272n = bi_常量类.f6358b_空串;
     /* renamed from: o */
     private static Map<String, Long> f5273o = new ConcurrentHashMap();
     /* renamed from: p */

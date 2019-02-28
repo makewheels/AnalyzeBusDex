@@ -17,22 +17,22 @@ public final class C0895 {
     @SimpleFunction
     /* renamed from: URL编码 */
     public static String m6905URL(String str, String charset) {
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         try {
             return URLEncoder.encode(str, charset);
         } catch (UnsupportedEncodingException e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
     @SimpleFunction
     /* renamed from: URL解码 */
     public static String m6906URL(String str, String charset) {
-        String str2 = bi_常量类.f6358b;
+        String str2 = bi_常量类.f6358b_空串;
         try {
             return URLDecoder.decode(str, charset);
         } catch (UnsupportedEncodingException e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -40,12 +40,12 @@ public final class C0895 {
     /* renamed from: 编码转换 */
     public static String m6907(String str, String oldCharset, String newCharset) {
         if (str == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         try {
             return new String(str.getBytes(oldCharset), newCharset);
         } catch (UnsupportedEncodingException e) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -126,7 +126,7 @@ public final class C0895 {
     @SimpleFunction
     /* renamed from: UCS2编码 */
     public static String m6903UCS2(String dataStr) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         for (int i = 0; i < dataStr.length(); i++) {
             String temp = Integer.toHexString(dataStr.charAt(i) & 65535);
             if (temp.length() == 2) {

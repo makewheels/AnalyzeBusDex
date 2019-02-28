@@ -839,7 +839,7 @@ public class C0222b extends View implements OnDoubleTapListener, OnGestureListen
             m1184L();
             return;
         }
-        this.f698A.m1497a(bi_常量类.f6358b);
+        this.f698A.m1497a(bi_常量类.f6358b_空串);
         this.f698A.m1496a(0);
         this.f698A.setVisibility(8);
     }
@@ -1197,7 +1197,7 @@ public class C0222b extends View implements OnDoubleTapListener, OnGestureListen
     public void m1265i(boolean z) {
         if (z != m1178F()) {
             boolean E = m1177E();
-            String str = bi_常量类.f6358b;
+            String str = bi_常量类.f6358b_空串;
             if (!E) {
                 str = mo84a().f839d.f812f;
                 if (!z) {
@@ -1244,7 +1244,7 @@ public class C0222b extends View implements OnDoubleTapListener, OnGestureListen
     /* renamed from: F */
     public boolean m1178F() {
         boolean E = m1177E();
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         if (E) {
             return false;
         }

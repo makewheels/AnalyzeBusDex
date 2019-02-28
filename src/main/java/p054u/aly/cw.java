@@ -11,7 +11,7 @@ public final class cw {
     public final int f6494c;
 
     public cw() {
-        this(bi_常量类.f6358b, (byte) 0, 0);
+        this(bi_常量类.f6358b_空串, (byte) 0, 0);
     }
 
     public cw(String str, byte b, int i) {

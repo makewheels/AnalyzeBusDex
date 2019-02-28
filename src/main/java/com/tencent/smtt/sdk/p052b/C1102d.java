@@ -40,7 +40,7 @@ public class C1102d {
         private C1100a() {
             this.f5012a = -1;
             this.f5013b = -1;
-            this.f5014c = bi_常量类.f6358b;
+            this.f5014c = bi_常量类.f6358b_空串;
         }
     }
 
@@ -52,8 +52,8 @@ public class C1102d {
         public String f5016b;
 
         private C1101b() {
-            this.f5015a = bi_常量类.f6358b;
-            this.f5016b = bi_常量类.f6358b;
+            this.f5015a = bi_常量类.f6358b_空串;
+            this.f5016b = bi_常量类.f6358b_空串;
         }
     }
 
@@ -69,7 +69,7 @@ public class C1102d {
                 c1100a.f5014c = "ADRQB_";
                 if (packageInfo != null && packageInfo.versionCode > 420000) {
                     c1100a.f5013b = packageInfo.versionCode;
-                    c1100a.f5014c += packageInfo.versionName.replaceAll("\\.", bi_常量类.f6358b);
+                    c1100a.f5014c += packageInfo.versionName.replaceAll("\\.", bi_常量类.f6358b_空串);
                     return c1100a;
                 }
             } catch (NameNotFoundException e) {
@@ -109,7 +109,7 @@ public class C1102d {
             }
             if (packageInfo != null) {
                 c1100a.f5013b = packageInfo.versionCode;
-                c1100a.f5014c += packageInfo.versionName.replaceAll("\\.", bi_常量类.f6358b);
+                c1100a.f5014c += packageInfo.versionName.replaceAll("\\.", bi_常量类.f6358b_空串);
             }
         } catch (Exception e7) {
         }
@@ -162,19 +162,19 @@ public class C1102d {
                                 c1098c = new C1098c();
                                 c = C1135b.m7952c(context);
                                 d = C1135b.m7953d(context);
-                                if (c != null || bi_常量类.f6358b.equals(c)) {
+                                if (c != null || bi_常量类.f6358b_空串.equals(c)) {
                                     c1098c.m7827a("imei", "-1");
                                 } else {
                                     c1098c.m7827a("imei", c);
                                 }
-                                if (d != null || bi_常量类.f6358b.equals(d)) {
+                                if (d != null || bi_常量类.f6358b_空串.equals(d)) {
                                     c1098c.m7827a("imsi", "-1");
                                 } else {
                                     c1098c.m7827a("imsi", d);
                                 }
                                 c1098c.m7827a("paK", context.getPackageName());
                                 c1098c.m7827a("from", "-1");
-                                c1098c.m7827a("qb_ver", C1102d.m7829a(context).f5013b + bi_常量类.f6358b);
+                                c1098c.m7827a("qb_ver", C1102d.m7829a(context).f5013b + bi_常量类.f6358b_空串);
                                 c1098c.m7827a("mode", C1096a.m7818a(C1096a.m7816a()));
                                 c1098c.m7827a("url", webView.getUrl());
                                 d = "x5insertadnode";
@@ -204,7 +204,7 @@ public class C1102d {
                     c1098c.m7827a("imsi", "-1");
                     c1098c.m7827a("paK", context.getPackageName());
                     c1098c.m7827a("from", "-1");
-                    c1098c.m7827a("qb_ver", C1102d.m7829a(context).f5013b + bi_常量类.f6358b);
+                    c1098c.m7827a("qb_ver", C1102d.m7829a(context).f5013b + bi_常量类.f6358b_空串);
                     c1098c.m7827a("mode", C1096a.m7818a(C1096a.m7816a()));
                     c1098c.m7827a("url", webView.getUrl());
                     d = "x5insertadnode";
@@ -232,7 +232,7 @@ public class C1102d {
                 c1098c.m7827a("imsi", "-1");
                 c1098c.m7827a("paK", context.getPackageName());
                 c1098c.m7827a("from", "-1");
-                c1098c.m7827a("qb_ver", C1102d.m7829a(context).f5013b + bi_常量类.f6358b);
+                c1098c.m7827a("qb_ver", C1102d.m7829a(context).f5013b + bi_常量类.f6358b_空串);
                 c1098c.m7827a("mode", C1096a.m7818a(C1096a.m7816a()));
                 c1098c.m7827a("url", webView.getUrl());
                 d = "x5insertadnode";

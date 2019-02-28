@@ -18,12 +18,12 @@ import p054u.aly.bi_常量类;
 
 /* renamed from: com.e4a.runtime.components.impl.android.支付宝类库.支付宝Impl */
 public class C0817Impl extends ComponentImpl implements C0813 {
-    public static String PARTNER = bi_常量类.f6358b;
-    public static String RSA_PRIVATE = bi_常量类.f6358b;
+    public static String PARTNER = bi_常量类.f6358b_空串;
+    public static String RSA_PRIVATE = bi_常量类.f6358b_空串;
     private static final int SDK_CHECK_FLAG = 2;
     private static final int SDK_PAY_FLAG = 1;
-    public static String SELLER = bi_常量类.f6358b;
-    public static String SERVER = bi_常量类.f6358b;
+    public static String SELLER = bi_常量类.f6358b_空串;
+    public static String SERVER = bi_常量类.f6358b_空串;
     private Handler mHandler = new C08141();
 
     /* renamed from: com.e4a.runtime.components.impl.android.支付宝类库.支付宝Impl$1 */
@@ -115,7 +115,7 @@ public class C0817Impl extends ComponentImpl implements C0813 {
 
     public String getOrderInfo(String str, String str2, String str3, String str4) {
         String str5 = ((((("partner=\"" + PARTNER + "\"") + "&seller_id=\"" + SELLER + "\"") + "&out_trade_no=\"" + str4 + "\"") + "&subject=\"" + str + "\"") + "&body=\"" + str2 + "\"") + "&total_fee=\"" + str3 + "\"";
-        if (!SERVER.equals(bi_常量类.f6358b)) {
+        if (!SERVER.equals(bi_常量类.f6358b_空串)) {
             str5 = str5 + "&notify_url=\"" + SERVER + "\"";
         }
         return (((str5 + "&service=\"mobile.securitypay.pay\"") + "&payment_type=\"1\"") + "&_input_charset=\"utf-8\"") + "&it_b_pay=\"30m\"";

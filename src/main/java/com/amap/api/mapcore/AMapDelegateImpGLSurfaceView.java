@@ -1446,7 +1446,7 @@ class AMapDelegateImpGLSurfaceView extends GLSurfaceView implements Renderer, C0
                 m2267f();
                 return;
             }
-            this.f1403E.m2648a(bi_常量类.f6358b);
+            this.f1403E.m2648a(bi_常量类.f6358b_空串);
             this.f1403E.m2647a(0);
             this.f1403E.setVisibility(8);
         }

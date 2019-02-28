@@ -16,7 +16,7 @@ public class C0288g {
     /* renamed from: a */
     public static String m1861a(byte[] bArr) {
         if (bArr == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         StringBuilder stringBuilder = new StringBuilder();
         for (byte b : bArr) {

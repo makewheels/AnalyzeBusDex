@@ -69,7 +69,7 @@ public class TextTextureGenerator {
         Canvas canvas = new Canvas(createBitmap);
         byte[] bArr = new byte[576];
         Buffer wrap = ByteBuffer.wrap(bArr);
-        float measureText = paint.measureText(cArr[0] + bi_常量类.f6358b);
+        float measureText = paint.measureText(cArr[0] + bi_常量类.f6358b_空串);
         Align textAlign = paint.getTextAlign();
         measureText -= 24.0f;
         if (textAlign == Align.CENTER || measureText < 4.0f) {
@@ -103,7 +103,7 @@ public class TextTextureGenerator {
             byte[] bArr = new byte[length];
             float[] fArr = new float[1];
             for (int i = 0; i < length; i++) {
-                newPaint.getTextWidths(((char) iArr[i]) + bi_常量类.f6358b, fArr);
+                newPaint.getTextWidths(((char) iArr[i]) + bi_常量类.f6358b_空串, fArr);
                 bArr[i] = (byte) ((int) fArr[0]);
             }
             return bArr;
@@ -118,7 +118,7 @@ public class TextTextureGenerator {
         byte[] bArr = new byte[256];
         float[] fArr = new float[1];
         for (int i = 0; i < 256; i++) {
-            newPaint.getTextWidths(((char) i) + bi_常量类.f6358b, fArr);
+            newPaint.getTextWidths(((char) i) + bi_常量类.f6358b_空串, fArr);
             bArr[i] = (byte) ((int) fArr[0]);
         }
         return bArr;

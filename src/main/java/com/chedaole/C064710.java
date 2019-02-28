@@ -32,9 +32,9 @@ public class C064710 extends C0645Impl {
     /* renamed from: 窗口10 */
     public static C0644 f395910;
     @SimpleDataElement
-    public String wl = bi_常量类.f6358b;
+    public String wl = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String zz = bi_常量类.f6358b;
+    public String zz = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 图片框1 */
     public C0739 f39601;

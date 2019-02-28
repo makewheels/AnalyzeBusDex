@@ -65,7 +65,7 @@ public final class LatLonPoint implements Parcelable {
     }
 
     public String toString() {
-        return bi_常量类.f6358b + this.f2906a + "," + this.f2907b;
+        return bi_常量类.f6358b_空串 + this.f2906a + "," + this.f2907b;
     }
 
     private LatLonPoint(Parcel parcel) {

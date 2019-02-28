@@ -37,18 +37,18 @@ public class C065114 extends C0645Impl {
     public static C0644 f403314;
     @SimpleDataElement
     /* renamed from: f */
-    public String f4034f = bi_常量类.f6358b;
+    public String f4034f = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String luxian = bi_常量类.f6358b;
+    public String luxian = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: v */
-    public String f4035v = bi_常量类.f6358b;
+    public String f4035v = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String wl = bi_常量类.f6358b;
+    public String wl = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String wo = bi_常量类.f6358b;
+    public String wo = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String zz = bi_常量类.f6358b;
+    public String zz = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 图片框1 */
     public C0739 f40361;
@@ -183,7 +183,7 @@ public class C065114 extends C0645Impl {
             this.f4035v = Integer.toString(C0890_文本操作.m6817_获取字符串长度(网页消息));
             if (StringVariant.getStringVariant(this.f4035v).cmp(ByteVariant.getByteVariant(df.f6529m)) < 0 && StringVariant.getStringVariant(this.f4035v).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
                 C0898_读写设置类.m6935_通过SP保存设置("小年", StringVariant.getStringVariant("2"));
-                网页消息 = C0890_文本操作.m6819(C0890_文本操作.m6819(C0890_文本操作.m6819(C0890_文本操作.m6819(网页消息, "路", bi_常量类.f6358b), "快", "k"), "线", bi_常量类.f6358b), "环", "h");
+                网页消息 = C0890_文本操作.m6819(C0890_文本操作.m6819(C0890_文本操作.m6819(C0890_文本操作.m6819(网页消息, "路", bi_常量类.f6358b_空串), "快", "k"), "线", bi_常量类.f6358b_空串), "环", "h");
                 C0898_读写设置类.m6935_通过SP保存设置("正反", StringVariant.getStringVariant("正"));
                 C0898_读写设置类.m6935_通过SP保存设置("线路", StringVariant.getStringVariant(网页消息));
                 if (C0880_应用操作类.m6712("过渡窗口") == null) {

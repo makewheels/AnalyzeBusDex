@@ -14,7 +14,7 @@ public class SpeechError extends Exception {
     public SpeechError(int i) {
         int i2 = 11;
         this.f4566a = 0;
-        this.f4567b = bi_常量类.f6358b;
+        this.f4567b = bi_常量类.f6358b_空串;
         this.f4566a = i;
         if (i >= ErrorCode.ERROR_NO_NETWORK) {
             if (this.f4566a < ErrorCode.ERROR_UNKNOWN) {
@@ -66,14 +66,14 @@ public class SpeechError extends Exception {
 
     public SpeechError(int i, String str) {
         this.f4566a = 0;
-        this.f4567b = bi_常量类.f6358b;
+        this.f4567b = bi_常量类.f6358b_空串;
         this.f4566a = i;
         this.f4567b = str;
     }
 
     public SpeechError(Exception exception) {
         this.f4566a = 0;
-        this.f4567b = bi_常量类.f6358b;
+        this.f4567b = bi_常量类.f6358b_空串;
         this.f4566a = ErrorCode.ERROR_UNKNOWN;
         this.f4567b = exception.toString();
     }

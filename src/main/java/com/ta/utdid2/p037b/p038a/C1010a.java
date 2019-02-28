@@ -61,7 +61,7 @@ public final class C1010a {
     /* renamed from: b */
     private static String m7369b(byte[] bArr) {
         if (bArr == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         StringBuffer stringBuffer = new StringBuffer(bArr.length * 2);
         for (byte b : bArr) {

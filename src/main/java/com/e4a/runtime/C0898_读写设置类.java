@@ -23,13 +23,13 @@ public final class C0898_读写设置类 {
     /* renamed from: 读取设置 */
     public static Variant m6937_通过SP读取设置(String name) {
         try {
-            String value = mainActivity.getContext().getPreferences(0).getString(name, bi_常量类.f6358b);
-            if (value == null || value.equals(bi_常量类.f6358b)) {
-                return StringVariant.getStringVariant(bi_常量类.f6358b);
+            String value = mainActivity.getContext().getPreferences(0).getString(name, bi_常量类.f6358b_空串);
+            if (value == null || value.equals(bi_常量类.f6358b_空串)) {
+                return StringVariant.getStringVariant(bi_常量类.f6358b_空串);
             }
             return StringVariant.getStringVariant(value);
         } catch (Exception e) {
-            return StringVariant.getStringVariant(bi_常量类.f6358b);
+            return StringVariant.getStringVariant(bi_常量类.f6358b_空串);
         }
     }
 
@@ -49,11 +49,11 @@ public final class C0898_读写设置类 {
         }
         try {
             properties.load(new FileInputStream(file));
-            String value = properties.getProperty(name, bi_常量类.f6358b);
-            return value != null ? value : bi_常量类.f6358b;
+            String value = properties.getProperty(name, bi_常量类.f6358b_空串);
+            return value != null ? value : bi_常量类.f6358b_空串;
         } catch (Exception e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -72,7 +72,7 @@ public final class C0898_读写设置类 {
         }
         properties.setProperty(name, value);
         try {
-            properties.store(new FileOutputStream(file, false), bi_常量类.f6358b);
+            properties.store(new FileOutputStream(file, false), bi_常量类.f6358b_空串);
             return result;
         } catch (Exception e2) {
             e2.printStackTrace();

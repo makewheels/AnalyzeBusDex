@@ -258,7 +258,7 @@ final class C1030e {
         String name = xmlPullParser.getName();
         if (!name.equals("null")) {
             if (name.equals("string")) {
-                obj = bi_常量类.f6358b;
+                obj = bi_常量类.f6358b_空串;
                 while (true) {
                     next = xmlPullParser.next();
                     if (next == 1) {

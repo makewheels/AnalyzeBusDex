@@ -193,7 +193,7 @@ public class C1248a {
 
     /* renamed from: c */
     private String m8454c(Context context) {
-        return C1245f.m8407a(context).m8424g().getString(C1233a.f5594j, bi_常量类.f6358b);
+        return C1245f.m8407a(context).m8424g().getString(C1233a.f5594j, bi_常量类.f6358b_空串);
     }
 
     /* renamed from: a */

@@ -11,7 +11,7 @@ public class C1096a {
     /* renamed from: a */
     private static String f5003a = "Wlan";
     /* renamed from: b */
-    private static String f5004b = bi_常量类.f6358b;
+    private static String f5004b = bi_常量类.f6358b_空串;
     /* renamed from: c */
     private static int f5005c = 4;
     /* renamed from: d */

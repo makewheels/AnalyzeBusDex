@@ -158,7 +158,7 @@ public class WebView extends FrameLayout implements OnLongClickListener {
         }
 
         public String getExtra() {
-            return this.f4889a != null ? this.f4889a.getExtra() : this.f4890b != null ? this.f4890b.getExtra() : bi_常量类.f6358b;
+            return this.f4889a != null ? this.f4889a.getExtra() : this.f4890b != null ? this.f4890b.getExtra() : bi_常量类.f6358b_空串;
         }
 
         public int getType() {
@@ -923,9 +923,9 @@ public class WebView extends FrameLayout implements OnLongClickListener {
     public void destroy() {
         if (!(this.f4910l || this.f4903a == 0)) {
             this.f4910l = true;
-            String str = bi_常量类.f6358b;
-            String str2 = bi_常量类.f6358b;
-            String str3 = bi_常量类.f6358b;
+            String str = bi_常量类.f6358b_空串;
+            String str2 = bi_常量类.f6358b_空串;
+            String str3 = bi_常量类.f6358b_空串;
             if (this.f4905f) {
                 Bundle sdkQBStatisticsInfo = this.f4906g.getX5WebViewExtension().getSdkQBStatisticsInfo();
                 if (sdkQBStatisticsInfo != null) {
@@ -1304,9 +1304,9 @@ public class WebView extends FrameLayout implements OnLongClickListener {
     protected void onDetachedFromWindow() {
         if (!(this.f4910l || this.f4903a == 0)) {
             this.f4910l = true;
-            String str = bi_常量类.f6358b;
-            String str2 = bi_常量类.f6358b;
-            String str3 = bi_常量类.f6358b;
+            String str = bi_常量类.f6358b_空串;
+            String str2 = bi_常量类.f6358b_空串;
+            String str3 = bi_常量类.f6358b_空串;
             if (this.f4905f) {
                 Bundle sdkQBStatisticsInfo = this.f4906g.getX5WebViewExtension().getSdkQBStatisticsInfo();
                 if (sdkQBStatisticsInfo != null) {
@@ -1369,9 +1369,9 @@ public class WebView extends FrameLayout implements OnLongClickListener {
         if (f4900q == null || !(f4900q.equals("com.tencent.mm") || f4900q.equals(TbsConfig.APP_QQ))) {
             if (!(i == 0 || this.f4910l || this.f4903a == 0)) {
                 this.f4910l = true;
-                String str = bi_常量类.f6358b;
-                String str2 = bi_常量类.f6358b;
-                String str3 = bi_常量类.f6358b;
+                String str = bi_常量类.f6358b_空串;
+                String str2 = bi_常量类.f6358b_空串;
+                String str3 = bi_常量类.f6358b_空串;
                 if (this.f4905f) {
                     Bundle sdkQBStatisticsInfo = this.f4906g.getX5WebViewExtension().getSdkQBStatisticsInfo();
                     if (sdkQBStatisticsInfo != null) {

@@ -113,7 +113,7 @@ public class C0774Impl extends ComponentImpl implements C0771 {
             this.f4321.setActionProvider(new ShareActionProvider(mainActivity.getContext()));
             ShareActionProvider sap = (ShareActionProvider) this.f4321.getActionProvider();
             Intent intent = new Intent("android.intent.action.SEND");
-            if (bi_常量类.f6358b.equals(分享的图片路径)) {
+            if (bi_常量类.f6358b_空串.equals(分享的图片路径)) {
                 intent.setType("text/plain");
             } else {
                 intent.setType("image/*");
@@ -196,16 +196,16 @@ public class C0774Impl extends ComponentImpl implements C0771 {
     /* renamed from: 取选项卡标题 */
     public String mo1275(int 选项卡索引) {
         if (VERSION.SDK_INT < 11) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         if (选项卡索引 >= this.tabs.size() || 选项卡索引 < 0) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         Tab tab = mainActivity.getContext().getActionBar().getTabAt(选项卡索引);
         if (tab != null) {
             return tab.getText().toString();
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     /* renamed from: 取选项卡数量 */
@@ -259,7 +259,7 @@ public class C0774Impl extends ComponentImpl implements C0771 {
     /* renamed from: 取标题 */
     public String mo1272() {
         if (VERSION.SDK_INT < 11) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         return mainActivity.getContext().getActionBar().getTitle().toString();
     }
@@ -274,7 +274,7 @@ public class C0774Impl extends ComponentImpl implements C0771 {
     /* renamed from: 取副标题 */
     public String mo1271() {
         if (VERSION.SDK_INT < 11) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         return mainActivity.getContext().getActionBar().getSubtitle().toString();
     }

@@ -15,7 +15,7 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.iflytek.cloud.b.e.d */
 public class C0945d {
     /* renamed from: a */
-    private static String f4490a = bi_常量类.f6358b;
+    private static String f4490a = bi_常量类.f6358b_空串;
 
     /* renamed from: a */
     public static String m7138a(Context context) {

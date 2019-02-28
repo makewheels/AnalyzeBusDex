@@ -201,7 +201,7 @@ public class Util {
 
     public static Bitmap extractThumbNail(String str, int i, int i2, boolean z) {
         boolean z2 = false;
-        if (str != null && !str.equals(bi_常量类.f6358b) && i > 0 && i2 > 0) {
+        if (str != null && !str.equals(bi_常量类.f6358b_空串) && i > 0 && i2 > 0) {
             z2 = true;
         }
         Assert.assertTrue(z2);

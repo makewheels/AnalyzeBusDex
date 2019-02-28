@@ -7,13 +7,13 @@ import p054u.aly.bi_常量类;
 public class OfflineMapCity extends City {
     public static final Creator<OfflineMapCity> CREATOR = new C0430h();
     /* renamed from: a */
-    private String f2411a = bi_常量类.f6358b;
+    private String f2411a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     private long f2412b = 0;
     /* renamed from: c */
     private int f2413c = 6;
     /* renamed from: d */
-    private String f2414d = bi_常量类.f6358b;
+    private String f2414d = bi_常量类.f6358b_空串;
     /* renamed from: e */
     private int f2415e = 0;
 

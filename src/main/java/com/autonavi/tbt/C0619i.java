@@ -13,11 +13,11 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.autonavi.tbt.i */
 public class C0619i {
     /* renamed from: a */
-    private static String f3813a = bi_常量类.f6358b;
+    private static String f3813a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     private static String f3814b = null;
     /* renamed from: c */
-    private static String f3815c = bi_常量类.f6358b;
+    private static String f3815c = bi_常量类.f6358b_空串;
     /* renamed from: d */
     private static String f3816d;
     /* renamed from: e */
@@ -26,7 +26,7 @@ public class C0619i {
     /* renamed from: a */
     public static String m4862a(Context context) {
         try {
-            if (!bi_常量类.f6358b.equals(f3813a)) {
+            if (!bi_常量类.f6358b_空串.equals(f3813a)) {
                 return f3813a;
             }
             PackageManager packageManager = context.getPackageManager();
@@ -44,7 +44,7 @@ public class C0619i {
     /* renamed from: b */
     public static String m4863b(Context context) {
         try {
-            if (f3814b != null && !bi_常量类.f6358b.equals(f3814b)) {
+            if (f3814b != null && !bi_常量类.f6358b_空串.equals(f3814b)) {
                 return f3814b;
             }
             f3814b = context.getApplicationContext().getPackageName();
@@ -58,7 +58,7 @@ public class C0619i {
     /* renamed from: c */
     public static String m4864c(Context context) {
         try {
-            if (!bi_常量类.f6358b.equals(f3815c)) {
+            if (!bi_常量类.f6358b_空串.equals(f3815c)) {
                 return f3815c;
             }
             f3815c = context.getPackageManager().getPackageInfo(context.getPackageName(), 0).versionName;
@@ -75,7 +75,7 @@ public class C0619i {
     /* renamed from: d */
     public static String m4865d(Context context) {
         try {
-            if (f3817e != null && !bi_常量类.f6358b.equals(f3817e)) {
+            if (f3817e != null && !bi_常量类.f6358b_空串.equals(f3817e)) {
                 return f3817e;
             }
             PackageInfo packageInfo = context.getPackageManager().getPackageInfo(context.getPackageName(), 64);
@@ -109,7 +109,7 @@ public class C0619i {
 
     /* renamed from: g */
     private static String m4868g(Context context) throws NameNotFoundException {
-        if (f3816d == null || f3816d.equals(bi_常量类.f6358b)) {
+        if (f3816d == null || f3816d.equals(bi_常量类.f6358b_空串)) {
             f3816d = context.getPackageManager().getApplicationInfo(context.getPackageName(), 128).metaData.getString("com.amap.api.v2.apikey");
         }
         return f3816d;

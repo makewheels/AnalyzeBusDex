@@ -197,7 +197,7 @@ public class at {
     private void m4787c(au auVar) throws C0618h {
         if (auVar == null) {
             throw new C0618h("requeust is null");
-        } else if (auVar.mo750c() == null || bi_常量类.f6358b.equals(auVar.mo750c())) {
+        } else if (auVar.mo750c() == null || bi_常量类.f6358b_空串.equals(auVar.mo750c())) {
             throw new C0618h("request url is empty");
         }
     }

@@ -24,9 +24,9 @@ public class SecurityClientMobile {
                     a = C0050a.m128a(context);
                     if (C0159a.m556a(a)) {
                         Map hashMap = new HashMap();
-                        hashMap.put(C0109b.f281g, C0159a.m555a(map, C0109b.f281g, bi_常量类.f6358b));
-                        hashMap.put(C0109b.f277c, C0159a.m555a(map, C0109b.f277c, bi_常量类.f6358b));
-                        hashMap.put("userId", C0159a.m555a(map, "userId", bi_常量类.f6358b));
+                        hashMap.put(C0109b.f281g, C0159a.m555a(map, C0109b.f281g, bi_常量类.f6358b_空串));
+                        hashMap.put(C0109b.f277c, C0159a.m555a(map, C0109b.f277c, bi_常量类.f6358b_空串));
+                        hashMap.put("userId", C0159a.m555a(map, "userId", bi_常量类.f6358b_空串));
                         APSecuritySdk.getInstance(context).initToken(0, hashMap, null);
                         a = C0070b.m185a(context);
                     }

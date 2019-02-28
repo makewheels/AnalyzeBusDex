@@ -69,62 +69,62 @@ public class C065013 extends C0645Impl {
     /* renamed from: a */
     public long f3970a;
     @SimpleDataElement
-    public String a1 = bi_常量类.f6358b;
+    public String a1 = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String ab = bi_常量类.f6358b;
+    public String ab = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String abc = bi_常量类.f6358b;
+    public String abc = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String bb = bi_常量类.f6358b;
+    public String bb = bi_常量类.f6358b_空串;
     @SimpleDataElement
     public int ci;
     @SimpleDataElement
     /* renamed from: d */
-    public String f3971d = bi_常量类.f6358b;
+    public String f3971d = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String dd = bi_常量类.f6358b;
+    public String dd = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String dian = bi_常量类.f6358b;
+    public String dian = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: f */
     public String[] f3972f;
     @SimpleDataElement
-    public String fd = bi_常量类.f6358b;
+    public String fd = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String ff = bi_常量类.f6358b;
+    public String ff = bi_常量类.f6358b_空串;
     @SimpleDataElement
     public String[] fff;
     @SimpleDataElement
-    public String gg = bi_常量类.f6358b;
+    public String gg = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: h */
     public int f3973h;
     @SimpleDataElement
-    public String id = bi_常量类.f6358b;
+    public String id = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String id1 = bi_常量类.f6358b;
+    public String id1 = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String ids = bi_常量类.f6358b;
+    public String ids = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String jjj = bi_常量类.f6358b;
+    public String jjj = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String kk = bi_常量类.f6358b;
+    public String kk = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: ok微信支付1 */
     public C0794ok f3974ok1;
     @SimpleDataElement
     /* renamed from: p */
-    public String f3975p = bi_常量类.f6358b;
+    public String f3975p = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String pp = bi_常量类.f6358b;
+    public String pp = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String ppp = bi_常量类.f6358b;
+    public String ppp = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String title = bi_常量类.f6358b;
+    public String title = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String vc = bi_常量类.f6358b;
+    public String vc = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String wl = bi_常量类.f6358b;
+    public String wl = bi_常量类.f6358b_空串;
     @SimpleDataElement
     public String[] yyy;
     @SimpleDataElement
@@ -134,34 +134,34 @@ public class C065013 extends C0645Impl {
     public C0733 f39761;
     @SimpleDataElement
     /* renamed from: 价格 */
-    public String f3977 = bi_常量类.f6358b;
+    public String f3977 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 价格1 */
-    public String f39781 = bi_常量类.f6358b;
+    public String f39781 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 价格2 */
-    public String f39792 = bi_常量类.f6358b;
+    public String f39792 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 元 */
-    public String f3980 = bi_常量类.f6358b;
+    public String f3980 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 分 */
-    public String f3981 = bi_常量类.f6358b;
+    public String f3981 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 分类 */
-    public String f3982 = bi_常量类.f6358b;
+    public String f3982 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 列表框1 */
     public C0714 f39831;
     @SimpleDataElement
     /* renamed from: 县 */
-    public String f3984 = bi_常量类.f6358b;
+    public String f3984 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 启动时间 */
     public long f3985;
     @SimpleDataElement
     /* renamed from: 图片1 */
-    public String f39861 = bi_常量类.f6358b;
+    public String f39861 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 图片框1 */
     public C0739 f39871;
@@ -179,28 +179,28 @@ public class C065013 extends C0645Impl {
     public C0739 f39918;
     @SimpleDataElement
     /* renamed from: 备注 */
-    public String f3992 = bi_常量类.f6358b;
+    public String f3992 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 大框 */
     public String[] f3993;
     @SimpleDataElement
     /* renamed from: 市 */
-    public String f3994 = bi_常量类.f6358b;
+    public String f3994 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 总 */
-    public String f3995 = bi_常量类.f6358b;
+    public String f3995 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 支付宝1 */
     public C0813 f39961;
     @SimpleDataElement
     /* renamed from: 收货人 */
-    public String f3997 = bi_常量类.f6358b;
+    public String f3997 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 收货地址 */
-    public String f3998 = bi_常量类.f6358b;
+    public String f3998 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 数 */
-    public String f3999 = bi_常量类.f6358b;
+    public String f3999 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 时钟1 */
     public C0696 f40001;
@@ -236,13 +236,13 @@ public class C065013 extends C0645Impl {
     public C0696 f40109;
     @SimpleDataElement
     /* renamed from: 月销1 */
-    public String f40111 = bi_常量类.f6358b;
+    public String f40111 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 月销2 */
-    public String f40122 = bi_常量类.f6358b;
+    public String f40122 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 月销3 */
-    public String f40133 = bi_常量类.f6358b;
+    public String f40133 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 标签1 */
     public C0723 f40141;
@@ -266,10 +266,10 @@ public class C065013 extends C0645Impl {
     public C0723 f40203;
     @SimpleDataElement
     /* renamed from: 标题 */
-    public String f4021 = bi_常量类.f6358b;
+    public String f4021 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 标题1 */
-    public String f40221 = bi_常量类.f6358b;
+    public String f40221 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 次 */
     public int f4023;
@@ -281,10 +281,10 @@ public class C065013 extends C0645Impl {
     public C0698 f40252;
     @SimpleDataElement
     /* renamed from: 电话号 */
-    public String f4026 = bi_常量类.f6358b;
+    public String f4026 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 省 */
-    public String f4027 = bi_常量类.f6358b;
+    public String f4027 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 编辑框1 */
     public C0717 f40281;
@@ -296,7 +296,7 @@ public class C065013 extends C0645Impl {
     public C0717 f40303;
     @SimpleDataElement
     /* renamed from: 详细 */
-    public String f4031 = bi_常量类.f6358b;
+    public String f4031 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 页 */
     public int f4032;
@@ -308,7 +308,7 @@ public class C065013 extends C0645Impl {
 
     public void $define() {
         f396813 = this;
-        f396813.mo840(bi_常量类.f6358b);
+        f396813.mo840(bi_常量类.f6358b_空串);
         f396813.mo797(-1);
         f396813.m5096(IntegerVariant.getIntegerVariant(4));
         f396813.mo838(1);
@@ -357,7 +357,7 @@ public class C065013 extends C0645Impl {
         this.f40281.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.341d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f40281.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.133d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f40281.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.041d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f40281.mo887(bi_常量类.f6358b);
+        this.f40281.mo887(bi_常量类.f6358b_空串);
         this.f40281.mo889(-16777216);
         this.f40281.mo896(false);
         this.f40281.mo892(false);
@@ -366,7 +366,7 @@ public class C065013 extends C0645Impl {
         this.f40281.mo1041(1);
         this.f40281.mo891(3);
         this.f40281.mo772(true);
-        this.f40281.mo1035(bi_常量类.f6358b);
+        this.f40281.mo1035(bi_常量类.f6358b_空串);
         this.f40281.mo899(WebView.NORMAL_MODE_ALPHA);
         this.f40281.mo776(false);
         c0697Impl = new C0697Impl(f396813);
@@ -380,7 +380,7 @@ public class C065013 extends C0645Impl {
         this.f40292.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.422d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f40292.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.5d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f40292.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f40292.mo887(bi_常量类.f6358b);
+        this.f40292.mo887(bi_常量类.f6358b_空串);
         this.f40292.mo889(-16777216);
         this.f40292.mo896(false);
         this.f40292.mo892(false);
@@ -389,7 +389,7 @@ public class C065013 extends C0645Impl {
         this.f40292.mo1041(1);
         this.f40292.mo891(3);
         this.f40292.mo772(true);
-        this.f40292.mo1035(bi_常量类.f6358b);
+        this.f40292.mo1035(bi_常量类.f6358b_空串);
         this.f40292.mo899(WebView.NORMAL_MODE_ALPHA);
         this.f40292.mo776(false);
         C0713Impl c0713Impl = new C0713Impl(f396813);
@@ -407,7 +407,7 @@ public class C065013 extends C0645Impl {
         this.f40303.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.001d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f40303.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.567d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f40303.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f40303.mo887(bi_常量类.f6358b);
+        this.f40303.mo887(bi_常量类.f6358b_空串);
         this.f40303.mo889(-16777216);
         this.f40303.mo896(false);
         this.f40303.mo892(false);
@@ -417,7 +417,7 @@ public class C065013 extends C0645Impl {
         this.f40303.mo891(5);
         this.f40303.mo772(true);
         this.f40303.mo1023("输入搜索的宝贝商品");
-        this.f40303.mo1035(bi_常量类.f6358b);
+        this.f40303.mo1035(bi_常量类.f6358b_空串);
         this.f40303.mo899(250);
         this.f40303.mo776(true);
         c0742Impl = new C0742Impl(f396813);
@@ -465,7 +465,7 @@ public class C065013 extends C0645Impl {
         this.f401614.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.009d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f401614.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.133d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f401614.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.072d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f401614.mo895(bi_常量类.f6358b);
+        this.f401614.mo895(bi_常量类.f6358b_空串);
         this.f401614.mo797(0);
         this.f401614.mo889(-16777216);
         this.f401614.mo896(false);
@@ -501,7 +501,7 @@ public class C065013 extends C0645Impl {
         this.f401717.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.341d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f401717.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.55d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f401717.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.206d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f401717.mo895(bi_常量类.f6358b);
+        this.f401717.mo895(bi_常量类.f6358b_空串);
         this.f401717.mo797(0);
         this.f401717.mo889(-16742145);
         this.f401717.mo896(false);
@@ -520,7 +520,7 @@ public class C065013 extends C0645Impl {
         this.f39831.mo797(-1);
         this.f39831.mo991(11.0f);
         this.f39831.mo993(-8355712);
-        this.f39831.mo1004(bi_常量类.f6358b);
+        this.f39831.mo1004(bi_常量类.f6358b_空串);
         this.f39831.mo776(true);
         c0725Impl = new C0725Impl(f396813);
         Objects.initializeProperties(c0725Impl);
@@ -792,7 +792,7 @@ public class C065013 extends C0645Impl {
             this.f40192.mo774(false);
         }
         if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(str, "order", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0 && IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(str, "buyNow=true", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
-            if (C0898_读写设置类.m6937_通过SP读取设置("用户").cmp(StringVariant.getStringVariant(bi_常量类.f6358b)) == 0) {
+            if (C0898_读写设置类.m6937_通过SP读取设置("用户").cmp(StringVariant.getStringVariant(bi_常量类.f6358b_空串)) == 0) {
                 C0880_应用操作类.m6694("请先登入我的公司");
                 this.f40241.mo976(this.wl + "/gongjiaoa/");
             } else {
@@ -824,11 +824,11 @@ public class C065013 extends C0645Impl {
     public void m5187g(String str) {
         try {
             int i;
-            this.title = bi_常量类.f6358b;
-            this.f3975p = bi_常量类.f6358b;
-            this.pp = bi_常量类.f6358b;
-            this.ppp = bi_常量类.f6358b;
-            this.dian = bi_常量类.f6358b;
+            this.title = bi_常量类.f6358b_空串;
+            this.f3975p = bi_常量类.f6358b_空串;
+            this.pp = bi_常量类.f6358b_空串;
+            this.ppp = bi_常量类.f6358b_空串;
+            this.dian = bi_常量类.f6358b_空串;
             this.jjj = str;
             this.f40241.mo776(true);
             C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/666777.txt", this.jjj, "GBK");
@@ -862,7 +862,7 @@ public class C065013 extends C0645Impl {
             }
             this.f40203.mo776(true);
             this.f40203.mo774(true);
-            this.f40203.mo895(bi_常量类.f6358b);
+            this.f40203.mo895(bi_常量类.f6358b_空串);
             this.f40203.mo797(-1);
             this.f39895.mo776(true);
             this.f39895.mo774(true);
@@ -870,7 +870,7 @@ public class C065013 extends C0645Impl {
             this.f39918.mo776(true);
             this.f39918.mo774(true);
             this.f39918.mo768();
-            if (this.title.equals(bi_常量类.f6358b) || this.f3999.equals(bi_常量类.f6358b)) {
+            if (this.title.equals(bi_常量类.f6358b_空串) || this.f3999.equals(bi_常量类.f6358b_空串)) {
                 this.f40203.mo776(false);
                 this.f40203.mo774(false);
                 this.f40241.mo774(true);
@@ -944,7 +944,7 @@ public class C065013 extends C0645Impl {
             this.kk = C0890_文本操作.m6819(this.abc, "yiqide", this.fd);
             this.kk = C0890_文本操作.m6819(this.kk, "//dn.com", "//img.alicdn.com");
             C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/vc.html", this.kk, "UTF-8");
-            this.fd = bi_常量类.f6358b;
+            this.fd = bi_常量类.f6358b_空串;
             this.f401513.mo895("下一页");
             this.f40241.mo976("file:///sdcard/tencent/shi/vc.html");
             this.f3969GIF1.mo776(false);
@@ -986,7 +986,7 @@ public class C065013 extends C0645Impl {
                     this.f40241.mo976(this.ff);
                 }
                 this.f40054.mo928(100);
-            } else if (this.f4027.equals(bi_常量类.f6358b) || this.f3994.equals(bi_常量类.f6358b) || this.f3984.equals(bi_常量类.f6358b) || this.f4031.equals(bi_常量类.f6358b) || this.f4026.equals(bi_常量类.f6358b) || this.f4021.equals(bi_常量类.f6358b) || this.id.equals(bi_常量类.f6358b) || this.f3977.equals(bi_常量类.f6358b) || this.f3997.equals(bi_常量类.f6358b)) {
+            } else if (this.f4027.equals(bi_常量类.f6358b_空串) || this.f3994.equals(bi_常量类.f6358b_空串) || this.f3984.equals(bi_常量类.f6358b_空串) || this.f4031.equals(bi_常量类.f6358b_空串) || this.f4026.equals(bi_常量类.f6358b_空串) || this.f4021.equals(bi_常量类.f6358b_空串) || this.id.equals(bi_常量类.f6358b_空串) || this.f3977.equals(bi_常量类.f6358b_空串) || this.f3997.equals(bi_常量类.f6358b_空串)) {
                 C0880_应用操作类.m6694("此商品填写信息不完整");
             } else {
                 this.f3995 = this.f3977;
@@ -1090,33 +1090,33 @@ public class C065013 extends C0645Impl {
 
     /* renamed from: 取中间文本 */
     public String m5193(String 完整内容, String 左边文本, String 右边文本) {
-        String 取中间文本 = bi_常量类.f6358b;
+        String 取中间文本 = bi_常量类.f6358b_空串;
         int 左边 = C0890_文本操作.m6821(完整内容, 左边文本, 0) + C0890_文本操作.m6817_获取字符串长度(左边文本);
         if (IntegerVariant.getIntegerVariant(左边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         int 右边 = C0890_文本操作.m6821(完整内容, 右边文本, 左边);
         if (IntegerVariant.getIntegerVariant(右边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0 || 左边 > 右边) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         return C0890_文本操作.m6814_截取子串(完整内容, 左边, 右边 - 左边);
     }
 
     /* renamed from: 更新 */
     public void m5210() {
-        String 返回数据 = bi_常量类.f6358b;
-        String 版本号 = bi_常量类.f6358b;
-        String 下载地址 = bi_常量类.f6358b;
-        String 备注 = bi_常量类.f6358b;
-        String 结果 = bi_常量类.f6358b;
-        String y = bi_常量类.f6358b;
-        String 站点升级 = bi_常量类.f6358b;
-        String 返据 = bi_常量类.f6358b;
-        String 升级内容 = bi_常量类.f6358b;
-        String 本机 = bi_常量类.f6358b;
+        String 返回数据 = bi_常量类.f6358b_空串;
+        String 版本号 = bi_常量类.f6358b_空串;
+        String 下载地址 = bi_常量类.f6358b_空串;
+        String 备注 = bi_常量类.f6358b_空串;
+        String 结果 = bi_常量类.f6358b_空串;
+        String y = bi_常量类.f6358b_空串;
+        String 站点升级 = bi_常量类.f6358b_空串;
+        String 返据 = bi_常量类.f6358b_空串;
+        String 升级内容 = bi_常量类.f6358b_空串;
+        String 本机 = bi_常量类.f6358b_空串;
         C0889_文件操作.m6786(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/shi/");
         C0889_文件操作.m6784(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/shi/");
-        if (C0897_网络操作.m6920_取网络状态() && C0897_网络操作.m6922(this.wl + "/gongjiaoa/xver.txt", "GBK", 5000).equals(bi_常量类.f6358b)) {
+        if (C0897_网络操作.m6920_取网络状态() && C0897_网络操作.m6922(this.wl + "/gongjiaoa/xver.txt", "GBK", 5000).equals(bi_常量类.f6358b_空串)) {
             this.wl = "bei.bussecretary.com";
             this.ff = C0897_网络操作.m6922(this.wl + "/gongjiaoa.txt", "utf-8", 5000);
             this.f40241.mo976(this.ff);
@@ -1176,18 +1176,18 @@ public class C065013 extends C0645Impl {
             this.f40241.mo976(((("http://pub.alimama.com/promo/search/index.htm?q=" + this.f40303.mo886()) + "&startTkRate=10&endTkRate=50&toPage=") + Integer.toString(this.f4032)) + "&perPageSize=40");
         }
         if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/lishi.txt", "utf-8"), this.f40303.mo886(), 0)).cmp(ByteVariant.getByteVariant((byte) 0)) <= 0) {
-            C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/lishi.txt", (C0890_文本操作.m6819(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/lishi.txt", "utf-8"), this.f40303.mo886() + "zk", bi_常量类.f6358b) + this.f40303.mo886()) + "zk", "utf-8");
+            C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/lishi.txt", (C0890_文本操作.m6819(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/lishi.txt", "utf-8"), this.f40303.mo886() + "zk", bi_常量类.f6358b_空串) + this.f40303.mo886()) + "zk", "utf-8");
         }
         this.f40241.mo776(false);
         this.f40043.mo928(5000);
         this.f3969GIF1.mo776(true);
         this.f3969GIF1.mo774(true);
         this.f3969GIF1.mo768();
-        this.title = bi_常量类.f6358b;
-        this.f3975p = bi_常量类.f6358b;
-        this.pp = bi_常量类.f6358b;
-        this.ppp = bi_常量类.f6358b;
-        this.dian = bi_常量类.f6358b;
+        this.title = bi_常量类.f6358b_空串;
+        this.f3975p = bi_常量类.f6358b_空串;
+        this.pp = bi_常量类.f6358b_空串;
+        this.ppp = bi_常量类.f6358b_空串;
+        this.dian = bi_常量类.f6358b_空串;
     }
 
     /* renamed from: 时钟3$周期事件 */
@@ -1198,7 +1198,7 @@ public class C065013 extends C0645Impl {
 
     /* renamed from: 标签13$被单击 */
     public void m521113$() {
-        String fd = bi_常量类.f6358b;
+        String fd = bi_常量类.f6358b_空串;
         this.f3973h = 6;
         this.f4032 = IntegerVariant.getIntegerVariant(this.f4032).add(ByteVariant.getByteVariant((byte) 1)).getInteger();
         if (IntegerVariant.getIntegerVariant(this.ci).cmp(ByteVariant.getByteVariant((byte) 1)) > 0) {
@@ -1208,7 +1208,7 @@ public class C065013 extends C0645Impl {
         }
         this.f401513.mo895("加载中");
         this.f40087.mo928(1000);
-        if (!C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/vck.html", "UTF-8").equals(bi_常量类.f6358b)) {
+        if (!C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/vck.html", "UTF-8").equals(bi_常量类.f6358b_空串)) {
             fd = C0899.m6945((double) C0893.m6860(1, 10000));
             C0889_文件操作.m6781_写出文本文件(((C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/vcak") + fd) + ".html", C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/vck.html", "UTF-8"), "UTF-8");
             this.f40241.mo976(("file:///sdcard/tencent/shi/vcak" + fd) + ".html");
@@ -1344,7 +1344,7 @@ public class C065013 extends C0645Impl {
             this.kk = C0890_文本操作.m6819(this.kk, "//dn.com", "//img.alicdn.com");
             C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/vca.html", C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/vck.html", "UTF-8"), "UTF-8");
             C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/vck.html", this.kk, "UTF-8");
-            this.fd = bi_常量类.f6358b;
+            this.fd = bi_常量类.f6358b_空串;
             this.f401513.mo895("下一页");
         }
     }
@@ -1401,11 +1401,11 @@ public class C065013 extends C0645Impl {
 
     /* renamed from: 标签2$被单击 */
     public void m52142$() {
-        String ll = bi_常量类.f6358b;
+        String ll = bi_常量类.f6358b_空串;
         if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f40241.mo944(), "vcak", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.f40241.mo952();
             this.ci = IntegerVariant.getIntegerVariant(this.ci).add(ByteVariant.getByteVariant((byte) 1)).getInteger();
-        } else if (!C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/vc.html", "UTF-8").equals(bi_常量类.f6358b)) {
+        } else if (!C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/vc.html", "UTF-8").equals(bi_常量类.f6358b_空串)) {
             this.f40241.mo976("file:///sdcard/tencent/shi/vc.html");
         }
     }
@@ -1430,15 +1430,15 @@ public class C065013 extends C0645Impl {
 
     /* renamed from: 时钟10$周期事件 */
     public void m520010$() {
-        String shijian = bi_常量类.f6358b;
-        shijian = C0890_文本操作.m6819(C0890_文本操作.m6819(C0899.m6945(ConvHelpers.string2double(((((Integer.toString(C0891.m6828(C0891.m6837())) + Integer.toString(C0891.m6834(C0891.m6837()))) + Integer.toString(C0891.m6830(C0891.m6837()))) + Integer.toString(C0891.m6827(C0891.m6837()))) + Integer.toString(C0891.m6825(C0891.m6837()))) + Integer.toString(C0891.m6840(C0891.m6837())))), ".", bi_常量类.f6358b), "E", bi_常量类.f6358b);
+        String shijian = bi_常量类.f6358b_空串;
+        shijian = C0890_文本操作.m6819(C0890_文本操作.m6819(C0899.m6945(ConvHelpers.string2double(((((Integer.toString(C0891.m6828(C0891.m6837())) + Integer.toString(C0891.m6834(C0891.m6837()))) + Integer.toString(C0891.m6830(C0891.m6837()))) + Integer.toString(C0891.m6827(C0891.m6837()))) + Integer.toString(C0891.m6825(C0891.m6837()))) + Integer.toString(C0891.m6840(C0891.m6837())))), ".", bi_常量类.f6358b_空串), "E", bi_常量类.f6358b_空串);
         this.f400110.mo928(0);
         this.f39961.mo1458("购物", this.title, this.f3995, ((this.dian + this.ids) + "7277") + shijian);
     }
 
     /* renamed from: 图片框1$被单击 */
     public void m51941$() {
-        this.f40303.mo887(bi_常量类.f6358b);
+        this.f40303.mo887(bi_常量类.f6358b_空串);
     }
 
     /* renamed from: 时钟11$周期事件 */

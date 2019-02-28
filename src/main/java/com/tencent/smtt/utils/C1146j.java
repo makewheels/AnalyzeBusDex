@@ -91,7 +91,7 @@ public class C1146j {
     /* renamed from: a */
     public static String m7976a(Context context, int i) {
         if (context == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         try {
             String str = Environment.getExternalStorageDirectory() + File.separator + "tencent" + File.separator + "tbs";
@@ -105,11 +105,11 @@ public class C1146j {
                 case 4:
                     return str + File.separator + context.getApplicationInfo().packageName;
                 default:
-                    return bi_常量类.f6358b;
+                    return bi_常量类.f6358b_空串;
             }
         } catch (Exception e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 
@@ -197,7 +197,7 @@ public class C1146j {
                     crc32.update(bArr, 0, read);
                 }
                 long value = crc32.getValue();
-                TbsLog.m7927i("FileHelper", bi_常量类.f6358b + file.getName() + ": crc = " + value + ", zipCrc = " + j3);
+                TbsLog.m7927i("FileHelper", bi_常量类.f6358b_空串 + file.getName() + ": crc = " + value + ", zipCrc = " + j3);
                 if (value == j3) {
                     if (fileInputStream2 != null) {
                         fileInputStream2.close();
@@ -535,7 +535,7 @@ public class C1146j {
             return Environment.getExternalStorageDirectory() + File.separator + "tencent" + File.separator + "tbs" + File.separator + "tbslog";
         } catch (Exception e) {
             e.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 }

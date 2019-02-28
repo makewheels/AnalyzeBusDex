@@ -131,7 +131,7 @@ public class C1154r {
         IOException e;
         Throwable th2;
         FileInputStream fileInputStream2 = null;
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         try {
             String str2 = "/data/data/com.tencent.mobileqq/app_tbs/share/QQBrowserDownloadInfo.ini";
             String str3 = "/data/data/com.qzone/app_tbs/share/QQBrowserDownloadInfo.ini";
@@ -196,20 +196,20 @@ public class C1154r {
             String str = (String) d.get("FileDownloadPath");
             String str2 = (String) d.get("FileDownloadVerifyInfo");
             if (TextUtils.isEmpty(str)) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
             if (TextUtils.isEmpty(str2)) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
             File file = new File(str);
             if (!file.exists()) {
-                return bi_常量类.f6358b;
+                return bi_常量类.f6358b_空串;
             }
-            if (TextUtils.equals(C1150n.m8007a(file.lastModified() + bi_常量类.f6358b), str2)) {
+            if (TextUtils.equals(C1150n.m8007a(file.lastModified() + bi_常量类.f6358b_空串), str2)) {
                 return str;
             }
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     /* renamed from: e */

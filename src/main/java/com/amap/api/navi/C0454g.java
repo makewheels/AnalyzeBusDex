@@ -256,7 +256,7 @@ public class C0454g implements C0443e {
                     if (naviInfo.m_CameraType != 0 || naviInfo.m_CameraSpeed <= 0) {
                         this.f2736r.speedCamera.setVisibility(8);
                     } else {
-                        this.f2736r.speedCamera.setText(bi_常量类.f6358b + naviInfo.m_CameraSpeed);
+                        this.f2736r.speedCamera.setText(bi_常量类.f6358b_空串 + naviInfo.m_CameraSpeed);
                         this.f2736r.speedCamera.setVisibility(0);
                     }
                     if (naviInfo.m_CameraType == 1 || naviInfo.m_CameraType == 3) {

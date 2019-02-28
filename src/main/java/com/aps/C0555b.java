@@ -64,7 +64,7 @@ public class C0555b {
 
     /* renamed from: a */
     public static String m4413a(byte[] bArr) {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         if (bArr != null) {
             try {
                 str = C0283b.m1821a(bArr);

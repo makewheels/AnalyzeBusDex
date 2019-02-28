@@ -32,7 +32,7 @@ public final class C0068d {
                 while (i < arrayList.size()) {
                     str = (String) arrayList.get(i);
                     if (str == null || !str.equals("AC3")) {
-                        stringBuffer.append((i == 0 ? bi_常量类.f6358b : "&") + str + "=" + ((String) map.get(str)));
+                        stringBuffer.append((i == 0 ? bi_常量类.f6358b_空串 : "&") + str + "=" + ((String) map.get(str)));
                     }
                     i++;
                 }
@@ -97,7 +97,7 @@ public final class C0068d {
             hashMap.put("AD14", C0163a.m574e());
             hashMap.put("AD15", C0163a.m576f());
             hashMap.put("AD16", C0163a.m578g());
-            hashMap.put("AD17", bi_常量类.f6358b);
+            hashMap.put("AD17", bi_常量类.f6358b_空串);
             hashMap.put("AD18", C0163a.m580h());
             hashMap.put("AD19", C0163a.m587k(context));
             hashMap.put("AD20", C0163a.m582i());

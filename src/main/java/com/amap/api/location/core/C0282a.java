@@ -11,7 +11,7 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.amap.api.location.core.a */
 public class C0282a {
     /* renamed from: a */
-    static String f1292a = bi_常量类.f6358b;
+    static String f1292a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     private static int f1293b = -1;
 

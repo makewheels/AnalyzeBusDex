@@ -49,7 +49,7 @@ public class C0283b {
             return stringBuffer.toString();
         } catch (Throwable th) {
             th.printStackTrace();
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 }

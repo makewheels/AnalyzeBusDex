@@ -30,7 +30,7 @@ public final class Inputtips {
     }
 
     public void requestInputtips(final String str, final String str2) throws AMapException {
-        if (str == null || str.equals(bi_常量类.f6358b)) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串)) {
             throw new AMapException("无效的参数 - IllegalArgumentException");
         }
         new Thread(this) {

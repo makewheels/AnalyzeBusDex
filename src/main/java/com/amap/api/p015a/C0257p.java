@@ -41,7 +41,7 @@ class C0257p {
         /* renamed from: a */
         Bitmap f1060a = null;
         /* renamed from: b */
-        String f1061b = bi_常量类.f6358b;
+        String f1061b = bi_常量类.f6358b_空串;
         /* renamed from: c */
         boolean f1062c = false;
         /* renamed from: d */
@@ -76,7 +76,7 @@ class C0257p {
 
     /* renamed from: a */
     protected int m1658a(String str) {
-        if (str.equals(bi_常量类.f6358b)) {
+        if (str.equals(bi_常量类.f6358b_空串)) {
             return -1;
         }
         int i = 0;

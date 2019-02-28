@@ -132,7 +132,7 @@ public class C0925b extends C0923a implements C0924a {
         } else if (this.f4422p.size() <= 0) {
             throw new SpeechError((int) ErrorCode.MSP_ERROR_NO_DATA);
         } else {
-            str = bi_常量类.f6358b;
+            str = bi_常量类.f6358b_空串;
         }
         this.f4422p.add(str);
         C0939a.m7120a("msc result time:" + System.currentTimeMillis());
@@ -191,7 +191,7 @@ public class C0925b extends C0923a implements C0924a {
 
     /* renamed from: a */
     protected void m7066a(byte[] bArr, boolean z) throws SpeechError {
-        C0941c.m7127a("QISRAudioWrite", bi_常量类.f6358b + bArr.length);
+        C0941c.m7127a("QISRAudioWrite", bi_常量类.f6358b_空串 + bArr.length);
         this.f4417i.m7020a(bArr, bArr.length);
         if (!z) {
             return;

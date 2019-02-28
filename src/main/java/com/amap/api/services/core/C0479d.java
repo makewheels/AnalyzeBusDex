@@ -34,9 +34,9 @@ public class C0479d {
     /* renamed from: h */
     private static String f2942h;
     /* renamed from: i */
-    private static String f2943i = bi_常量类.f6358b;
+    private static String f2943i = bi_常量类.f6358b_空串;
     /* renamed from: j */
-    private static String f2944j = bi_常量类.f6358b;
+    private static String f2944j = bi_常量类.f6358b_空串;
 
     /* renamed from: a */
     public static C0479d m3999a(Context context) {
@@ -148,14 +148,14 @@ public class C0479d {
     /* renamed from: e */
     public String m4008e() {
         if (f2936b.checkCallingOrSelfPermission("android.permission.ACCESS_NETWORK_STATE") != 0) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         if (f2938d == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         NetworkInfo activeNetworkInfo = f2938d.getActiveNetworkInfo();
         if (activeNetworkInfo == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         return activeNetworkInfo.getTypeName();
     }
@@ -167,7 +167,7 @@ public class C0479d {
 
     /* renamed from: b */
     public static String m4000b(Context context) {
-        if (f2943i == null || f2943i.equals(bi_常量类.f6358b)) {
+        if (f2943i == null || f2943i.equals(bi_常量类.f6358b_空串)) {
             try {
                 f2943i = context.getPackageManager().getApplicationInfo(context.getPackageName(), 128).metaData.getString("com.amap.api.v2.apikey");
             } catch (Exception e) {
@@ -179,7 +179,7 @@ public class C0479d {
 
     /* renamed from: g */
     public static String m4001g() {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         try {
             PackageManager packageManager = f2936b.getPackageManager();
             return (String) packageManager.getApplicationLabel(packageManager.getApplicationInfo(f2936b.getPackageName(), 0));
@@ -199,7 +199,7 @@ public class C0479d {
     /* renamed from: i */
     public static String m4002i() {
         PackageManager packageManager = f2936b.getPackageManager();
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         try {
             return packageManager.getPackageInfo(f2936b.getPackageName(), 0).versionName;
         } catch (NameNotFoundException e) {

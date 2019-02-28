@@ -319,7 +319,7 @@ public class C0588y {
             IntentFilter intentFilter = new IntentFilter("android.location.GPS_ENABLED_CHANGE");
             intentFilter.addAction("android.location.GPS_FIX_CHANGE");
             this.f3614r.registerReceiver(this.f3600I, intentFilter);
-            String str = bi_常量类.f6358b;
+            String str = bi_常量类.f6358b_空串;
             this.f3615s.removeUpdates(this.f3599H);
             if (this.f3593B != null) {
                 this.f3593B.quit();

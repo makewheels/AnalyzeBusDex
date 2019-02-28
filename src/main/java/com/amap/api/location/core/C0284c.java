@@ -25,7 +25,7 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.amap.api.location.core.c */
 public class C0284c {
     /* renamed from: a */
-    static String f1296a = bi_常量类.f6358b;
+    static String f1296a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     static HashMap<String, String> f1297b = new HashMap();
     /* renamed from: c */
@@ -51,7 +51,7 @@ public class C0284c {
     /* renamed from: m */
     private static String f1308m;
     /* renamed from: n */
-    private static String f1309n = bi_常量类.f6358b;
+    private static String f1309n = bi_常量类.f6358b_空串;
 
     /* renamed from: a */
     public static String m1823a() {
@@ -106,7 +106,7 @@ public class C0284c {
             instance = null;
         }
         if (instance == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         instance.init(256);
         byte[] encoded = instance.generateKey().getEncoded();
@@ -195,21 +195,21 @@ public class C0284c {
     /* renamed from: f */
     public String m1839f() {
         if (f1301f.checkCallingOrSelfPermission("android.permission.ACCESS_NETWORK_STATE") != 0) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         if (f1303h == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         NetworkInfo activeNetworkInfo = f1303h.getActiveNetworkInfo();
         if (activeNetworkInfo == null) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         return activeNetworkInfo.getTypeName();
     }
 
     /* renamed from: b */
     public static String m1826b(Context context) {
-        if (f1296a == null || f1296a.equals(bi_常量类.f6358b)) {
+        if (f1296a == null || f1296a.equals(bi_常量类.f6358b_空串)) {
             try {
                 f1296a = context.getPackageManager().getApplicationInfo(context.getPackageName(), 128).metaData.getString("com.amap.api.v2.apikey");
             } catch (Throwable th) {
@@ -221,7 +221,7 @@ public class C0284c {
 
     /* renamed from: g */
     public static String m1831g() {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         try {
             PackageManager packageManager = f1301f.getPackageManager();
             return (String) packageManager.getApplicationLabel(packageManager.getApplicationInfo(f1301f.getPackageName(), 0));
@@ -234,7 +234,7 @@ public class C0284c {
     /* renamed from: h */
     public static String m1832h() {
         PackageManager packageManager = f1301f.getPackageManager();
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         try {
             return packageManager.getPackageInfo(f1301f.getPackageName(), 0).versionName;
         } catch (NameNotFoundException e) {

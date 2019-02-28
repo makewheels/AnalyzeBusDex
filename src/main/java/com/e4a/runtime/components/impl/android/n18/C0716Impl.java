@@ -36,7 +36,7 @@ public class C0716Impl extends ViewComponent implements C0714, OnItemClickListen
     private int FirstVisibleItem;
     private int TotalItemCount;
     private int VisibleItemCount;
-    private String backgroundImage = bi_常量类.f6358b;
+    private String backgroundImage = bi_常量类.f6358b_空串;
     private int backgroundImage2 = -1;
     private List<Map<String, String>> data;
     private boolean richtext = false;
@@ -247,7 +247,7 @@ public class C0716Impl extends ViewComponent implements C0714, OnItemClickListen
     public void mo995(String title) {
         Map<String, String> map = new HashMap();
         map.put("title", title);
-        map.put("tag", bi_常量类.f6358b);
+        map.put("tag", bi_常量类.f6358b_空串);
         this.data.add(map);
         this.Adapter.notifyDataSetChanged();
     }
@@ -256,7 +256,7 @@ public class C0716Impl extends ViewComponent implements C0714, OnItemClickListen
     public void mo994(int index, String title) {
         Map<String, String> map = new HashMap();
         map.put("title", title);
-        map.put("tag", bi_常量类.f6358b);
+        map.put("tag", bi_常量类.f6358b_空串);
         this.data.add(index, map);
         this.Adapter.notifyDataSetChanged();
     }

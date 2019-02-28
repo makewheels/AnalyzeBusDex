@@ -32,7 +32,7 @@ class al implements ReaderCallback {
                     this.f4966a.userStatistics(TbsReaderView.READER_STATISTICS_COUNT_PDF_INTO_DIALOG);
                     break;
                 }
-                str = bi_常量类.f6358b;
+                str = bi_常量类.f6358b_空串;
                 if (obj != null) {
                     bundle2 = (Bundle) obj;
                     str = bundle2.getString("docpath");
@@ -53,13 +53,13 @@ class al implements ReaderCallback {
                     this.f4966a.userStatistics(TbsReaderView.READER_STATISTICS_COUNT_PPT_INTO_DIALOG);
                     break;
                 }
-                str = bi_常量类.f6358b;
+                str = bi_常量类.f6358b_空串;
                 if (obj != null) {
                     bundle2 = (Bundle) obj;
                     str = bundle2.getString("docpath");
                     bundle = bundle2;
                 }
-                QbSdk.startQBForDoc(this.f4966a.f4864a, str, 4, 0, bi_常量类.f6358b, bundle);
+                QbSdk.startQBForDoc(this.f4966a.f4864a, str, 4, 0, bi_常量类.f6358b_空串, bundle);
                 this.f4966a.userStatistics(TbsReaderView.READER_STATISTICS_COUNT_PPT_INTO_BROWSER);
                 i = 1;
                 break;
@@ -74,7 +74,7 @@ class al implements ReaderCallback {
                     this.f4966a.userStatistics(TbsReaderView.READER_STATISTICS_COUNT_TXT_INTO_DIALOG);
                     break;
                 }
-                str = bi_常量类.f6358b;
+                str = bi_常量类.f6358b_空串;
                 if (obj != null) {
                     bundle2 = (Bundle) obj;
                     str = bundle2.getString("docpath");
@@ -94,7 +94,7 @@ class al implements ReaderCallback {
                     this.f4966a.userStatistics(TbsReaderView.READER_STATISTICS_COUNT_DOC_INTO_DIALOG);
                     break;
                 }
-                str = bi_常量类.f6358b;
+                str = bi_常量类.f6358b_空串;
                 if (obj != null) {
                     bundle2 = (Bundle) obj;
                     str = bundle2.getString("docpath");

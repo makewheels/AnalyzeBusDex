@@ -7,7 +7,7 @@ public final class C1058f {
     public final String toString() {
         StackTraceElement[] stackTrace = new Throwable().getStackTrace();
         if (stackTrace == null || stackTrace.length < 4) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         StringBuilder stringBuilder = new StringBuilder();
         int i = 3;

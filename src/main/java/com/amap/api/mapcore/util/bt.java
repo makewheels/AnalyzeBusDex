@@ -198,7 +198,7 @@ public class bt {
     private void m3303c(bu buVar) throws C0406v {
         if (buVar == null) {
             throw new C0406v("requeust is null");
-        } else if (buVar.mo587d() == null || bi_常量类.f6358b.equals(buVar.mo587d())) {
+        } else if (buVar.mo587d() == null || bi_常量类.f6358b_空串.equals(buVar.mo587d())) {
             throw new C0406v("request url is empty");
         }
     }

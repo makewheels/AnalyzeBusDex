@@ -26,7 +26,7 @@ public class C0573m {
 
         private C0571a() {
             this.f3508a = new C0556c();
-            this.f3509b = bi_常量类.f6358b;
+            this.f3509b = bi_常量类.f6358b_空串;
         }
 
         public void characters(char[] cArr, int i, int i2) {
@@ -34,7 +34,7 @@ public class C0573m {
         }
 
         public void startElement(String str, String str2, String str3, Attributes attributes) {
-            this.f3509b = bi_常量类.f6358b;
+            this.f3509b = bi_常量类.f6358b_空串;
         }
 
         public void endElement(String str, String str2, String str3) {
@@ -99,7 +99,7 @@ public class C0573m {
                 this.f3508a.m4433a(this.f3509b);
             } else if (str2.equals("apiTime")) {
                 try {
-                    if (!bi_常量类.f6358b.equals(this.f3509b)) {
+                    if (!bi_常量类.f6358b_空串.equals(this.f3509b)) {
                         this.f3508a.m4431a(Long.parseLong(this.f3509b));
                     }
                 } catch (Throwable th2222) {
@@ -136,7 +136,7 @@ public class C0573m {
         private boolean f3511b;
 
         private C0572b() {
-            this.f3510a = bi_常量类.f6358b;
+            this.f3510a = bi_常量类.f6358b_空串;
             this.f3511b = false;
         }
 

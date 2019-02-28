@@ -271,7 +271,7 @@ public final class C0112b {
             return null;
         }
         String str2 = split[1];
-        return str2.contains("\"") ? str2.replaceAll("\"", bi_常量类.f6358b) : str2;
+        return str2.contains("\"") ? str2.replaceAll("\"", bi_常量类.f6358b_空串) : str2;
     }
 
     /* renamed from: e */

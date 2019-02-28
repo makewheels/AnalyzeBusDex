@@ -9,9 +9,9 @@ public class UMPlatformData {
     /* renamed from: a */
     private UMedia f5679a;
     /* renamed from: b */
-    private String f5680b = bi_常量类.f6358b;
+    private String f5680b = bi_常量类.f6358b_空串;
     /* renamed from: c */
-    private String f5681c = bi_常量类.f6358b;
+    private String f5681c = bi_常量类.f6358b_空串;
     /* renamed from: d */
     private String f5682d;
     /* renamed from: e */

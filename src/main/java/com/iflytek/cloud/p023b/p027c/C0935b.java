@@ -14,17 +14,17 @@ import p054u.aly.bi_常量类;
 /* renamed from: com.iflytek.cloud.b.c.b */
 public class C0935b extends C0923a {
     /* renamed from: a */
-    private String f4453a = bi_常量类.f6358b;
+    private String f4453a = bi_常量类.f6358b_空串;
     /* renamed from: b */
     private C0934a f4454b = C0934a.upload;
     /* renamed from: c */
     private byte[] f4455c = null;
     /* renamed from: d */
-    private String f4456d = bi_常量类.f6358b;
+    private String f4456d = bi_常量类.f6358b_空串;
     /* renamed from: e */
-    private String f4457e = bi_常量类.f6358b;
+    private String f4457e = bi_常量类.f6358b_空串;
     /* renamed from: f */
-    private String f4458f = bi_常量类.f6358b;
+    private String f4458f = bi_常量类.f6358b_空串;
     /* renamed from: g */
     private C0933a f4459g = new C0933a();
     /* renamed from: h */

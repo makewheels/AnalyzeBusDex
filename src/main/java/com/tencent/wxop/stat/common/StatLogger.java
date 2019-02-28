@@ -78,7 +78,7 @@ public final class StatLogger {
 
     public final void error(Throwable th) {
         if (this.f5429c <= 6) {
-            Log.e(this.f5427a, bi_常量类.f6358b, th);
+            Log.e(this.f5427a, bi_常量类.f6358b_空串, th);
             C1203g customLogger = StatConfig.getCustomLogger();
             if (customLogger != null) {
                 customLogger.m8348d(th);

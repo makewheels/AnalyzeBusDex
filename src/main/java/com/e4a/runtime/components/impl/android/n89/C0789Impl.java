@@ -125,7 +125,7 @@ public class C0789Impl extends ViewComponent implements C0778, OnPauseListener, 
     public static final String GEOFENCE_BROADCAST_ACTION = "com.location.apis.geofencedemo.broadcast";
     private static final int SCROLL_BY_PX = 100;
     private static GeocodeSearch geocoderSearch = null;
-    private String CityCode = bi_常量类.f6358b;
+    private String CityCode = bi_常量类.f6358b_空串;
     private final int TIME_SENSOR = 100;
     private AMap aMap;
     private LocationManagerProxy aMapManager;
@@ -240,16 +240,16 @@ public class C0789Impl extends ViewComponent implements C0778, OnPauseListener, 
         public void onRegeocodeSearched(RegeocodeResult result, int rCode) {
             if (rCode == 0) {
                 if (result == null || result.getRegeocodeAddress() == null || result.getRegeocodeAddress().getFormatAddress() == null) {
-                    C0789Impl.this.mo1353(false, bi_常量类.f6358b);
+                    C0789Impl.this.mo1353(false, bi_常量类.f6358b_空串);
                     return;
                 }
                 C0789Impl.this.mo1353(true, result.getRegeocodeAddress().getFormatAddress());
             } else if (rCode == 27) {
-                C0789Impl.this.mo1353(false, bi_常量类.f6358b);
+                C0789Impl.this.mo1353(false, bi_常量类.f6358b_空串);
             } else if (rCode == 32) {
-                C0789Impl.this.mo1353(false, bi_常量类.f6358b);
+                C0789Impl.this.mo1353(false, bi_常量类.f6358b_空串);
             } else {
-                C0789Impl.this.mo1353(false, bi_常量类.f6358b);
+                C0789Impl.this.mo1353(false, bi_常量类.f6358b_空串);
             }
         }
     }
@@ -936,7 +936,7 @@ public class C0789Impl extends ViewComponent implements C0778, OnPauseListener, 
             titleUi.setTextSize(0, C0880_应用操作类.m6713(12.0f));
             titleUi.setText(titleText);
         } else {
-            titleUi.setText(bi_常量类.f6358b);
+            titleUi.setText(bi_常量类.f6358b_空串);
         }
         String snippet = marker.getSnippet();
         TextView snippetUi = (TextView) view.findViewById(C0894.m6890("snippet", "id"));
@@ -947,13 +947,13 @@ public class C0789Impl extends ViewComponent implements C0778, OnPauseListener, 
             snippetUi.setText(snippetText);
             return;
         }
-        snippetUi.setText(bi_常量类.f6358b);
+        snippetUi.setText(bi_常量类.f6358b_空串);
     }
 
     /* renamed from: 查询公交线路 */
     public void mo1369(String search, String cityCode) {
         this.currentpage = 0;
-        if (!bi_常量类.f6358b.equals(search) && !bi_常量类.f6358b.equals(cityCode)) {
+        if (!bi_常量类.f6358b_空串.equals(search) && !bi_常量类.f6358b_空串.equals(cityCode)) {
             showProgressDialog();
             this.CityCode = cityCode;
             this.busLineQuery = new BusLineQuery(search, SearchType.BY_LINE_NAME, cityCode);
@@ -968,7 +968,7 @@ public class C0789Impl extends ViewComponent implements C0778, OnPauseListener, 
     /* renamed from: 查询公交站点 */
     public void mo1368(String search, String cityCode) {
         this.currentpage = 0;
-        if (!bi_常量类.f6358b.equals(search) && !bi_常量类.f6358b.equals(cityCode)) {
+        if (!bi_常量类.f6358b_空串.equals(search) && !bi_常量类.f6358b_空串.equals(cityCode)) {
             showProgressDialog();
             this.CityCode = cityCode;
             BusStationQuery query = new BusStationQuery(search, cityCode);
@@ -1131,7 +1131,7 @@ public class C0789Impl extends ViewComponent implements C0778, OnPauseListener, 
         this.strStart = this.startTextView;
         if (this.startPoint == null || !this.strStart.equals("地图上的起点")) {
             showProgressDialog();
-            this.startSearchQuery = new Query(this.strStart, bi_常量类.f6358b, this.CityCode);
+            this.startSearchQuery = new Query(this.strStart, bi_常量类.f6358b_空串, this.CityCode);
             this.startSearchQuery.setPageNum(0);
             this.startSearchQuery.setPageSize(20);
             PoiSearch poiSearch = new PoiSearch(mainActivity.getContext(), this.startSearchQuery);
@@ -1146,7 +1146,7 @@ public class C0789Impl extends ViewComponent implements C0778, OnPauseListener, 
         this.strEnd = this.endTextView;
         if (this.endPoint == null || !this.strEnd.equals("地图上的终点")) {
             showProgressDialog();
-            this.endSearchQuery = new Query(this.strEnd, bi_常量类.f6358b, this.CityCode);
+            this.endSearchQuery = new Query(this.strEnd, bi_常量类.f6358b_空串, this.CityCode);
             this.endSearchQuery.setPageNum(0);
             this.endSearchQuery.setPageSize(20);
             PoiSearch poiSearch = new PoiSearch(mainActivity.getContext(), this.endSearchQuery);
@@ -1163,7 +1163,7 @@ public class C0789Impl extends ViewComponent implements C0778, OnPauseListener, 
         if (this.routeType == 1) {
             this.routeSearch.calculateBusRouteAsyn(new BusRouteQuery(fromAndTo, this.busMode, this.CityCode, 0));
         } else if (this.routeType == 2) {
-            this.routeSearch.calculateDriveRouteAsyn(new DriveRouteQuery(fromAndTo, this.drivingMode, null, null, bi_常量类.f6358b));
+            this.routeSearch.calculateDriveRouteAsyn(new DriveRouteQuery(fromAndTo, this.drivingMode, null, null, bi_常量类.f6358b_空串));
         } else if (this.routeType == 3) {
             this.routeSearch.calculateWalkRouteAsyn(new WalkRouteQuery(fromAndTo, this.walkMode));
         }
@@ -1305,7 +1305,7 @@ public class C0789Impl extends ViewComponent implements C0778, OnPauseListener, 
 
     public void onWeatherLiveSearched(AMapLocalWeatherLive aMapLocalWeatherLive) {
         if (aMapLocalWeatherLive == null || aMapLocalWeatherLive.getAMapException().getErrorCode() != 0) {
-            mo1385(bi_常量类.f6358b, bi_常量类.f6358b, bi_常量类.f6358b, bi_常量类.f6358b, bi_常量类.f6358b, bi_常量类.f6358b, bi_常量类.f6358b);
+            mo1385(bi_常量类.f6358b_空串, bi_常量类.f6358b_空串, bi_常量类.f6358b_空串, bi_常量类.f6358b_空串, bi_常量类.f6358b_空串, bi_常量类.f6358b_空串, bi_常量类.f6358b_空串);
         } else {
             mo1385(aMapLocalWeatherLive.getCity(), aMapLocalWeatherLive.getWeather(), aMapLocalWeatherLive.getTemperature() + "℃", aMapLocalWeatherLive.getWindDir() + "风", aMapLocalWeatherLive.getWindPower() + "级", aMapLocalWeatherLive.getHumidity() + "%", aMapLocalWeatherLive.getReportTime());
         }

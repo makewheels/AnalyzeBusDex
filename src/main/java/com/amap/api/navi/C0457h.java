@@ -1028,7 +1028,7 @@ public class C0457h {
     /* renamed from: b */
     String m3892b(Context context) {
         try {
-            return context.getSharedPreferences("navigation_uid", 0).getString("uid", bi_常量类.f6358b);
+            return context.getSharedPreferences("navigation_uid", 0).getString("uid", bi_常量类.f6358b_空串);
         } catch (Throwable th) {
             th.printStackTrace();
             return null;

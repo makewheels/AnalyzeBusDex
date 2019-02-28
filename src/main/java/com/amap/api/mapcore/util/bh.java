@@ -173,7 +173,7 @@ abstract class bh {
         String str = null;
         try {
             String a = C0409y.m3503a(context);
-            if (!bi_常量类.f6358b.equals(a)) {
+            if (!bi_常量类.f6358b_空串.equals(a)) {
                 str = C0409y.m3509b(context, a.getBytes("UTF-8"));
             }
         } catch (Throwable e) {
@@ -195,7 +195,7 @@ abstract class bh {
             Object obj2;
             String c = m3160c(anVar.m3093b());
             if (c != null) {
-                if (bi_常量类.f6358b.equals(c)) {
+                if (bi_常量类.f6358b_空串.equals(c)) {
                     obj2 = obj;
                     obj = obj2;
                 } else {

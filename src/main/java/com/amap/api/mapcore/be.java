@@ -267,7 +267,7 @@ public class be implements ah {
         c0391a.m3354a(tileOverlayOptions.getMemCacheSize());
         c0391a.m3357b(tileOverlayOptions.getDiskCacheSize());
         String diskCacheDir = tileOverlayOptions.getDiskCacheDir();
-        if (!(diskCacheDir == null || diskCacheDir.equals(bi_常量类.f6358b))) {
+        if (!(diskCacheDir == null || diskCacheDir.equals(bi_常量类.f6358b_空串))) {
             c0391a.m3355a(diskCacheDir);
         }
         this.f1700j = new C0395k(this.f1692a.getContext(), this.f1697g, this.f1698h);

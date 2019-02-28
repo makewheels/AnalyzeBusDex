@@ -23,7 +23,7 @@ class C1193l {
     static int m8317b() {
         int i = 0;
         try {
-            String str = bi_常量类.f6358b;
+            String str = bi_常量类.f6358b_空串;
             InputStream inputStream = new ProcessBuilder(new String[]{"/system/bin/cat", "/sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq"}).start().getInputStream();
             byte[] bArr = new byte[24];
             while (inputStream.read(bArr) != -1) {
@@ -44,7 +44,7 @@ class C1193l {
     static int m8318c() {
         int i = 0;
         try {
-            String str = bi_常量类.f6358b;
+            String str = bi_常量类.f6358b_空串;
             InputStream inputStream = new ProcessBuilder(new String[]{"/system/bin/cat", "/sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_min_freq"}).start().getInputStream();
             byte[] bArr = new byte[24];
             while (inputStream.read(bArr) != -1) {
@@ -64,7 +64,7 @@ class C1193l {
     /* renamed from: d */
     static String m8319d() {
         int i = 2;
-        String[] strArr = new String[]{bi_常量类.f6358b, bi_常量类.f6358b};
+        String[] strArr = new String[]{bi_常量类.f6358b_空串, bi_常量类.f6358b_空串};
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader("/proc/cpuinfo"), 8192);
             String[] split = bufferedReader.readLine().split("\\s+");

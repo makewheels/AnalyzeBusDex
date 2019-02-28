@@ -129,7 +129,7 @@ public final class as implements Listener, NmeaListener {
 
     public final void onNmeaReceived(long j, String str) {
         try {
-            if (C0588y.f3582a && str != null && !str.equals(bi_常量类.f6358b) && str.length() >= 9 && str.length() <= 150) {
+            if (C0588y.f3582a && str != null && !str.equals(bi_常量类.f6358b_空串) && str.length() >= 9 && str.length() <= 150) {
                 this.f3376h.f3597F.sendMessage(this.f3376h.f3597F.obtainMessage(1, str));
             }
         } catch (Exception e) {

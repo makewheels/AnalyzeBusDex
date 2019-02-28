@@ -72,32 +72,32 @@ public class C1159w {
                 InputStream fileInputStream = new FileInputStream(h);
                 Properties properties = new Properties();
                 properties.load(fileInputStream);
-                String property = properties.getProperty("pv_post_url", bi_常量类.f6358b);
-                if (!bi_常量类.f6358b.equals(property)) {
+                String property = properties.getProperty("pv_post_url", bi_常量类.f6358b_空串);
+                if (!bi_常量类.f6358b_空串.equals(property)) {
                     this.f5171d = property;
                 }
-                property = properties.getProperty("wup_proxy_domain", bi_常量类.f6358b);
-                if (!bi_常量类.f6358b.equals(property)) {
+                property = properties.getProperty("wup_proxy_domain", bi_常量类.f6358b_空串);
+                if (!bi_常量类.f6358b_空串.equals(property)) {
                     this.f5172e = property;
                 }
-                property = properties.getProperty("tbs_download_stat_post_url", bi_常量类.f6358b);
-                if (!bi_常量类.f6358b.equals(property)) {
+                property = properties.getProperty("tbs_download_stat_post_url", bi_常量类.f6358b_空串);
+                if (!bi_常量类.f6358b_空串.equals(property)) {
                     this.f5173f = property;
                 }
-                property = properties.getProperty("tbs_downloader_post_url", bi_常量类.f6358b);
-                if (!bi_常量类.f6358b.equals(property)) {
+                property = properties.getProperty("tbs_downloader_post_url", bi_常量类.f6358b_空串);
+                if (!bi_常量类.f6358b_空串.equals(property)) {
                     this.f5174g = property;
                 }
-                property = properties.getProperty("tbs_log_post_url", bi_常量类.f6358b);
-                if (!bi_常量类.f6358b.equals(property)) {
+                property = properties.getProperty("tbs_log_post_url", bi_常量类.f6358b_空串);
+                if (!bi_常量类.f6358b_空串.equals(property)) {
                     this.f5175h = property;
                 }
-                property = properties.getProperty("tips_url", bi_常量类.f6358b);
-                if (!bi_常量类.f6358b.equals(property)) {
+                property = properties.getProperty("tips_url", bi_常量类.f6358b_空串);
+                if (!bi_常量类.f6358b_空串.equals(property)) {
                     this.f5176i = property;
                 }
-                String property2 = properties.getProperty("tbs_cmd_post_url", bi_常量类.f6358b);
-                if (!bi_常量类.f6358b.equals(property2)) {
+                String property2 = properties.getProperty("tbs_cmd_post_url", bi_常量类.f6358b_空串);
+                if (!bi_常量类.f6358b_空串.equals(property2)) {
                     this.f5177j = property2;
                 }
                 fileInputStream.close();

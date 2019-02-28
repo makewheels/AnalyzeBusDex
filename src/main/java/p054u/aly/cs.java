@@ -7,9 +7,9 @@ import java.nio.ByteBuffer;
 /* renamed from: u.aly.cs */
 public class cs extends cy {
     /* renamed from: d */
-    private static final dd f6467d = new dd(bi_常量类.f6358b);
+    private static final dd f6467d = new dd(bi_常量类.f6358b_空串);
     /* renamed from: e */
-    private static final ct f6468e = new ct(bi_常量类.f6358b, (byte) 0, (short) 0);
+    private static final ct f6468e = new ct(bi_常量类.f6358b_空串, (byte) 0, (short) 0);
     /* renamed from: f */
     private static final byte[] f6469f = new byte[16];
     /* renamed from: h */
@@ -393,7 +393,7 @@ public class cs extends cy {
         } else {
             s = (short) (s + this.f6479n);
         }
-        ct ctVar = new ct(bi_常量类.f6358b, m10269d((byte) (u & 15)), s);
+        ct ctVar = new ct(bi_常量类.f6358b_空串, m10269d((byte) (u & 15)), s);
         if (m10268c(u)) {
             this.f6481p = ((byte) (u & 15)) == (byte) 1 ? Boolean.TRUE : Boolean.FALSE;
         }
@@ -474,7 +474,7 @@ public class cs extends cy {
         int E = m10257E();
         m10274f(E);
         if (E == 0) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         try {
             if (this.g.mo1996h() < E) {

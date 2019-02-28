@@ -141,7 +141,7 @@ public abstract class C1166e {
             m8135b(jSONObject);
             return jSONObject.toString();
         } catch (Throwable th) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
     }
 }

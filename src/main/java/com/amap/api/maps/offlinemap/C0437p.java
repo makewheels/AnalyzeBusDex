@@ -130,7 +130,7 @@ class C0437p {
     /* renamed from: c */
     public static List<OfflineMapProvince> m3763c(String str) throws JSONException {
         List<OfflineMapProvince> arrayList = new ArrayList();
-        if (str == null || bi_常量类.f6358b.equals(str)) {
+        if (str == null || bi_常量类.f6358b_空串.equals(str)) {
             return arrayList;
         }
         JSONObject optJSONObject = new JSONObject(str).optJSONObject("result");

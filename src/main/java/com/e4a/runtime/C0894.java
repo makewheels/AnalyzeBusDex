@@ -146,14 +146,14 @@ public final class C0894 {
     @SimpleFunction
     /* renamed from: 取进程列表 */
     public static String m6891() {
-        String result = bi_常量类.f6358b;
+        String result = bi_常量类.f6358b_空串;
         ActivityManager mActivityManager = (ActivityManager) C0841.m6594().getSystemService("activity");
         for (RunningServiceInfo rsi : mActivityManager.getRunningServices(Integer.MAX_VALUE)) {
             String pkgName = rsi.service.getPackageName();
             int pid = rsi.pid;
             String processName = rsi.process;
             int memSize = mActivityManager.getProcessMemoryInfo(new int[]{pid})[0].dalvikPrivateDirty;
-            if (result.equals(bi_常量类.f6358b)) {
+            if (result.equals(bi_常量类.f6358b_空串)) {
                 result = Integer.toString(pid) + "-" + processName + "-" + Integer.toString(memSize);
             } else {
                 result = result + "\n" + Integer.toString(pid) + "-" + processName + "-" + Integer.toString(memSize);
@@ -187,7 +187,7 @@ public final class C0894 {
         if (clipboard.hasText()) {
             return clipboard.getText().toString();
         }
-        return bi_常量类.f6358b;
+        return bi_常量类.f6358b_空串;
     }
 
     @SimpleFunction

@@ -57,18 +57,18 @@ public class C06543 extends C0645Impl {
     /* renamed from: 窗口3 */
     public static C0644 f41373;
     @SimpleDataElement
-    public String ab = bi_常量类.f6358b;
+    public String ab = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: d */
-    public String f4138d = bi_常量类.f6358b;
+    public String f4138d = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: e */
-    public String f4139e = bi_常量类.f6358b;
+    public String f4139e = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String fcv = bi_常量类.f6358b;
+    public String fcv = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: h */
-    public String f4140h = bi_常量类.f6358b;
+    public String f4140h = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: i */
     public int f4141i;
@@ -79,22 +79,22 @@ public class C06543 extends C0645Impl {
     /* renamed from: o */
     public int f4143o;
     @SimpleDataElement
-    public String tozhi = bi_常量类.f6358b;
+    public String tozhi = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: v */
     public int f4144v;
     @SimpleDataElement
-    public String wl = bi_常量类.f6358b;
+    public String wl = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: x */
-    public String f4145x = bi_常量类.f6358b;
+    public String f4145x = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: y */
     public int f4146y;
     @SimpleDataElement
-    public String zz = bi_常量类.f6358b;
+    public String zz = bi_常量类.f6358b_空串;
     @SimpleDataElement
-    public String zz1 = bi_常量类.f6358b;
+    public String zz1 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 下载器1 */
     public C0733 f41471;
@@ -103,7 +103,7 @@ public class C06543 extends C0645Impl {
     public C0733 f41482;
     @SimpleDataElement
     /* renamed from: 公告 */
-    public String f4149 = bi_常量类.f6358b;
+    public String f4149 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 分享对象 */
     public int f4150;
@@ -184,19 +184,19 @@ public class C06543 extends C0645Impl {
     public C0739 f41759;
     @SimpleDataElement
     /* renamed from: 地 */
-    public String f4176 = bi_常量类.f6358b;
+    public String f4176 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 地点 */
-    public String f4177 = bi_常量类.f6358b;
+    public String f4177 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 天 */
-    public String f4178 = bi_常量类.f6358b;
+    public String f4178 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 天气 */
-    public String f4179 = bi_常量类.f6358b;
+    public String f4179 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 数 */
-    public String f4180 = bi_常量类.f6358b;
+    public String f4180 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 新 */
     public Calendar f4181;
@@ -229,13 +229,13 @@ public class C06543 extends C0645Impl {
     public C0698 f41903;
     @SimpleDataElement
     /* renamed from: 温度 */
-    public String f4191 = bi_常量类.f6358b;
+    public String f4191 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 状态栏通知1 */
     public C0768 f41921;
     @SimpleDataElement
     /* renamed from: 风 */
-    public String f4193 = bi_常量类.f6358b;
+    public String f4193 = bi_常量类.f6358b_空串;
 
     public C06543() {
         Objects.initializeProperties(this);
@@ -383,7 +383,7 @@ public class C06543 extends C0645Impl {
         this.f41863.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.348d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41863.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41863.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.041d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41863.mo895(bi_常量类.f6358b);
+        this.f41863.mo895(bi_常量类.f6358b_空串);
         this.f41863.mo797(-1);
         this.f41863.mo889(-6908266);
         this.f41863.mo896(false);
@@ -399,7 +399,7 @@ public class C06543 extends C0645Impl {
         this.f41874.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.008d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41874.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.233d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41874.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.072d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41874.mo895(bi_常量类.f6358b);
+        this.f41874.mo895(bi_常量类.f6358b_空串);
         this.f41874.mo797(0);
         this.f41874.mo889(-1);
         this.f41874.mo896(false);
@@ -597,7 +597,7 @@ public class C06543 extends C0645Impl {
         this.f41511.mo797(-1);
         this.f41511.mo991(17.0f);
         this.f41511.mo993(-8355712);
-        this.f41511.mo1004(bi_常量类.f6358b);
+        this.f41511.mo1004(bi_常量类.f6358b_空串);
         this.f41511.mo776(true);
         c0725Impl = new C0725Impl(f41373);
         Objects.initializeProperties(c0725Impl);
@@ -606,7 +606,7 @@ public class C06543 extends C0645Impl {
         this.f41841.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.427d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41841.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.717d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41841.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.299d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41841.mo895(bi_常量类.f6358b);
+        this.f41841.mo895(bi_常量类.f6358b_空串);
         this.f41841.mo797(0);
         this.f41841.mo889(-16742145);
         this.f41841.mo896(true);
@@ -700,7 +700,7 @@ public class C06543 extends C0645Impl {
 
     /* renamed from: 图片框11$被单击 */
     public void m527711$() {
-        C0881.m6717(m5275(this.ab, "ax1", "ax2"), bi_常量类.f6358b);
+        C0881.m6717(m5275(this.ab, "ax1", "ax2"), bi_常量类.f6358b_空串);
     }
 
     /* renamed from: 图片框9$被单击 */
@@ -725,10 +725,10 @@ public class C06543 extends C0645Impl {
         this.f4142j = C0890_文本操作.m6806_分割字符串(this.f4140h, "z");
         this.f4141i = 0;
         while (this.f4141i < C0888.m6769(ArrayVariant.getArrayVariant(this.f4142j))) {
-            if (!this.f4142j[this.f4141i].equals(bi_常量类.f6358b)) {
-                this.f4145x = C0890_文本操作.m6819(this.f4142j[this.f4141i], "y", bi_常量类.f6358b);
-                this.f4145x = C0890_文本操作.m6819(this.f4145x, "f", bi_常量类.f6358b);
-                this.f4145x = C0890_文本操作.m6819(this.f4145x, "a", bi_常量类.f6358b);
+            if (!this.f4142j[this.f4141i].equals(bi_常量类.f6358b_空串)) {
+                this.f4145x = C0890_文本操作.m6819(this.f4142j[this.f4141i], "y", bi_常量类.f6358b_空串);
+                this.f4145x = C0890_文本操作.m6819(this.f4145x, "f", bi_常量类.f6358b_空串);
+                this.f4145x = C0890_文本操作.m6819(this.f4145x, "a", bi_常量类.f6358b_空串);
                 this.f4145x = C0890_文本操作.m6819(this.f4145x, "huan", "环");
                 this.f4145x = C0890_文本操作.m6819(this.f4145x, "hun", "环");
                 this.f4145x = C0890_文本操作.m6819(this.f4145x, "h", "环");
@@ -741,9 +741,9 @@ public class C06543 extends C0645Impl {
 
     /* renamed from: 窗口3$创建完毕 */
     public void m52973$() {
-        String str = bi_常量类.f6358b;
+        String str = bi_常量类.f6358b_空串;
         try {
-            String z = bi_常量类.f6358b;
+            String z = bi_常量类.f6358b_空串;
             this.f4143o = 1;
             this.f41903.mo776(false);
             this.f41903.mo774(false);
@@ -751,8 +751,8 @@ public class C06543 extends C0645Impl {
             this.f41841.mo776(false);
             this.zz = C0898_读写设置类.m6937_通过SP读取设置("成").getString();
             this.wl = C0898_读写设置类.m6937_通过SP读取设置("网").getString();
-            C0898_读写设置类.m6935_通过SP保存设置("从", StringVariant.getStringVariant(bi_常量类.f6358b));
-            C0898_读写设置类.m6935_通过SP保存设置("到", StringVariant.getStringVariant(bi_常量类.f6358b));
+            C0898_读写设置类.m6935_通过SP保存设置("从", StringVariant.getStringVariant(bi_常量类.f6358b_空串));
+            C0898_读写设置类.m6935_通过SP保存设置("到", StringVariant.getStringVariant(bi_常量类.f6358b_空串));
             this.f41852.mo774(false);
             this.f41852.mo776(false);
             this.f416722.mo776(false);
@@ -1246,14 +1246,14 @@ public class C06543 extends C0645Impl {
 
     /* renamed from: 取中间文本 */
     public String m5275(String 完整内容, String 左边文本, String 右边文本) {
-        String 取中间文本 = bi_常量类.f6358b;
+        String 取中间文本 = bi_常量类.f6358b_空串;
         int 左边 = C0890_文本操作.m6821(完整内容, 左边文本, 0) + C0890_文本操作.m6817_获取字符串长度(左边文本);
         if (IntegerVariant.getIntegerVariant(左边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         int 右边 = C0890_文本操作.m6821(完整内容, 右边文本, 左边);
         if (IntegerVariant.getIntegerVariant(右边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0 || 左边 > 右边) {
-            return bi_常量类.f6358b;
+            return bi_常量类.f6358b_空串;
         }
         return C0890_文本操作.m6814_截取子串(完整内容, 左边, 右边 - 左边);
     }
@@ -1292,10 +1292,10 @@ public class C06543 extends C0645Impl {
 
     /* renamed from: 列表框1$表项被单击 */
     public void m52731$(int 项目索引) {
-        String x = bi_常量类.f6358b;
-        String bb = bi_常量类.f6358b;
+        String x = bi_常量类.f6358b_空串;
+        String bb = bi_常量类.f6358b_空串;
         this.f41863.mo776(false);
-        C0898_读写设置类.m6935_通过SP保存设置("线路", StringVariant.getStringVariant(C0890_文本操作.m6819(C0890_文本操作.m6819(this.f4142j[项目索引], "y", bi_常量类.f6358b), "f", bi_常量类.f6358b)));
+        C0898_读写设置类.m6935_通过SP保存设置("线路", StringVariant.getStringVariant(C0890_文本操作.m6819(C0890_文本操作.m6819(this.f4142j[项目索引], "y", bi_常量类.f6358b_空串), "f", bi_常量类.f6358b_空串)));
         C0898_读写设置类.m6935_通过SP保存设置("正反", StringVariant.getStringVariant("正"));
         C0898_读写设置类.m6935_通过SP保存设置("方向", StringVariant.getStringVariant("zheng"));
         if (C0880_应用操作类.m6712("过渡窗口") == null) {
@@ -1306,11 +1306,11 @@ public class C06543 extends C0645Impl {
 
     /* renamed from: 列表框1$表项被长按 */
     public void m52741$(int 项目索引) {
-        String n = bi_常量类.f6358b;
-        String q = bi_常量类.f6358b;
-        String x = bi_常量类.f6358b;
+        String n = bi_常量类.f6358b_空串;
+        String q = bi_常量类.f6358b_空串;
+        String x = bi_常量类.f6358b_空串;
         this.f41863.mo776(false);
-        C0889_文件操作.m6781_写出文本文件(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/SC.txt", C0890_文本操作.m6819(C0889_文件操作.m6802(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/sc.TXT", "UTF-8"), this.f4142j[项目索引] + "z", bi_常量类.f6358b), "UTF-8");
+        C0889_文件操作.m6781_写出文本文件(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/SC.txt", C0890_文本操作.m6819(C0889_文件操作.m6802(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/sc.TXT", "UTF-8"), this.f4142j[项目索引] + "z", bi_常量类.f6358b_空串), "UTF-8");
         C0880_应用操作类.m6694("路线删除成功");
         this.f41511.mo996();
         this.f41852.mo774(true);
@@ -1322,8 +1322,8 @@ public class C06543 extends C0645Impl {
         this.f4142j = C0890_文本操作.m6806_分割字符串(this.f4140h, "z");
         this.f4141i = 0;
         while (this.f4141i < C0888.m6769(ArrayVariant.getArrayVariant(this.f4142j))) {
-            if (!this.f4142j[this.f4141i].equals(bi_常量类.f6358b)) {
-                this.f41511.mo995(((((" 公交" + C0890_文本操作.m6819(this.f4142j[this.f4141i], "y", bi_常量类.f6358b)) + "路线---------") + "<font color=#FF0000  >") + "进入") + "</font>");
+            if (!this.f4142j[this.f4141i].equals(bi_常量类.f6358b_空串)) {
+                this.f41511.mo995(((((" 公交" + C0890_文本操作.m6819(this.f4142j[this.f4141i], "y", bi_常量类.f6358b_空串)) + "路线---------") + "<font color=#FF0000  >") + "进入") + "</font>");
             }
             this.f4141i = IntegerVariant.getIntegerVariant(this.f4141i).add(ByteVariant.getByteVariant((byte) 1)).getInteger();
         }
@@ -1331,8 +1331,8 @@ public class C06543 extends C0645Impl {
 
     /* renamed from: 时钟1$周期事件 */
     public void m52911$() {
-        String 天气 = bi_常量类.f6358b;
-        String 黑 = bi_常量类.f6358b;
+        String 天气 = bi_常量类.f6358b_空串;
+        String 黑 = bi_常量类.f6358b_空串;
         this.f41821.mo928(0);
         if (C0897_网络操作.m6920_取网络状态()) {
             this.f4180 = C0898_读写设置类.m6937_通过SP读取设置("安装数").getString();
@@ -1353,9 +1353,9 @@ public class C06543 extends C0645Impl {
         this.f4191 = (("温度: " + m5275(天气, (("min" + C0899.m6939(34)) + ":") + C0899.m6939(34), C0899.m6939(34) + "}")) + " - ") + m5275(天气, (("max" + C0899.m6939(34)) + ":") + C0899.m6939(34), ((C0899.m6939(34) + ",") + C0899.m6939(34)) + "min");
         this.f4193 = m5275(天气, (("sc" + C0899.m6939(34)) + ":") + C0899.m6939(34), ((C0899.m6939(34) + ",") + C0899.m6939(34)) + "spd");
         this.f41863.mo895(((((((((this.f4177 + "  ") + this.f4178) + " ") + this.f4191) + " ") + "风: ") + this.f4193) + "级   夜间: ") + 黑);
-        this.f41863.mo895(C0890_文本操作.m6819(this.f41863.mo894(), "风: 级", bi_常量类.f6358b));
-        if (this.f4178.equals(bi_常量类.f6358b) || this.f4177.equals(bi_常量类.f6358b)) {
-            this.f41863.mo895(bi_常量类.f6358b);
+        this.f41863.mo895(C0890_文本操作.m6819(this.f41863.mo894(), "风: 级", bi_常量类.f6358b_空串));
+        if (this.f4178.equals(bi_常量类.f6358b_空串) || this.f4177.equals(bi_常量类.f6358b_空串)) {
+            this.f41863.mo895(bi_常量类.f6358b_空串);
         }
         this.f41903.mo776(false);
         this.f41903.mo774(false);
@@ -1365,7 +1365,7 @@ public class C06543 extends C0645Impl {
 
     /* renamed from: 图片框6$被单击 */
     public void m52876$() {
-        String huo = bi_常量类.f6358b;
+        String huo = bi_常量类.f6358b_空串;
         if (C0880_应用操作类.m6712("窗口7") == null) {
             C0880_应用操作类.m6692("窗口7", new C06587());
         }
@@ -1397,7 +1397,7 @@ public class C06543 extends C0645Impl {
 
     /* renamed from: 窗口3$切换完毕 */
     public void m52963$() {
-        String dg = bi_常量类.f6358b;
+        String dg = bi_常量类.f6358b_空串;
         this.f41863.mo776(true);
         dg = C0898_读写设置类.m6937_通过SP读取设置("成s").getString();
         this.f41881.mo776(false);
@@ -1412,8 +1412,8 @@ public class C06543 extends C0645Impl {
             C0898_读写设置类.m6935_通过SP保存设置("成s", StringVariant.getStringVariant("0"));
             this.zz = C0898_读写设置类.m6937_通过SP读取设置("成").getString();
             this.wl = C0898_读写设置类.m6937_通过SP读取设置("网").getString();
-            C0898_读写设置类.m6935_通过SP保存设置("从", StringVariant.getStringVariant(bi_常量类.f6358b));
-            C0898_读写设置类.m6935_通过SP保存设置("到", StringVariant.getStringVariant(bi_常量类.f6358b));
+            C0898_读写设置类.m6935_通过SP保存设置("从", StringVariant.getStringVariant(bi_常量类.f6358b_空串));
+            C0898_读写设置类.m6935_通过SP保存设置("到", StringVariant.getStringVariant(bi_常量类.f6358b_空串));
             this.f4176 = this.zz;
             this.f41821.mo928(1000);
             if (this.zz.equals("haerbin")) {
