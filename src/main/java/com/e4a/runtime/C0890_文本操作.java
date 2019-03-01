@@ -85,7 +85,7 @@ public final class C0890_文本操作 {
 
     @SimpleFunction
     /* renamed from: 删首尾空 */
-    public static String m6808(String str) {
+    public static String m6808_trim删除首尾空格(String str) {
         return str.trim();
     }
 

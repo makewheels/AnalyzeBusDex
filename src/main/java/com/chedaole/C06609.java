@@ -1,7 +1,7 @@
 package com.chedaole;
 
 import com.alipay.sdk.cons.C0108a;
-import com.e4a.runtime.C0843;
+import com.e4a.runtime.C0843_加密操作;
 import com.e4a.runtime.C0852_存储卡类;
 import com.e4a.runtime.C0879;
 import com.e4a.runtime.C0880_应用操作类;
@@ -73,7 +73,7 @@ public class C06609 extends C0645Impl {
     public void $define() {
         f42639 = this;
         f42639.mo840("E4A");
-        f42639.mo797(-1);
+        f42639.mo797_背景颜色(-1);
         f42639.m5096(IntegerVariant.getIntegerVariant(4));
         f42639.mo838(1);
         f42639.mo826(false);
@@ -87,7 +87,7 @@ public class C06609 extends C0645Impl {
         this.f42671.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42671.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f42671.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(1.001d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f42671.mo776(true);
+        this.f42671.mo776_可视(true);
         C0742Impl c0742Impl = new C0742Impl(f42639);
         Objects.initializeProperties(c0742Impl);
         this.f42651 = c0742Impl;
@@ -95,10 +95,10 @@ public class C06609 extends C0645Impl {
         this.f42651.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.014d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42651.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f42651.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.046d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f42651.mo797(0);
+        this.f42651.mo797_背景颜色(0);
         this.f42651.mo1143(1);
         this.f42651.mo1139("icon01.png");
-        this.f42651.mo776(true);
+        this.f42651.mo776_可视(true);
         EventDispatcher.registerEvent(this, "浏览框1", "接口事件");
         EventDispatcher.registerEvent(this, "窗口9", "创建完毕");
         EventDispatcher.registerEvent(this, "窗口9", "按下某键");
@@ -167,7 +167,7 @@ public class C06609 extends C0645Impl {
                 if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页消息, "ji", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
                     C0898_读写设置类.m6935_通过SP保存设置("高级", StringVariant.getStringVariant(C0108a.f262e));
                     网页消息 = C0890_文本操作.m6819(网页消息, "gaoji", bi_常量类.f6358b_空串);
-                    this.idc = (int) C0899.m6943(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
+                    this.idc = (int) C0899.m6943(C0843_加密操作.m6604Authcode_Authcode解密(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
                     if (IntegerVariant.getIntegerVariant(this.idc).cmp(ByteVariant.getByteVariant((byte) 20)) < 0) {
                         this.ddv = C0879.m66692("提示", "您的积分不足", "如何获取积分", "退出");
                         if (IntegerVariant.getIntegerVariant(this.ddv).cmp(ByteVariant.getByteVariant((byte) 0)) == 0) {
@@ -181,7 +181,7 @@ public class C06609 extends C0645Impl {
                 C0898_读写设置类.m6935_通过SP保存设置("正反", StringVariant.getStringVariant("正"));
                 C0898_读写设置类.m6935_通过SP保存设置("线路", StringVariant.getStringVariant(网页消息));
                 if (C0880_应用操作类.m6712("过渡窗口") == null) {
-                    C0880_应用操作类.m6692("过渡窗口", new C06532());
+                    C0880_应用操作类.m6692("过渡窗口", new C06532_有初始化功能());
                 }
                 C0898_读写设置类.m6935_通过SP保存设置("方向", StringVariant.getStringVariant("zheng"));
                 C0880_应用操作类.m6693_切换窗口(C0880_应用操作类.m6712("过渡窗口"));

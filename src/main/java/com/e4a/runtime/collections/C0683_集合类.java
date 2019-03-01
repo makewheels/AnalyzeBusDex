@@ -13,13 +13,13 @@ public final class C0683_集合类 {
 
     @SimpleFunction
     /* renamed from: 清空 */
-    public void m5459() {
+    public void m5459_清空() {
         this.list.clear();
     }
 
     @SimpleFunction
     /* renamed from: 加入项目 */
-    public void m5454(Variant item) {
+    public void m5454_集合add元素(Variant item) {
         this.list.add(item);
     }
 
@@ -31,7 +31,7 @@ public final class C0683_集合类 {
 
     @SimpleFunction
     /* renamed from: 取项目 */
-    public Variant m5455(int index) {
+    public Variant m5455_集合get元素(int index) {
         try {
             return (Variant) this.list.get(index);
         } catch (IndexOutOfBoundsException e) {
@@ -49,7 +49,7 @@ public final class C0683_集合类 {
 
     @SimpleFunction
     /* renamed from: 取项目总数 */
-    public int m5456() {
+    public int m5456_取项目总数() {
         return this.list.size();
     }
 

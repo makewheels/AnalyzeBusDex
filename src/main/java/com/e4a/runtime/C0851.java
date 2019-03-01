@@ -81,7 +81,7 @@ public final class C0851 {
         byteslist.add(newByte);
         C0683_集合类 returnbytes = new C0683_集合类();
         for (n = 0; n < byteslist.size(); n++) {
-            returnbytes.m5454(ArrayVariant.getArrayVariant(byteslist.get(n)));
+            returnbytes.m5454_集合add元素(ArrayVariant.getArrayVariant(byteslist.get(n)));
         }
         return returnbytes;
     }

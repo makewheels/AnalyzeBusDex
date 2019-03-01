@@ -1,7 +1,7 @@
 package com.chedaole;
 
 import com.alipay.sdk.cons.C0108a;
-import com.e4a.runtime.C0843;
+import com.e4a.runtime.C0843_加密操作;
 import com.e4a.runtime.C0852_存储卡类;
 import com.e4a.runtime.C0880_应用操作类;
 import com.e4a.runtime.C0881;
@@ -86,7 +86,7 @@ public class C06576 extends C0645Impl {
     public void $define() {
         f42246 = this;
         f42246.mo840("E4A");
-        f42246.mo797(-1);
+        f42246.mo797_背景颜色(-1);
         f42246.m5096(IntegerVariant.getIntegerVariant(4));
         f42246.mo838(1);
         f42246.mo826(false);
@@ -97,7 +97,7 @@ public class C06576 extends C0645Impl {
         this.f42331.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42331.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f42331.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.919d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f42331.mo776(true);
+        this.f42331.mo776_可视(true);
         C0697Impl c0697Impl = new C0697Impl(f42246);
         Objects.initializeProperties(c0697Impl);
         this.f42301 = c0697Impl;
@@ -109,10 +109,10 @@ public class C06576 extends C0645Impl {
         this.f42292.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42292.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f42292.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f42292.mo797(-16742145);
+        this.f42292.mo797_背景颜色(-16742145);
         this.f42292.mo1143(1);
         this.f42292.mo1139("VAL.jpg");
-        this.f42292.mo776(true);
+        this.f42292.mo776_可视(true);
         c0742Impl = new C0742Impl(f42246);
         Objects.initializeProperties(c0742Impl);
         this.f42281 = c0742Impl;
@@ -120,10 +120,10 @@ public class C06576 extends C0645Impl {
         this.f42281.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.017d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42281.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f42281.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.046d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f42281.mo797(0);
+        this.f42281.mo797_背景颜色(0);
         this.f42281.mo1143(1);
         this.f42281.mo1139("TRT.png");
-        this.f42281.mo776(true);
+        this.f42281.mo776_可视(true);
         C0725Impl c0725Impl = new C0725Impl(f42246);
         Objects.initializeProperties(c0725Impl);
         this.f42322 = c0725Impl;
@@ -132,14 +132,14 @@ public class C06576 extends C0645Impl {
         this.f42322.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.1d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f42322.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.031d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42322.mo895("积分兑换");
-        this.f42322.mo797(0);
-        this.f42322.mo889(-16777216);
+        this.f42322.mo797_背景颜色(0);
+        this.f42322.mo889_字体颜色(-16777216);
         this.f42322.mo896(false);
         this.f42322.mo892(false);
-        this.f42322.mo891(7);
-        this.f42322.mo1049(12.0f);
+        this.f42322.mo891_对齐方式(7);
+        this.f42322.mo1049_字体大小(12.0f);
         this.f42322.mo899(WebView.NORMAL_MODE_ALPHA);
-        this.f42322.mo776(false);
+        this.f42322.mo776_可视(false);
         c0725Impl = new C0725Impl(f42246);
         Objects.initializeProperties(c0725Impl);
         this.f42311 = c0725Impl;
@@ -148,14 +148,14 @@ public class C06576 extends C0645Impl {
         this.f42311.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.617d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f42311.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42311.mo895(bi_常量类.f6358b_空串);
-        this.f42311.mo797(0);
-        this.f42311.mo889(-1);
+        this.f42311.mo797_背景颜色(0);
+        this.f42311.mo889_字体颜色(-1);
         this.f42311.mo896(false);
         this.f42311.mo892(false);
-        this.f42311.mo891(7);
-        this.f42311.mo1049(12.0f);
+        this.f42311.mo891_对齐方式(7);
+        this.f42311.mo1049_字体大小(12.0f);
         this.f42311.mo899(WebView.NORMAL_MODE_ALPHA);
-        this.f42311.mo776(true);
+        this.f42311.mo776_可视(true);
         EventDispatcher.registerEvent(this, "图片框2", "被单击");
         EventDispatcher.registerEvent(this, "窗口6", "按下某键");
         EventDispatcher.registerEvent(this, "窗口6", "切换完毕");
@@ -231,23 +231,23 @@ public class C06576 extends C0645Impl {
         this.f42322.mo895("积分 ▼");
         if (!C0889_文件操作.m6797(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt")) {
             C0889_文件操作.m6783(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt");
-            C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt", C0843.m6603Authcode("0", "yangbosen123"), "UTF-8");
+            C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt", C0843_加密操作.m6603Authcode("0", "yangbosen123"), "UTF-8");
         }
         if (!C0889_文件操作.m6797(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt")) {
             C0889_文件操作.m6783(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt");
-            C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt", C0843.m6603Authcode(C0108a.f262e, "yangbosen123"), "UTF-8");
+            C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt", C0843_加密操作.m6603Authcode(C0108a.f262e, "yangbosen123"), "UTF-8");
         }
         if (!C0889_文件操作.m6797(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt")) {
             C0889_文件操作.m6783(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt");
             this.f4225i = 0;
         }
-        this.f4225i = (int) C0899.m6943(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
+        this.f4225i = (int) C0899.m6943(C0843_加密操作.m6604Authcode_Authcode解密(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
         this.f42311.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4225i), ".0", bi_常量类.f6358b_空串));
         if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(C0897_网络操作.m6922(this.wl + "/1.txt", "GBK", 5000), "alifangxiang", 1)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             gg = C0897_网络操作.m6922(this.wl + "/taokeshi.txt", "utf-8", 5000);
-            if (!gg.equals(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt", "UTF-8"), "yangbosen123"))) {
-                C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt", C0843.m6603Authcode(gg, "yangbosen123"), "UTF-8");
-                C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt", C0843.m6603Authcode("0", "yangbosen123"), "UTF-8");
+            if (!gg.equals(C0843_加密操作.m6604Authcode_Authcode解密(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt", "UTF-8"), "yangbosen123"))) {
+                C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt", C0843_加密操作.m6603Authcode(gg, "yangbosen123"), "UTF-8");
+                C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt", C0843_加密操作.m6603Authcode("0", "yangbosen123"), "UTF-8");
             }
         } else {
             C0880_应用操作类.m6694("网络不稳定");
@@ -262,19 +262,19 @@ public class C06576 extends C0645Impl {
 
     /* renamed from: 时钟1$周期事件 */
     public void m53211$() {
-        this.f4226v = (int) C0899.m6943(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt", "UTF-8"), "yangbosen123"));
+        this.f4226v = (int) C0899.m6943(C0843_加密操作.m6604Authcode_Authcode解密(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt", "UTF-8"), "yangbosen123"));
         this.f4226v = IntegerVariant.getIntegerVariant(this.f4226v).add(ByteVariant.getByteVariant((byte) 2)).getInteger();
         if (IntegerVariant.getIntegerVariant(this.f4226v).cmp(ShortVariant.getShortVariant((short) 200)) > 0) {
-            this.f4225i = (int) C0899.m6943(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
+            this.f4225i = (int) C0899.m6943(C0843_加密操作.m6604Authcode_Authcode解密(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
             this.f42311.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4225i), ".0", bi_常量类.f6358b_空串));
-            C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt", C0843.m6603Authcode(C0899.m6945((double) this.f4226v), "yangbosen123"), "UTF-8");
+            C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt", C0843_加密操作.m6603Authcode(C0899.m6945((double) this.f4226v), "yangbosen123"), "UTF-8");
             return;
         }
-        C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt", C0843.m6603Authcode(C0899.m6945((double) this.f4226v), "yangbosen123"), "UTF-8");
-        this.f4225i = (int) C0899.m6943(C0843.m6604Authcode(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
+        C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt", C0843_加密操作.m6603Authcode(C0899.m6945((double) this.f4226v), "yangbosen123"), "UTF-8");
+        this.f4225i = (int) C0899.m6943(C0843_加密操作.m6604Authcode_Authcode解密(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
         this.f4225i = IntegerVariant.getIntegerVariant(this.f4225i).add(ByteVariant.getByteVariant((byte) 2)).getInteger();
         this.f42311.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4225i), ".0", bi_常量类.f6358b_空串));
-        C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", C0843.m6603Authcode(C0899.m6945((double) this.f4225i), "yangbosen123"), "UTF-8");
+        C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", C0843_加密操作.m6603Authcode(C0899.m6945((double) this.f4225i), "yangbosen123"), "UTF-8");
     }
 
     /* renamed from: 图片框1$被单击 */

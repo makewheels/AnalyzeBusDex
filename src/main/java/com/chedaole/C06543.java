@@ -7,7 +7,7 @@ import com.e4a.runtime.C0852_存储卡类;
 import com.e4a.runtime.C0879;
 import com.e4a.runtime.C0880_应用操作类;
 import com.e4a.runtime.C0881;
-import com.e4a.runtime.C0888;
+import com.e4a.runtime.C0888_数组操作;
 import com.e4a.runtime.C0889_文件操作;
 import com.e4a.runtime.C0890_文本操作;
 import com.e4a.runtime.C0891;
@@ -245,7 +245,7 @@ public class C06543 extends C0645Impl {
     public void $define() {
         f41373 = this;
         f41373.mo840("E4A");
-        f41373.mo797(-1);
+        f41373.mo797_背景颜色(-1);
         f41373.m5096(IntegerVariant.getIntegerVariant(4));
         f41373.mo838(1);
         f41373.mo826(false);
@@ -256,9 +256,9 @@ public class C06543 extends C0645Impl {
         this.f416016.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.403d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f416016.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.033d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f416016.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.382d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f416016.mo797(-1052689);
+        this.f416016.mo797_背景颜色(-1052689);
         this.f416016.mo1143(1);
-        this.f416016.mo776(true);
+        this.f416016.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f416520 = c0742Impl;
@@ -266,9 +266,9 @@ public class C06543 extends C0645Impl {
         this.f416520.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.366d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f416520.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f416520.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.537d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f416520.mo797(-1052684);
+        this.f416520.mo797_背景颜色(-1052684);
         this.f416520.mo1143(1);
-        this.f416520.mo776(true);
+        this.f416520.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f416621 = c0742Impl;
@@ -276,10 +276,10 @@ public class C06543 extends C0645Impl {
         this.f416621.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.399d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f416621.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f416621.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.445d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f416621.mo797(-16742145);
+        this.f416621.mo797_背景颜色(-16742145);
         this.f416621.mo1143(1);
         this.f416621.mo1139("zeee.jpg");
-        this.f416621.mo776(true);
+        this.f416621.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f415713 = c0742Impl;
@@ -287,10 +287,10 @@ public class C06543 extends C0645Impl {
         this.f415713.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.853d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f415713.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f415713.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.154d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f415713.mo797(-16742145);
+        this.f415713.mo797_背景颜色(-16742145);
         this.f415713.mo1143(1);
         this.f415713.mo1139("zz_32.jpg");
-        this.f415713.mo776(true);
+        this.f415713.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f41531 = c0742Impl;
@@ -298,10 +298,10 @@ public class C06543 extends C0645Impl {
         this.f41531.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41531.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41531.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41531.mo797(0);
+        this.f41531.mo797_背景颜色(0);
         this.f41531.mo1143(1);
         this.f41531.mo1139("23ee.jpg");
-        this.f41531.mo776(true);
+        this.f41531.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f41642 = c0742Impl;
@@ -309,10 +309,10 @@ public class C06543 extends C0645Impl {
         this.f41642.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41642.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41642.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.254d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41642.mo797(-16742145);
+        this.f41642.mo797_背景颜色(-16742145);
         this.f41642.mo1143(1);
         this.f41642.mo1139("banner.png");
-        this.f41642.mo776(true);
+        this.f41642.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f41693 = c0742Impl;
@@ -320,9 +320,9 @@ public class C06543 extends C0645Impl {
         this.f41693.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.345d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41693.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41693.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.048d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41693.mo797(-1);
+        this.f41693.mo797_背景颜色(-1);
         this.f41693.mo1143(1);
-        this.f41693.mo776(true);
+        this.f41693.mo776_可视(true);
         C0725Impl c0725Impl = new C0725Impl(f41373);
         Objects.initializeProperties(c0725Impl);
         this.f41852 = c0725Impl;
@@ -331,14 +331,14 @@ public class C06543 extends C0645Impl {
         this.f41852.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41852.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.103d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41852.mo895("单击进入路线/长按删除路线");
-        this.f41852.mo797(-8355712);
-        this.f41852.mo889(-1);
+        this.f41852.mo797_背景颜色(-8355712);
+        this.f41852.mo889_字体颜色(-1);
         this.f41852.mo896(false);
         this.f41852.mo892(false);
-        this.f41852.mo891(7);
-        this.f41852.mo1049(11.0f);
+        this.f41852.mo891_对齐方式(7);
+        this.f41852.mo1049_字体大小(11.0f);
         this.f41852.mo899(WebView.NORMAL_MODE_ALPHA);
-        this.f41852.mo776(true);
+        this.f41852.mo776_可视(true);
         C0735Impl c0735Impl = new C0735Impl(f41373);
         Objects.initializeProperties(c0735Impl);
         this.f41471 = c0735Impl;
@@ -352,7 +352,7 @@ public class C06543 extends C0645Impl {
         this.f41881.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.248d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41881.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.067d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41881.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.062d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41881.mo776(true);
+        this.f41881.mo776_可视(true);
         c0713Impl = new C0713Impl(f41373);
         Objects.initializeProperties(c0713Impl);
         this.f41892 = c0713Impl;
@@ -360,7 +360,7 @@ public class C06543 extends C0645Impl {
         this.f41892.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.32d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41892.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.017d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41892.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.01d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41892.mo776(true);
+        this.f41892.mo776_可视(true);
         C0697Impl c0697Impl = new C0697Impl(f41373);
         Objects.initializeProperties(c0697Impl);
         this.f41821 = c0697Impl;
@@ -372,10 +372,10 @@ public class C06543 extends C0645Impl {
         this.f415915.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.009d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f415915.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.094d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f415915.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f415915.mo797(0);
+        this.f415915.mo797_背景颜色(0);
         this.f415915.mo1143(1);
         this.f415915.mo1139("notice2.png");
-        this.f415915.mo776(true);
+        this.f415915.mo776_可视(true);
         c0725Impl = new C0725Impl(f41373);
         Objects.initializeProperties(c0725Impl);
         this.f41863 = c0725Impl;
@@ -384,14 +384,14 @@ public class C06543 extends C0645Impl {
         this.f41863.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41863.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.041d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41863.mo895(bi_常量类.f6358b_空串);
-        this.f41863.mo797(-1);
-        this.f41863.mo889(-6908266);
+        this.f41863.mo797_背景颜色(-1);
+        this.f41863.mo889_字体颜色(-6908266);
         this.f41863.mo896(false);
         this.f41863.mo892(false);
-        this.f41863.mo891(7);
-        this.f41863.mo1049(9.0f);
+        this.f41863.mo891_对齐方式(7);
+        this.f41863.mo1049_字体大小(9.0f);
         this.f41863.mo899(WebView.NORMAL_MODE_ALPHA);
-        this.f41863.mo776(true);
+        this.f41863.mo776_可视(true);
         c0725Impl = new C0725Impl(f41373);
         Objects.initializeProperties(c0725Impl);
         this.f41874 = c0725Impl;
@@ -400,14 +400,14 @@ public class C06543 extends C0645Impl {
         this.f41874.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.233d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41874.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.072d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41874.mo895(bi_常量类.f6358b_空串);
-        this.f41874.mo797(0);
-        this.f41874.mo889(-1);
+        this.f41874.mo797_背景颜色(0);
+        this.f41874.mo889_字体颜色(-1);
         this.f41874.mo896(false);
         this.f41874.mo892(false);
-        this.f41874.mo891(7);
-        this.f41874.mo1049(9.0f);
+        this.f41874.mo891_对齐方式(7);
+        this.f41874.mo1049_字体大小(9.0f);
         this.f41874.mo899(WebView.NORMAL_MODE_ALPHA);
-        this.f41874.mo776(true);
+        this.f41874.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f415814 = c0742Impl;
@@ -415,9 +415,9 @@ public class C06543 extends C0645Impl {
         this.f415814.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.39d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f415814.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.017d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f415814.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.361d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f415814.mo797(-1052689);
+        this.f415814.mo797_背景颜色(-1052689);
         this.f415814.mo1143(1);
-        this.f415814.mo776(true);
+        this.f415814.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f416117 = c0742Impl;
@@ -425,10 +425,10 @@ public class C06543 extends C0645Impl {
         this.f416117.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.018d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f416117.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.025d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f416117.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.015d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f416117.mo797(0);
+        this.f416117.mo797_背景颜色(0);
         this.f416117.mo1143(1);
         this.f416117.mo1139("ddd.png");
-        this.f416117.mo776(false);
+        this.f416117.mo776_可视(false);
         C0770Impl c0770Impl = new C0770Impl(f41373);
         Objects.initializeProperties(c0770Impl);
         this.f41921 = c0770Impl;
@@ -443,7 +443,7 @@ public class C06543 extends C0645Impl {
         this.f41903.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41903.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.283d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41903.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.072d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41903.mo776(true);
+        this.f41903.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f41737 = c0742Impl;
@@ -451,10 +451,10 @@ public class C06543 extends C0645Impl {
         this.f41737.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.41d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41737.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.163d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41737.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.093d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41737.mo797(-16742145);
+        this.f41737.mo797_背景颜色(-16742145);
         this.f41737.mo1143(1);
         this.f41737.mo1139("zz_07.jpg");
-        this.f41737.mo776(true);
+        this.f41737.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f415410 = c0742Impl;
@@ -462,10 +462,10 @@ public class C06543 extends C0645Impl {
         this.f415410.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.52d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f415410.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.163d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f415410.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.093d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f415410.mo797(-16742145);
+        this.f415410.mo797_背景颜色(-16742145);
         this.f415410.mo1143(1);
         this.f415410.mo1139("zz_12.jpg");
-        this.f415410.mo776(true);
+        this.f415410.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f415511 = c0742Impl;
@@ -473,10 +473,10 @@ public class C06543 extends C0645Impl {
         this.f415511.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.519d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f415511.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.163d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f415511.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.093d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f415511.mo797(-16742145);
+        this.f415511.mo797_背景颜色(-16742145);
         this.f415511.mo1143(1);
         this.f415511.mo1139("r05.jpg");
-        this.f415511.mo776(true);
+        this.f415511.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f41715 = c0742Impl;
@@ -484,10 +484,10 @@ public class C06543 extends C0645Impl {
         this.f41715.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.63d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41715.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.163d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41715.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.093d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41715.mo797(-16742145);
+        this.f41715.mo797_背景颜色(-16742145);
         this.f41715.mo1143(1);
         this.f41715.mo1139("zz_18.jpg");
-        this.f41715.mo776(true);
+        this.f41715.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f41759 = c0742Impl;
@@ -495,10 +495,10 @@ public class C06543 extends C0645Impl {
         this.f41759.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.63d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41759.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.163d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41759.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.093d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41759.mo797(-16742145);
+        this.f41759.mo797_背景颜色(-16742145);
         this.f41759.mo1143(1);
         this.f41759.mo1139("zz_19.jpg");
-        this.f41759.mo776(true);
+        this.f41759.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f41726 = c0742Impl;
@@ -506,10 +506,10 @@ public class C06543 extends C0645Impl {
         this.f41726.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.63d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41726.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.163d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41726.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.093d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41726.mo797(-16742145);
+        this.f41726.mo797_背景颜色(-16742145);
         this.f41726.mo1143(1);
         this.f41726.mo1139("zz_21.jpg");
-        this.f41726.mo776(true);
+        this.f41726.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f416319 = c0742Impl;
@@ -517,10 +517,10 @@ public class C06543 extends C0645Impl {
         this.f416319.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.741d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f416319.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.163d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f416319.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.093d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f416319.mo797(-16742145);
+        this.f416319.mo797_背景颜色(-16742145);
         this.f416319.mo1143(1);
         this.f416319.mo1139("zz_26.jpg");
-        this.f416319.mo776(true);
+        this.f416319.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f41748 = c0742Impl;
@@ -528,10 +528,10 @@ public class C06543 extends C0645Impl {
         this.f41748.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.741d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41748.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.163d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41748.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.093d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41748.mo797(-16742145);
+        this.f41748.mo797_背景颜色(-16742145);
         this.f41748.mo1143(1);
         this.f41748.mo1139("r10.jpg");
-        this.f41748.mo776(true);
+        this.f41748.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f41704 = c0742Impl;
@@ -539,10 +539,10 @@ public class C06543 extends C0645Impl {
         this.f41704.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.413d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41704.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.163d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41704.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.093d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41704.mo797(0);
+        this.f41704.mo797_背景颜色(0);
         this.f41704.mo1143(1);
         this.f41704.mo1139("zz_03.jpg");
-        this.f41704.mo776(true);
+        this.f41704.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f416218 = c0742Impl;
@@ -550,10 +550,10 @@ public class C06543 extends C0645Impl {
         this.f416218.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.52d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f416218.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.163d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f416218.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.093d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f416218.mo797(0);
+        this.f416218.mo797_背景颜色(0);
         this.f416218.mo1143(1);
         this.f416218.mo1139("r_03.jpg");
-        this.f416218.mo776(true);
+        this.f416218.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f415612 = c0742Impl;
@@ -561,10 +561,10 @@ public class C06543 extends C0645Impl {
         this.f415612.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.412d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f415612.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.163d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f415612.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.093d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f415612.mo797(0);
+        this.f415612.mo797_背景颜色(0);
         this.f415612.mo1143(1);
         this.f415612.mo1139("zz_05.jpg");
-        this.f415612.mo776(true);
+        this.f415612.mo776_可视(true);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f416722 = c0742Impl;
@@ -572,10 +572,10 @@ public class C06543 extends C0645Impl {
         this.f416722.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.926d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f416722.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.1d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f416722.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.062d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f416722.mo797(0);
+        this.f416722.mo797_背景颜色(0);
         this.f416722.mo1143(1);
         this.f416722.mo1139("icon01.png");
-        this.f416722.mo776(false);
+        this.f416722.mo776_可视(false);
         c0742Impl = new C0742Impl(f41373);
         Objects.initializeProperties(c0742Impl);
         this.f416823 = c0742Impl;
@@ -583,10 +583,10 @@ public class C06543 extends C0645Impl {
         this.f416823.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.733d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f416823.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.329d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f416823.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.114d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f416823.mo797(0);
+        this.f416823.mo797_背景颜色(0);
         this.f416823.mo1143(1);
         this.f416823.mo1139("shiyi.png");
-        this.f416823.mo776(true);
+        this.f416823.mo776_可视(true);
         C0716Impl c0716Impl = new C0716Impl(f41373);
         Objects.initializeProperties(c0716Impl);
         this.f41511 = c0716Impl;
@@ -594,11 +594,11 @@ public class C06543 extends C0645Impl {
         this.f41511.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.003d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41511.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41511.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.898d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41511.mo797(-1);
+        this.f41511.mo797_背景颜色(-1);
         this.f41511.mo991(17.0f);
         this.f41511.mo993(-8355712);
         this.f41511.mo1004(bi_常量类.f6358b_空串);
-        this.f41511.mo776(true);
+        this.f41511.mo776_可视(true);
         c0725Impl = new C0725Impl(f41373);
         Objects.initializeProperties(c0725Impl);
         this.f41841 = c0725Impl;
@@ -607,14 +607,14 @@ public class C06543 extends C0645Impl {
         this.f41841.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.717d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41841.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.299d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41841.mo895(bi_常量类.f6358b_空串);
-        this.f41841.mo797(0);
-        this.f41841.mo889(-16742145);
+        this.f41841.mo797_背景颜色(0);
+        this.f41841.mo889_字体颜色(-16742145);
         this.f41841.mo896(true);
         this.f41841.mo892(false);
-        this.f41841.mo891(7);
-        this.f41841.mo1049(30.0f);
+        this.f41841.mo891_对齐方式(7);
+        this.f41841.mo1049_字体大小(30.0f);
         this.f41841.mo899(WebView.NORMAL_MODE_ALPHA);
-        this.f41841.mo776(true);
+        this.f41841.mo776_可视(true);
         EventDispatcher.registerEvent(this, "图片框4", "被单击");
         EventDispatcher.registerEvent(this, "图片框15", "被单击");
         EventDispatcher.registerEvent(this, "下载器1", "进度改变");
@@ -691,7 +691,7 @@ public class C06543 extends C0645Impl {
 
     /* renamed from: 图片框5$被单击 */
     public void m52865$() {
-        this.f41863.mo776(false);
+        this.f41863.mo776_可视(false);
         if (C0880_应用操作类.m6712("窗口4") == null) {
             C0880_应用操作类.m6692("窗口4", new C06554());
         }
@@ -705,7 +705,7 @@ public class C06543 extends C0645Impl {
 
     /* renamed from: 图片框9$被单击 */
     public void m52909$() {
-        this.f41863.mo776(false);
+        this.f41863.mo776_可视(false);
         if (C0880_应用操作类.m6712("窗口9") == null) {
             C0880_应用操作类.m6692("窗口9", new C06609());
         }
@@ -714,17 +714,17 @@ public class C06543 extends C0645Impl {
 
     /* renamed from: 图片框8$被单击 */
     public void m52898$() {
-        this.f41863.mo776(false);
+        this.f41863.mo776_可视(false);
         this.f41511.mo996();
         this.f41852.mo774(true);
-        this.f41852.mo776(true);
-        this.f416722.mo776(true);
-        this.f41511.mo776(true);
+        this.f41852.mo776_可视(true);
+        this.f416722.mo776_可视(true);
+        this.f41511.mo776_可视(true);
         this.f41511.mo774(true);
         this.f4140h = C0889_文件操作.m6802(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/sc.TXT", "UTF-8");
         this.f4142j = C0890_文本操作.m6806_分割字符串(this.f4140h, "z");
         this.f4141i = 0;
-        while (this.f4141i < C0888.m6769(ArrayVariant.getArrayVariant(this.f4142j))) {
+        while (this.f4141i < C0888_数组操作.m6769_取数组成员数(ArrayVariant.getArrayVariant(this.f4142j))) {
             if (!this.f4142j[this.f4141i].equals(bi_常量类.f6358b_空串)) {
                 this.f4145x = C0890_文本操作.m6819(this.f4142j[this.f4141i], "y", bi_常量类.f6358b_空串);
                 this.f4145x = C0890_文本操作.m6819(this.f4145x, "f", bi_常量类.f6358b_空串);
@@ -745,27 +745,27 @@ public class C06543 extends C0645Impl {
         try {
             String z = bi_常量类.f6358b_空串;
             this.f4143o = 1;
-            this.f41903.mo776(false);
+            this.f41903.mo776_可视(false);
             this.f41903.mo774(false);
             this.f41841.mo774(false);
-            this.f41841.mo776(false);
+            this.f41841.mo776_可视(false);
             this.zz = C0898_读写设置类.m6937_通过SP读取设置("成").getString();
             this.wl = C0898_读写设置类.m6937_通过SP读取设置("网").getString();
             C0898_读写设置类.m6935_通过SP保存设置("从", StringVariant.getStringVariant(bi_常量类.f6358b_空串));
             C0898_读写设置类.m6935_通过SP保存设置("到", StringVariant.getStringVariant(bi_常量类.f6358b_空串));
             this.f41852.mo774(false);
-            this.f41852.mo776(false);
-            this.f416722.mo776(false);
+            this.f41852.mo776_可视(false);
+            this.f416722.mo776_可视(false);
             this.f41511.mo780(C0894.m6882());
             this.f41511.mo782(0);
-            this.f41511.mo776(false);
+            this.f41511.mo776_可视(false);
             this.f41511.mo774(false);
             this.f41511.mo985(true);
             this.f41881.mo806(C0894.m6884());
             this.f41881.mo780(C0894.m6882());
             this.f41881.mo782(0);
             this.f41881.mo804(0);
-            this.f41881.mo776(false);
+            this.f41881.mo776_可视(false);
             this.f41881.mo774(false);
             this.f41903.mo960JS("ali");
             if (!C0889_文件操作.m6797(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/bendi/laocity2.html")) {
@@ -792,7 +792,7 @@ public class C06543 extends C0645Impl {
             this.f41821.mo928(1000);
             if (this.zz.equals("haerbin")) {
                 this.f41726.mo774(false);
-                this.f41726.mo776(false);
+                this.f41726.mo776_可视(false);
             }
         } catch (Throwable th) {
             RuntimeError.convertToRuntimeError(th);
@@ -806,15 +806,15 @@ public class C06543 extends C0645Impl {
             if (IntegerVariant.getIntegerVariant(i).cmp(ByteVariant.getByteVariant((byte) 4)) == 0) {
                 if (LongVariant.getLongVariant(C0891.m6826() - this.f4152).cmp(ShortVariant.getShortVariant((short) 1500)) > 0) {
                     this.f4152 = C0891.m6826();
-                    this.f41881.mo776(false);
+                    this.f41881.mo776_可视(false);
                     this.f41881.mo774(false);
                     this.f41852.mo774(false);
-                    this.f41852.mo776(false);
-                    this.f416722.mo776(false);
-                    this.f41511.mo776(false);
+                    this.f41852.mo776_可视(false);
+                    this.f416722.mo776_可视(false);
+                    this.f41511.mo776_可视(false);
                     this.f41511.mo774(false);
-                    this.f41863.mo776(true);
-                    this.f41903.mo776(true);
+                    this.f41863.mo776_可视(true);
+                    this.f41903.mo776_可视(true);
                     this.f41903.mo774(true);
                 } else {
                     C0880_应用操作类.m6703();
@@ -1269,7 +1269,7 @@ public class C06543 extends C0645Impl {
     /* renamed from: 下载器1$下载完毕 */
     public void m52701$(int 任务索引, boolean 下载结果) {
         if (下载结果) {
-            this.f41841.mo776(false);
+            this.f41841.mo776_可视(false);
             this.f41841.mo774(false);
             C0880_应用操作类.m6694("文件下载成功，开始更新！");
             C0881.m6735(C0852_存储卡类.m6665_取存储卡路径() + "/chedaole.apk");
@@ -1284,9 +1284,9 @@ public class C06543 extends C0645Impl {
         this.f41841.mo804(0);
         this.f41841.mo780(C0894.m6882());
         this.f41841.mo806(C0894.m6884());
-        this.f41841.mo1049(50.0f);
+        this.f41841.mo1049_字体大小(50.0f);
         this.f41841.mo774(true);
-        this.f41841.mo776(true);
+        this.f41841.mo776_可视(true);
         this.f41841.mo895(Integer.toString(下载进度) + "%");
     }
 
@@ -1294,12 +1294,12 @@ public class C06543 extends C0645Impl {
     public void m52731$(int 项目索引) {
         String x = bi_常量类.f6358b_空串;
         String bb = bi_常量类.f6358b_空串;
-        this.f41863.mo776(false);
+        this.f41863.mo776_可视(false);
         C0898_读写设置类.m6935_通过SP保存设置("线路", StringVariant.getStringVariant(C0890_文本操作.m6819(C0890_文本操作.m6819(this.f4142j[项目索引], "y", bi_常量类.f6358b_空串), "f", bi_常量类.f6358b_空串)));
         C0898_读写设置类.m6935_通过SP保存设置("正反", StringVariant.getStringVariant("正"));
         C0898_读写设置类.m6935_通过SP保存设置("方向", StringVariant.getStringVariant("zheng"));
         if (C0880_应用操作类.m6712("过渡窗口") == null) {
-            C0880_应用操作类.m6692("过渡窗口", new C06532());
+            C0880_应用操作类.m6692("过渡窗口", new C06532_有初始化功能());
         }
         C0880_应用操作类.m6693_切换窗口(C0880_应用操作类.m6712("过渡窗口"));
     }
@@ -1309,19 +1309,19 @@ public class C06543 extends C0645Impl {
         String n = bi_常量类.f6358b_空串;
         String q = bi_常量类.f6358b_空串;
         String x = bi_常量类.f6358b_空串;
-        this.f41863.mo776(false);
+        this.f41863.mo776_可视(false);
         C0889_文件操作.m6781_写出文本文件(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/SC.txt", C0890_文本操作.m6819(C0889_文件操作.m6802(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/sc.TXT", "UTF-8"), this.f4142j[项目索引] + "z", bi_常量类.f6358b_空串), "UTF-8");
         C0880_应用操作类.m6694("路线删除成功");
         this.f41511.mo996();
         this.f41852.mo774(true);
-        this.f41852.mo776(true);
-        this.f416722.mo776(true);
-        this.f41511.mo776(true);
+        this.f41852.mo776_可视(true);
+        this.f416722.mo776_可视(true);
+        this.f41511.mo776_可视(true);
         this.f41511.mo774(true);
         this.f4140h = C0889_文件操作.m6802(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/sc.TXT", "UTF-8");
         this.f4142j = C0890_文本操作.m6806_分割字符串(this.f4140h, "z");
         this.f4141i = 0;
-        while (this.f4141i < C0888.m6769(ArrayVariant.getArrayVariant(this.f4142j))) {
+        while (this.f4141i < C0888_数组操作.m6769_取数组成员数(ArrayVariant.getArrayVariant(this.f4142j))) {
             if (!this.f4142j[this.f4141i].equals(bi_常量类.f6358b_空串)) {
                 this.f41511.mo995(((((" 公交" + C0890_文本操作.m6819(this.f4142j[this.f4141i], "y", bi_常量类.f6358b_空串)) + "路线---------") + "<font color=#FF0000  >") + "进入") + "</font>");
             }
@@ -1357,7 +1357,7 @@ public class C06543 extends C0645Impl {
         if (this.f4178.equals(bi_常量类.f6358b_空串) || this.f4177.equals(bi_常量类.f6358b_空串)) {
             this.f41863.mo895(bi_常量类.f6358b_空串);
         }
-        this.f41903.mo776(false);
+        this.f41903.mo776_可视(false);
         this.f41903.mo774(false);
         this.f41874.mo895(this.f4177 + " ▼");
         m5292();
@@ -1374,10 +1374,10 @@ public class C06543 extends C0645Impl {
 
     /* renamed from: 图片框7$被单击 */
     public void m52887$() {
-        this.f41863.mo776(false);
-        this.f41881.mo776(true);
+        this.f41863.mo776_可视(false);
+        this.f41881.mo776_可视(true);
         this.f41881.mo774(true);
-        this.f41903.mo776(false);
+        this.f41903.mo776_可视(false);
         this.f41903.mo774(false);
         this.f41881.mo768();
         if (C0897_网络操作.m6920_取网络状态()) {
@@ -1398,14 +1398,14 @@ public class C06543 extends C0645Impl {
     /* renamed from: 窗口3$切换完毕 */
     public void m52963$() {
         String dg = bi_常量类.f6358b_空串;
-        this.f41863.mo776(true);
+        this.f41863.mo776_可视(true);
         dg = C0898_读写设置类.m6937_通过SP读取设置("成s").getString();
-        this.f41881.mo776(false);
+        this.f41881.mo776_可视(false);
         this.f41881.mo774(false);
         this.f41852.mo774(false);
-        this.f41852.mo776(false);
-        this.f416722.mo776(false);
-        this.f41511.mo776(false);
+        this.f41852.mo776_可视(false);
+        this.f416722.mo776_可视(false);
+        this.f41511.mo776_可视(false);
         this.f41511.mo774(false);
         if (dg.equals(C0108a.f262e)) {
             dg = "0";
@@ -1418,19 +1418,19 @@ public class C06543 extends C0645Impl {
             this.f41821.mo928(1000);
             if (this.zz.equals("haerbin")) {
                 this.f41726.mo774(false);
-                this.f41726.mo776(false);
+                this.f41726.mo776_可视(false);
             }
         }
     }
 
     /* renamed from: 图片框15$被单击 */
     public void m527915$() {
-        this.f41863.mo776(false);
-        this.f41881.mo776(true);
+        this.f41863.mo776_可视(false);
+        this.f41881.mo776_可视(true);
         this.f41881.mo774(true);
         C0898_读写设置类.m6935_通过SP保存设置("公告", StringVariant.getStringVariant(this.f4149));
-        this.f416117.mo776(false);
-        this.f41903.mo776(false);
+        this.f416117.mo776_可视(false);
+        this.f41903.mo776_可视(false);
         this.f41903.mo774(false);
         this.f41881.mo768();
         if (C0897_网络操作.m6920_取网络状态()) {
@@ -1465,12 +1465,12 @@ public class C06543 extends C0645Impl {
 
     /* renamed from: 图片框17$被单击 */
     public void m528017$() {
-        this.f41863.mo776(false);
-        this.f41881.mo776(true);
+        this.f41863.mo776_可视(false);
+        this.f41881.mo776_可视(true);
         this.f41881.mo774(true);
         C0898_读写设置类.m6935_通过SP保存设置("公告", StringVariant.getStringVariant(this.f4149));
-        this.f416117.mo776(false);
-        this.f41903.mo776(false);
+        this.f416117.mo776_可视(false);
+        this.f41903.mo776_可视(false);
         this.f41903.mo774(false);
         if (C0897_网络操作.m6920_取网络状态()) {
             this.f41881.mo976(((this.wl + "/web/city/") + this.zz) + "/news.html");
@@ -1497,7 +1497,7 @@ public class C06543 extends C0645Impl {
 
     /* renamed from: 图片框18$被单击 */
     public void m528118$() {
-        this.f41863.mo776(false);
+        this.f41863.mo776_可视(false);
         C0898_读写设置类.m6935_通过SP保存设置("高级", StringVariant.getStringVariant("0"));
         if (C0880_应用操作类.m6712("窗口14") == null) {
             C0880_应用操作类.m6692("窗口14", new C065114());
@@ -1507,15 +1507,15 @@ public class C06543 extends C0645Impl {
 
     /* renamed from: 图片框22$被单击 */
     public void m528322$() {
-        this.f41881.mo776(false);
+        this.f41881.mo776_可视(false);
         this.f41881.mo774(false);
         this.f41852.mo774(false);
-        this.f41852.mo776(false);
-        this.f416722.mo776(false);
-        this.f41511.mo776(false);
+        this.f41852.mo776_可视(false);
+        this.f416722.mo776_可视(false);
+        this.f41511.mo776_可视(false);
         this.f41511.mo774(false);
-        this.f41863.mo776(true);
-        this.f41903.mo776(true);
+        this.f41863.mo776_可视(true);
+        this.f41903.mo776_可视(true);
         this.f41903.mo774(true);
     }
 

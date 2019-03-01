@@ -357,7 +357,7 @@ Error: jadx.core.utils.exceptions.JadxRuntimeException: Can't find block by offs
             db = this.helper.getReadableDatabase();
             c = db.rawQuery("SELECT DISTINCT path FROM info", null);
             while (c.moveToNext()) {
-                pathList.m5454(StringVariant.getStringVariant(c.getString(0)));
+                pathList.m5454_集合add元素(StringVariant.getStringVariant(c.getString(0)));
             }
             if (!(c == null || c.isClosed())) {
                 c.close();

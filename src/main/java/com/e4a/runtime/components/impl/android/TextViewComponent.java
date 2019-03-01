@@ -65,18 +65,18 @@ public abstract class TextViewComponent extends ViewComponent implements TextCom
     }
 
     /* renamed from: 对齐方式 */
-    public void mo891(int newJustification) {
+    public void mo891_对齐方式(int newJustification) {
         this.justification = newJustification;
         TextViewUtil.setJustification((TextView) getView(), newJustification);
     }
 
     /* renamed from: 内容 */
-    public String mo886() {
+    public String mo886_内容() {
         return TextViewUtil.getText((TextView) getView());
     }
 
     /* renamed from: 内容 */
-    public void mo887(String newtext) {
+    public void mo887_内容(String newtext) {
         TextViewUtil.setText((TextView) getView(), newtext);
     }
 
@@ -96,7 +96,7 @@ public abstract class TextViewComponent extends ViewComponent implements TextCom
     }
 
     /* renamed from: 字体颜色 */
-    public void mo889(int argb) {
+    public void mo889_字体颜色(int argb) {
         this.textColor = argb;
         TextViewUtil.setTextColor((TextView) getView(), argb);
     }

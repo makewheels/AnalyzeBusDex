@@ -300,7 +300,7 @@ public abstract class ViewComponent extends ComponentImpl implements VisibleComp
     }
 
     /* renamed from: 移动 */
-    public void mo790(int newLeft, int newTop, int newWidth, int newHeight) {
+    public void mo790移动(int newLeft, int newTop, int newWidth, int newHeight) {
         this.left = newLeft;
         this.top = newTop;
         this.width = newWidth;
@@ -537,7 +537,7 @@ public abstract class ViewComponent extends ComponentImpl implements VisibleComp
     }
 
     /* renamed from: 可视 */
-    public void mo776(boolean visiable) {
+    public void mo776_可视(boolean visiable) {
         View view = getView();
         if (visiable) {
             view.setVisibility(0);
@@ -560,7 +560,7 @@ public abstract class ViewComponent extends ComponentImpl implements VisibleComp
     }
 
     /* renamed from: 背景颜色 */
-    public void mo797(int argb) {
+    public void mo797_背景颜色(int argb) {
         this.backgroundColor = argb;
         getView().setBackgroundColor(argb);
     }

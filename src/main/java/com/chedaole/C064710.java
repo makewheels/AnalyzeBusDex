@@ -50,7 +50,7 @@ public class C064710 extends C0645Impl {
     public void $define() {
         f395910 = this;
         f395910.mo840("E4A");
-        f395910.mo797(-1);
+        f395910.mo797_背景颜色(-1);
         f395910.m5096(IntegerVariant.getIntegerVariant(4));
         f395910.mo838(1);
         f395910.mo826(false);
@@ -61,7 +61,7 @@ public class C064710 extends C0645Impl {
         this.f39611.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f39611.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f39611.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.908d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f39611.mo776(true);
+        this.f39611.mo776_可视(true);
         C0742Impl c0742Impl = new C0742Impl(f395910);
         Objects.initializeProperties(c0742Impl);
         this.f39601 = c0742Impl;
@@ -69,10 +69,10 @@ public class C064710 extends C0645Impl {
         this.f39601.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.004d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f39601.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f39601.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.046d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f39601.mo797(0);
+        this.f39601.mo797_背景颜色(0);
         this.f39601.mo1143(1);
         this.f39601.mo1139("icon01.png");
-        this.f39601.mo776(false);
+        this.f39601.mo776_可视(false);
         EventDispatcher.registerEvent(this, "窗口10", "按下某键");
         EventDispatcher.registerEvent(this, "浏览框1", "接口事件");
         EventDispatcher.registerEvent(this, "图片框1", "被单击");

@@ -13,11 +13,11 @@ public interface TextComponent extends VisibleComponent {
 
     @SimpleProperty
     /* renamed from: 内容 */
-    String mo886();
+    String mo886_内容();
 
     @SimpleProperty(initializer = "\"\"", type = "simple.string")
     /* renamed from: 内容 */
-    void mo887(String str);
+    void mo887_内容(String str);
 
     @SimpleProperty
     /* renamed from: 字体颜色 */
@@ -25,7 +25,7 @@ public interface TextComponent extends VisibleComponent {
 
     @SimpleProperty(initializer = "-16777216", type = "simple.color")
     /* renamed from: 字体颜色 */
-    void mo889(int i);
+    void mo889_字体颜色(int i);
 
     @SimpleProperty
     /* renamed from: 对齐方式 */
@@ -33,7 +33,7 @@ public interface TextComponent extends VisibleComponent {
 
     @SimpleProperty(initializer = "0", type = "simple.justification")
     /* renamed from: 对齐方式 */
-    void mo891(int i);
+    void mo891_对齐方式(int i);
 
     @SimpleProperty(initializer = "False", type = "simple.boolean")
     /* renamed from: 斜体 */

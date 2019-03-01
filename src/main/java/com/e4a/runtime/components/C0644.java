@@ -144,7 +144,7 @@ public interface C0644 extends VisibleComponent, ComponentContainer {
 
     @SimpleProperty(initializer = "-16776961", type = "simple.color")
     /* renamed from: 背景颜色 */
-    void mo797(int i);
+    void mo797_背景颜色(int i);
 
     @SimpleEvent
     /* renamed from: 菜单被选择 */

@@ -50,7 +50,7 @@ public interface VisibleComponent extends Component {
 
     @SimpleProperty(initializer = "True", type = "simple.boolean")
     /* renamed from: 可视 */
-    void mo776(boolean z);
+    void mo776_可视(boolean z);
 
     @SimpleProperty
     /* renamed from: 可视 */
@@ -106,7 +106,7 @@ public interface VisibleComponent extends Component {
 
     @SimpleFunction
     /* renamed from: 移动 */
-    void mo790(int i, int i2, int i3, int i4);
+    void mo790移动(int i, int i2, int i3, int i4);
 
     @SimpleFunction
     /* renamed from: 移动特效 */
@@ -134,7 +134,7 @@ public interface VisibleComponent extends Component {
 
     @SimpleProperty(type = "simple.color")
     /* renamed from: 背景颜色 */
-    void mo797(int i);
+    void mo797_背景颜色(int i);
 
     @SimpleFunction
     /* renamed from: 获取焦点 */

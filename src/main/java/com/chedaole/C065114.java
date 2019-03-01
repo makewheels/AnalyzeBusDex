@@ -73,7 +73,7 @@ public class C065114 extends C0645Impl {
     public void $define() {
         f403314 = this;
         f403314.mo840("E4A");
-        f403314.mo797(-1);
+        f403314.mo797_背景颜色(-1);
         f403314.m5096(IntegerVariant.getIntegerVariant(4));
         f403314.mo838(1);
         f403314.mo826(false);
@@ -84,7 +84,7 @@ public class C065114 extends C0645Impl {
         this.f40401.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.093d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f40401.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.917d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f40401.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.805d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f40401.mo776(true);
+        this.f40401.mo776_可视(true);
         C0742Impl c0742Impl = new C0742Impl(f403314);
         Objects.initializeProperties(c0742Impl);
         this.f40372 = c0742Impl;
@@ -92,10 +92,10 @@ public class C065114 extends C0645Impl {
         this.f40372.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f40372.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f40372.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f40372.mo797(0);
+        this.f40372.mo797_背景颜色(0);
         this.f40372.mo1143(1);
         this.f40372.mo1139("lxee.png");
-        this.f40372.mo776(true);
+        this.f40372.mo776_可视(true);
         c0742Impl = new C0742Impl(f403314);
         Objects.initializeProperties(c0742Impl);
         this.f40361 = c0742Impl;
@@ -103,10 +103,10 @@ public class C065114 extends C0645Impl {
         this.f40361.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.015d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f40361.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f40361.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.046d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f40361.mo797(0);
+        this.f40361.mo797_背景颜色(0);
         this.f40361.mo1143(1);
         this.f40361.mo1139("eee.png");
-        this.f40361.mo776(true);
+        this.f40361.mo776_可视(true);
         C0697Impl c0697Impl = new C0697Impl(f403314);
         Objects.initializeProperties(c0697Impl);
         this.f40391 = c0697Impl;
@@ -118,10 +118,10 @@ public class C065114 extends C0645Impl {
         this.f40383.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.014d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f40383.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f40383.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.046d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f40383.mo797(0);
+        this.f40383.mo797_背景颜色(0);
         this.f40383.mo1143(1);
         this.f40383.mo1139("icon01.png");
-        this.f40383.mo776(true);
+        this.f40383.mo776_可视(true);
         EventDispatcher.registerEvent(this, "窗口14", "切换完毕");
         EventDispatcher.registerEvent(this, "窗口14", "按下某键");
         EventDispatcher.registerEvent(this, "图片框3", "被单击");
@@ -187,7 +187,7 @@ public class C065114 extends C0645Impl {
                 C0898_读写设置类.m6935_通过SP保存设置("正反", StringVariant.getStringVariant("正"));
                 C0898_读写设置类.m6935_通过SP保存设置("线路", StringVariant.getStringVariant(网页消息));
                 if (C0880_应用操作类.m6712("过渡窗口") == null) {
-                    C0880_应用操作类.m6692("过渡窗口", new C06532());
+                    C0880_应用操作类.m6692("过渡窗口", new C06532_有初始化功能());
                 }
                 C0898_读写设置类.m6935_通过SP保存设置("方向", StringVariant.getStringVariant("zheng"));
                 C0880_应用操作类.m6693_切换窗口(C0880_应用操作类.m6712("过渡窗口"));

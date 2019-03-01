@@ -12,8 +12,8 @@ import p054u.aly.bi_常量类;
 
 @SimpleObject
 /* renamed from: com.e4a.runtime.加密操作 */
-public final class C0843 {
-    private C0843() {
+public final class C0843_加密操作 {
+    private C0843_加密操作() {
     }
 
     @SimpleFunction
@@ -48,7 +48,7 @@ public final class C0843 {
             char[] hexDigits = new char[]{'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
             char[] str = new char[(j * 2)];
             int k = 0;
-            for (byte byte0 : C0843.RC4Base(data.getBytes("GBK"), key)) {
+            for (byte byte0 : C0843_加密操作.RC4Base(data.getBytes("GBK"), key)) {
                 int i = k + 1;
                 str[k] = hexDigits[(byte0 >>> 4) & 15];
                 k = i + 1;
@@ -68,7 +68,7 @@ public final class C0843 {
             return bi_常量类.f6358b_空串;
         }
         try {
-            return new String(C0843.RC4Base(C0843.HexString2Bytes(data), key), "GBK");
+            return new String(C0843_加密操作.RC4Base(C0843_加密操作.HexString2Bytes(data), key), "GBK");
         } catch (Exception e) {
             e.printStackTrace();
             return bi_常量类.f6358b_空串;
@@ -85,7 +85,7 @@ public final class C0843 {
             byte[] hexDigits = new byte[]{(byte) 48, (byte) 49, (byte) 50, (byte) 51, (byte) 52, (byte) 53, (byte) 54, (byte) 55, (byte) 56, (byte) 57, (byte) 65, (byte) 66, (byte) 67, (byte) 68, (byte) 69, (byte) 70};
             byte[] str = new byte[(j * 2)];
             int k = 0;
-            for (byte byte0 : C0843.RC4Base(data, key)) {
+            for (byte byte0 : C0843_加密操作.RC4Base(data, key)) {
                 int i = k + 1;
                 str[k] = hexDigits[(byte0 >>> 4) & 15];
                 k = i + 1;
@@ -106,7 +106,7 @@ public final class C0843 {
             return new byte[i];
         }
         try {
-            return C0843.RC4Base(data, key);
+            return C0843_加密操作.RC4Base(data, key);
         } catch (Exception e) {
             e.printStackTrace();
             return new byte[i];
@@ -119,7 +119,7 @@ public final class C0843 {
             byte[] bArr = new byte[(size / 2)];
             byte[] tmp = src.getBytes("GBK");
             for (int i = 0; i < size / 2; i++) {
-                bArr[i] = C0843.uniteBytes(tmp[i * 2], tmp[(i * 2) + 1]);
+                bArr[i] = C0843_加密操作.uniteBytes(tmp[i * 2], tmp[(i * 2) + 1]);
             }
             return bArr;
         } catch (Exception e) {
@@ -135,7 +135,7 @@ public final class C0843 {
     private static byte[] RC4Base(byte[] input, String mKkey) {
         int x = 0;
         int y = 0;
-        byte[] key = C0843.initKey(mKkey);
+        byte[] key = C0843_加密操作.initKey(mKkey);
         byte[] result = new byte[input.length];
         for (int i = 0; i < input.length; i++) {
             x = (x + 1) & WebView.NORMAL_MODE_ALPHA;
@@ -183,7 +183,7 @@ public final class C0843 {
             SecretKeySpec key = new SecretKeySpec(encryptKey.getBytes("GBK"), "DES");
             Cipher cipher = Cipher.getInstance("DES/CBC/PKCS5Padding");
             cipher.init(1, key, zeroIv);
-            return C0843.m6605BASE64(cipher.doFinal(encryptString.getBytes("GBK")));
+            return C0843_加密操作.m6605BASE64(cipher.doFinal(encryptString.getBytes("GBK")));
         } catch (Exception e) {
             return bi_常量类.f6358b_空串;
         }
@@ -194,7 +194,7 @@ public final class C0843 {
     public static String m6608DES(String decryptString, String decryptKey) throws Exception {
         try {
             byte[] iv = new byte[]{(byte) 1, (byte) 2, (byte) 3, (byte) 4, (byte) 5, (byte) 6, (byte) 7, (byte) 8};
-            byte[] byteMi = C0843.m6606BASE64(decryptString);
+            byte[] byteMi = C0843_加密操作.m6606BASE64(decryptString);
             IvParameterSpec zeroIv = new IvParameterSpec(iv);
             SecretKeySpec key = new SecretKeySpec(decryptKey.getBytes("GBK"), "DES");
             Cipher cipher = Cipher.getInstance("DES/CBC/PKCS5Padding");
@@ -237,7 +237,7 @@ public final class C0843 {
 
     @SimpleFunction
     /* renamed from: Authcode解密 */
-    public static String m6604Authcode(String source, String key) {
+    public static String m6604Authcode_Authcode解密(String source, String key) {
         try {
             return Authcode.Decode(source, key);
         } catch (Exception e) {

@@ -11,8 +11,8 @@ import p054u.aly.bi_常量类;
 
 @SimpleObject
 /* renamed from: com.e4a.runtime.数组操作 */
-public final class C0888 {
-    private C0888() {
+public final class C0888_数组操作 {
+    private C0888_数组操作() {
     }
 
     @SimpleFunction
@@ -66,8 +66,8 @@ public final class C0888 {
 
     @SimpleFunction
     /* renamed from: 取数组成员数 */
-    public static int m6769(Variant array) {
-        return C0888.m6768(array, 1);
+    public static int m6769_取数组成员数(Variant array) {
+        return C0888_数组操作.m6768(array, 1);
     }
 
     @SimpleFunction

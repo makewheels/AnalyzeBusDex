@@ -358,7 +358,7 @@ public class C0792Impl extends ComponentImpl implements C0790 {
             String lac = Integer.toString(info1.getLac());
             String cid = Integer.toString(info1.getCid());
             String bss = Integer.toString((info1.getRssi() * 2) - 113);
-            result.m5454(ArrayVariant.getArrayVariant(new String[]{lac, cid, bss}));
+            result.m5454_集合add元素(ArrayVariant.getArrayVariant(new String[]{lac, cid, bss}));
         }
         return result;
     }

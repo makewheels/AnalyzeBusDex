@@ -120,7 +120,7 @@ public class C0725Impl extends TextViewComponent implements C0723, OnClickListen
     }
 
     /* renamed from: 字体大小 */
-    public void mo1049(float size) {
+    public void mo1049_字体大小(float size) {
         TextView view = (TextView) getView();
         if (C0880_应用操作类.m6699()) {
             view.setTextSize(0, C0880_应用操作类.m6713(size));

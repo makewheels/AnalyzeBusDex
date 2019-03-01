@@ -45,7 +45,7 @@ public class C064811 extends C0645Impl {
     public void $define() {
         f396211 = this;
         f396211.mo840("E4A");
-        f396211.mo797(-1);
+        f396211.mo797_背景颜色(-1);
         f396211.m5096(IntegerVariant.getIntegerVariant(4));
         f396211.mo838(1);
         f396211.mo826(false);
@@ -56,10 +56,10 @@ public class C064811 extends C0645Impl {
         this.f39631.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f39631.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f39631.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.062d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f39631.mo797(-16742145);
+        this.f39631.mo797_背景颜色(-16742145);
         this.f39631.mo1143(1);
         this.f39631.mo1139("gg_01.jpg");
-        this.f39631.mo776(true);
+        this.f39631.mo776_可视(true);
         C0713Impl c0713Impl = new C0713Impl(f396211);
         Objects.initializeProperties(c0713Impl);
         this.f39641 = c0713Impl;
@@ -67,7 +67,7 @@ public class C064811 extends C0645Impl {
         this.f39641.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f39641.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f39641.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(1.001d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f39641.mo776(true);
+        this.f39641.mo776_可视(true);
         EventDispatcher.registerEvent(this, "窗口11", "创建完毕");
         EventDispatcher.registerEvent(this, "浏览框1", "接口事件");
         EventDispatcher.registerEvent(this, "图片框1", "被单击");

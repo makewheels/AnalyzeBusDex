@@ -30,7 +30,7 @@ public interface C0723 extends TextComponent {
 
     @SimpleProperty(initializer = "9", type = "simple.single")
     /* renamed from: 字体大小 */
-    void mo1049(float f);
+    void mo1049_字体大小(float f);
 
     @SimpleFunction
     /* renamed from: 添加删除线 */

@@ -77,7 +77,7 @@ public class C0643Impl extends ViewComponent implements C0642, ViewComponentCont
     }
 
     /* renamed from: 背景颜色 */
-    public void mo797(int argb) {
+    public void mo797_背景颜色(int argb) {
         this.backgroundColor = argb;
         if (this.viewLayout != null) {
             this.viewLayout.getLayoutManager().setBackgroundColor(argb);
@@ -111,7 +111,7 @@ public class C0643Impl extends ViewComponent implements C0642, ViewComponentCont
                 throw new IllegalArgumentException("Unknown layout");
         }
         this.layout = ObjectVariant.getObjectVariant(this.viewLayout);
-        mo797(this.backgroundColor);
+        mo797_背景颜色(this.backgroundColor);
         addToContainer();
     }
 

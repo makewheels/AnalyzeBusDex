@@ -202,7 +202,7 @@ public final class C0845 {
         int pieceHeight = bitmap.getHeight() / 纵向切割片数;
         for (int i = 0; i < 纵向切割片数; i++) {
             for (int j = 0; j < 横向切割片数; j++) {
-                pieces.m5454(ArrayVariant.getArrayVariant(C0845.Bitmap2Bytes(Bitmap.createBitmap(bitmap, j * pieceWidth, i * pieceHeight, pieceWidth, pieceHeight))));
+                pieces.m5454_集合add元素(ArrayVariant.getArrayVariant(C0845.Bitmap2Bytes(Bitmap.createBitmap(bitmap, j * pieceWidth, i * pieceHeight, pieceWidth, pieceHeight))));
             }
         }
         return pieces;

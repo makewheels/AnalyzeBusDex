@@ -1,7 +1,7 @@
 package com.chedaole;
 
 import com.alipay.sdk.cons.C0108a;
-import com.e4a.runtime.C0843;
+import com.e4a.runtime.C0843_加密操作;
 import com.e4a.runtime.C0852_存储卡类;
 import com.e4a.runtime.C0879;
 import com.e4a.runtime.C0880_应用操作类;
@@ -32,7 +32,7 @@ import p054u.aly.bi_常量类;
 @SimpleObject
 /* compiled from: 窗口2.code */
 /* renamed from: com.chedaole.窗口2 */
-public class C06532 extends C0645Impl {
+public class C06532_有初始化功能 extends C0645Impl {
     @SimpleDataElement
     /* renamed from: 窗口2 */
     public static C0644 f41262;
@@ -60,7 +60,7 @@ public class C06532 extends C0645Impl {
     public String f4132 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 站点 */
-    public String f4133 = bi_常量类.f6358b_空串;
+    public String f4133_站点 = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 线路 */
     public String f4134 = bi_常量类.f6358b_空串;
@@ -71,7 +71,7 @@ public class C06532 extends C0645Impl {
     /* renamed from: 起始 */
     public String f4136 = bi_常量类.f6358b_空串;
 
-    public C06532() {
+    public C06532_有初始化功能() {
         Objects.initializeProperties(this);
         $define();
     }
@@ -79,7 +79,7 @@ public class C06532 extends C0645Impl {
     public void $define() {
         f41262 = this;
         f41262.mo840("车到了");
-        f41262.mo797(0);
+        f41262.mo797_背景颜色(0);
         f41262.m5096(IntegerVariant.getIntegerVariant(4));
         f41262.mo838(1);
         f41262.mo826(false);
@@ -93,18 +93,18 @@ public class C06532 extends C0645Impl {
         this.f41351.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.165d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f41351.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.383d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f41351.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.299d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f41351.mo887(bi_常量类.f6358b_空串);
-        this.f41351.mo889(-16777216);
+        this.f41351.mo887_内容(bi_常量类.f6358b_空串);
+        this.f41351.mo889_字体颜色(-16777216);
         this.f41351.mo896(false);
         this.f41351.mo892(false);
         this.f41351.mo1020(9.0f);
         this.f41351.mo774(true);
         this.f41351.mo1041(4);
-        this.f41351.mo891(3);
+        this.f41351.mo891_对齐方式(3);
         this.f41351.mo772(true);
         this.f41351.mo1035(bi_常量类.f6358b_空串);
         this.f41351.mo899(WebView.NORMAL_MODE_ALPHA);
-        this.f41351.mo776(false);
+        this.f41351.mo776_可视(false);
         EventDispatcher.registerEvent(this, "窗口2", "按下某键");
         EventDispatcher.registerEvent(this, "窗口2", "切换完毕");
         EventDispatcher.registerEvent(this, "窗口2", "创建完毕");
@@ -125,8 +125,9 @@ public class C06532 extends C0645Impl {
         try {
             String 路线 = bi_常量类.f6358b_空串;
             String 内容 = bi_常量类.f6358b_空串;
-            内容 = C0843.m6604Authcode(this.f41351.mo886(), "199071lh@zhaoqianwangpengluzhipengliuxueyingzhangdeiqian");
-            this.f4133 = m5264(内容, "路开", "路束");
+            内容 = C0843_加密操作.m6604Authcode_Authcode解密(this.f41351.mo886_内容(),
+            		"199071lh@zhaoqianwangpengluzhipengliuxueyingzhangdeiqian");
+            this.f4133_站点 = m5264(内容, "路开", "路束");
             this.f4129 = m5264(内容, "|1|", "|1|");
             this.f4128 = m5264(内容, "地开", "地束");
             this.f4136 = m5264(内容, "目开", "目束");
@@ -134,7 +135,7 @@ public class C06532 extends C0645Impl {
             this.f4131 = m5264(内容, "广告开", "广告束");
             C0898_读写设置类.m6935_通过SP保存设置("地址", StringVariant.getStringVariant(this.f4128));
             C0898_读写设置类.m6935_通过SP保存设置("起始", StringVariant.getStringVariant(this.f4136));
-            C0898_读写设置类.m6935_通过SP保存设置("站点", StringVariant.getStringVariant(this.f4133));
+            C0898_读写设置类.m6935_通过SP保存设置("站点", StringVariant.getStringVariant(this.f4133_站点));
             C0898_读写设置类.m6935_通过SP保存设置("坐标", StringVariant.getStringVariant(this.f4129));
             C0898_读写设置类.m6935_通过SP保存设置("时间", StringVariant.getStringVariant(this.f4132));
             if (this.f4131.equals(bi_常量类.f6358b_空串)) {
@@ -174,7 +175,7 @@ public class C06532 extends C0645Impl {
                 return;
             }
             C0889_文件操作.m6781_写出文本文件(((((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/") + this.f4134) + ".TXT", 源码, "GBK");
-            this.f41351.mo887(源码);
+            this.f41351.mo887_内容(源码);
             C0879.m6671();
             m5269();
         } catch (Throwable th) {
@@ -214,7 +215,7 @@ public class C06532 extends C0645Impl {
             this.f4134 = C0890_文本操作.m6819(this.f4134, "fF", bi_常量类.f6358b_空串);
             this.f4134 = C0890_文本操作.m6819(this.f4134, "ff", bi_常量类.f6358b_空串);
             if (C0889_文件操作.m6797(((((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/") + this.f4134) + ".TXT")) {
-                this.f41351.mo887(C0889_文件操作.m6802(((((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/") + this.f4134) + ".TXT", "GBK"));
+                this.f41351.mo887_内容(C0889_文件操作.m6802(((((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/") + this.f4134) + ".TXT", "GBK"));
                 m5269();
                 return;
             }

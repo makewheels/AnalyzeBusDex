@@ -91,7 +91,7 @@ public class C0646 extends C0645Impl {
     public void $define() {
         f3946 = this;
         f3946.mo840("E4A");
-        f3946.mo797(-1);
+        f3946.mo797_背景颜色(-1);
         f3946.m5096(IntegerVariant.getIntegerVariant(4));
         f3946.mo838(1);
         f3946.mo826(false);
@@ -102,10 +102,10 @@ public class C0646 extends C0645Impl {
         this.f39491.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f39491.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f39491.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(1.001d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f39491.mo797(0);
+        this.f39491.mo797_背景颜色(0);
         this.f39491.mo1143(1);
         this.f39491.mo1139("zhuy.jpg");
-        this.f39491.mo776(true);
+        this.f39491.mo776_可视(true);
         c0742Impl = new C0742Impl(f3946);
         Objects.initializeProperties(c0742Impl);
         this.f39502 = c0742Impl;
@@ -113,10 +113,10 @@ public class C0646 extends C0645Impl {
         this.f39502.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.434d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f39502.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.3d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f39502.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f39502.mo797(0);
+        this.f39502.mo797_背景颜色(0);
         this.f39502.mo1143(1);
         this.f39502.mo1139("rj.png");
-        this.f39502.mo776(true);
+        this.f39502.mo776_可视(true);
         c0742Impl = new C0742Impl(f3946);
         Objects.initializeProperties(c0742Impl);
         this.f39513 = c0742Impl;
@@ -124,10 +124,10 @@ public class C0646 extends C0645Impl {
         this.f39513.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.526d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f39513.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.3d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f39513.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f39513.mo797(0);
+        this.f39513.mo797_背景颜色(0);
         this.f39513.mo1143(1);
         this.f39513.mo1139("qh.png");
-        this.f39513.mo776(true);
+        this.f39513.mo776_可视(true);
         C0713Impl c0713Impl = new C0713Impl(f3946);
         Objects.initializeProperties(c0713Impl);
         this.f39561 = c0713Impl;
@@ -135,7 +135,7 @@ public class C0646 extends C0645Impl {
         this.f39561.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f39561.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f39561.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f39561.mo776(false);
+        this.f39561.mo776_可视(false);
         C0722Impl c0722Impl = new C0722Impl(f3946);
         Objects.initializeProperties(c0722Impl);
         this.f39571 = c0722Impl;
@@ -143,19 +143,19 @@ public class C0646 extends C0645Impl {
         this.f39571.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.857d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f39571.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.533d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f39571.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.072d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f39571.mo887(bi_常量类.f6358b_空串);
-        this.f39571.mo889(-1);
+        this.f39571.mo887_内容(bi_常量类.f6358b_空串);
+        this.f39571.mo889_字体颜色(-1);
         this.f39571.mo896(false);
         this.f39571.mo892(false);
         this.f39571.mo1020(13.0f);
         this.f39571.mo774(false);
         this.f39571.mo1041(1);
-        this.f39571.mo891(3);
+        this.f39571.mo891_对齐方式(3);
         this.f39571.mo772(true);
         this.f39571.mo1023("百度一下");
         this.f39571.mo1035("txt.png");
         this.f39571.mo899(WebView.NORMAL_MODE_ALPHA);
-        this.f39571.mo776(false);
+        this.f39571.mo776_可视(false);
         c0742Impl = new C0742Impl(f3946);
         Objects.initializeProperties(c0742Impl);
         this.f39524 = c0742Impl;
@@ -163,10 +163,10 @@ public class C0646 extends C0645Impl {
         this.f39524.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.857d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f39524.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.183d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f39524.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.072d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f39524.mo797(0);
+        this.f39524.mo797_背景颜色(0);
         this.f39524.mo1143(1);
         this.f39524.mo1139("quan.png");
-        this.f39524.mo776(false);
+        this.f39524.mo776_可视(false);
         c0742Impl = new C0742Impl(f3946);
         Objects.initializeProperties(c0742Impl);
         this.f39535 = c0742Impl;
@@ -174,10 +174,10 @@ public class C0646 extends C0645Impl {
         this.f39535.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.766d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f39535.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.383d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f39535.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.075d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f39535.mo797(0);
+        this.f39535.mo797_背景颜色(0);
         this.f39535.mo1143(1);
         this.f39535.mo1139("ti.png");
-        this.f39535.mo776(true);
+        this.f39535.mo776_可视(true);
         C0725Impl c0725Impl = new C0725Impl(f3946);
         Objects.initializeProperties(c0725Impl);
         this.f39551 = c0725Impl;
@@ -186,14 +186,14 @@ public class C0646 extends C0645Impl {
         this.f39551.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
         this.f39551.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f39551.mo895(bi_常量类.f6358b_空串);
-        this.f39551.mo797(0);
-        this.f39551.mo889(-16777216);
+        this.f39551.mo797_背景颜色(0);
+        this.f39551.mo889_字体颜色(-16777216);
         this.f39551.mo896(false);
         this.f39551.mo892(false);
-        this.f39551.mo891(4);
-        this.f39551.mo1049(9.0f);
+        this.f39551.mo891_对齐方式(4);
+        this.f39551.mo1049_字体大小(9.0f);
         this.f39551.mo899(WebView.NORMAL_MODE_ALPHA);
-        this.f39551.mo776(true);
+        this.f39551.mo776_可视(true);
         C0697Impl c0697Impl = new C0697Impl(f3946);
         Objects.initializeProperties(c0697Impl);
         this.f39541 = c0697Impl;
@@ -266,7 +266,7 @@ public class C0646 extends C0645Impl {
             this.f39561.mo804(0);
             this.f39561.mo768();
             this.f39561.mo960JS("aliz");
-            this.f39561.mo776(true);
+            this.f39561.mo776_可视(true);
             this.f39561.mo774(true);
             this.f39561.mo976(m5168(数, "k6", "k7"));
             this.f39541.mo928(4000);
@@ -282,7 +282,7 @@ public class C0646 extends C0645Impl {
             C0897_网络操作.m6927_打开指定网址(网页消息);
         }
         if (C0890_文本操作.m6816(网页消息, 4).equals("guan")) {
-            this.f39561.mo776(false);
+            this.f39561.mo776_可视(false);
             this.f39561.mo774(false);
         }
     }
@@ -305,7 +305,7 @@ public class C0646 extends C0645Impl {
 
     /* renamed from: 图片框4$被单击 */
     public void m51714$() {
-        C0897_网络操作.m6927_打开指定网址("https://m.baidu.com/from=844b/s?word=" + this.f39571.mo886());
+        C0897_网络操作.m6927_打开指定网址("https://m.baidu.com/from=844b/s?word=" + this.f39571.mo886_内容());
     }
 
     /* renamed from: 图片框5$被单击 */
@@ -349,7 +349,7 @@ public class C0646 extends C0645Impl {
     /* renamed from: 时钟1$周期事件 */
     public void m51731$() {
         this.f39541.mo928(0);
-        this.f39561.mo776(false);
+        this.f39561.mo776_可视(false);
         this.f39561.mo774(false);
     }
 }
