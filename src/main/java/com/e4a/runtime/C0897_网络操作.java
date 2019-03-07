@@ -189,7 +189,7 @@ public final class C0897_网络操作 {
             if (!(f4340 == null || f4340.equals(bi_常量类.f6358b_空串))) {
                 for (String param22 : f4340.split("\\Q\n\\E")) {
                     param22 = C0890_文本操作.m6808_trim删除首尾空格(param22);
-                    name = C0890_文本操作.m6816(param22, C0890_文本操作.m6821(param22, ":", 0));
+                    name = C0890_文本操作.m6816(param22, C0890_文本操作.m6821_寻找文本(param22, ":", 0));
                     httpPost.addHeader(name, C0890_文本操作.m6815(param22, (C0890_文本操作.m6817_获取字符串长度(param22) - C0890_文本操作.m6817_获取字符串长度(name)) - 1));
                 }
             }
@@ -275,7 +275,7 @@ public final class C0897_网络操作 {
             if (!(f4340 == null || f4340.equals(bi_常量类.f6358b_空串))) {
                 for (String param : f4340.split("\\Q\n\\E")) {
                     String param2 = C0890_文本操作.m6808_trim删除首尾空格(param2);
-                    name = C0890_文本操作.m6816(param2, C0890_文本操作.m6821(param2, ":", 0));
+                    name = C0890_文本操作.m6816(param2, C0890_文本操作.m6821_寻找文本(param2, ":", 0));
                     httpPost.addHeader(name, C0890_文本操作.m6815(param2, (C0890_文本操作.m6817_获取字符串长度(param2) - C0890_文本操作.m6817_获取字符串长度(name)) - 1));
                 }
             }
@@ -355,7 +355,7 @@ public final class C0897_网络操作 {
                 String value = bi_常量类.f6358b_空串;
                 for (String param : f4340.split("\\Q\n\\E")) {
                     String param2 = C0890_文本操作.m6808_trim删除首尾空格(param2);
-                    name = C0890_文本操作.m6816(param2, C0890_文本操作.m6821(param2, ":", 0));
+                    name = C0890_文本操作.m6816(param2, C0890_文本操作.m6821_寻找文本(param2, ":", 0));
                     httprequest.addHeader(name, C0890_文本操作.m6815(param2, (C0890_文本操作.m6817_获取字符串长度(param2) - C0890_文本操作.m6817_获取字符串长度(name)) - 1));
                 }
             }
@@ -411,7 +411,7 @@ public final class C0897_网络操作 {
                 String value = bi_常量类.f6358b_空串;
                 for (String param : f4340.split("\\Q\n\\E")) {
                     String param2 = C0890_文本操作.m6808_trim删除首尾空格(param2);
-                    name = C0890_文本操作.m6816(param2, C0890_文本操作.m6821(param2, ":", 0));
+                    name = C0890_文本操作.m6816(param2, C0890_文本操作.m6821_寻找文本(param2, ":", 0));
                     httprequest.addHeader(name, C0890_文本操作.m6815(param2, (C0890_文本操作.m6817_获取字符串长度(param2) - C0890_文本操作.m6817_获取字符串长度(name)) - 1));
                 }
             }
@@ -483,7 +483,7 @@ public final class C0897_网络操作 {
                 String value = bi_常量类.f6358b_空串;
                 for (String param : f4340.split("\\Q\n\\E")) {
                     String param2 = C0890_文本操作.m6808_trim删除首尾空格(param2);
-                    name = C0890_文本操作.m6816(param2, C0890_文本操作.m6821(param2, ":", 0));
+                    name = C0890_文本操作.m6816(param2, C0890_文本操作.m6821_寻找文本(param2, ":", 0));
                     conn.setRequestProperty(name, C0890_文本操作.m6815(param2, (C0890_文本操作.m6817_获取字符串长度(param2) - C0890_文本操作.m6817_获取字符串长度(name)) - 1));
                 }
             }
@@ -540,7 +540,7 @@ public final class C0897_网络操作 {
                 String value = bi_常量类.f6358b_空串;
                 for (String param : f4340.split("\\Q\n\\E")) {
                     String param2 = C0890_文本操作.m6808_trim删除首尾空格(param2);
-                    name = C0890_文本操作.m6816(param2, C0890_文本操作.m6821(param2, ":", 0));
+                    name = C0890_文本操作.m6816(param2, C0890_文本操作.m6821_寻找文本(param2, ":", 0));
                     urlConnection.setRequestProperty(name, C0890_文本操作.m6815(param2, (C0890_文本操作.m6817_获取字符串长度(param2) - C0890_文本操作.m6817_获取字符串长度(name)) - 1));
                 }
             }
@@ -930,7 +930,7 @@ public final class C0897_网络操作 {
         to2 = "auto";
         int salt = new Random().nextInt(10000);
         String temp = C0899.m6952(C0897_网络操作.m6918("http://api.fanyi.baidu.com/api/trans/vip/translate?q=" + C0895.m6905URL(text, "UTF-8") + "&from=" + from2 + "&to=" + to2 + "&appid=" + appid + "&salt=" + salt + "&sign=" + C0890_文本操作.m6811(C0843_加密操作.m6613MD5(C0899.m6961(appid + text + salt + token, "UTF-8"))), 5000), "UTF-8");
-        if (C0890_文本操作.m6817_获取字符串长度(temp) <= 5 || C0890_文本操作.m6821(temp, "error", 0) != -1) {
+        if (C0890_文本操作.m6817_获取字符串长度(temp) <= 5 || C0890_文本操作.m6821_寻找文本(temp, "error", 0) != -1) {
             return bi_常量类.f6358b_空串;
         }
         String[] shuzu1 = C0890_文本操作.m6806_分割字符串(temp, "dst\":\"");

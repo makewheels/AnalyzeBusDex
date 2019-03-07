@@ -40,7 +40,7 @@ public final class C0663MySQL {
         if (str == null || str.equals(bi_常量类.f6358b_空串)) {
             connected = false;
             return false;
-        } else if (C0890_文本操作.m6821(str, "ConnectSucceeded", 0) != -1) {
+        } else if (C0890_文本操作.m6821_寻找文本(str, "ConnectSucceeded", 0) != -1) {
             connected = true;
             return true;
         } else {
@@ -59,7 +59,7 @@ public final class C0663MySQL {
         if (str == null || str.equals(bi_常量类.f6358b_空串)) {
             return bi_常量类.f6358b_空串;
         }
-        int i = C0890_文本操作.m6821(str, "Getinfo", 0);
+        int i = C0890_文本操作.m6821_寻找文本(str, "Getinfo", 0);
         if (i != -1) {
             return str.substring(i + 7);
         }
@@ -76,7 +76,7 @@ public final class C0663MySQL {
         if (str == null || str.equals(bi_常量类.f6358b_空串)) {
             return "unknown";
         }
-        int i = C0890_文本操作.m6821(str, "Getip", 0);
+        int i = C0890_文本操作.m6821_寻找文本(str, "Getip", 0);
         if (i != -1) {
             return str.substring(i + 5);
         }
@@ -93,7 +93,7 @@ public final class C0663MySQL {
         if (str1 == null || str1.equals(bi_常量类.f6358b_空串)) {
             return bi_常量类.f6358b_空串;
         }
-        int i = C0890_文本操作.m6821(str1, "STables", 0);
+        int i = C0890_文本操作.m6821_寻找文本(str1, "STables", 0);
         if (i != -1) {
             return str1.substring(i + 7);
         }
@@ -110,7 +110,7 @@ public final class C0663MySQL {
         if (str1 == null || str1.equals(bi_常量类.f6358b_空串)) {
             return "Error";
         }
-        int i = C0890_文本操作.m6821(str1, "RQuery", 0);
+        int i = C0890_文本操作.m6821_寻找文本(str1, "RQuery", 0);
         if (i != -1) {
             return str1.substring(i + 6);
         }
@@ -130,7 +130,7 @@ public final class C0663MySQL {
             if (str1 == null || str1.equals(bi_常量类.f6358b_空串)) {
                 return -1;
             }
-            i = C0890_文本操作.m6821(str1, "GRNumNC", 0);
+            i = C0890_文本操作.m6821_寻找文本(str1, "GRNumNC", 0);
             if (i != -1) {
                 return Integer.parseInt(str1.substring(i + 7));
             }
@@ -140,7 +140,7 @@ public final class C0663MySQL {
         if (str1 == null || str1.equals(bi_常量类.f6358b_空串)) {
             return -1;
         }
-        i = C0890_文本操作.m6821(str1, "GRNum", 0);
+        i = C0890_文本操作.m6821_寻找文本(str1, "GRNum", 0);
         if (i != -1) {
             return Integer.parseInt(str1.substring(i + 5));
         }
@@ -154,7 +154,7 @@ public final class C0663MySQL {
             return false;
         }
         String str = C0663MySQL.m5396("IsData|*|" + 表名 + "|*|" + 字段名 + "|*|" + 字段值);
-        if (str == null || str.equals(bi_常量类.f6358b_空串) || C0890_文本操作.m6821(str, "IsData", 0) == -1) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串) || C0890_文本操作.m6821_寻找文本(str, "IsData", 0) == -1) {
             return false;
         }
         return true;
@@ -167,7 +167,7 @@ public final class C0663MySQL {
             return false;
         }
         String str = C0663MySQL.m5396("CgData|*|" + 表名 + "|*|" + 字段更改 + "|*|" + 满足条件);
-        if (str == null || str.equals(bi_常量类.f6358b_空串) || C0890_文本操作.m6821(str, "CgData", 0) == -1) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串) || C0890_文本操作.m6821_寻找文本(str, "CgData", 0) == -1) {
             return false;
         }
         return true;
@@ -180,7 +180,7 @@ public final class C0663MySQL {
             return false;
         }
         String str = C0663MySQL.m5396("CcData|*|" + 表名 + "|*|" + 满足条件);
-        if (str == null || str.equals(bi_常量类.f6358b_空串) || C0890_文本操作.m6821(str, "CcData", 0) == -1) {
+        if (str == null || str.equals(bi_常量类.f6358b_空串) || C0890_文本操作.m6821_寻找文本(str, "CcData", 0) == -1) {
             return false;
         }
         return true;
@@ -196,7 +196,7 @@ public final class C0663MySQL {
         if (str1 == null || str1.equals(bi_常量类.f6358b_空串)) {
             return bi_常量类.f6358b_空串;
         }
-        int i = C0890_文本操作.m6821(str1, "QrData", 0);
+        int i = C0890_文本操作.m6821_寻找文本(str1, "QrData", 0);
         if (i != -1) {
             return str1.substring(i + 6);
         }
@@ -213,7 +213,7 @@ public final class C0663MySQL {
         if (str1 == null || str1.equals(bi_常量类.f6358b_空串)) {
             return bi_常量类.f6358b_空串;
         }
-        int i = C0890_文本操作.m6821(str1, "QLData", 0);
+        int i = C0890_文本操作.m6821_寻找文本(str1, "QLData", 0);
         if (i != -1) {
             return str1.substring(i + 6);
         }
@@ -230,7 +230,7 @@ public final class C0663MySQL {
         if (str1 == null || str1.equals(bi_常量类.f6358b_空串)) {
             return -1;
         }
-        int i = C0890_文本操作.m6821(str1, "GRMax", 0);
+        int i = C0890_文本操作.m6821_寻找文本(str1, "GRMax", 0);
         if (i != -1) {
             return Integer.parseInt(str1.substring(i + 5));
         }

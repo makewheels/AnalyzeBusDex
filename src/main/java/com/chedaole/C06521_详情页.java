@@ -270,7 +270,7 @@ public class C06521_详情页 extends C0645Impl {
 	public C0723 f41006;
 	@SimpleDataElement
 	/* renamed from: 标签7 */
-	public C0723 f41017;
+	public C0723 f41017_距离km;
 	@SimpleDataElement
 	/* renamed from: 标签8 */
 	public C0723 f41028;
@@ -552,24 +552,24 @@ public class C06521_详情页 extends C0645Impl {
 		this.f40702 = c0752Impl;
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
-		this.f41017 = c0725Impl;
-		this.f41017.mo782((int) C0893
+		this.f41017_距离km = c0725Impl;
+		this.f41017_距离km.mo782((int) C0893
 				.m6855(DoubleVariant.getDoubleVariant(0.777d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41017.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.253d)
+		this.f41017_距离km.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.253d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f41017.mo780((int) C0893
+		this.f41017_距离km.mo780((int) C0893
 				.m6855(DoubleVariant.getDoubleVariant(0.15d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41017.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.041d)
+		this.f41017_距离km.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.041d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f41017.mo895(bi_常量类.f6358b_空串);
-		this.f41017.mo797_背景颜色(-1118482);
-		this.f41017.mo889_字体颜色(-16777216);
-		this.f41017.mo896(false);
-		this.f41017.mo892(false);
-		this.f41017.mo891_对齐方式(7);
-		this.f41017.mo1049_字体大小(9.0f);
-		this.f41017.mo899(WebView.NORMAL_MODE_ALPHA);
-		this.f41017.mo776_可视(true);
+		this.f41017_距离km.mo895(bi_常量类.f6358b_空串);
+		this.f41017_距离km.mo797_背景颜色(-1118482);
+		this.f41017_距离km.mo889_字体颜色(-16777216);
+		this.f41017_距离km.mo896(false);
+		this.f41017_距离km.mo892(false);
+		this.f41017_距离km.mo891_对齐方式(7);
+		this.f41017_距离km.mo1049_字体大小(9.0f);
+		this.f41017_距离km.mo899(WebView.NORMAL_MODE_ALPHA);
+		this.f41017_距离km.mo776_可视(true);
 		c0697Impl = new C0697Impl(f40411);
 		Objects.initializeProperties(c0697Impl);
 		this.f40793 = c0697Impl;
@@ -1274,7 +1274,7 @@ public class C06521_详情页 extends C0645Impl {
 		this.f41181.mo765();
 		this.f40995.mo765();
 		this.f40702.mo765();
-		this.f41017.mo765();
+		this.f41017_距离km.mo765();
 		this.f40793.mo765();
 		this.f408411.mo765();
 		this.f40636.mo765();
@@ -1365,7 +1365,7 @@ public class C06521_详情页 extends C0645Impl {
 		Objects.initializeProperties(c0683);
 		this.f4113_站图 = c0683;
 		this.f41028.mo776_可视(false);
-		this.f41017.mo776_可视(false);
+		this.f41017_距离km.mo776_可视(false);
 		this.f40973.mo776_可视(false);
 		if (!this.zz_城市.equals("daqing")) {
 			this.f405817.mo776_可视(false);
@@ -1379,7 +1379,7 @@ public class C06521_详情页 extends C0645Impl {
 					C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
 			this.f40782.mo928(5000);
 			i = IntegerVariant.getIntegerVariant(i).sub(ByteVariant.getByteVariant((byte) 20)).getInteger();
-			this.f409017.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) i), ".0", bi_常量类.f6358b_空串));
+			this.f409017.mo895(C0890_文本操作.m6819_子文本替换("我的积分：" + C0899.m6945((double) i), ".0", bi_常量类.f6358b_空串));
 			C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt",
 					C0843_加密操作.m6603Authcode(C0899.m6945((double) i), "yangbosen123"), "UTF-8");
 		}
@@ -1417,7 +1417,7 @@ public class C06521_详情页 extends C0645Impl {
 		this.f40984.mo1055("zt.ttf");
 		this.f40995.mo1055("zt.ttf");
 		this.f41006.mo1055("zt.ttf");
-		this.f41017.mo1055("zt.ttf");
+		this.f41017_距离km.mo1055("zt.ttf");
 		this.f40973.mo1055("zt.ttf");
 		this.f41028.mo1055("zt.ttf");
 		this.f40821.mo804(m5234(76));
@@ -1459,12 +1459,12 @@ public class C06521_详情页 extends C0645Impl {
 		this.f41028.mo806(m5234(75));
 		this.f41028.mo780(m5234(TbsListener.ErrorCode.APK_PATH_ERROR));
 		this.f41006.mo776_可视(false);
-		this.f41017.mo804(this.f4067 + m5234(4));
-		this.f41017.mo782(DoubleVariant.getDoubleVariant(((double) C0894.m6882()) / 2.0d)
+		this.f41017_距离km.mo804(this.f4067 + m5234(4));
+		this.f41017_距离km.mo782(DoubleVariant.getDoubleVariant(((double) C0894.m6882()) / 2.0d)
 				.add(IntegerVariant.getIntegerVariant(m5234(127))).getInteger());
-		this.f41017.mo806(m5234(32));
-		this.f41017.mo780(m5234(80));
-		this.f41017.mo1049_字体大小(11.0f);
+		this.f41017_距离km.mo806(m5234(32));
+		this.f41017_距离km.mo780(m5234(80));
+		this.f41017_距离km.mo1049_字体大小(11.0f);
 		this.f40603.mo804(
 				IntegerVariant.getIntegerVariant(this.f4067).add(ByteVariant.getByteVariant((byte) 2)).getInteger());
 		this.f40603.mo806(m5234(135));
@@ -1742,7 +1742,7 @@ public class C06521_详情页 extends C0645Impl {
 			this.f40669.mo776_可视(false);
 			this.f405413.mo776_可视(false);
 			this.f41006.mo776_可视(false);
-			this.f41017.mo776_可视(false);
+			this.f41017_距离km.mo776_可视(false);
 			this.f40625.mo776_可视(false);
 			this.f40482.mo782(-70);
 			this.f405514.mo776_可视(false);
@@ -1774,7 +1774,7 @@ public class C06521_详情页 extends C0645Impl {
 			String 文本 = bi_常量类.f6358b_空串;
 			String 临时文本 = bi_常量类.f6358b_空串;
 			String 预计时间 = bi_常量类.f6358b_空串;
-			String 标题 = bi_常量类.f6358b_空串;
+			String 标题_最近经过站名 = bi_常量类.f6358b_空串;
 			String 搜索字 = bi_常量类.f6358b_空串;
 			String 搜索字1 = bi_常量类.f6358b_空串;
 			String 搜索字2 = bi_常量类.f6358b_空串;
@@ -1795,7 +1795,7 @@ public class C06521_详情页 extends C0645Impl {
 			this.f409622.mo776_可视(false);
 			this.f408714.mo895(bi_常量类.f6358b_空串);
 			this.f408815.mo895(bi_常量类.f6358b_空串);
-			if (C0889_文件操作.m6797(
+			if (C0889_文件操作.m6797_文件是否存在(
 					((((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz_城市) + "/") + this.f4117_线路名) + "A.TXT")) {
 				ccs = C0889_文件操作.m6802(
 						((((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz_城市) + "/") + this.f4117_线路名) + "A.TXT",
@@ -1812,25 +1812,25 @@ public class C06521_详情页 extends C0645Impl {
 								.cmp(ByteVariant.getByteVariant((byte) 0)) != 0) {
 							for (int js = 0; js <= 50; js++) {
 								boolean 半站 = false;
-								搜索字 = ("a" + C0899.m6959(IntegerVariant.getIntegerVariant(js)
+								搜索字 = ("a" + C0899.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
 										.add(ByteVariant.getByteVariant((byte) 1)).getInteger())) + "a";
-								搜索字1 = ("a" + C0899.m6959(IntegerVariant.getIntegerVariant(js)
+								搜索字1 = ("a" + C0899.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
 										.add(ByteVariant.getByteVariant((byte) 1)).getInteger())) + "a<";
-								搜索字2 = ">g" + C0899.m6959(IntegerVariant.getIntegerVariant(js)
+								搜索字2 = ">g" + C0899.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
 										.add(ByteVariant.getByteVariant((byte) 1)).getInteger());
-								搜索字3 = ("g" + C0899.m6959(IntegerVariant.getIntegerVariant(js)
+								搜索字3 = ("g" + C0899.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
 										.add(ByteVariant.getByteVariant((byte) 1)).getInteger())) + "<";
-								搜索字5 = ">f" + C0899.m6959(IntegerVariant.getIntegerVariant(js)
+								搜索字5 = ">f" + C0899.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
 										.add(ByteVariant.getByteVariant((byte) 1)).getInteger());
-								搜索字6 = ("f" + C0899.m6959(IntegerVariant.getIntegerVariant(js)
+								搜索字6 = ("f" + C0899.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
 										.add(ByteVariant.getByteVariant((byte) 1)).getInteger())) + "<";
 								临时文本 = m5233(this.f41181.mo886_内容(), 搜索字, 搜索字1);
-								if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(临时文本, this.f4076, 1))
+								if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(临时文本, this.f4076, 1))
 										.cmp(ByteVariant.getByteVariant((byte) -1)) > 0) {
-									文本 = C0890_文本操作.m6814_截取子串(临时文本, 0, C0890_文本操作.m6821(临时文本, "|", 0));
-									if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(文本, ".", 0))
+									文本 = C0890_文本操作.m6814_截取子串(临时文本, 0, C0890_文本操作.m6821_寻找文本(临时文本, "|", 0));
+									if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(文本, ".", 0))
 											.cmp(ByteVariant.getByteVariant((byte) -1)) > 0) {
-										文本 = C0890_文本操作.m6814_截取子串(临时文本, 0, C0890_文本操作.m6821(临时文本, ".", 0));
+										文本 = C0890_文本操作.m6814_截取子串(临时文本, 0, C0890_文本操作.m6821_寻找文本(临时文本, ".", 0));
 										半站 = true;
 									}
 									if (文本.equals("0")) {
@@ -1890,24 +1890,24 @@ public class C06521_详情页 extends C0645Impl {
 													this.f41006.mo895("起点");
 													this.f40984.mo895(bi_常量类.f6358b_空串);
 													this.f40973.mo895(bi_常量类.f6358b_空串);
-													this.f41017.mo895(bi_常量类.f6358b_空串);
+													this.f41017_距离km.mo895(bi_常量类.f6358b_空串);
 													this.f41028.mo895(bi_常量类.f6358b_空串);
 													C0894.m6875();
 													break;
 												}
-												标题 = C0890_文本操作.m6819(
+												标题_最近经过站名 = C0890_文本操作.m6819_子文本替换(
 														((C0723) this.f4114_站点名集合.m5455_集合get元素(综合数).getObject()).mo894(), "\n",
 														bi_常量类.f6358b_空串);
 												this.f40995.mo776_可视(true);
-												if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6817_获取字符串长度(标题))
+												if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6817_获取字符串长度(标题_最近经过站名))
 														.cmp(ByteVariant.getByteVariant((byte) 9)) > 0) {
-													this.f40995.mo895("过" + 标题);
+													this.f40995.mo895("过" + 标题_最近经过站名);
 												} else {
-													this.f40995.mo895("最近车辆经过-" + 标题);
+													this.f40995.mo895("最近车辆经过-" + 标题_最近经过站名);
 												}
 												this.f41028.mo776_可视(true);
 												this.f41028.mo895("站");
-												this.f41006.mo895(C0899.m6959(this.jc));
+												this.f41006.mo895(C0899.m6959_整数转文本(this.jc));
 												this.f41006.mo776_可视(true);
 												this.f40625.mo776_可视(true);
 												P = 0;
@@ -1923,14 +1923,14 @@ public class C06521_详情页 extends C0645Impl {
 												}
 												if (IntegerVariant.getIntegerVariant(P)
 														.cmp(ShortVariant.getShortVariant((short) 500)) < 0) {
-													this.f41017.mo895(C0899.m6959(P) + "米");
-													this.f40984.mo895(C0899.m6959((int) (((double) this.jc) / 2.0d)));
+													this.f41017_距离km.mo895(C0899.m6959_整数转文本(P) + "米");
+													this.f40984.mo895(C0899.m6959_整数转文本((int) (((double) this.jc) / 2.0d)));
 													if (this.f40984.mo894().equals("0")) {
 														this.f40984.mo895("﹤1");
 													}
 												} else if (IntegerVariant.getIntegerVariant(P)
 														.cmp(ShortVariant.getShortVariant((short) 500)) > 0) {
-													this.f41017
+													this.f41017_距离km
 															.mo895(Double
 																	.toString(C0893.m6861(ConvHelpers.string2double(
 																			C0899.m6945(((double) P) / 1000.0d)), 1))
@@ -1941,7 +1941,7 @@ public class C06521_详情页 extends C0645Impl {
 															.cmp(ByteVariant.getByteVariant((byte) 99)) > 0) {
 														this.f40984.mo895(">99");
 													} else {
-														this.f40984.mo895(C0899.m6959(StringVariant
+														this.f40984.mo895(C0899.m6959_整数转文本(StringVariant
 																.getStringVariant(m5262((int) (((double) P) / 1000.0d),
 																		this.dddd))
 																.add(DoubleVariant
@@ -1952,7 +1952,7 @@ public class C06521_详情页 extends C0645Impl {
 														this.f40984.mo895(C0108a.f262e);
 													}
 												}
-												this.f41017.mo776_可视(true);
+												this.f41017_距离km.mo776_可视(true);
 												this.f40973.mo776_可视(true);
 												this.f40973.mo895("分");
 											}
@@ -1986,9 +1986,9 @@ public class C06521_详情页 extends C0645Impl {
 											if (IntegerVariant.getIntegerVariant(P)
 													.cmp(ShortVariant.getShortVariant((short) 500)) < 0) {
 												this.f408714.mo895(
-														(((((("第2车距您" + C0899.m6959(this.jc)) + "站,") + C0899.m6959(P))
+														(((((("第2车距您" + C0899.m6959_整数转文本(this.jc)) + "站,") + C0899.m6959_整数转文本(P))
 																+ "米") + ",约")
-																+ C0899.m6959(ByteVariant.getByteVariant((byte) 1)
+																+ C0899.m6959_整数转文本(ByteVariant.getByteVariant((byte) 1)
 																		.add(DoubleVariant.getDoubleVariant(
 																				((double) this.jc) / 2.0d))
 																		.getInteger()))
@@ -1996,13 +1996,13 @@ public class C06521_详情页 extends C0645Impl {
 											} else if (IntegerVariant.getIntegerVariant(P)
 													.cmp(ShortVariant.getShortVariant((short) 500)) > 0) {
 												this.f408714
-														.mo895((((((("第2车距您" + C0899.m6959(this.jc)) + "站,")
+														.mo895((((((("第2车距您" + C0899.m6959_整数转文本(this.jc)) + "站,")
 																+ Double.toString(C0893.m6861(
 																		ConvHelpers.string2double(
 																				C0899.m6945(((double) P) / 1000.0d)),
 																		1)))
 																+ "km") + ",约")
-																+ C0899.m6959(StringVariant
+																+ C0899.m6959_整数转文本(StringVariant
 																		.getStringVariant(
 																				m5262((int) (((double) P) / 1000.0d),
 																						this.dddd))
@@ -2037,19 +2037,19 @@ public class C06521_详情页 extends C0645Impl {
 												图像.mo1139("011.jpg");
 											}
 											if (车在) {
-												标题 = C0890_文本操作.m6819(
+												标题_最近经过站名 = C0890_文本操作.m6819_子文本替换(
 														((C0723) this.f4114_站点名集合.m5455_集合get元素(综合数).getObject()).mo894(), "\n",
 														bi_常量类.f6358b_空串);
 												this.f40995.mo776_可视(true);
-												if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6817_获取字符串长度(标题))
+												if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6817_获取字符串长度(标题_最近经过站名))
 														.cmp(ByteVariant.getByteVariant((byte) 9)) > 0) {
-													this.f40995.mo895("到" + 标题);
+													this.f40995.mo895("到" + 标题_最近经过站名);
 												} else {
-													this.f40995.mo895("最近车辆已到-" + 标题);
+													this.f40995.mo895("最近车辆已到-" + 标题_最近经过站名);
 												}
 												this.f41028.mo776_可视(true);
 												this.f41028.mo895("站");
-												this.f41006.mo895(C0899.m6959(this.jc));
+												this.f41006.mo895(C0899.m6959_整数转文本(this.jc));
 												this.f41006.mo776_可视(true);
 												this.f40625.mo776_可视(true);
 												车在 = false;
@@ -2084,9 +2084,9 @@ public class C06521_详情页 extends C0645Impl {
 											if (IntegerVariant.getIntegerVariant(P)
 													.cmp(ShortVariant.getShortVariant((short) 500)) < 0) {
 												this.f408815.mo895(
-														(((((("第3车距您" + C0899.m6959(this.jc)) + "站,") + C0899.m6959(P))
+														(((((("第3车距您" + C0899.m6959_整数转文本(this.jc)) + "站,") + C0899.m6959_整数转文本(P))
 																+ "米") + ",约")
-																+ C0899.m6959(ByteVariant.getByteVariant((byte) 1)
+																+ C0899.m6959_整数转文本(ByteVariant.getByteVariant((byte) 1)
 																		.add(DoubleVariant.getDoubleVariant(
 																				((double) this.jc) / 2.0d))
 																		.getInteger()))
@@ -2094,13 +2094,13 @@ public class C06521_详情页 extends C0645Impl {
 											} else if (IntegerVariant.getIntegerVariant(P)
 													.cmp(ShortVariant.getShortVariant((short) 500)) > 0) {
 												this.f408815
-														.mo895((((((("第3车距您" + C0899.m6959(this.jc)) + "站,")
+														.mo895((((((("第3车距您" + C0899.m6959_整数转文本(this.jc)) + "站,")
 																+ Double.toString(C0893.m6861(
 																		ConvHelpers.string2double(
 																				C0899.m6945(((double) P) / 1000.0d)),
 																		1)))
 																+ "km") + ",约")
-																+ C0899.m6959(StringVariant
+																+ C0899.m6959_整数转文本(StringVariant
 																		.getStringVariant(
 																				m5262((int) (((double) P) / 1000.0d),
 																						this.dddd))
@@ -2135,19 +2135,19 @@ public class C06521_详情页 extends C0645Impl {
 												图像.mo1139("011.jpg");
 											}
 											if (车在) {
-												标题 = C0890_文本操作.m6819(
+												标题_最近经过站名 = C0890_文本操作.m6819_子文本替换(
 														((C0723) this.f4114_站点名集合.m5455_集合get元素(综合数).getObject()).mo894(), "\n",
 														bi_常量类.f6358b_空串);
 												this.f40995.mo776_可视(true);
-												if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6817_获取字符串长度(标题))
+												if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6817_获取字符串长度(标题_最近经过站名))
 														.cmp(ByteVariant.getByteVariant((byte) 9)) > 0) {
-													this.f40995.mo895("到" + 标题);
+													this.f40995.mo895("到" + 标题_最近经过站名);
 												} else {
-													this.f40995.mo895("最近车辆已到-" + 标题);
+													this.f40995.mo895("最近车辆已到-" + 标题_最近经过站名);
 												}
 												this.f41028.mo776_可视(true);
 												this.f41028.mo895("站");
-												this.f41006.mo895(C0899.m6959(this.jc));
+												this.f41006.mo895(C0899.m6959_整数转文本(this.jc));
 												this.f41006.mo776_可视(true);
 												this.f40625.mo776_可视(true);
 												车在 = false;
@@ -2255,7 +2255,7 @@ public class C06521_详情页 extends C0645Impl {
 							this.f41006.mo895("起点");
 							this.f40984.mo895(bi_常量类.f6358b_空串);
 							this.f40973.mo895(bi_常量类.f6358b_空串);
-							this.f41017.mo895(bi_常量类.f6358b_空串);
+							this.f41017_距离km.mo895(bi_常量类.f6358b_空串);
 							this.f41028.mo895(bi_常量类.f6358b_空串);
 							C0894.m6875();
 							break;
@@ -2267,7 +2267,7 @@ public class C06521_详情页 extends C0645Impl {
 						this.f41006.mo895(bi_常量类.f6358b_空串);
 						this.f40984.mo895(bi_常量类.f6358b_空串);
 						this.f40973.mo895(bi_常量类.f6358b_空串);
-						this.f41017.mo895(bi_常量类.f6358b_空串);
+						this.f41017_距离km.mo895(bi_常量类.f6358b_空串);
 						this.f41028.mo895(bi_常量类.f6358b_空串);
 						C0894.m6875();
 					}
@@ -2306,11 +2306,11 @@ public class C06521_详情页 extends C0645Impl {
 		String 取中间文本 = bi_常量类.f6358b_空串;
 		try {
 			取中间文本 = bi_常量类.f6358b_空串;
-			int 左边 = C0890_文本操作.m6821(str, str2, 0) + C0890_文本操作.m6817_获取字符串长度(str2);
+			int 左边 = C0890_文本操作.m6821_寻找文本(str, str2, 0) + C0890_文本操作.m6817_获取字符串长度(str2);
 			if (IntegerVariant.getIntegerVariant(左边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0) {
 				return bi_常量类.f6358b_空串;
 			}
-			int 右边 = C0890_文本操作.m6821(str, str3, 左边);
+			int 右边 = C0890_文本操作.m6821_寻找文本(str, str3, 左边);
 			if (IntegerVariant.getIntegerVariant(右边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0 || 左边 > 右边) {
 				return bi_常量类.f6358b_空串;
 			}
@@ -2380,7 +2380,7 @@ public class C06521_详情页 extends C0645Impl {
 			this.f40793.mo928(0);
 			this.f40984.mo895(bi_常量类.f6358b_空串);
 			this.f40973.mo895(bi_常量类.f6358b_空串);
-			this.f41017.mo895(bi_常量类.f6358b_空串);
+			this.f41017_距离km.mo895(bi_常量类.f6358b_空串);
 			this.f41028.mo895(bi_常量类.f6358b_空串);
 			this.f41006.mo895(bi_常量类.f6358b_空串);
 			this.f41104.mo776_可视(false);
@@ -2403,15 +2403,15 @@ public class C06521_详情页 extends C0645Impl {
 			this.f40995.mo895("↓请选择候车站名↓");
 			this.f40973.mo895(bi_常量类.f6358b_空串);
 			this.f41028.mo895(bi_常量类.f6358b_空串);
-			this.f408411.mo895(C0890_文本操作.m6819(this.f4117_线路名, "f", bi_常量类.f6358b_空串));
-			this.f408411.mo895(C0890_文本操作.m6819(this.f408411.mo894(), "huan", "环 "));
-			this.f408411.mo895(C0890_文本操作.m6819(this.f408411.mo894(), "kuai", "快 "));
-			this.f408411.mo895((" " + C0890_文本操作.m6819(this.f408411.mo894(), "h", "环 ")) + " 路   ");
-			this.f408411.mo895(C0890_文本操作.m6819(this.f408411.mo894(), "a", bi_常量类.f6358b_空串));
-			this.f408411.mo895(C0890_文本操作.m6819(this.f408411.mo894(), "m", bi_常量类.f6358b_空串));
+			this.f408411.mo895(C0890_文本操作.m6819_子文本替换(this.f4117_线路名, "f", bi_常量类.f6358b_空串));
+			this.f408411.mo895(C0890_文本操作.m6819_子文本替换(this.f408411.mo894(), "huan", "环 "));
+			this.f408411.mo895(C0890_文本操作.m6819_子文本替换(this.f408411.mo894(), "kuai", "快 "));
+			this.f408411.mo895((" " + C0890_文本操作.m6819_子文本替换(this.f408411.mo894(), "h", "环 ")) + " 路   ");
+			this.f408411.mo895(C0890_文本操作.m6819_子文本替换(this.f408411.mo894(), "a", bi_常量类.f6358b_空串));
+			this.f408411.mo895(C0890_文本操作.m6819_子文本替换(this.f408411.mo894(), "m", bi_常量类.f6358b_空串));
 			this.f41093.mo976(((((this.wl + "/web/city/") + this.zz_城市) + "/shtml/") + this.f4117_线路名) + ".html");
-			this.f408916.mo895(C0890_文本操作.m6808_trim删除首尾空格(C0890_文本操作.m6819(this.f408411.mo894(), "路", bi_常量类.f6358b_空串)));
-			this.f408916.mo895(C0890_文本操作.m6819(this.f408916.mo894(), "m", bi_常量类.f6358b_空串));
+			this.f408916.mo895(C0890_文本操作.m6808_trim删除首尾空格(C0890_文本操作.m6819_子文本替换(this.f408411.mo894(), "路", bi_常量类.f6358b_空串)));
+			this.f408916.mo895(C0890_文本操作.m6819_子文本替换(this.f408916.mo894(), "m", bi_常量类.f6358b_空串));
 			m5260();
 			this.f40821.mo895(this.f4120);
 			this.f40932.mo895(this.f4121);
@@ -2443,7 +2443,7 @@ public class C06521_详情页 extends C0645Impl {
 						C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
 				this.f40782.mo928(5000);
 				i = IntegerVariant.getIntegerVariant(i).sub(ByteVariant.getByteVariant((byte) 20)).getInteger();
-				this.f409017.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) i), ".0", bi_常量类.f6358b_空串));
+				this.f409017.mo895(C0890_文本操作.m6819_子文本替换("我的积分：" + C0899.m6945((double) i), ".0", bi_常量类.f6358b_空串));
 				C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt",
 						C0843_加密操作.m6603Authcode(C0899.m6945((double) i), "yangbosen123"), "UTF-8");
 			}
@@ -2501,7 +2501,7 @@ public class C06521_详情页 extends C0645Impl {
 						.sub(LongVariant.getLongVariant(参数1).mul(IntegerVariant.getIntegerVariant(3600000)))
 						.sub(LongVariant.getLongVariant(参数2).mul(IntegerVariant.getIntegerVariant(60000))).getDouble()
 						/ 1000.0d));
-				整数到时间 = ((C0899.m6959((int) 参数1) + "小时") + m5261(C0899.m6959((int) 参数2))) + bi_常量类.f6358b_空串;
+				整数到时间 = ((C0899.m6959_整数转文本((int) 参数1) + "小时") + m5261(C0899.m6959_整数转文本((int) 参数2))) + bi_常量类.f6358b_空串;
 				this.f40973.mo776_可视(false);
 				return 整数到时间;
 			}
@@ -2509,7 +2509,7 @@ public class C06521_详情页 extends C0645Impl {
 			参数3 = C0893.m6855(DoubleVariant.getDoubleVariant(LongVariant.getLongVariant(j)
 					.sub(LongVariant.getLongVariant(参数2).mul(IntegerVariant.getIntegerVariant(60000))).getDouble()
 					/ 1000.0d));
-			return m5261(C0899.m6959((int) 参数2)) + bi_常量类.f6358b_空串;
+			return m5261(C0899.m6959_整数转文本((int) 参数2)) + bi_常量类.f6358b_空串;
 		} catch (Throwable th) {
 			RuntimeError.convertToRuntimeError(th);
 			return 整数到时间;
@@ -2555,19 +2555,19 @@ public class C06521_详情页 extends C0645Impl {
 			}
 			if (this.zz_城市.equals("daqing")) {
 				资源1 = C0889_文件操作.m6803_读入资源文件("index.TXT", "UTF-8");
-				this.f4117_线路名 = C0890_文本操作.m6819(this.f4117_线路名, "huan", "环");
+				this.f4117_线路名 = C0890_文本操作.m6819_子文本替换(this.f4117_线路名, "huan", "环");
 				C0889_文件操作
 						.m6781_写出文本文件(
 								((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/")
 										+ this.zz_城市) + "/805.html",
 								C0890_文本操作
-										.m6819(C0890_文本操作.m6819(
+										.m6819_子文本替换(C0890_文本操作.m6819_子文本替换(
 												C0890_文本操作
-														.m6819(C0890_文本操作
-																.m6819(资源1, "haimalu",
-																		C0890_文本操作.m6819(
-																				C0890_文本操作.m6819(C0890_文本操作.m6819(
-																						C0890_文本操作.m6819(this.f4117_线路名,
+														.m6819_子文本替换(C0890_文本操作
+																.m6819_子文本替换(资源1, "haimalu",
+																		C0890_文本操作.m6819_子文本替换(
+																				C0890_文本操作.m6819_子文本替换(C0890_文本操作.m6819_子文本替换(
+																						C0890_文本操作.m6819_子文本替换(this.f4117_线路名,
 																								"h", "环"),
 																						"k", "快"), "m",
 																						bi_常量类.f6358b_空串),
@@ -2685,27 +2685,27 @@ public class C06521_详情页 extends C0645Impl {
 	public void m52404_详情页底部收藏按钮() {
 		String v = bi_常量类.f6358b_空串;
 		String 线路1 = bi_常量类.f6358b_空串;
-		if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f4117_线路名, "101", 0))
+		if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f4117_线路名, "101", 0))
 				.cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
 			C0880_应用操作类.m6694("此条路线不能收藏");
-		} else if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f4117_线路名, "16", 0))
+		} else if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f4117_线路名, "16", 0))
 				.cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
 			C0880_应用操作类.m6694("此条路线不能收藏");
-		} else if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f4117_线路名, "19", 0))
+		} else if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f4117_线路名, "19", 0))
 				.cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
 			C0880_应用操作类.m6694("此条路线不能收藏");
-		} else if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f4117_线路名, "202", 0))
+		} else if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f4117_线路名, "202", 0))
 				.cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
 			C0880_应用操作类.m6694("此条路线不能收藏");
-		} else if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f4117_线路名, "lin1", 0))
+		} else if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f4117_线路名, "lin1", 0))
 				.cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
 			C0880_应用操作类.m6694("此条路线不能收藏");
 		} else {
 			C0880_应用操作类.m6694("路线收藏成功");
 			v = C0889_文件操作.m6802(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz_城市) + "/SC.txt", "UTF-8");
-			线路1 = C0890_文本操作.m6819(this.f4117_线路名, "f", bi_常量类.f6358b_空串);
+			线路1 = C0890_文本操作.m6819_子文本替换(this.f4117_线路名, "f", bi_常量类.f6358b_空串);
 			C0889_文件操作.m6781_写出文本文件(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz_城市) + "/SC.txt",
-					((C0890_文本操作.m6819(v, ("y" + 线路1) + "z", bi_常量类.f6358b_空串) + "y") + 线路1) + "z", "UTF-8");
+					((C0890_文本操作.m6819_子文本替换(v, ("y" + 线路1) + "z", bi_常量类.f6358b_空串) + "y") + 线路1) + "z", "UTF-8");
 		}
 	}
 
@@ -2732,7 +2732,7 @@ public class C06521_详情页 extends C0645Impl {
 			this.f41104.mo776_可视(true);
 			this.f41104.mo774(true);
 		}
-		if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(
+		if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(
 				C0897_网络操作.m6922(((((this.wl + "/web/city/") + this.zz_城市) + "/time/") + this.f4117_线路名) + ".html",
 						"UTF-8", 2000),
 				"参考", 1)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
@@ -2747,8 +2747,8 @@ public class C06521_详情页 extends C0645Impl {
 		this.f409017.mo776_可视(true);
 		this.f41115.mo776_可视(false);
 		this.f408411.mo776_可视(false);
-		if (!C0889_文件操作.m6797(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt")) {
-			C0889_文件操作.m6783(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt");
+		if (!C0889_文件操作.m6797_文件是否存在(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt")) {
+			C0889_文件操作.m6783_创建文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt");
 		}
 		int i = (int) C0899.m6943(C0843_加密操作.m6604Authcode_Authcode解密(
 				C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
@@ -2756,7 +2756,7 @@ public class C06521_详情页 extends C0645Impl {
 			this.f40782.mo928(0);
 		}
 		i = IntegerVariant.getIntegerVariant(i).sub(ByteVariant.getByteVariant((byte) 20)).getInteger();
-		this.f409017.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) i), ".0", bi_常量类.f6358b_空串));
+		this.f409017.mo895(C0890_文本操作.m6819_子文本替换("我的积分：" + C0899.m6945((double) i), ".0", bi_常量类.f6358b_空串));
 		C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt",
 				C0843_加密操作.m6603Authcode(C0899.m6945((double) i), "yangbosen123"), "UTF-8");
 	}

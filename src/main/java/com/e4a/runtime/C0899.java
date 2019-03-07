@@ -142,7 +142,7 @@ public final class C0899 {
 
     @SimpleFunction
     /* renamed from: 整数到文本 */
-    public static String m6959(int v) {
+    public static String m6959_整数转文本(int v) {
         try {
             return Integer.toString(v);
         } catch (Exception e) {

@@ -759,7 +759,7 @@ public class C065013 extends C0645Impl {
     /* renamed from: 浏览框1$即将跳转 */
     public void m52151$(String str, IntegerReferenceParameter integerReferenceParameter) {
         int 方式 = integerReferenceParameter.get();
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(str, "login", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(str, "login", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.f401513.mo776_可视(false);
             this.f401513.mo774(false);
             this.f40192.mo776_可视(false);
@@ -768,10 +768,10 @@ public class C065013 extends C0645Impl {
         } else {
             this.dd = "0";
         }
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(str, "downloadTaobao", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(str, "downloadTaobao", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             C0879.m6668("提示", "奖金模式暂不支持淘宝客户端", "确定");
         }
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(str, "tab=all", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(str, "tab=all", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.f40141.mo776_可视(true);
             this.f40141.mo774(true);
             this.f40141.mo768();
@@ -779,19 +779,19 @@ public class C065013 extends C0645Impl {
             this.f40141.mo776_可视(false);
             this.f40141.mo774(false);
         }
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(str, "item.taobao.com/item.ht", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(str, "item.taobao.com/item.ht", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.f401513.mo776_可视(false);
             this.f401513.mo774(false);
             this.f40192.mo776_可视(false);
             this.f40192.mo774(false);
         }
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(str, "jiaomishu.com", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(str, "jiaomishu.com", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.f401513.mo776_可视(false);
             this.f401513.mo774(false);
             this.f40192.mo776_可视(false);
             this.f40192.mo774(false);
         }
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(str, "order", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0 && IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(str, "buyNow=true", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(str, "order", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0 && IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(str, "buyNow=true", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             if (C0898_读写设置类.m6937_通过SP读取设置("用户").cmp(StringVariant.getStringVariant(bi_常量类.f6358b_空串)) == 0) {
                 C0880_应用操作类.m6694("请先登入我的公司");
                 this.f40241.mo976(this.wl + "/gongjiaoa/");
@@ -810,11 +810,11 @@ public class C065013 extends C0645Impl {
     /* renamed from: 时钟2$周期事件 */
     public void m52022$() {
         this.f40032.mo928(0);
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f40281.mo886_内容(), "order", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0 && IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f40281.mo886_内容(), "buyNow=true", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f40281.mo886_内容(), "order", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0 && IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f40281.mo886_内容(), "buyNow=true", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.f3970a = LongVariant.getLongVariant(this.f3970a).add(ByteVariant.getByteVariant((byte) 1)).getLong();
             this.f40241.mo976("javascript:window.hua.jsAndroid(document.getElementsByTagName('html')[0].innerHTML)");
         }
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f40281.mo886_内容(), "login", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f40281.mo886_内容(), "login", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.f40241.mo774(true);
             this.f40241.mo776_可视(true);
         }
@@ -891,7 +891,7 @@ public class C065013 extends C0645Impl {
 
     /* renamed from: 浏览框1$接口事件 */
     public void m52161$(String 网页信息) {
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页信息, "分类开始吧", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(网页信息, "分类开始吧", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.f3973h = 6;
             this.f4032 = 1;
             this.f401513.mo895("加载中");
@@ -915,7 +915,7 @@ public class C065013 extends C0645Impl {
             this.f40043.mo928(5000);
             this.f3969GIF1.mo776_可视(true);
             this.f3969GIF1.mo774(true);
-        } else if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页信息, "进入店铺", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        } else if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(网页信息, "进入店铺", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.f3993 = C0890_文本操作.m6812(网页信息, "</span><img src=", "点击进入店铺");
             int i = 0;
             while (i < C0888_数组操作.m6769_取数组成员数(ArrayVariant.getArrayVariant(this.f3993))) {
@@ -933,16 +933,16 @@ public class C065013 extends C0645Impl {
                 this.id1 = "https://item.taobao.com/item.htm?id=" + this.id1;
                 this.abc = C0889_文件操作.m6803_读入资源文件("test.txt", "UTF-8");
                 this.vc = m5193(this.abc, "<!--", "-->");
-                this.vc = C0890_文本操作.m6819(this.vc, "shoujidizhi", this.id1);
-                this.vc = C0890_文本操作.m6819(this.vc, "shoujitupian", this.f39861);
-                this.vc = C0890_文本操作.m6819(this.vc, "shoujibiaoti", this.f40221);
-                this.vc = C0890_文本操作.m6819(this.vc, "shoujijiage", this.f39792);
-                this.vc = C0890_文本操作.m6819(this.vc, "shoujirenshu", this.f40133);
+                this.vc = C0890_文本操作.m6819_子文本替换(this.vc, "shoujidizhi", this.id1);
+                this.vc = C0890_文本操作.m6819_子文本替换(this.vc, "shoujitupian", this.f39861);
+                this.vc = C0890_文本操作.m6819_子文本替换(this.vc, "shoujibiaoti", this.f40221);
+                this.vc = C0890_文本操作.m6819_子文本替换(this.vc, "shoujijiage", this.f39792);
+                this.vc = C0890_文本操作.m6819_子文本替换(this.vc, "shoujirenshu", this.f40133);
                 i = IntegerVariant.getIntegerVariant(i).add(ByteVariant.getByteVariant((byte) 1)).getInteger();
                 this.fd = (this.fd + "\n") + this.vc;
             }
-            this.kk = C0890_文本操作.m6819(this.abc, "yiqide", this.fd);
-            this.kk = C0890_文本操作.m6819(this.kk, "//dn.com", "//img.alicdn.com");
+            this.kk = C0890_文本操作.m6819_子文本替换(this.abc, "yiqide", this.fd);
+            this.kk = C0890_文本操作.m6819_子文本替换(this.kk, "//dn.com", "//img.alicdn.com");
             C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/vc.html", this.kk, "UTF-8");
             this.fd = bi_常量类.f6358b_空串;
             this.f401513.mo895("下一页");
@@ -954,13 +954,13 @@ public class C065013 extends C0645Impl {
             this.f401818.mo776_可视(false);
             this.f401818.mo774(false);
             this.f40065.mo928(1000);
-        } else if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页信息, "收货地址", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0 && IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页信息, "收货人", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        } else if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(网页信息, "收货地址", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0 && IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(网页信息, "收货人", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             m5187g(网页信息);
-        } else if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页信息, "nimen#", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        } else if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(网页信息, "nimen#", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.gg = m5193(网页信息, "women@@", "nimen##");
             C0898_读写设置类.m6935_通过SP保存设置("用户", StringVariant.getStringVariant(this.gg));
         } else {
-            if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页信息, "省", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0 && IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页信息, "iqkacai", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+            if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(网页信息, "省", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0 && IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(网页信息, "iqkacai", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
                 this.f3972f = C0890_文本操作.m6806_分割字符串(网页信息, "/");
                 this.f4027 = this.f3972f[0];
                 this.f3994 = this.f3972f[1];
@@ -973,8 +973,8 @@ public class C065013 extends C0645Impl {
                 this.f3997 = this.f3972f[8];
                 this.id = this.f3972f[9];
             }
-            if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页信息, "省", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) <= 0 || IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页信息, "iqkacai", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) <= 0) {
-                if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f40241.mo944(), "login", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) <= 0 && IntegerVariant.getIntegerVariant(this.f4023).cmp(ByteVariant.getByteVariant((byte) 1)) == 0) {
+            if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(网页信息, "省", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) <= 0 || IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(网页信息, "iqkacai", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) <= 0) {
+                if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f40241.mo944(), "login", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) <= 0 && IntegerVariant.getIntegerVariant(this.f4023).cmp(ByteVariant.getByteVariant((byte) 1)) == 0) {
                     this.f40043.mo928(5000);
                     C0880_应用操作类.m6694("zhan");
                     this.f3969GIF1.mo776_可视(true);
@@ -1030,7 +1030,7 @@ public class C065013 extends C0645Impl {
                     this.f39918.mo774(false);
                     this.f40203.mo776_可视(false);
                     this.f40203.mo774(false);
-                    if (this.f40241.mo946().equals("商品详情") || this.f40241.mo946().equals("确认订单") || IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f40241.mo946(), "天猫T", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+                    if (this.f40241.mo946().equals("商品详情") || this.f40241.mo946().equals("确认订单") || IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f40241.mo946(), "天猫T", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
                         this.f40241.mo952();
                     } else {
                         this.f40241.mo774(true);
@@ -1045,10 +1045,10 @@ public class C065013 extends C0645Impl {
                         this.f39831.mo774(false);
                         this.f401818.mo776_可视(false);
                         this.f401818.mo774(false);
-                        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f40241.mo944(), "kuaidi100", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+                        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f40241.mo944(), "kuaidi100", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
                             this.f40241.mo976("http://gongjiaomishu.com/gongjiaoa/logjilu.asp");
                         }
-                        if (this.f40241.mo946().equals("商品详情") || this.f40241.mo946().equals("确认订单") || IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f40241.mo946(), "天猫T", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+                        if (this.f40241.mo946().equals("商品详情") || this.f40241.mo946().equals("确认订单") || IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f40241.mo946(), "天猫T", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
                             if (IntegerVariant.getIntegerVariant(this.f4032).cmp(ByteVariant.getByteVariant((byte) 2)) == 0) {
                                 this.f40241.mo976("file:///sdcard/tencent/shi/vc.html");
                             } else {
@@ -1091,11 +1091,11 @@ public class C065013 extends C0645Impl {
     /* renamed from: 取中间文本 */
     public String m5193(String 完整内容, String 左边文本, String 右边文本) {
         String 取中间文本 = bi_常量类.f6358b_空串;
-        int 左边 = C0890_文本操作.m6821(完整内容, 左边文本, 0) + C0890_文本操作.m6817_获取字符串长度(左边文本);
+        int 左边 = C0890_文本操作.m6821_寻找文本(完整内容, 左边文本, 0) + C0890_文本操作.m6817_获取字符串长度(左边文本);
         if (IntegerVariant.getIntegerVariant(左边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0) {
             return bi_常量类.f6358b_空串;
         }
-        int 右边 = C0890_文本操作.m6821(完整内容, 右边文本, 左边);
+        int 右边 = C0890_文本操作.m6821_寻找文本(完整内容, 右边文本, 左边);
         if (IntegerVariant.getIntegerVariant(右边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0 || 左边 > 右边) {
             return bi_常量类.f6358b_空串;
         }
@@ -1175,8 +1175,8 @@ public class C065013 extends C0645Impl {
         } else {
             this.f40241.mo976(((("http://pub.alimama.com/promo/search/index.htm?q=" + this.f40303.mo886_内容()) + "&startTkRate=10&endTkRate=50&toPage=") + Integer.toString(this.f4032)) + "&perPageSize=40");
         }
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/lishi.txt", "utf-8"), this.f40303.mo886_内容(), 0)).cmp(ByteVariant.getByteVariant((byte) 0)) <= 0) {
-            C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/lishi.txt", (C0890_文本操作.m6819(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/lishi.txt", "utf-8"), this.f40303.mo886_内容() + "zk", bi_常量类.f6358b_空串) + this.f40303.mo886_内容()) + "zk", "utf-8");
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/lishi.txt", "utf-8"), this.f40303.mo886_内容(), 0)).cmp(ByteVariant.getByteVariant((byte) 0)) <= 0) {
+            C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/lishi.txt", (C0890_文本操作.m6819_子文本替换(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/lishi.txt", "utf-8"), this.f40303.mo886_内容() + "zk", bi_常量类.f6358b_空串) + this.f40303.mo886_内容()) + "zk", "utf-8");
         }
         this.f40241.mo776_可视(false);
         this.f40043.mo928(5000);
@@ -1250,7 +1250,7 @@ public class C065013 extends C0645Impl {
         this.f39918.mo774(false);
         this.f40203.mo776_可视(false);
         this.f40203.mo774(false);
-        if (this.f40241.mo946().equals("商品详情") || this.f40241.mo946().equals("确认订单") || IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f40241.mo946(), "天猫T", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (this.f40241.mo946().equals("商品详情") || this.f40241.mo946().equals("确认订单") || IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f40241.mo946(), "天猫T", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.f40241.mo952();
             return;
         }
@@ -1266,10 +1266,10 @@ public class C065013 extends C0645Impl {
         this.f39831.mo774(false);
         this.f401818.mo776_可视(false);
         this.f401818.mo774(false);
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f40241.mo944(), "kuaidi100", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f40241.mo944(), "kuaidi100", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.f40241.mo976("http://gongjiaomishu.com/gongjiaoa/logjilu.asp");
         }
-        if (this.f40241.mo946().equals("商品详情") || this.f40241.mo946().equals("确认订单") || IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f40241.mo946(), "天猫T", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (this.f40241.mo946().equals("商品详情") || this.f40241.mo946().equals("确认订单") || IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f40241.mo946(), "天猫T", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             if (IntegerVariant.getIntegerVariant(this.f4032).cmp(ByteVariant.getByteVariant((byte) 2)) == 0) {
                 this.f40241.mo976("file:///sdcard/tencent/shi/vc.html");
             } else {
@@ -1314,7 +1314,7 @@ public class C065013 extends C0645Impl {
 
     /* renamed from: 浏览框2$接口事件 */
     public void m52172$(String 网页信息) {
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页信息, "进入店铺", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(网页信息, "进入店铺", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.f3993 = C0890_文本操作.m6812(网页信息, "</span><img src=", "点击进入店铺");
             int i = 0;
             while (i < C0888_数组操作.m6769_取数组成员数(ArrayVariant.getArrayVariant(this.f3993))) {
@@ -1332,16 +1332,16 @@ public class C065013 extends C0645Impl {
                 this.id1 = "https://item.taobao.com/item.htm?id=" + this.id1;
                 this.abc = C0889_文件操作.m6803_读入资源文件("test.txt", "UTF-8");
                 this.vc = m5193(this.abc, "<!--", "-->");
-                this.vc = C0890_文本操作.m6819(this.vc, "shoujidizhi", this.id1);
-                this.vc = C0890_文本操作.m6819(this.vc, "shoujitupian", this.f39861);
-                this.vc = C0890_文本操作.m6819(this.vc, "shoujibiaoti", this.f40221);
-                this.vc = C0890_文本操作.m6819(this.vc, "shoujijiage", this.f39792);
-                this.vc = C0890_文本操作.m6819(this.vc, "shoujirenshu", this.f40133);
+                this.vc = C0890_文本操作.m6819_子文本替换(this.vc, "shoujidizhi", this.id1);
+                this.vc = C0890_文本操作.m6819_子文本替换(this.vc, "shoujitupian", this.f39861);
+                this.vc = C0890_文本操作.m6819_子文本替换(this.vc, "shoujibiaoti", this.f40221);
+                this.vc = C0890_文本操作.m6819_子文本替换(this.vc, "shoujijiage", this.f39792);
+                this.vc = C0890_文本操作.m6819_子文本替换(this.vc, "shoujirenshu", this.f40133);
                 i = IntegerVariant.getIntegerVariant(i).add(ByteVariant.getByteVariant((byte) 1)).getInteger();
                 this.fd = (this.fd + "\n") + this.vc;
             }
-            this.kk = C0890_文本操作.m6819(this.abc, "yiqide", this.fd);
-            this.kk = C0890_文本操作.m6819(this.kk, "//dn.com", "//img.alicdn.com");
+            this.kk = C0890_文本操作.m6819_子文本替换(this.abc, "yiqide", this.fd);
+            this.kk = C0890_文本操作.m6819_子文本替换(this.kk, "//dn.com", "//img.alicdn.com");
             C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/vca.html", C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/vck.html", "UTF-8"), "UTF-8");
             C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/vck.html", this.kk, "UTF-8");
             this.fd = bi_常量类.f6358b_空串;
@@ -1402,7 +1402,7 @@ public class C065013 extends C0645Impl {
     /* renamed from: 标签2$被单击 */
     public void m52142$() {
         String ll = bi_常量类.f6358b_空串;
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f40241.mo944(), "vcak", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f40241.mo944(), "vcak", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.f40241.mo952();
             this.ci = IntegerVariant.getIntegerVariant(this.ci).add(ByteVariant.getByteVariant((byte) 1)).getInteger();
         } else if (!C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/tencent/shi/vc.html", "UTF-8").equals(bi_常量类.f6358b_空串)) {
@@ -1431,7 +1431,7 @@ public class C065013 extends C0645Impl {
     /* renamed from: 时钟10$周期事件 */
     public void m520010$() {
         String shijian = bi_常量类.f6358b_空串;
-        shijian = C0890_文本操作.m6819(C0890_文本操作.m6819(C0899.m6945(ConvHelpers.string2double(((((Integer.toString(C0891.m6828(C0891.m6837())) + Integer.toString(C0891.m6834(C0891.m6837()))) + Integer.toString(C0891.m6830(C0891.m6837()))) + Integer.toString(C0891.m6827(C0891.m6837()))) + Integer.toString(C0891.m6825(C0891.m6837()))) + Integer.toString(C0891.m6840(C0891.m6837())))), ".", bi_常量类.f6358b_空串), "E", bi_常量类.f6358b_空串);
+        shijian = C0890_文本操作.m6819_子文本替换(C0890_文本操作.m6819_子文本替换(C0899.m6945(ConvHelpers.string2double(((((Integer.toString(C0891.m6828(C0891.m6837())) + Integer.toString(C0891.m6834(C0891.m6837()))) + Integer.toString(C0891.m6830(C0891.m6837()))) + Integer.toString(C0891.m6827(C0891.m6837()))) + Integer.toString(C0891.m6825(C0891.m6837()))) + Integer.toString(C0891.m6840(C0891.m6837())))), ".", bi_常量类.f6358b_空串), "E", bi_常量类.f6358b_空串);
         this.f400110.mo928(0);
         this.f39961.mo1458("购物", this.title, this.f3995, ((this.dian + this.ids) + "7277") + shijian);
     }

@@ -119,7 +119,7 @@ public class C06565 extends C0645Impl {
 
     /* renamed from: 浏览框1$接口事件 */
     public void m53161$(String 网页消息) {
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页消息, "tui", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(网页消息, "tui", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             C0880_应用操作类.m6693_切换窗口(C0880_应用操作类.m6712("窗口3"));
         }
     }

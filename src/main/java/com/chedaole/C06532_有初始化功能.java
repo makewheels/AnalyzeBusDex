@@ -155,11 +155,11 @@ public class C06532_有初始化功能 extends C0645Impl {
     /* renamed from: 取中间文本 */
     public String m5264(String 完整内容, String 左边文本, String 右边文本) {
         String 取中间文本 = bi_常量类.f6358b_空串;
-        int 左边 = C0890_文本操作.m6821(完整内容, 左边文本, 0) + C0890_文本操作.m6817_获取字符串长度(左边文本);
+        int 左边 = C0890_文本操作.m6821_寻找文本(完整内容, 左边文本, 0) + C0890_文本操作.m6817_获取字符串长度(左边文本);
         if (IntegerVariant.getIntegerVariant(左边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0) {
             return bi_常量类.f6358b_空串;
         }
-        int 右边 = C0890_文本操作.m6821(完整内容, 右边文本, 左边);
+        int 右边 = C0890_文本操作.m6821_寻找文本(完整内容, 右边文本, 左边);
         if (IntegerVariant.getIntegerVariant(右边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0 || 左边 > 右边) {
             return bi_常量类.f6358b_空串;
         }
@@ -212,9 +212,9 @@ public class C06532_有初始化功能 extends C0645Impl {
             }
             wl = C0898_读写设置类.m6937_通过SP读取设置("网").getString();
             this.f4134 = C0898_读写设置类.m6937_通过SP读取设置("线路").getString();
-            this.f4134 = C0890_文本操作.m6819(this.f4134, "fF", bi_常量类.f6358b_空串);
-            this.f4134 = C0890_文本操作.m6819(this.f4134, "ff", bi_常量类.f6358b_空串);
-            if (C0889_文件操作.m6797(((((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/") + this.f4134) + ".TXT")) {
+            this.f4134 = C0890_文本操作.m6819_子文本替换(this.f4134, "fF", bi_常量类.f6358b_空串);
+            this.f4134 = C0890_文本操作.m6819_子文本替换(this.f4134, "ff", bi_常量类.f6358b_空串);
+            if (C0889_文件操作.m6797_文件是否存在(((((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/") + this.f4134) + ".TXT")) {
                 this.f41351.mo887_内容(C0889_文件操作.m6802(((((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/") + this.f4134) + ".TXT", "GBK"));
                 m5269();
                 return;

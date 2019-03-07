@@ -259,7 +259,7 @@ public class C0646 extends C0645Impl {
             }
         }
         C0898_读写设置类.m6935_通过SP保存设置("冠名", StringVariant.getStringVariant("0"));
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(数, "zhuye", 1)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(数, "zhuye", 1)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.f39561.mo806(C0894.m6884());
             this.f39561.mo780(C0894.m6882());
             this.f39561.mo782(0);
@@ -271,7 +271,7 @@ public class C0646 extends C0645Impl {
             this.f39561.mo976(m5168(数, "k6", "k7"));
             this.f39541.mo928(4000);
         }
-        this.f39551.mo895(C0890_文本操作.m6819(m5168(数, "k1", "k2"), ".0", bi_常量类.f6358b_空串));
+        this.f39551.mo895(C0890_文本操作.m6819_子文本替换(m5168(数, "k1", "k2"), ".0", bi_常量类.f6358b_空串));
         this.f39481.mo1302("57fb93d267e58e1b730025b1", "Umeng");
         this.f39481.mo1303("主窗口");
     }
@@ -335,11 +335,11 @@ public class C0646 extends C0645Impl {
     /* renamed from: 取中间文本 */
     public String m5168(String 完整内容, String 左边文本, String 右边文本) {
         String 取中间文本 = bi_常量类.f6358b_空串;
-        int 左边 = C0890_文本操作.m6821(完整内容, 左边文本, 0) + C0890_文本操作.m6817_获取字符串长度(左边文本);
+        int 左边 = C0890_文本操作.m6821_寻找文本(完整内容, 左边文本, 0) + C0890_文本操作.m6817_获取字符串长度(左边文本);
         if (IntegerVariant.getIntegerVariant(左边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0) {
             return bi_常量类.f6358b_空串;
         }
-        int 右边 = C0890_文本操作.m6821(完整内容, 右边文本, 左边);
+        int 右边 = C0890_文本操作.m6821_寻找文本(完整内容, 右边文本, 左边);
         if (IntegerVariant.getIntegerVariant(右边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0 || 左边 > 右边) {
             return bi_常量类.f6358b_空串;
         }

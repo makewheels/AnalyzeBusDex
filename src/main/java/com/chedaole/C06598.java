@@ -281,8 +281,8 @@ public class C06598 extends C0645Impl {
             } else {
                 this.shijian = C0899.m6945(ConvHelpers.string2double(((((Integer.toString(C0891.m6828(C0891.m6837())) + Integer.toString(C0891.m6834(C0891.m6837()))) + Integer.toString(C0891.m6830(C0891.m6837()))) + Integer.toString(C0891.m6827(C0891.m6837()))) + Integer.toString(C0891.m6825(C0891.m6837()))) + Integer.toString(C0891.m6840(C0891.m6837()))));
                 this.aav = C0890_文本操作.m6806_分割字符串(网页消息, "/");
-                this.shijian = C0890_文本操作.m6819(this.shijian, ".", bi_常量类.f6358b_空串);
-                this.shijian = C0890_文本操作.m6819(this.shijian, "E", bi_常量类.f6358b_空串);
+                this.shijian = C0890_文本操作.m6819_子文本替换(this.shijian, ".", bi_常量类.f6358b_空串);
+                this.shijian = C0890_文本操作.m6819_子文本替换(this.shijian, "E", bi_常量类.f6358b_空串);
                 if (this.aav[0].equals(C0108a.f262e)) {
                     this.dingdan = C0108a.f262e;
                     this.f4248e = Integer.toString(ConvHelpers.byte2integer((byte) 1));

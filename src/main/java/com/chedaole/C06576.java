@@ -178,7 +178,7 @@ public class C06576 extends C0645Impl {
     /* renamed from: 浏览框1$即将跳转 */
     public void m53231$(String str, IntegerReferenceParameter integerReferenceParameter) {
         int 方式 = integerReferenceParameter.get();
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(str, "uland.taobao.com", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(str, "uland.taobao.com", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             C0897_网络操作.m6927_打开指定网址(str);
         }
         integerReferenceParameter.set(方式);
@@ -229,21 +229,21 @@ public class C06576 extends C0645Impl {
         this.f42331.mo960JS("hua");
         this.f42301.mo928(6000);
         this.f42322.mo895("积分 ▼");
-        if (!C0889_文件操作.m6797(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt")) {
-            C0889_文件操作.m6783(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt");
+        if (!C0889_文件操作.m6797_文件是否存在(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt")) {
+            C0889_文件操作.m6783_创建文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt");
             C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt", C0843_加密操作.m6603Authcode("0", "yangbosen123"), "UTF-8");
         }
-        if (!C0889_文件操作.m6797(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt")) {
-            C0889_文件操作.m6783(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt");
+        if (!C0889_文件操作.m6797_文件是否存在(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt")) {
+            C0889_文件操作.m6783_创建文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt");
             C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt", C0843_加密操作.m6603Authcode(C0108a.f262e, "yangbosen123"), "UTF-8");
         }
-        if (!C0889_文件操作.m6797(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt")) {
-            C0889_文件操作.m6783(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt");
+        if (!C0889_文件操作.m6797_文件是否存在(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt")) {
+            C0889_文件操作.m6783_创建文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt");
             this.f4225i = 0;
         }
         this.f4225i = (int) C0899.m6943(C0843_加密操作.m6604Authcode_Authcode解密(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
-        this.f42311.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4225i), ".0", bi_常量类.f6358b_空串));
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(C0897_网络操作.m6922(this.wl + "/1.txt", "GBK", 5000), "alifangxiang", 1)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        this.f42311.mo895(C0890_文本操作.m6819_子文本替换("我的积分：" + C0899.m6945((double) this.f4225i), ".0", bi_常量类.f6358b_空串));
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(C0897_网络操作.m6922(this.wl + "/1.txt", "GBK", 5000), "alifangxiang", 1)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             gg = C0897_网络操作.m6922(this.wl + "/taokeshi.txt", "utf-8", 5000);
             if (!gg.equals(C0843_加密操作.m6604Authcode_Authcode解密(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt", "UTF-8"), "yangbosen123"))) {
                 C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tent.txt", C0843_加密操作.m6603Authcode(gg, "yangbosen123"), "UTF-8");
@@ -266,14 +266,14 @@ public class C06576 extends C0645Impl {
         this.f4226v = IntegerVariant.getIntegerVariant(this.f4226v).add(ByteVariant.getByteVariant((byte) 2)).getInteger();
         if (IntegerVariant.getIntegerVariant(this.f4226v).cmp(ShortVariant.getShortVariant((short) 200)) > 0) {
             this.f4225i = (int) C0899.m6943(C0843_加密操作.m6604Authcode_Authcode解密(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
-            this.f42311.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4225i), ".0", bi_常量类.f6358b_空串));
+            this.f42311.mo895(C0890_文本操作.m6819_子文本替换("我的积分：" + C0899.m6945((double) this.f4225i), ".0", bi_常量类.f6358b_空串));
             C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt", C0843_加密操作.m6603Authcode(C0899.m6945((double) this.f4226v), "yangbosen123"), "UTF-8");
             return;
         }
         C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tentz.txt", C0843_加密操作.m6603Authcode(C0899.m6945((double) this.f4226v), "yangbosen123"), "UTF-8");
         this.f4225i = (int) C0899.m6943(C0843_加密操作.m6604Authcode_Authcode解密(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
         this.f4225i = IntegerVariant.getIntegerVariant(this.f4225i).add(ByteVariant.getByteVariant((byte) 2)).getInteger();
-        this.f42311.mo895(C0890_文本操作.m6819("我的积分：" + C0899.m6945((double) this.f4225i), ".0", bi_常量类.f6358b_空串));
+        this.f42311.mo895(C0890_文本操作.m6819_子文本替换("我的积分：" + C0899.m6945((double) this.f4225i), ".0", bi_常量类.f6358b_空串));
         C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", C0843_加密操作.m6603Authcode(C0899.m6945((double) this.f4225i), "yangbosen123"), "UTF-8");
     }
 
@@ -299,7 +299,7 @@ public class C06576 extends C0645Impl {
     /* renamed from: 浏览框1$接口事件 */
     public void m53251$(String 网页消息) {
         String fff = bi_常量类.f6358b_空串;
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页消息, "bao", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(网页消息, "bao", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             fff = C0894.m6881();
             C0881.m6734("com.taobao.taobao");
             C0894.m6900(fff);

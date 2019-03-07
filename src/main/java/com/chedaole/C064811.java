@@ -85,7 +85,7 @@ public class C064811 extends C0645Impl {
 
     /* renamed from: 浏览框1$接口事件 */
     public void m51801$(String 网页消息) {
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页消息, "maika", 1)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(网页消息, "maika", 1)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             C0898_读写设置类.m6935_通过SP保存设置("买卡", StringVariant.getStringVariant(C0108a.f262e));
             if (C0880_应用操作类.m6712("窗口8") == null) {
                 C0880_应用操作类.m6692("窗口8", new C06598());

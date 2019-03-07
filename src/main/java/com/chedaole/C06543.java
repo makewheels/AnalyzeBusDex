@@ -726,13 +726,13 @@ public class C06543 extends C0645Impl {
         this.f4141i = 0;
         while (this.f4141i < C0888_数组操作.m6769_取数组成员数(ArrayVariant.getArrayVariant(this.f4142j))) {
             if (!this.f4142j[this.f4141i].equals(bi_常量类.f6358b_空串)) {
-                this.f4145x = C0890_文本操作.m6819(this.f4142j[this.f4141i], "y", bi_常量类.f6358b_空串);
-                this.f4145x = C0890_文本操作.m6819(this.f4145x, "f", bi_常量类.f6358b_空串);
-                this.f4145x = C0890_文本操作.m6819(this.f4145x, "a", bi_常量类.f6358b_空串);
-                this.f4145x = C0890_文本操作.m6819(this.f4145x, "huan", "环");
-                this.f4145x = C0890_文本操作.m6819(this.f4145x, "hun", "环");
-                this.f4145x = C0890_文本操作.m6819(this.f4145x, "h", "环");
-                this.f4145x = C0890_文本操作.m6819(this.f4145x, "k", "快");
+                this.f4145x = C0890_文本操作.m6819_子文本替换(this.f4142j[this.f4141i], "y", bi_常量类.f6358b_空串);
+                this.f4145x = C0890_文本操作.m6819_子文本替换(this.f4145x, "f", bi_常量类.f6358b_空串);
+                this.f4145x = C0890_文本操作.m6819_子文本替换(this.f4145x, "a", bi_常量类.f6358b_空串);
+                this.f4145x = C0890_文本操作.m6819_子文本替换(this.f4145x, "huan", "环");
+                this.f4145x = C0890_文本操作.m6819_子文本替换(this.f4145x, "hun", "环");
+                this.f4145x = C0890_文本操作.m6819_子文本替换(this.f4145x, "h", "环");
+                this.f4145x = C0890_文本操作.m6819_子文本替换(this.f4145x, "k", "快");
                 this.f41511.mo995((((("    公交" + this.f4145x) + "路线------") + "<font color=#FF0000  >") + ">>>>") + "</font>");
             }
             this.f4141i = IntegerVariant.getIntegerVariant(this.f4141i).add(ByteVariant.getByteVariant((byte) 1)).getInteger();
@@ -768,7 +768,7 @@ public class C06543 extends C0645Impl {
             this.f41881.mo776_可视(false);
             this.f41881.mo774(false);
             this.f41903.mo960JS("ali");
-            if (!C0889_文件操作.m6797(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/bendi/laocity2.html")) {
+            if (!C0889_文件操作.m6797_文件是否存在(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/bendi/laocity2.html")) {
                 C0889_文件操作.m6784(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/");
                 C0889_文件操作.m6782(this.zz + "isba.zip", ((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/isba.zip");
                 C0844.m6615zip(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/isba.zip", ((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/");
@@ -1247,11 +1247,11 @@ public class C06543 extends C0645Impl {
     /* renamed from: 取中间文本 */
     public String m5275(String 完整内容, String 左边文本, String 右边文本) {
         String 取中间文本 = bi_常量类.f6358b_空串;
-        int 左边 = C0890_文本操作.m6821(完整内容, 左边文本, 0) + C0890_文本操作.m6817_获取字符串长度(左边文本);
+        int 左边 = C0890_文本操作.m6821_寻找文本(完整内容, 左边文本, 0) + C0890_文本操作.m6817_获取字符串长度(左边文本);
         if (IntegerVariant.getIntegerVariant(左边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0) {
             return bi_常量类.f6358b_空串;
         }
-        int 右边 = C0890_文本操作.m6821(完整内容, 右边文本, 左边);
+        int 右边 = C0890_文本操作.m6821_寻找文本(完整内容, 右边文本, 左边);
         if (IntegerVariant.getIntegerVariant(右边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0 || 左边 > 右边) {
             return bi_常量类.f6358b_空串;
         }
@@ -1295,7 +1295,7 @@ public class C06543 extends C0645Impl {
         String x = bi_常量类.f6358b_空串;
         String bb = bi_常量类.f6358b_空串;
         this.f41863.mo776_可视(false);
-        C0898_读写设置类.m6935_通过SP保存设置("线路", StringVariant.getStringVariant(C0890_文本操作.m6819(C0890_文本操作.m6819(this.f4142j[项目索引], "y", bi_常量类.f6358b_空串), "f", bi_常量类.f6358b_空串)));
+        C0898_读写设置类.m6935_通过SP保存设置("线路", StringVariant.getStringVariant(C0890_文本操作.m6819_子文本替换(C0890_文本操作.m6819_子文本替换(this.f4142j[项目索引], "y", bi_常量类.f6358b_空串), "f", bi_常量类.f6358b_空串)));
         C0898_读写设置类.m6935_通过SP保存设置("正反", StringVariant.getStringVariant("正"));
         C0898_读写设置类.m6935_通过SP保存设置("方向", StringVariant.getStringVariant("zheng"));
         if (C0880_应用操作类.m6712("过渡窗口") == null) {
@@ -1310,7 +1310,7 @@ public class C06543 extends C0645Impl {
         String q = bi_常量类.f6358b_空串;
         String x = bi_常量类.f6358b_空串;
         this.f41863.mo776_可视(false);
-        C0889_文件操作.m6781_写出文本文件(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/SC.txt", C0890_文本操作.m6819(C0889_文件操作.m6802(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/sc.TXT", "UTF-8"), this.f4142j[项目索引] + "z", bi_常量类.f6358b_空串), "UTF-8");
+        C0889_文件操作.m6781_写出文本文件(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/SC.txt", C0890_文本操作.m6819_子文本替换(C0889_文件操作.m6802(((C0852_存储卡类.m6665_取存储卡路径() + "/cityisba/") + this.zz) + "/sc.TXT", "UTF-8"), this.f4142j[项目索引] + "z", bi_常量类.f6358b_空串), "UTF-8");
         C0880_应用操作类.m6694("路线删除成功");
         this.f41511.mo996();
         this.f41852.mo774(true);
@@ -1323,7 +1323,7 @@ public class C06543 extends C0645Impl {
         this.f4141i = 0;
         while (this.f4141i < C0888_数组操作.m6769_取数组成员数(ArrayVariant.getArrayVariant(this.f4142j))) {
             if (!this.f4142j[this.f4141i].equals(bi_常量类.f6358b_空串)) {
-                this.f41511.mo995(((((" 公交" + C0890_文本操作.m6819(this.f4142j[this.f4141i], "y", bi_常量类.f6358b_空串)) + "路线---------") + "<font color=#FF0000  >") + "进入") + "</font>");
+                this.f41511.mo995(((((" 公交" + C0890_文本操作.m6819_子文本替换(this.f4142j[this.f4141i], "y", bi_常量类.f6358b_空串)) + "路线---------") + "<font color=#FF0000  >") + "进入") + "</font>");
             }
             this.f4141i = IntegerVariant.getIntegerVariant(this.f4141i).add(ByteVariant.getByteVariant((byte) 1)).getInteger();
         }
@@ -1353,7 +1353,7 @@ public class C06543 extends C0645Impl {
         this.f4191 = (("温度: " + m5275(天气, (("min" + C0899.m6939(34)) + ":") + C0899.m6939(34), C0899.m6939(34) + "}")) + " - ") + m5275(天气, (("max" + C0899.m6939(34)) + ":") + C0899.m6939(34), ((C0899.m6939(34) + ",") + C0899.m6939(34)) + "min");
         this.f4193 = m5275(天气, (("sc" + C0899.m6939(34)) + ":") + C0899.m6939(34), ((C0899.m6939(34) + ",") + C0899.m6939(34)) + "spd");
         this.f41863.mo895(((((((((this.f4177 + "  ") + this.f4178) + " ") + this.f4191) + " ") + "风: ") + this.f4193) + "级   夜间: ") + 黑);
-        this.f41863.mo895(C0890_文本操作.m6819(this.f41863.mo894(), "风: 级", bi_常量类.f6358b_空串));
+        this.f41863.mo895(C0890_文本操作.m6819_子文本替换(this.f41863.mo894(), "风: 级", bi_常量类.f6358b_空串));
         if (this.f4178.equals(bi_常量类.f6358b_空串) || this.f4177.equals(bi_常量类.f6358b_空串)) {
             this.f41863.mo895(bi_常量类.f6358b_空串);
         }
@@ -1445,7 +1445,7 @@ public class C06543 extends C0645Impl {
         if (C0890_文本操作.m6816(网页消息, 4).equals("http")) {
             C0897_网络操作.m6927_打开指定网址(网页消息);
         }
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页消息, "gouwu1", 1)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(网页消息, "gouwu1", 1)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             C0898_读写设置类.m6935_通过SP保存设置("购物", StringVariant.getStringVariant(C0108a.f262e));
             if (C0880_应用操作类.m6712("窗口8") == null) {
                 C0880_应用操作类.m6692("窗口8", new C06598());

@@ -183,7 +183,7 @@ public class C065114 extends C0645Impl {
             this.f4035v = Integer.toString(C0890_文本操作.m6817_获取字符串长度(网页消息));
             if (StringVariant.getStringVariant(this.f4035v).cmp(ByteVariant.getByteVariant(df.f6529m)) < 0 && StringVariant.getStringVariant(this.f4035v).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
                 C0898_读写设置类.m6935_通过SP保存设置("小年", StringVariant.getStringVariant("2"));
-                网页消息 = C0890_文本操作.m6819(C0890_文本操作.m6819(C0890_文本操作.m6819(C0890_文本操作.m6819(网页消息, "路", bi_常量类.f6358b_空串), "快", "k"), "线", bi_常量类.f6358b_空串), "环", "h");
+                网页消息 = C0890_文本操作.m6819_子文本替换(C0890_文本操作.m6819_子文本替换(C0890_文本操作.m6819_子文本替换(C0890_文本操作.m6819_子文本替换(网页消息, "路", bi_常量类.f6358b_空串), "快", "k"), "线", bi_常量类.f6358b_空串), "环", "h");
                 C0898_读写设置类.m6935_通过SP保存设置("正反", StringVariant.getStringVariant("正"));
                 C0898_读写设置类.m6935_通过SP保存设置("线路", StringVariant.getStringVariant(网页消息));
                 if (C0880_应用操作类.m6712("过渡窗口") == null) {
@@ -223,7 +223,7 @@ public class C065114 extends C0645Impl {
     /* renamed from: 时钟1$周期事件 */
     public void m52241$() {
         this.f40391.mo928(0);
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f40401.mo946(), "luxian", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) < 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f40401.mo946(), "luxian", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) < 0) {
             this.f40401.mo976(((this.wl + "/web/city/") + this.zz) + "/leadline.html");
         }
     }

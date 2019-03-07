@@ -130,7 +130,7 @@ public class C06609 extends C0645Impl {
             return;
         }
         this.f4264p = C0897_网络操作.m6922(this.wl + "/1.txt", "GBK", 2000);
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(this.f4264p, "alifangxiang", 1)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(this.f4264p, "alifangxiang", 1)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             this.f42671.mo976((((this.wl + "/web/city/") + this.zz) + "/huiyuan/index.asp?mei=") + this.f42661.mo1395IMEI());
         } else {
             C0880_应用操作类.m6694("网络不稳定");
@@ -153,7 +153,7 @@ public class C06609 extends C0645Impl {
     /* renamed from: 浏览框1$即将跳转 */
     public void m53481$(String str, IntegerReferenceParameter integerReferenceParameter) {
         int 方式 = integerReferenceParameter.get();
-        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(str, "gaojineice", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+        if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(str, "gaojineice", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
             C0898_读写设置类.m6935_通过SP保存设置("你好", StringVariant.getStringVariant(C0108a.f262e));
         }
         integerReferenceParameter.set(方式);
@@ -163,10 +163,10 @@ public class C06609 extends C0645Impl {
     public void m53491$(String 网页消息) {
         try {
             if (C0890_文本操作.m6815(网页消息, 1).equals("a")) {
-                网页消息 = C0890_文本操作.m6819(C0890_文本操作.m6819(C0890_文本操作.m6819(C0890_文本操作.m6819(网页消息, "路", bi_常量类.f6358b_空串), "快", "k"), "线", bi_常量类.f6358b_空串), "环", "h");
-                if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821(网页消息, "ji", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
+                网页消息 = C0890_文本操作.m6819_子文本替换(C0890_文本操作.m6819_子文本替换(C0890_文本操作.m6819_子文本替换(C0890_文本操作.m6819_子文本替换(网页消息, "路", bi_常量类.f6358b_空串), "快", "k"), "线", bi_常量类.f6358b_空串), "环", "h");
+                if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(网页消息, "ji", 0)).cmp(ByteVariant.getByteVariant((byte) 0)) > 0) {
                     C0898_读写设置类.m6935_通过SP保存设置("高级", StringVariant.getStringVariant(C0108a.f262e));
-                    网页消息 = C0890_文本操作.m6819(网页消息, "gaoji", bi_常量类.f6358b_空串);
+                    网页消息 = C0890_文本操作.m6819_子文本替换(网页消息, "gaoji", bi_常量类.f6358b_空串);
                     this.idc = (int) C0899.m6943(C0843_加密操作.m6604Authcode_Authcode解密(C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
                     if (IntegerVariant.getIntegerVariant(this.idc).cmp(ByteVariant.getByteVariant((byte) 20)) < 0) {
                         this.ddv = C0879.m66692("提示", "您的积分不足", "如何获取积分", "退出");

@@ -12,7 +12,7 @@ public final class C0890_文本操作 {
 
     @SimpleFunction
     /* renamed from: 寻找文本 */
-    public static int m6821(String str1, String str2, int start) {
+    public static int m6821_寻找文本(String str1, String str2, int start) {
         if (start < 0 || start > str1.length() || bi_常量类.f6358b_空串.equals(str1) || bi_常量类.f6358b_空串.equals(str2)) {
             return -1;
         }
@@ -125,7 +125,7 @@ public final class C0890_文本操作 {
 
     @SimpleFunction
     /* renamed from: 子文本替换 */
-    public static String m6819(String str, String find, String replace) {
+    public static String m6819_子文本替换(String str, String find, String replace) {
         if (bi_常量类.f6358b_空串.equals(find) || bi_常量类.f6358b_空串.equals(str)) {
             return bi_常量类.f6358b_空串;
         }
@@ -160,7 +160,7 @@ public final class C0890_文本操作 {
             return new String[0];
         }
         if (separator.equals("\n")) {
-            str = C0890_文本操作.m6819(str, "\r", bi_常量类.f6358b_空串);
+            str = C0890_文本操作.m6819_子文本替换(str, "\r", bi_常量类.f6358b_空串);
         }
         if (C0890_文本操作.m6815(str, C0890_文本操作.m6817_获取字符串长度(separator)).equals(separator)) {
             return C0890_文本操作.m6812(separator + str, separator, separator);

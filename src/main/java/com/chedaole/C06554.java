@@ -642,7 +642,7 @@ public class C06554 extends C0645Impl {
                         步骤描述 = ((((((("从<font color=#0088FF>" + 公交起点) + "</font>,乘") + 公交名称) + ",经过") + 公交站数) + "站,到<font color=#0088FF>") + C0890_文本操作.m68132(步骤数组[计次2], "<end_name>", "</end_name>")) + "</font>";
                     }
                 } else {
-                    步骤描述 = C0890_文本操作.m6819(C0890_文本操作.m6819(C0890_文本操作.m6819(步骤描述, "&lt;", "<"), "&gt;", ">"), "&quot;#313233&quot;", "#0088FF");
+                    步骤描述 = C0890_文本操作.m6819_子文本替换(C0890_文本操作.m6819_子文本替换(C0890_文本操作.m6819_子文本替换(步骤描述, "&lt;", "<"), "&gt;", ">"), "&quot;#313233&quot;", "#0088FF");
                 }
                 if (步骤类型.equals("5")) {
                     this.f41961.mo1243(计次, "man.png", 步骤描述, bi_常量类.f6358b_空串, bi_常量类.f6358b_空串, bi_常量类.f6358b_空串);
@@ -660,7 +660,7 @@ public class C06554 extends C0645Impl {
         ll = this.f41961.mo1209(分组索引, 子项索引);
         lu = m5300(ll, ",乘", "路");
         if (lu.equals(bi_常量类.f6358b_空串)) {
-            lu = C0890_文本操作.m6819(C0890_文本操作.m6819(m5300(ll, ",乘", "线"), "快", "k"), "环", "h");
+            lu = C0890_文本操作.m6819_子文本替换(C0890_文本操作.m6819_子文本替换(m5300(ll, ",乘", "线"), "快", "k"), "环", "h");
             C0898_读写设置类.m6935_通过SP保存设置("正反", StringVariant.getStringVariant("正"));
             C0898_读写设置类.m6935_通过SP保存设置("线路", StringVariant.getStringVariant(lu));
             if (C0880_应用操作类.m6712("过渡窗口") == null) {
@@ -670,7 +670,7 @@ public class C06554 extends C0645Impl {
             C0880_应用操作类.m6693_切换窗口(C0880_应用操作类.m6712("过渡窗口"));
             return;
         }
-        lu = C0890_文本操作.m6819(C0890_文本操作.m6819(C0890_文本操作.m6819(lu, "快", "k"), "环", "h"), "z0", "k");
+        lu = C0890_文本操作.m6819_子文本替换(C0890_文本操作.m6819_子文本替换(C0890_文本操作.m6819_子文本替换(lu, "快", "k"), "环", "h"), "z0", "k");
         C0898_读写设置类.m6935_通过SP保存设置("正反", StringVariant.getStringVariant("正"));
         C0898_读写设置类.m6935_通过SP保存设置("线路", StringVariant.getStringVariant(lu));
         if (C0880_应用操作类.m6712("过渡窗口") == null) {
@@ -683,11 +683,11 @@ public class C06554 extends C0645Impl {
     /* renamed from: 取中间文本 */
     public String m5300(String 完整内容, String 左边文本, String 右边文本) {
         String 取中间文本 = bi_常量类.f6358b_空串;
-        int 左边 = C0890_文本操作.m6821(完整内容, 左边文本, 0) + C0890_文本操作.m6817_获取字符串长度(左边文本);
+        int 左边 = C0890_文本操作.m6821_寻找文本(完整内容, 左边文本, 0) + C0890_文本操作.m6817_获取字符串长度(左边文本);
         if (IntegerVariant.getIntegerVariant(左边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0) {
             return bi_常量类.f6358b_空串;
         }
-        int 右边 = C0890_文本操作.m6821(完整内容, 右边文本, 左边);
+        int 右边 = C0890_文本操作.m6821_寻找文本(完整内容, 右边文本, 左边);
         if (IntegerVariant.getIntegerVariant(右边).cmp(ByteVariant.getByteVariant((byte) -1)) == 0 || 左边 > 右边) {
             return bi_常量类.f6358b_空串;
         }

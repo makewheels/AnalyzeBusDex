@@ -128,7 +128,7 @@ public final class C0889_文件操作 {
 
     @SimpleFunction
     /* renamed from: 文件是否存在 */
-    public static boolean m6797(String name) {
+    public static boolean m6797_文件是否存在(String name) {
         return new File(name).exists();
     }
 
@@ -461,7 +461,7 @@ public final class C0889_文件操作 {
 
     @SimpleFunction
     /* renamed from: 创建文件 */
-    public static boolean m6783(String path) {
+    public static boolean m6783_创建文件(String path) {
         boolean result = false;
         File f = new File(path);
         if (f.exists()) {
