@@ -5,11 +5,11 @@ import com.e4a.runtime.C0879;
 import com.e4a.runtime.C0880_应用操作类;
 import com.e4a.runtime.C0890_文本操作;
 import com.e4a.runtime.C0891;
-import com.e4a.runtime.C0893;
+import com.e4a.runtime.C0893_算术运算;
 import com.e4a.runtime.C0894;
 import com.e4a.runtime.C0897_网络操作;
 import com.e4a.runtime.C0898_读写设置类;
-import com.e4a.runtime.C0899;
+import com.e4a.runtime.C0899_转换操作;
 import com.e4a.runtime.Objects;
 import com.e4a.runtime.annotations.SimpleDataElement;
 import com.e4a.runtime.annotations.SimpleObject;
@@ -21,7 +21,7 @@ import com.e4a.runtime.components.impl.android.n2.C0717;
 import com.e4a.runtime.components.impl.android.n2.C0722Impl;
 import com.e4a.runtime.components.impl.android.n37.C0736;
 import com.e4a.runtime.components.impl.android.n37.C0738Impl;
-import com.e4a.runtime.components.impl.android.n4.C0739;
+import com.e4a.runtime.components.impl.android.n4.C0739_图片框;
 import com.e4a.runtime.components.impl.android.n4.C0742Impl;
 import com.e4a.runtime.components.impl.android.p018ok.C0794ok;
 import com.e4a.runtime.components.impl.android.p018ok.C0796okImpl;
@@ -75,16 +75,16 @@ public class C06598 extends C0645Impl {
     public String f4252x = bi_常量类.f6358b_空串;
     @SimpleDataElement
     /* renamed from: 图片框1 */
-    public C0739 f42531;
+    public C0739_图片框 f42531;
     @SimpleDataElement
     /* renamed from: 图片框2 */
-    public C0739 f42542;
+    public C0739_图片框 f42542;
     @SimpleDataElement
     /* renamed from: 图片框3 */
-    public C0739 f42553;
+    public C0739_图片框 f42553;
     @SimpleDataElement
     /* renamed from: 图片框4 */
-    public C0739 f42564;
+    public C0739_图片框 f42564;
     @SimpleDataElement
     /* renamed from: 客户1 */
     public C0736 f42571;
@@ -122,18 +122,18 @@ public class C06598 extends C0645Impl {
         C0713Impl c0713Impl = new C0713Impl(f42468);
         Objects.initializeProperties(c0713Impl);
         this.f42601 = c0713Impl;
-        this.f42601.mo782((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-        this.f42601.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f42601.mo780((int) C0893.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-        this.f42601.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(1.001d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
+        this.f42601.mo782((int) C0893_算术运算.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
+        this.f42601.mo804((int) C0893_算术运算.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
+        this.f42601.mo780((int) C0893_算术运算.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
+        this.f42601.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(1.001d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42601.mo776_可视(true);
         C0742Impl c0742Impl = new C0742Impl(f42468);
         Objects.initializeProperties(c0742Impl);
         this.f42531 = c0742Impl;
-        this.f42531.mo782((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.875d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-        this.f42531.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.014d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f42531.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-        this.f42531.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.046d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
+        this.f42531.mo782((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.875d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
+        this.f42531.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.014d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
+        this.f42531.mo780((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
+        this.f42531.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.046d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42531.mo797_背景颜色(0);
         this.f42531.mo1143(1);
         this.f42531.mo1139("eee.png");
@@ -141,10 +141,10 @@ public class C06598 extends C0645Impl {
         c0742Impl = new C0742Impl(f42468);
         Objects.initializeProperties(c0742Impl);
         this.f42542 = c0742Impl;
-        this.f42542.mo782((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.363d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-        this.f42542.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.526d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f42542.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.313d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-        this.f42542.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.173d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
+        this.f42542.mo782((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.363d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
+        this.f42542.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.526d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
+        this.f42542.mo780((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.313d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
+        this.f42542.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.173d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42542.mo797_背景颜色(0);
         this.f42542.mo1143(1);
         this.f42542.mo776_可视(false);
@@ -160,20 +160,20 @@ public class C06598 extends C0645Impl {
         c0742Impl = new C0742Impl(f42468);
         Objects.initializeProperties(c0742Impl);
         this.f42564 = c0742Impl;
-        this.f42564.mo782((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.45d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-        this.f42564.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.01d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f42564.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.35d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-        this.f42564.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.103d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
+        this.f42564.mo782((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.45d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
+        this.f42564.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.01d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
+        this.f42564.mo780((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.35d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
+        this.f42564.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.103d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42564.mo797_背景颜色(-16742145);
         this.f42564.mo1143(1);
         this.f42564.mo776_可视(false);
         C0722Impl c0722Impl = new C0722Impl(f42468);
         Objects.initializeProperties(c0722Impl);
         this.f42611 = c0722Impl;
-        this.f42611.mo782((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.067d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-        this.f42611.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.041d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f42611.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.883d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-        this.f42611.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
+        this.f42611.mo782((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.067d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
+        this.f42611.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.041d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
+        this.f42611.mo780((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.883d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
+        this.f42611.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.052d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42611.mo887_内容(bi_常量类.f6358b_空串);
         this.f42611.mo889_字体颜色(-16777216);
         this.f42611.mo896(false);
@@ -189,10 +189,10 @@ public class C06598 extends C0645Impl {
         c0742Impl = new C0742Impl(f42468);
         Objects.initializeProperties(c0742Impl);
         this.f42553 = c0742Impl;
-        this.f42553.mo782((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.023d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-        this.f42553.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.014d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-        this.f42553.mo780((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-        this.f42553.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.046d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
+        this.f42553.mo782((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.023d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
+        this.f42553.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.014d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
+        this.f42553.mo780((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
+        this.f42553.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.046d).mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
         this.f42553.mo797_背景颜色(0);
         this.f42553.mo1143(1);
         this.f42553.mo1139("icon01.png");
@@ -279,7 +279,7 @@ public class C06598 extends C0645Impl {
             } else if (IntegerVariant.getIntegerVariant(C0891.m6827(C0891.m6837())).cmp(ByteVariant.getByteVariant((byte) 6)) < 0) {
                 C0879.m6668("提示", "试运期间6:10后开始充值", "确定");
             } else {
-                this.shijian = C0899.m6945(ConvHelpers.string2double(((((Integer.toString(C0891.m6828(C0891.m6837())) + Integer.toString(C0891.m6834(C0891.m6837()))) + Integer.toString(C0891.m6830(C0891.m6837()))) + Integer.toString(C0891.m6827(C0891.m6837()))) + Integer.toString(C0891.m6825(C0891.m6837()))) + Integer.toString(C0891.m6840(C0891.m6837()))));
+                this.shijian = C0899_转换操作.m6945_转文本(ConvHelpers.string2double(((((Integer.toString(C0891.m6828(C0891.m6837())) + Integer.toString(C0891.m6834(C0891.m6837()))) + Integer.toString(C0891.m6830(C0891.m6837()))) + Integer.toString(C0891.m6827(C0891.m6837()))) + Integer.toString(C0891.m6825(C0891.m6837()))) + Integer.toString(C0891.m6840(C0891.m6837()))));
                 this.aav = C0890_文本操作.m6806_分割字符串(网页消息, "/");
                 this.shijian = C0890_文本操作.m6819_子文本替换(this.shijian, ".", bi_常量类.f6358b_空串);
                 this.shijian = C0890_文本操作.m6819_子文本替换(this.shijian, "E", bi_常量类.f6358b_空串);
@@ -314,15 +314,15 @@ public class C06598 extends C0645Impl {
                     this.f4248e = Integer.toString(ConvHelpers.byte2integer((byte) 100));
                 }
                 if (StringVariant.getStringVariant(this.aav[3]).cmp(ByteVariant.getByteVariant((byte) 2)) == 0) {
-                    this.f4251ok1.mo1425((int) C0893.m6861(DoubleVariant.getDoubleVariant(C0899.m6943(this.dingdan)).mul(ByteVariant.getByteVariant((byte) 100)).getDouble(), 0), this.aav[1], "http://www.chengshiyouxi.com/pay/notify.php", this.aav[1]);
+                    this.f4251ok1.mo1425((int) C0893_算术运算.m6861_四舍五入(DoubleVariant.getDoubleVariant(C0899_转换操作.m6943(this.dingdan)).mul(ByteVariant.getByteVariant((byte) 100)).getDouble(), 0), this.aav[1], "http://www.chengshiyouxi.com/pay/notify.php", this.aav[1]);
                 }
                 if (StringVariant.getStringVariant(this.aav[3]).cmp(ByteVariant.getByteVariant((byte) 1)) == 0) {
                     this.dingdan = this.aav[0];
-                    this.f4251ok1.mo1425((int) C0893.m6861(DoubleVariant.getDoubleVariant(C0899.m6943(this.dingdan)).mul(ByteVariant.getByteVariant((byte) 100)).getDouble(), 0), this.aav[1], "http://www.chengshiyouxi.com/pay/notify1.php", this.aav[1]);
+                    this.f4251ok1.mo1425((int) C0893_算术运算.m6861_四舍五入(DoubleVariant.getDoubleVariant(C0899_转换操作.m6943(this.dingdan)).mul(ByteVariant.getByteVariant((byte) 100)).getDouble(), 0), this.aav[1], "http://www.chengshiyouxi.com/pay/notify1.php", this.aav[1]);
                 }
                 if (this.aav[3].equals("5")) {
                     this.dingdan = this.aav[0];
-                    this.f4251ok1.mo1425((int) C0893.m6861(DoubleVariant.getDoubleVariant(C0899.m6943(this.dingdan)).mul(ByteVariant.getByteVariant((byte) 100)).getDouble(), 0), this.aav[1], "http://www.chengshiyouxi.com/pay/notify2.php", this.aav[1]);
+                    this.f4251ok1.mo1425((int) C0893_算术运算.m6861_四舍五入(DoubleVariant.getDoubleVariant(C0899_转换操作.m6943(this.dingdan)).mul(ByteVariant.getByteVariant((byte) 100)).getDouble(), 0), this.aav[1], "http://www.chengshiyouxi.com/pay/notify2.php", this.aav[1]);
                 }
             }
         } catch (Throwable th) {

@@ -10,11 +10,11 @@ import com.e4a.runtime.C0888_数组操作;
 import com.e4a.runtime.C0889_文件操作;
 import com.e4a.runtime.C0890_文本操作;
 import com.e4a.runtime.C0891;
-import com.e4a.runtime.C0893;
+import com.e4a.runtime.C0893_算术运算;
 import com.e4a.runtime.C0894;
 import com.e4a.runtime.C0897_网络操作;
 import com.e4a.runtime.C0898_读写设置类;
-import com.e4a.runtime.C0899;
+import com.e4a.runtime.C0899_转换操作;
 import com.e4a.runtime.Objects;
 import com.e4a.runtime.annotations.SimpleDataElement;
 import com.e4a.runtime.annotations.SimpleObject;
@@ -39,7 +39,7 @@ import com.e4a.runtime.components.impl.android.n3.C0723;
 import com.e4a.runtime.components.impl.android.n3.C0725Impl;
 import com.e4a.runtime.components.impl.android.n30.C0726;
 import com.e4a.runtime.components.impl.android.n30.C0731Impl;
-import com.e4a.runtime.components.impl.android.n4.C0739;
+import com.e4a.runtime.components.impl.android.n4.C0739_图片框;
 import com.e4a.runtime.components.impl.android.n4.C0742Impl;
 import com.e4a.runtime.components.impl.android.n42.C0743;
 import com.e4a.runtime.components.impl.android.n42.C0752Impl;
@@ -85,11 +85,11 @@ public class C06521_详情页 extends C0645Impl {
 	@SimpleDataElement
 	public long bx;
 	@SimpleDataElement
-	public int dddd;
+	public int dddd_公交速度常量;
 	@SimpleDataElement
 	public int idc;
 	@SimpleDataElement
-	public int jc;
+	public int jc_距离你还有几站;
 	@SimpleDataElement
 	/* renamed from: k */
 	public int f4043k;
@@ -111,61 +111,61 @@ public class C06521_详情页 extends C0645Impl {
 	public long f4047_启动时间;
 	@SimpleDataElement
 	/* renamed from: 图像2 */
-	public C0739 f40482;
+	public C0739_图片框 f40482;
 	@SimpleDataElement
 	/* renamed from: 图片列表框1 */
 	public C0726 f40491;
 	@SimpleDataElement
 	/* renamed from: 图片框1 */
-	public C0739 f40501;
+	public C0739_图片框 f40501;
 	@SimpleDataElement
 	/* renamed from: 图片框10 */
-	public C0739 f405110;
+	public C0739_图片框 f405110;
 	@SimpleDataElement
 	/* renamed from: 图片框11 */
-	public C0739 f405211;
+	public C0739_图片框 f405211;
 	@SimpleDataElement
 	/* renamed from: 图片框12 */
-	public C0739 f405312;
+	public C0739_图片框 f405312;
 	@SimpleDataElement
 	/* renamed from: 图片框13 */
-	public C0739 f405413;
+	public C0739_图片框 f405413;
 	@SimpleDataElement
 	/* renamed from: 图片框14 */
-	public C0739 f405514;
+	public C0739_图片框 f405514;
 	@SimpleDataElement
 	/* renamed from: 图片框15 */
-	public C0739 f405615;
+	public C0739_图片框 f405615;
 	@SimpleDataElement
 	/* renamed from: 图片框16 */
-	public C0739 f405716;
+	public C0739_图片框 f405716;
 	@SimpleDataElement
 	/* renamed from: 图片框17 */
-	public C0739 f405817;
+	public C0739_图片框 f405817;
 	@SimpleDataElement
 	/* renamed from: 图片框2 */
-	public C0739 f40592;
+	public C0739_图片框 f40592;
 	@SimpleDataElement
 	/* renamed from: 图片框3 */
-	public C0739 f40603;
+	public C0739_图片框 f40603;
 	@SimpleDataElement
 	/* renamed from: 图片框4 */
-	public C0739 f40614;
+	public C0739_图片框 f40614;
 	@SimpleDataElement
 	/* renamed from: 图片框5 */
-	public C0739 f40625;
+	public C0739_图片框 f40625;
 	@SimpleDataElement
 	/* renamed from: 图片框6 */
-	public C0739 f40636;
+	public C0739_图片框 f40636;
 	@SimpleDataElement
 	/* renamed from: 图片框7 */
-	public C0739 f40647;
+	public C0739_图片框 f40647;
 	@SimpleDataElement
 	/* renamed from: 图片框8 */
-	public C0739 f40658;
+	public C0739_图片框 f40658;
 	@SimpleDataElement
 	/* renamed from: 图片框9 */
-	public C0739 f40669;
+	public C0739_图片框 f40669;
 	@SimpleDataElement
 	/* renamed from: 图片高度 */
 	public int f4067;
@@ -186,7 +186,7 @@ public class C06521_详情页 extends C0645Impl {
 	public String f4072 = bi_常量类.f6358b_空串;
 	@SimpleDataElement
 	/* renamed from: 当前位置 */
-	public int f4073;
+	public int f4073_当前位置;
 	@SimpleDataElement
 	/* renamed from: 循环次数 */
 	public int f4074_循环次数;
@@ -359,26 +359,26 @@ public class C06521_详情页 extends C0645Impl {
 		C0713Impl c0713Impl = new C0713Impl(f40411);
 		Objects.initializeProperties(c0713Impl);
 		this.f41115 = c0713Impl;
-		this.f41115.mo782((int) C0893
+		this.f41115.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.133d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41115.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0)
+		this.f41115.mo804((int) C0893_算术运算.m6855(ByteVariant.getByteVariant((byte) 0)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f41115.mo780((int) C0893
+		this.f41115.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.992d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41115.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d)
+		this.f41115.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.083d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f41115.mo776_可视(true);
 		C0643Impl c0643Impl = new C0643Impl(f40411);
 		Objects.initializeProperties(c0643Impl);
 		this.f41242 = c0643Impl;
 		this.f41242.mo813(IntegerVariant.getIntegerVariant(4));
-		this.f41242.mo782((int) C0893
+		this.f41242.mo782((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41242.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.506d)
+		this.f41242.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.506d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f41242.mo780((int) C0893
+		this.f41242.mo780((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41242.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.599d)
+		this.f41242.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.599d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f41242.mo797_背景颜色(0);
 		this.f41242.mo776_可视(true);
@@ -386,26 +386,26 @@ public class C06521_详情页 extends C0645Impl {
 		Objects.initializeProperties(c0643Impl);
 		this.f41231 = c0643Impl;
 		this.f41231.mo813(IntegerVariant.getIntegerVariant(4));
-		this.f41231.mo782((int) C0893
+		this.f41231.mo782((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41231.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0)
+		this.f41231.mo804((int) C0893_算术运算.m6855(ByteVariant.getByteVariant((byte) 0)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f41231.mo780((int) C0893
+		this.f41231.mo780((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41231.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(1.001d)
+		this.f41231.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(1.001d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f41231.mo797_背景颜色(-921103);
 		this.f41231.mo776_可视(true);
 		C0742Impl c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f40501 = c0742Impl;
-		this.f40501.mo782((int) C0893
+		this.f40501.mo782((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40501.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0)
+		this.f40501.mo804((int) C0893_算术运算.m6855(ByteVariant.getByteVariant((byte) 0)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f40501.mo780((int) C0893
+		this.f40501.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(1.017d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40501.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d)
+		this.f40501.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.083d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f40501.mo797_背景颜色(-16742145);
 		this.f40501.mo1143(1);
@@ -414,13 +414,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f40592 = c0742Impl;
-		this.f40592.mo782((int) C0893
+		this.f40592.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.01d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40592.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.213d)
+		this.f40592.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.213d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f40592.mo780((int) C0893
+		this.f40592.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.979d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40592.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.237d)
+		this.f40592.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.237d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f40592.mo797_背景颜色(-1);
 		this.f40592.mo1143(1);
@@ -429,13 +429,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f40603 = c0742Impl;
-		this.f40603.mo782((int) C0893
+		this.f40603.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.498d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40603.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.231d)
+		this.f40603.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.231d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f40603.mo780((int) C0893
+		this.f40603.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.004d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40603.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.15d)
+		this.f40603.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.15d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f40603.mo797_背景颜色(-1184275);
 		this.f40603.mo1143(1);
@@ -443,13 +443,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f40614 = c0742Impl;
-		this.f40614.mo782((int) C0893
+		this.f40614.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.01d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40614.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.395d)
+		this.f40614.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.395d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f40614.mo780((int) C0893
+		this.f40614.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.979d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40614.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.003d)
+		this.f40614.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.003d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f40614.mo797_背景颜色(-1184275);
 		this.f40614.mo1143(1);
@@ -457,13 +457,13 @@ public class C06521_详情页 extends C0645Impl {
 		C0725Impl c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f41006 = c0725Impl;
-		this.f41006.mo782((int) C0893
+		this.f41006.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.583d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41006.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.299d)
+		this.f41006.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.299d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f41006.mo780((int) C0893
+		this.f41006.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.233d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41006.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.062d)
+		this.f41006.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.062d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f41006.mo895("选择");
 		this.f41006.mo797_背景颜色(0);
@@ -480,13 +480,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f41039 = c0725Impl;
-		this.f41039.mo782((int) C0893
+		this.f41039.mo782((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41039.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.103d)
+		this.f41039.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.103d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f41039.mo780((int) C0893
+		this.f41039.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.017d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41039.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.021d)
+		this.f41039.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.021d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f41039.mo895("标签");
 		this.f41039.mo797_背景颜色(-16742145);
@@ -507,13 +507,13 @@ public class C06521_详情页 extends C0645Impl {
 		C0722Impl c0722Impl = new C0722Impl(f40411);
 		Objects.initializeProperties(c0722Impl);
 		this.f41181 = c0722Impl;
-		this.f41181.mo782((int) C0893
+		this.f41181.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.65d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41181.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.702d)
+		this.f41181.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.702d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f41181.mo780((int) C0893
+		this.f41181.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.333d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41181.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.279d)
+		this.f41181.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.279d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f41181.mo887_内容(bi_常量类.f6358b_空串);
 		this.f41181.mo889_字体颜色(-16777216);
@@ -530,13 +530,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f40995 = c0725Impl;
-		this.f40995.mo782((int) C0893
+		this.f40995.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.033d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40995.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.396d)
+		this.f40995.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.396d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f40995.mo780((int) C0893
+		this.f40995.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.933d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40995.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.041d)
+		this.f40995.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.041d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f40995.mo895("↓选择候车站名↓");
 		this.f40995.mo797_背景颜色(0);
@@ -553,13 +553,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f41017_距离km = c0725Impl;
-		this.f41017_距离km.mo782((int) C0893
+		this.f41017_距离km.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.777d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41017_距离km.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.253d)
+		this.f41017_距离km.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.253d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f41017_距离km.mo780((int) C0893
+		this.f41017_距离km.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.15d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41017_距离km.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.041d)
+		this.f41017_距离km.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.041d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f41017_距离km.mo895(bi_常量类.f6358b_空串);
 		this.f41017_距离km.mo797_背景颜色(-1118482);
@@ -577,13 +577,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f408411 = c0725Impl;
-		this.f408411.mo782((int) C0893
+		this.f408411.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.383d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f408411.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.009d)
+		this.f408411.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.009d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f408411.mo780((int) C0893
+		this.f408411.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.217d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f408411.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.062d)
+		this.f408411.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.062d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f408411.mo895(bi_常量类.f6358b_空串);
 		this.f408411.mo797_背景颜色(0);
@@ -597,13 +597,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f40636 = c0742Impl;
-		this.f40636.mo782((int) C0893
+		this.f40636.mo782((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40636.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.09d)
+		this.f40636.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.09d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f40636.mo780((int) C0893
+		this.f40636.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.979d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40636.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.114d)
+		this.f40636.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.114d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f40636.mo797_背景颜色(-16742145);
 		this.f40636.mo1143(1);
@@ -612,13 +612,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f40647 = c0742Impl;
-		this.f40647.mo782((int) C0893
+		this.f40647.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.054d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40647.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.218d)
+		this.f40647.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.218d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f40647.mo780((int) C0893
+		this.f40647.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.217d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40647.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.031d)
+		this.f40647.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.031d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f40647.mo797_背景颜色(-16742145);
 		this.f40647.mo1143(1);
@@ -627,13 +627,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f40821 = c0725Impl;
-		this.f40821.mo782((int) C0893
+		this.f40821.mo782((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40821.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.117d)
+		this.f40821.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.117d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f40821.mo780((int) C0893
+		this.f40821.mo780((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40821.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.065d)
+		this.f40821.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.065d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f40821.mo895(bi_常量类.f6358b_空串);
 		this.f40821.mo797_背景颜色(0);
@@ -647,13 +647,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f40625 = c0742Impl;
-		this.f40625.mo782((int) C0893
+		this.f40625.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.758d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40625.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.222d)
+		this.f40625.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.222d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f40625.mo780((int) C0893
+		this.f40625.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.183d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40625.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.031d)
+		this.f40625.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.031d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f40625.mo797_背景颜色(0);
 		this.f40625.mo1143(1);
@@ -662,13 +662,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f41028 = c0725Impl;
-		this.f41028.mo782((int) C0893
+		this.f41028.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.8d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41028.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.299d)
+		this.f41028.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.299d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f41028.mo780((int) C0893
+		this.f41028.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.117d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41028.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.062d)
+		this.f41028.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.062d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f41028.mo895("站");
 		this.f41028.mo797_背景颜色(0);
@@ -682,13 +682,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f405211 = c0742Impl;
-		this.f405211.mo782((int) C0893
+		this.f405211.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.008d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405211.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.093d)
+		this.f405211.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.093d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f405211.mo780((int) C0893
+		this.f405211.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.013d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405211.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.093d)
+		this.f405211.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.093d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f405211.mo797_背景颜色(-16742145);
 		this.f405211.mo1143(1);
@@ -697,13 +697,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f405312 = c0742Impl;
-		this.f405312.mo782((int) C0893
+		this.f405312.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.004d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405312.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.092d)
+		this.f405312.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.092d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f405312.mo780((int) C0893
+		this.f405312.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.013d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405312.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.09d)
+		this.f405312.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.09d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f405312.mo797_背景颜色(-16742145);
 		this.f405312.mo1143(1);
@@ -712,13 +712,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f40932 = c0725Impl;
-		this.f40932.mo782((int) C0893
+		this.f40932.mo782((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40932.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.093d)
+		this.f40932.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.093d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f40932.mo780((int) C0893
+		this.f40932.mo780((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40932.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d)
+		this.f40932.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.052d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f40932.mo895(bi_常量类.f6358b_空串);
 		this.f40932.mo797_背景颜色(0);
@@ -732,13 +732,13 @@ public class C06521_详情页 extends C0645Impl {
 		C0754GIFImpl c0754GIFImpl = new C0754GIFImpl(f40411);
 		Objects.initializeProperties(c0754GIFImpl);
 		this.f4042GIF1 = c0754GIFImpl;
-		this.f4042GIF1.mo782((int) C0893
+		this.f4042GIF1.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.002d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f4042GIF1.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.552d)
+		this.f4042GIF1.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.552d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f4042GIF1.mo780((int) C0893
+		this.f4042GIF1.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(1.01d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f4042GIF1.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.015d)
+		this.f4042GIF1.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.015d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f4042GIF1.mo797_背景颜色(-16742145);
 		this.f4042GIF1.mo1177("f1.gif");
@@ -746,13 +746,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f405514 = c0742Impl;
-		this.f405514.mo782((int) C0893
+		this.f405514.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.15d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405514.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.516d)
+		this.f405514.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.516d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f405514.mo780((int) C0893
+		this.f405514.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.117d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405514.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.031d)
+		this.f405514.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.031d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f405514.mo797_背景颜色(0);
 		this.f405514.mo1143(1);
@@ -760,13 +760,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f405615 = c0742Impl;
-		this.f405615.mo782((int) C0893
+		this.f405615.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.3d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405615.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.516d)
+		this.f405615.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.516d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f405615.mo780((int) C0893
+		this.f405615.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.133d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405615.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.031d)
+		this.f405615.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.031d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f405615.mo797_背景颜色(-1);
 		this.f405615.mo1143(1);
@@ -774,13 +774,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f405716 = c0742Impl;
-		this.f405716.mo782((int) C0893
+		this.f405716.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.467d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405716.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.516d)
+		this.f405716.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.516d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f405716.mo780((int) C0893
+		this.f405716.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.15d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405716.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.031d)
+		this.f405716.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.031d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f405716.mo797_背景颜色(-1);
 		this.f405716.mo1143(1);
@@ -788,13 +788,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f40984 = c0725Impl;
-		this.f40984.mo782((int) C0893
+		this.f40984.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.15d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40984.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.279d)
+		this.f40984.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.279d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f40984.mo780((int) C0893
+		this.f40984.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.267d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40984.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.072d)
+		this.f40984.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.072d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f40984.mo895(bi_常量类.f6358b_空串);
 		this.f40984.mo797_背景颜色(0);
@@ -808,13 +808,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f40973 = c0725Impl;
-		this.f40973.mo782((int) C0893
+		this.f40973.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.367d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40973.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.279d)
+		this.f40973.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.279d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f40973.mo780((int) C0893
+		this.f40973.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.117d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40973.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.072d)
+		this.f40973.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.072d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f40973.mo895("分");
 		this.f40973.mo797_背景颜色(0);
@@ -828,25 +828,25 @@ public class C06521_详情页 extends C0645Impl {
 		c0713Impl = new C0713Impl(f40411);
 		Objects.initializeProperties(c0713Impl);
 		this.f41071 = c0713Impl;
-		this.f41071.mo782((int) C0893
+		this.f41071.mo782((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41071.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.888d)
+		this.f41071.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.888d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f41071.mo780((int) C0893
+		this.f41071.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.067d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41071.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.021d)
+		this.f41071.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.021d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f41071.mo776_可视(false);
 		C0731Impl c0731Impl = new C0731Impl(f40411);
 		Objects.initializeProperties(c0731Impl);
 		this.f40491 = c0731Impl;
-		this.f40491.mo782((int) C0893
+		this.f40491.mo782((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40491.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.917d)
+		this.f40491.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.917d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f40491.mo780((int) C0893
+		this.f40491.mo780((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40491.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.083d)
+		this.f40491.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.083d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f40491.mo797_背景颜色(-16777216);
 		this.f40491.mo1089(9.0f);
@@ -861,13 +861,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f40658 = c0742Impl;
-		this.f40658.mo782((int) C0893
+		this.f40658.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.183d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40658.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.388d)
+		this.f40658.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.388d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f40658.mo780((int) C0893
+		this.f40658.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.617d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40658.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.271d)
+		this.f40658.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.271d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f40658.mo797_背景颜色(-2368549);
 		this.f40658.mo1143(1);
@@ -875,13 +875,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f408310 = c0725Impl;
-		this.f408310.mo782((int) C0893
+		this.f408310.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.217d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f408310.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.403d)
+		this.f408310.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.403d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f408310.mo780((int) C0893
+		this.f408310.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.567d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f408310.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d)
+		this.f408310.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.052d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f408310.mo895("距几站提醒列如:2");
 		this.f408310.mo797_背景颜色(0);
@@ -895,13 +895,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0722Impl = new C0722Impl(f40411);
 		Objects.initializeProperties(c0722Impl);
 		this.f41192 = c0722Impl;
-		this.f41192.mo782((int) C0893
+		this.f41192.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.229d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41192.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.472d)
+		this.f41192.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.472d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f41192.mo780((int) C0893
+		this.f41192.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.533d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41192.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.072d)
+		this.f41192.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.072d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f41192.mo887_内容("2");
 		this.f41192.mo889_字体颜色(-16777216);
@@ -918,13 +918,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f408512 = c0725Impl;
-		this.f408512.mo782((int) C0893
+		this.f408512.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.242d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f408512.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.578d)
+		this.f408512.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.578d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f408512.mo780((int) C0893
+		this.f408512.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.233d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f408512.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d)
+		this.f408512.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.052d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f408512.mo895("确定");
 		this.f408512.mo797_背景颜色(Component.f3916);
@@ -938,13 +938,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f408613 = c0725Impl;
-		this.f408613.mo782((int) C0893
+		this.f408613.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.508d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f408613.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.578d)
+		this.f408613.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.578d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f408613.mo780((int) C0893
+		this.f408613.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.233d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f408613.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d)
+		this.f408613.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.052d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f408613.mo895("取消");
 		this.f408613.mo797_背景颜色(-8355712);
@@ -958,13 +958,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f408714 = c0725Impl;
-		this.f408714.mo782((int) C0893
+		this.f408714.mo782((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f408714.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.255d)
+		this.f408714.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.255d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f408714.mo780((int) C0893
+		this.f408714.mo780((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f408714.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.072d)
+		this.f408714.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.072d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f408714.mo895(bi_常量类.f6358b_空串);
 		this.f408714.mo797_背景颜色(-1);
@@ -978,13 +978,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f408815 = c0725Impl;
-		this.f408815.mo782((int) C0893
+		this.f408815.mo782((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f408815.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.316d)
+		this.f408815.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.316d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f408815.mo780((int) C0893
+		this.f408815.mo780((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 1).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f408815.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.072d)
+		this.f408815.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.072d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f408815.mo895(bi_常量类.f6358b_空串);
 		this.f408815.mo797_背景颜色(-1);
@@ -998,13 +998,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f405110 = c0742Impl;
-		this.f405110.mo782((int) C0893
+		this.f405110.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.458d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405110.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.212d)
+		this.f405110.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.212d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f405110.mo780((int) C0893
+		this.f405110.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405110.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.031d)
+		this.f405110.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.031d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f405110.mo797_背景颜色(0);
 		this.f405110.mo1143(1);
@@ -1013,25 +1013,25 @@ public class C06521_详情页 extends C0645Impl {
 		c0713Impl = new C0713Impl(f40411);
 		Objects.initializeProperties(c0713Impl);
 		this.f41082 = c0713Impl;
-		this.f41082.mo782((int) C0893
+		this.f41082.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.933d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41082.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.485d)
+		this.f41082.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.485d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f41082.mo780((int) C0893
+		this.f41082.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.05d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41082.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.021d)
+		this.f41082.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.021d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f41082.mo776_可视(true);
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f408916 = c0725Impl;
-		this.f408916.mo782((int) C0893
+		this.f408916.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.867d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f408916.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.105d)
+		this.f408916.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.105d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f408916.mo780((int) C0893
+		this.f408916.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.133d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f408916.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.072d)
+		this.f408916.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.072d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f408916.mo895(bi_常量类.f6358b_空串);
 		this.f408916.mo797_背景颜色(0);
@@ -1045,25 +1045,25 @@ public class C06521_详情页 extends C0645Impl {
 		c0713Impl = new C0713Impl(f40411);
 		Objects.initializeProperties(c0713Impl);
 		this.f41093 = c0713Impl;
-		this.f41093.mo782((int) C0893
+		this.f41093.mo782((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41093.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0)
+		this.f41093.mo804((int) C0893_算术运算.m6855(ByteVariant.getByteVariant((byte) 0)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f41093.mo780((int) C0893
+		this.f41093.mo780((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41093.mo806((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0)
+		this.f41093.mo806((int) C0893_算术运算.m6855(ByteVariant.getByteVariant((byte) 0)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f41093.mo776_可视(false);
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f40669 = c0742Impl;
-		this.f40669.mo782((int) C0893
+		this.f40669.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.9d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40669.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.031d)
+		this.f40669.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.031d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f40669.mo780((int) C0893
+		this.f40669.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.15d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f40669.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.031d)
+		this.f40669.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.031d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f40669.mo797_背景颜色(0);
 		this.f40669.mo1143(1);
@@ -1071,13 +1071,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f405413 = c0742Impl;
-		this.f405413.mo782((int) C0893
+		this.f405413.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.9d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405413.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.072d)
+		this.f405413.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.072d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f405413.mo780((int) C0893
+		this.f405413.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.15d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405413.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.031d)
+		this.f405413.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.031d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f405413.mo797_背景颜色(0);
 		this.f405413.mo1143(1);
@@ -1085,13 +1085,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0742Impl = new C0742Impl(f40411);
 		Objects.initializeProperties(c0742Impl);
 		this.f405817 = c0742Impl;
-		this.f405817.mo782((int) C0893
+		this.f405817.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.023d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405817.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.588d)
+		this.f405817.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.588d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f405817.mo780((int) C0893
+		this.f405817.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.083d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f405817.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.036d)
+		this.f405817.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.036d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f405817.mo797_背景颜色(0);
 		this.f405817.mo1143(1);
@@ -1100,13 +1100,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0713Impl = new C0713Impl(f40411);
 		Objects.initializeProperties(c0713Impl);
 		this.f41104 = c0713Impl;
-		this.f41104.mo782((int) C0893
+		this.f41104.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.15d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41104.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.566d)
+		this.f41104.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.566d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f41104.mo780((int) C0893
+		this.f41104.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.7d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f41104.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.31d)
+		this.f41104.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.31d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f41104.mo776_可视(false);
 		c0697Impl = new C0697Impl(f40411);
@@ -1116,13 +1116,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f409017 = c0725Impl;
-		this.f409017.mo782((int) C0893
+		this.f409017.mo782((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f409017.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0)
+		this.f409017.mo804((int) C0893_算术运算.m6855(ByteVariant.getByteVariant((byte) 0)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f409017.mo780((int) C0893
+		this.f409017.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(1.033d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f409017.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.072d)
+		this.f409017.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.072d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f409017.mo895(bi_常量类.f6358b_空串);
 		this.f409017.mo797_背景颜色(0);
@@ -1136,13 +1136,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f409118 = c0725Impl;
-		this.f409118.mo782((int) C0893
+		this.f409118.mo782((int) C0893_算术运算
 				.m6855(ByteVariant.getByteVariant((byte) 0).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f409118.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.072d)
+		this.f409118.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.072d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f409118.mo780((int) C0893
+		this.f409118.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.117d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f409118.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d)
+		this.f409118.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.052d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f409118.mo895(bi_常量类.f6358b_空串);
 		this.f409118.mo797_背景颜色(0);
@@ -1156,13 +1156,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f409219 = c0725Impl;
-		this.f409219.mo782((int) C0893
+		this.f409219.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.133d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f409219.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.062d)
+		this.f409219.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.062d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f409219.mo780((int) C0893
+		this.f409219.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.167d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f409219.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d)
+		this.f409219.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.052d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f409219.mo895(bi_常量类.f6358b_空串);
 		this.f409219.mo797_背景颜色(0);
@@ -1176,13 +1176,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f409420 = c0725Impl;
-		this.f409420.mo782((int) C0893
+		this.f409420.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.383d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f409420.mo804((int) C0893.m6855(ByteVariant.getByteVariant((byte) 0)
+		this.f409420.mo804((int) C0893_算术运算.m6855(ByteVariant.getByteVariant((byte) 0)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f409420.mo780((int) C0893
+		this.f409420.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.233d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f409420.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d)
+		this.f409420.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.052d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f409420.mo895(bi_常量类.f6358b_空串);
 		this.f409420.mo797_背景颜色(0);
@@ -1196,13 +1196,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f409521 = c0725Impl;
-		this.f409521.mo782((int) C0893
+		this.f409521.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.7d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f409521.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.062d)
+		this.f409521.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.062d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f409521.mo780((int) C0893
+		this.f409521.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.15d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f409521.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.062d)
+		this.f409521.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.062d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f409521.mo895(bi_常量类.f6358b_空串);
 		this.f409521.mo797_背景颜色(0);
@@ -1216,13 +1216,13 @@ public class C06521_详情页 extends C0645Impl {
 		c0725Impl = new C0725Impl(f40411);
 		Objects.initializeProperties(c0725Impl);
 		this.f409622 = c0725Impl;
-		this.f409622.mo782((int) C0893
+		this.f409622.mo782((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.867d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f409622.mo804((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.052d)
+		this.f409622.mo804((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.052d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
-		this.f409622.mo780((int) C0893
+		this.f409622.mo780((int) C0893_算术运算
 				.m6855(DoubleVariant.getDoubleVariant(0.133d).mul(IntegerVariant.getIntegerVariant(C0894.m6882()))));
-		this.f409622.mo806((int) C0893.m6855(DoubleVariant.getDoubleVariant(0.062d)
+		this.f409622.mo806((int) C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(0.062d)
 				.mul(IntegerVariant.getIntegerVariant(C0894.m6884() - C0894.m6885()))));
 		this.f409622.mo895(bi_常量类.f6358b_空串);
 		this.f409622.mo797_背景颜色(0);
@@ -1337,7 +1337,7 @@ public class C06521_详情页 extends C0645Impl {
 							.sub(ByteVariant.getByteVariant((byte) 1)).getInteger();
 					for (int 计数 = 0; 计数 <= integer; 计数++) {
 						((C0723) this.f4114_站点名集合.m5455_集合get元素(计数).getObject()).mo802();
-						((C0739) this.f4113_站图.m5455_集合get元素(计数).getObject()).mo802();
+						((C0739_图片框) this.f4113_站图.m5455_集合get元素(计数).getObject()).mo802();
 					}
 					this.f40771.mo928(0);
 					this.f40793.mo928(0);
@@ -1375,13 +1375,13 @@ public class C06521_详情页 extends C0645Impl {
 			this.f409017.mo776_可视(true);
 			this.f41115.mo776_可视(false);
 			this.f408411.mo776_可视(false);
-			int i = (int) C0899.m6943(C0843_加密操作.m6604Authcode_Authcode解密(
+			int i = (int) C0899_转换操作.m6943(C0843_加密操作.m6604Authcode_Authcode解密(
 					C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
 			this.f40782.mo928(5000);
 			i = IntegerVariant.getIntegerVariant(i).sub(ByteVariant.getByteVariant((byte) 20)).getInteger();
-			this.f409017.mo895(C0890_文本操作.m6819_子文本替换("我的积分：" + C0899.m6945((double) i), ".0", bi_常量类.f6358b_空串));
+			this.f409017.mo895(C0890_文本操作.m6819_子文本替换("我的积分：" + C0899_转换操作.m6945_转文本((double) i), ".0", bi_常量类.f6358b_空串));
 			C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt",
-					C0843_加密操作.m6603Authcode(C0899.m6945((double) i), "yangbosen123"), "UTF-8");
+					C0843_加密操作.m6603Authcode(C0899_转换操作.m6945_转文本((double) i), "yangbosen123"), "UTF-8");
 		}
 		this.wl = C0898_读写设置类.m6937_通过SP读取设置("网").getString();
 		this.f41115.mo776_可视(false);
@@ -1525,9 +1525,9 @@ public class C06521_详情页 extends C0645Impl {
 		this.f40491.mo1097("x5.png", "收藏");
 		this.f40491.mo789();
 		if (this.zz_城市.equals("haerbin")) {
-			this.dddd = 20;
+			this.dddd_公交速度常量 = 20;
 		} else {
-			this.dddd = 30;
+			this.dddd_公交速度常量 = 30;
 		}
 	}
 
@@ -1582,7 +1582,7 @@ public class C06521_详情页 extends C0645Impl {
 			C0723 站名 = c0725Impl;
 			C0742Impl c0742Impl = new C0742Impl(this.f41061);
 			Objects.initializeProperties(c0742Impl);
-			C0739 站标 = c0742Impl;
+			C0739_图片框 站标 = c0742Impl;
 			this.f4105 = IntegerVariant.getIntegerVariant(i)
 					.add(ByteVariant.getByteVariant((byte) 1)).getInteger();
 			if (IntegerVariant.getIntegerVariant(C0894.m6884())
@@ -1635,7 +1635,7 @@ public class C06521_详情页 extends C0645Impl {
 				.getInteger();
 		for (int 计数 = 0; 计数 <= integer; 计数++) {
 			((C0723) this.f4114_站点名集合.m5455_集合get元素(计数).getObject()).mo802();
-			((C0739) this.f4113_站图.m5455_集合get元素(计数).getObject()).mo802();
+			((C0739_图片框) this.f4113_站图.m5455_集合get元素(计数).getObject()).mo802();
 		}
 		this.f40771.mo928(0);
 		this.f40793.mo928(0);
@@ -1657,7 +1657,7 @@ public class C06521_详情页 extends C0645Impl {
 				.getInteger();
 		for (int 计数 = 0; 计数 <= integer; 计数++) {
 			((C0723) this.f4114_站点名集合.m5455_集合get元素(计数).getObject()).mo802();
-			((C0739) this.f4113_站图.m5455_集合get元素(计数).getObject()).mo802();
+			((C0739_图片框) this.f4113_站图.m5455_集合get元素(计数).getObject()).mo802();
 		}
 		this.f41061.mo780(m5234(480));
 		this.f40771.mo928(0);
@@ -1676,8 +1676,8 @@ public class C06521_详情页 extends C0645Impl {
 			this.f408714.mo776_可视(false);
 			this.f408815.mo776_可视(false);
 			C0723 名字 = (C0723) this.f4114_站点名集合.m5455_集合get元素(i).getObject();
-			C0739 图标 = (C0739) this.f4113_站图.m5455_集合get元素(i).getObject();
-			this.f4073 = i;
+			C0739_图片框 图标 = (C0739_图片框) this.f4113_站图.m5455_集合get元素(i).getObject();
+			this.f4073_当前位置 = i;
 			图标.mo1139("ic_dot_red23.png");
 			名字.mo889_字体颜色(Component.f3916);
 			图标.mo806((int) (DoubleVariant.getDoubleVariant(((double) C0894.m6882()) / 12.0d)
@@ -1724,9 +1724,9 @@ public class C06521_详情页 extends C0645Impl {
 			int integer = IntegerVariant.getIntegerVariant(this.f4114_站点名集合.m5456_取项目总数())
 					.sub(ByteVariant.getByteVariant((byte) 1)).getInteger();
 			for (int i = 0; i <= integer; i++) {
-				if (this.f4073 != i) {
+				if (this.f4073_当前位置 != i) {
 					C0723 站名 = (C0723) this.f4114_站点名集合.m5455_集合get元素(i).getObject();
-					((C0739) this.f4113_站图.m5455_集合get元素(i).getObject()).mo1139(bi_常量类.f6358b_空串);
+					((C0739_图片框) this.f4113_站图.m5455_集合get元素(i).getObject()).mo1139(bi_常量类.f6358b_空串);
 					站名.mo889_字体颜色(-16777216);
 					if (IntegerVariant.getIntegerVariant(C0894.m6884())
 							.cmp(ShortVariant.getShortVariant((short) 860)) < 0) {
@@ -1802,27 +1802,27 @@ public class C06521_详情页 extends C0645Impl {
 						"GBK");
 				if (!ccs.equals(bi_常量类.f6358b_空串)) {
 					this.f41181.mo887_内容(ccs);
-					this.jc = 0;
+					this.jc_距离你还有几站 = 0;
 					int 车3 = 1;
 					boolean 车在 = false;
-					while (this.jc < C0888_数组操作.m6769_取数组成员数(ArrayVariant.getArrayVariant(this.f4115_站点名字_String数组))) {
-						int 综合数 = IntegerVariant.getIntegerVariant(this.f4073).sub(ByteVariant.getByteVariant((byte) 1))
-								.sub(IntegerVariant.getIntegerVariant(this.jc)).getInteger();
-						if (IntegerVariant.getIntegerVariant(this.f4073)
+					while (this.jc_距离你还有几站 < C0888_数组操作.m6769_取数组成员数(ArrayVariant.getArrayVariant(this.f4115_站点名字_String数组))) {
+						int 车的位置 = IntegerVariant.getIntegerVariant(this.f4073_当前位置).sub(ByteVariant.getByteVariant((byte) 1))
+								.sub(IntegerVariant.getIntegerVariant(this.jc_距离你还有几站)).getInteger();
+						if (IntegerVariant.getIntegerVariant(this.f4073_当前位置)
 								.cmp(ByteVariant.getByteVariant((byte) 0)) != 0) {
 							for (int js = 0; js <= 50; js++) {
 								boolean 半站 = false;
-								搜索字 = ("a" + C0899.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
+								搜索字 = ("a" + C0899_转换操作.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
 										.add(ByteVariant.getByteVariant((byte) 1)).getInteger())) + "a";
-								搜索字1 = ("a" + C0899.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
+								搜索字1 = ("a" + C0899_转换操作.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
 										.add(ByteVariant.getByteVariant((byte) 1)).getInteger())) + "a<";
-								搜索字2 = ">g" + C0899.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
+								搜索字2 = ">g" + C0899_转换操作.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
 										.add(ByteVariant.getByteVariant((byte) 1)).getInteger());
-								搜索字3 = ("g" + C0899.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
+								搜索字3 = ("g" + C0899_转换操作.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
 										.add(ByteVariant.getByteVariant((byte) 1)).getInteger())) + "<";
-								搜索字5 = ">f" + C0899.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
+								搜索字5 = ">f" + C0899_转换操作.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
 										.add(ByteVariant.getByteVariant((byte) 1)).getInteger());
-								搜索字6 = ("f" + C0899.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
+								搜索字6 = ("f" + C0899_转换操作.m6959_整数转文本(IntegerVariant.getIntegerVariant(js)
 										.add(ByteVariant.getByteVariant((byte) 1)).getInteger())) + "<";
 								临时文本 = m5233(this.f41181.mo886_内容(), 搜索字, 搜索字1);
 								if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6821_寻找文本(临时文本, this.f4076, 1))
@@ -1835,15 +1835,15 @@ public class C06521_详情页 extends C0645Impl {
 									}
 									if (文本.equals("0")) {
 										文本 = "0";
-									} else if (C0899.m6944(文本) != 综合数) {
+									} else if (C0899_转换操作.m6944_字符串转整数(文本) != 车的位置) {
 										continue;
 									} else {
-										C0739 图像;
-										int P;
+										C0739_图片框 图像;
+										int P_你和公交的距离_单位米;
 										if (IntegerVariant.getIntegerVariant(车3)
 												.cmp(ByteVariant.getByteVariant((byte) 1)) == 0) {
-											图像 = (C0739) this.f4113_站图.m5455_集合get元素(综合数).getObject();
-											((C0723) this.f4114_站点名集合.m5455_集合get元素(综合数).getObject()).mo889_字体颜色(-13906239);
+											图像 = (C0739_图片框) this.f4113_站图.m5455_集合get元素(车的位置).getObject();
+											((C0723) this.f4114_站点名集合.m5455_集合get元素(车的位置).getObject()).mo889_字体颜色(-13906239);
 											this.f409118.mo776_可视(true);
 											this.f409118.mo804(IntegerVariant.getIntegerVariant(图像.mo803() - 图像.mo805())
 													.sub(DoubleVariant.getDoubleVariant(((double) 图像.mo805()) / 2.0d))
@@ -1855,7 +1855,7 @@ public class C06521_详情页 extends C0645Impl {
 											this.f409118.mo806(65);
 											this.f409118.mo895(m5233(this.f41181.mo886_内容(), 搜索字2, 搜索字3));
 											this.b18 = m5233(this.f41181.mo886_内容(), 搜索字5, 搜索字6);
-											if (综合数 == this.f4073) {
+											if (车的位置 == this.f4073_当前位置) {
 												图像.mo1139("loc_focus.png");
 												车在 = true;
 											} else {
@@ -1884,7 +1884,7 @@ public class C06521_详情页 extends C0645Impl {
 												} else {
 													图像.mo1139("011.jpg");
 												}
-												if (IntegerVariant.getIntegerVariant(C0899.m6944(文本))
+												if (IntegerVariant.getIntegerVariant(C0899_转换操作.m6944_字符串转整数(文本))
 														.cmp(StringVariant.getStringVariant("0")) == 0) {
 													this.f41006.mo776_可视(true);
 													this.f41006.mo895("起点");
@@ -1896,7 +1896,7 @@ public class C06521_详情页 extends C0645Impl {
 													break;
 												}
 												标题_最近经过站名 = C0890_文本操作.m6819_子文本替换(
-														((C0723) this.f4114_站点名集合.m5455_集合get元素(综合数).getObject()).mo894(), "\n",
+														((C0723) this.f4114_站点名集合.m5455_集合get元素(车的位置).getObject()).mo894(), "\n",
 														bi_常量类.f6358b_空串);
 												this.f40995.mo776_可视(true);
 												if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6817_获取字符串长度(标题_最近经过站名))
@@ -1907,45 +1907,45 @@ public class C06521_详情页 extends C0645Impl {
 												}
 												this.f41028.mo776_可视(true);
 												this.f41028.mo895("站");
-												this.f41006.mo895(C0899.m6959_整数转文本(this.jc));
+												this.f41006.mo895(C0899_转换操作.m6959_整数转文本(this.jc_距离你还有几站));
 												this.f41006.mo776_可视(true);
 												this.f40625.mo776_可视(true);
-												P = 0;
-												while (IntegerVariant.getIntegerVariant(综合数)
+												P_你和公交的距离_单位米 = 0;
+												while (IntegerVariant.getIntegerVariant(车的位置)
 														.add(ByteVariant.getByteVariant((byte) 1))
-														.cmp(IntegerVariant.getIntegerVariant(this.f4073)
+														.cmp(IntegerVariant.getIntegerVariant(this.f4073_当前位置)
 																.add(ByteVariant.getByteVariant((byte) 1))) < 0) {
-													P += C0899.m6944(this.f4116_站点坐标_String数组[IntegerVariant
-															.getIntegerVariant(综合数)
+													P_你和公交的距离_单位米 += C0899_转换操作.m6944_字符串转整数(this.f4116_站点坐标_String数组[IntegerVariant
+															.getIntegerVariant(车的位置)
 															.add(ByteVariant.getByteVariant((byte) 1)).getInteger()]);
-													综合数 = IntegerVariant.getIntegerVariant(综合数)
+													车的位置 = IntegerVariant.getIntegerVariant(车的位置)
 															.add(ByteVariant.getByteVariant((byte) 1)).getInteger();
 												}
-												if (IntegerVariant.getIntegerVariant(P)
+												if (IntegerVariant.getIntegerVariant(P_你和公交的距离_单位米)
 														.cmp(ShortVariant.getShortVariant((short) 500)) < 0) {
-													this.f41017_距离km.mo895(C0899.m6959_整数转文本(P) + "米");
-													this.f40984.mo895(C0899.m6959_整数转文本((int) (((double) this.jc) / 2.0d)));
+													this.f41017_距离km.mo895(C0899_转换操作.m6959_整数转文本(P_你和公交的距离_单位米) + "米");
+													this.f40984.mo895(C0899_转换操作.m6959_整数转文本((int) (((double) this.jc_距离你还有几站) / 2.0d)));
 													if (this.f40984.mo894().equals("0")) {
 														this.f40984.mo895("﹤1");
 													}
-												} else if (IntegerVariant.getIntegerVariant(P)
+												} else if (IntegerVariant.getIntegerVariant(P_你和公交的距离_单位米)
 														.cmp(ShortVariant.getShortVariant((short) 500)) > 0) {
 													this.f41017_距离km
 															.mo895(Double
-																	.toString(C0893.m6861(ConvHelpers.string2double(
-																			C0899.m6945(((double) P) / 1000.0d)), 1))
+																	.toString(C0893_算术运算.m6861_四舍五入(ConvHelpers.string2double(
+																			C0899_转换操作.m6945_转文本(((double) P_你和公交的距离_单位米) / 1000.0d)), 1))
 																	+ "km");
 													if (StringVariant
 															.getStringVariant(
-																	m5262((int) (((double) P) / 1000.0d), this.dddd))
+																	m5262_计算公交还有多长时间到_单位分钟((int) (((double) P_你和公交的距离_单位米) / 1000.0d), this.dddd_公交速度常量))
 															.cmp(ByteVariant.getByteVariant((byte) 99)) > 0) {
 														this.f40984.mo895(">99");
 													} else {
-														this.f40984.mo895(C0899.m6959_整数转文本(StringVariant
-																.getStringVariant(m5262((int) (((double) P) / 1000.0d),
-																		this.dddd))
+														this.f40984.mo895(C0899_转换操作.m6959_整数转文本(StringVariant
+																.getStringVariant(m5262_计算公交还有多长时间到_单位分钟((int) (((double) P_你和公交的距离_单位米) / 1000.0d),
+																		this.dddd_公交速度常量))
 																.add(DoubleVariant
-																		.getDoubleVariant(((double) this.jc) / 2.0d))
+																		.getDoubleVariant(((double) this.jc_距离你还有几站) / 2.0d))
 																.getInteger()));
 													}
 													if (this.f40984.mo894().equals("0")) {
@@ -1959,8 +1959,8 @@ public class C06521_详情页 extends C0645Impl {
 										}
 										if (IntegerVariant.getIntegerVariant(车3)
 												.cmp(ByteVariant.getByteVariant((byte) 2)) == 0) {
-											图像 = (C0739) this.f4113_站图.m5455_集合get元素(综合数).getObject();
-											((C0723) this.f4114_站点名集合.m5455_集合get元素(综合数).getObject()).mo889_字体颜色(-13906239);
+											图像 = (C0739_图片框) this.f4113_站图.m5455_集合get元素(车的位置).getObject();
+											((C0723) this.f4114_站点名集合.m5455_集合get元素(车的位置).getObject()).mo889_字体颜色(-13906239);
 											this.f409219.mo776_可视(true);
 											this.f409219.mo804(IntegerVariant.getIntegerVariant(图像.mo803() - 图像.mo805())
 													.sub(DoubleVariant.getDoubleVariant(((double) 图像.mo805()) / 2.0d))
@@ -1972,42 +1972,42 @@ public class C06521_详情页 extends C0645Impl {
 											this.f409219.mo806(65);
 											this.f409219.mo895(m5233(this.f41181.mo886_内容(), 搜索字2, 搜索字3));
 											this.b19 = m5233(this.f41181.mo886_内容(), 搜索字5, 搜索字6);
-											P = 0;
-											while (IntegerVariant.getIntegerVariant(综合数)
+											P_你和公交的距离_单位米 = 0;
+											while (IntegerVariant.getIntegerVariant(车的位置)
 													.add(ByteVariant.getByteVariant((byte) 1))
-													.cmp(IntegerVariant.getIntegerVariant(this.f4073)
+													.cmp(IntegerVariant.getIntegerVariant(this.f4073_当前位置)
 															.add(ByteVariant.getByteVariant((byte) 1))) < 0) {
-												P += C0899.m6944(this.f4116_站点坐标_String数组[IntegerVariant
-														.getIntegerVariant(综合数)
+												P_你和公交的距离_单位米 += C0899_转换操作.m6944_字符串转整数(this.f4116_站点坐标_String数组[IntegerVariant
+														.getIntegerVariant(车的位置)
 														.add(ByteVariant.getByteVariant((byte) 1)).getInteger()]);
-												综合数 = IntegerVariant.getIntegerVariant(综合数)
+												车的位置 = IntegerVariant.getIntegerVariant(车的位置)
 														.add(ByteVariant.getByteVariant((byte) 1)).getInteger();
 											}
-											if (IntegerVariant.getIntegerVariant(P)
+											if (IntegerVariant.getIntegerVariant(P_你和公交的距离_单位米)
 													.cmp(ShortVariant.getShortVariant((short) 500)) < 0) {
 												this.f408714.mo895(
-														(((((("第2车距您" + C0899.m6959_整数转文本(this.jc)) + "站,") + C0899.m6959_整数转文本(P))
+														(((((("第2车距您" + C0899_转换操作.m6959_整数转文本(this.jc_距离你还有几站)) + "站,") + C0899_转换操作.m6959_整数转文本(P_你和公交的距离_单位米))
 																+ "米") + ",约")
-																+ C0899.m6959_整数转文本(ByteVariant.getByteVariant((byte) 1)
+																+ C0899_转换操作.m6959_整数转文本(ByteVariant.getByteVariant((byte) 1)
 																		.add(DoubleVariant.getDoubleVariant(
-																				((double) this.jc) / 2.0d))
+																				((double) this.jc_距离你还有几站) / 2.0d))
 																		.getInteger()))
 																+ "分");
-											} else if (IntegerVariant.getIntegerVariant(P)
+											} else if (IntegerVariant.getIntegerVariant(P_你和公交的距离_单位米)
 													.cmp(ShortVariant.getShortVariant((short) 500)) > 0) {
 												this.f408714
-														.mo895((((((("第2车距您" + C0899.m6959_整数转文本(this.jc)) + "站,")
-																+ Double.toString(C0893.m6861(
+														.mo895((((((("第2车距您" + C0899_转换操作.m6959_整数转文本(this.jc_距离你还有几站)) + "站,")
+																+ Double.toString(C0893_算术运算.m6861_四舍五入(
 																		ConvHelpers.string2double(
-																				C0899.m6945(((double) P) / 1000.0d)),
+																				C0899_转换操作.m6945_转文本(((double) P_你和公交的距离_单位米) / 1000.0d)),
 																		1)))
 																+ "km") + ",约")
-																+ C0899.m6959_整数转文本(StringVariant
+																+ C0899_转换操作.m6959_整数转文本(StringVariant
 																		.getStringVariant(
-																				m5262((int) (((double) P) / 1000.0d),
-																						this.dddd))
+																				m5262_计算公交还有多长时间到_单位分钟((int) (((double) P_你和公交的距离_单位米) / 1000.0d),
+																						this.dddd_公交速度常量))
 																		.add(DoubleVariant.getDoubleVariant(
-																				((double) this.jc) / 2.0d))
+																				((double) this.jc_距离你还有几站) / 2.0d))
 																		.getInteger()))
 																+ "分");
 											}
@@ -2038,7 +2038,7 @@ public class C06521_详情页 extends C0645Impl {
 											}
 											if (车在) {
 												标题_最近经过站名 = C0890_文本操作.m6819_子文本替换(
-														((C0723) this.f4114_站点名集合.m5455_集合get元素(综合数).getObject()).mo894(), "\n",
+														((C0723) this.f4114_站点名集合.m5455_集合get元素(车的位置).getObject()).mo894(), "\n",
 														bi_常量类.f6358b_空串);
 												this.f40995.mo776_可视(true);
 												if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6817_获取字符串长度(标题_最近经过站名))
@@ -2049,7 +2049,7 @@ public class C06521_详情页 extends C0645Impl {
 												}
 												this.f41028.mo776_可视(true);
 												this.f41028.mo895("站");
-												this.f41006.mo895(C0899.m6959_整数转文本(this.jc));
+												this.f41006.mo895(C0899_转换操作.m6959_整数转文本(this.jc_距离你还有几站));
 												this.f41006.mo776_可视(true);
 												this.f40625.mo776_可视(true);
 												车在 = false;
@@ -2057,8 +2057,8 @@ public class C06521_详情页 extends C0645Impl {
 										}
 										if (IntegerVariant.getIntegerVariant(车3)
 												.cmp(ByteVariant.getByteVariant((byte) 3)) == 0) {
-											图像 = (C0739) this.f4113_站图.m5455_集合get元素(综合数).getObject();
-											((C0723) this.f4114_站点名集合.m5455_集合get元素(综合数).getObject()).mo889_字体颜色(-13906239);
+											图像 = (C0739_图片框) this.f4113_站图.m5455_集合get元素(车的位置).getObject();
+											((C0723) this.f4114_站点名集合.m5455_集合get元素(车的位置).getObject()).mo889_字体颜色(-13906239);
 											this.f409420.mo776_可视(true);
 											this.f409420.mo804(IntegerVariant.getIntegerVariant(图像.mo803() - 图像.mo805())
 													.sub(DoubleVariant.getDoubleVariant(((double) 图像.mo805()) / 2.0d))
@@ -2070,42 +2070,42 @@ public class C06521_详情页 extends C0645Impl {
 											this.f409420.mo806(65);
 											this.f409420.mo895(m5233(this.f41181.mo886_内容(), 搜索字2, 搜索字3));
 											this.b20 = m5233(this.f41181.mo886_内容(), 搜索字5, 搜索字6);
-											P = 0;
-											while (IntegerVariant.getIntegerVariant(综合数)
+											P_你和公交的距离_单位米 = 0;
+											while (IntegerVariant.getIntegerVariant(车的位置)
 													.add(ByteVariant.getByteVariant((byte) 1))
-													.cmp(IntegerVariant.getIntegerVariant(this.f4073)
+													.cmp(IntegerVariant.getIntegerVariant(this.f4073_当前位置)
 															.add(ByteVariant.getByteVariant((byte) 1))) < 0) {
-												P += C0899.m6944(this.f4116_站点坐标_String数组[IntegerVariant
-														.getIntegerVariant(综合数)
+												P_你和公交的距离_单位米 += C0899_转换操作.m6944_字符串转整数(this.f4116_站点坐标_String数组[IntegerVariant
+														.getIntegerVariant(车的位置)
 														.add(ByteVariant.getByteVariant((byte) 1)).getInteger()]);
-												综合数 = IntegerVariant.getIntegerVariant(综合数)
+												车的位置 = IntegerVariant.getIntegerVariant(车的位置)
 														.add(ByteVariant.getByteVariant((byte) 1)).getInteger();
 											}
-											if (IntegerVariant.getIntegerVariant(P)
+											if (IntegerVariant.getIntegerVariant(P_你和公交的距离_单位米)
 													.cmp(ShortVariant.getShortVariant((short) 500)) < 0) {
 												this.f408815.mo895(
-														(((((("第3车距您" + C0899.m6959_整数转文本(this.jc)) + "站,") + C0899.m6959_整数转文本(P))
+														(((((("第3车距您" + C0899_转换操作.m6959_整数转文本(this.jc_距离你还有几站)) + "站,") + C0899_转换操作.m6959_整数转文本(P_你和公交的距离_单位米))
 																+ "米") + ",约")
-																+ C0899.m6959_整数转文本(ByteVariant.getByteVariant((byte) 1)
+																+ C0899_转换操作.m6959_整数转文本(ByteVariant.getByteVariant((byte) 1)
 																		.add(DoubleVariant.getDoubleVariant(
-																				((double) this.jc) / 2.0d))
+																				((double) this.jc_距离你还有几站) / 2.0d))
 																		.getInteger()))
 																+ "分");
-											} else if (IntegerVariant.getIntegerVariant(P)
+											} else if (IntegerVariant.getIntegerVariant(P_你和公交的距离_单位米)
 													.cmp(ShortVariant.getShortVariant((short) 500)) > 0) {
 												this.f408815
-														.mo895((((((("第3车距您" + C0899.m6959_整数转文本(this.jc)) + "站,")
-																+ Double.toString(C0893.m6861(
+														.mo895((((((("第3车距您" + C0899_转换操作.m6959_整数转文本(this.jc_距离你还有几站)) + "站,")
+																+ Double.toString(C0893_算术运算.m6861_四舍五入(
 																		ConvHelpers.string2double(
-																				C0899.m6945(((double) P) / 1000.0d)),
+																				C0899_转换操作.m6945_转文本(((double) P_你和公交的距离_单位米) / 1000.0d)),
 																		1)))
 																+ "km") + ",约")
-																+ C0899.m6959_整数转文本(StringVariant
+																+ C0899_转换操作.m6959_整数转文本(StringVariant
 																		.getStringVariant(
-																				m5262((int) (((double) P) / 1000.0d),
-																						this.dddd))
+																				m5262_计算公交还有多长时间到_单位分钟((int) (((double) P_你和公交的距离_单位米) / 1000.0d),
+																						this.dddd_公交速度常量))
 																		.add(DoubleVariant.getDoubleVariant(
-																				((double) this.jc) / 2.0d))
+																				((double) this.jc_距离你还有几站) / 2.0d))
 																		.getInteger()))
 																+ "分");
 											}
@@ -2136,7 +2136,7 @@ public class C06521_详情页 extends C0645Impl {
 											}
 											if (车在) {
 												标题_最近经过站名 = C0890_文本操作.m6819_子文本替换(
-														((C0723) this.f4114_站点名集合.m5455_集合get元素(综合数).getObject()).mo894(), "\n",
+														((C0723) this.f4114_站点名集合.m5455_集合get元素(车的位置).getObject()).mo894(), "\n",
 														bi_常量类.f6358b_空串);
 												this.f40995.mo776_可视(true);
 												if (IntegerVariant.getIntegerVariant(C0890_文本操作.m6817_获取字符串长度(标题_最近经过站名))
@@ -2147,7 +2147,7 @@ public class C06521_详情页 extends C0645Impl {
 												}
 												this.f41028.mo776_可视(true);
 												this.f41028.mo895("站");
-												this.f41006.mo895(C0899.m6959_整数转文本(this.jc));
+												this.f41006.mo895(C0899_转换操作.m6959_整数转文本(this.jc_距离你还有几站));
 												this.f41006.mo776_可视(true);
 												this.f40625.mo776_可视(true);
 												车在 = false;
@@ -2155,8 +2155,8 @@ public class C06521_详情页 extends C0645Impl {
 										}
 										if (IntegerVariant.getIntegerVariant(车3)
 												.cmp(ByteVariant.getByteVariant((byte) 4)) == 0) {
-											图像 = (C0739) this.f4113_站图.m5455_集合get元素(综合数).getObject();
-											((C0723) this.f4114_站点名集合.m5455_集合get元素(综合数).getObject()).mo889_字体颜色(-13906239);
+											图像 = (C0739_图片框) this.f4113_站图.m5455_集合get元素(车的位置).getObject();
+											((C0723) this.f4114_站点名集合.m5455_集合get元素(车的位置).getObject()).mo889_字体颜色(-13906239);
 											this.f409521.mo776_可视(true);
 											this.f409521.mo804(IntegerVariant.getIntegerVariant(图像.mo803() - 图像.mo805())
 													.sub(DoubleVariant.getDoubleVariant(((double) 图像.mo805()) / 2.0d))
@@ -2196,8 +2196,8 @@ public class C06521_详情页 extends C0645Impl {
 										}
 										if (IntegerVariant.getIntegerVariant(车3)
 												.cmp(ByteVariant.getByteVariant((byte) 5)) == 0) {
-											图像 = (C0739) this.f4113_站图.m5455_集合get元素(综合数).getObject();
-											((C0723) this.f4114_站点名集合.m5455_集合get元素(综合数).getObject()).mo889_字体颜色(-13906239);
+											图像 = (C0739_图片框) this.f4113_站图.m5455_集合get元素(车的位置).getObject();
+											((C0723) this.f4114_站点名集合.m5455_集合get元素(车的位置).getObject()).mo889_字体颜色(-13906239);
 											this.f409622.mo776_可视(true);
 											this.f409622.mo804(IntegerVariant.getIntegerVariant(图像.mo803() - 图像.mo805())
 													.sub(DoubleVariant.getDoubleVariant(((double) 图像.mo805()) / 2.0d))
@@ -2248,7 +2248,7 @@ public class C06521_详情页 extends C0645Impl {
 							if (IntegerVariant.getIntegerVariant(车3).cmp(ByteVariant.getByteVariant((byte) 5)) > 0) {
 								break;
 							}
-							this.jc = IntegerVariant.getIntegerVariant(this.jc)
+							this.jc_距离你还有几站 = IntegerVariant.getIntegerVariant(this.jc_距离你还有几站)
 									.add(ByteVariant.getByteVariant((byte) 1)).getInteger();
 						} else {
 							this.f41006.mo776_可视(true);
@@ -2387,7 +2387,7 @@ public class C06521_详情页 extends C0645Impl {
 			this.f41104.mo774(false);
 			this.f4114_站点名集合.m5459_清空();
 			this.f4113_站图.m5459_清空();
-			this.f4073 = 0;
+			this.f4073_当前位置 = 0;
 			this.f4117_线路名 = C0898_读写设置类.m6937_通过SP读取设置("线路").getString();
 			this.f4076 = C0898_读写设置类.m6937_通过SP读取设置("方向").getString();
 			this.f41028.mo776_可视(false);
@@ -2439,19 +2439,19 @@ public class C06521_详情页 extends C0645Impl {
 				this.f409017.mo776_可视(true);
 				this.f41115.mo776_可视(false);
 				this.f408411.mo776_可视(false);
-				int i = (int) C0899.m6943(C0843_加密操作.m6604Authcode_Authcode解密(
+				int i = (int) C0899_转换操作.m6943(C0843_加密操作.m6604Authcode_Authcode解密(
 						C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
 				this.f40782.mo928(5000);
 				i = IntegerVariant.getIntegerVariant(i).sub(ByteVariant.getByteVariant((byte) 20)).getInteger();
-				this.f409017.mo895(C0890_文本操作.m6819_子文本替换("我的积分：" + C0899.m6945((double) i), ".0", bi_常量类.f6358b_空串));
+				this.f409017.mo895(C0890_文本操作.m6819_子文本替换("我的积分：" + C0899_转换操作.m6945_转文本((double) i), ".0", bi_常量类.f6358b_空串));
 				C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt",
-						C0843_加密操作.m6603Authcode(C0899.m6945((double) i), "yangbosen123"), "UTF-8");
+						C0843_加密操作.m6603Authcode(C0899_转换操作.m6945_转文本((double) i), "yangbosen123"), "UTF-8");
 			}
 			this.f40804.mo928(VTMCDataCache.MAXSIZE);
 			if (this.zz_城市.equals("haerbin")) {
-				this.dddd = 20;
+				this.dddd_公交速度常量 = 20;
 			} else {
-				this.dddd = 30;
+				this.dddd_公交速度常量 = 30;
 			}
 		} catch (Throwable th) {
 			RuntimeError.convertToRuntimeError(th);
@@ -2459,16 +2459,24 @@ public class C06521_详情页 extends C0645Impl {
 	}
 
 	/* renamed from: 计算 */
-	public String m5262(int i, int i2) {
+	/**
+	 * 功能：i/i2*3600000<br>
+	 * 就是说：时间=距离/速度
+	 * 
+	 * @param i
+	 * @param i2
+	 * @return
+	 */
+	public String m5262_计算公交还有多长时间到_单位分钟(int i, int i2) {
 		String 整数到时间;
 		Throwable th;
 		String str = bi_常量类.f6358b_空串;
 		try {
 			str = bi_常量类.f6358b_空串;
 			try {
-				整数到时间 = m5243(C0893.m6855(DoubleVariant
-						.getDoubleVariant(((double) C0899.m6944(Integer.toString(i)))
-								/ ((double) C0899.m6944(Integer.toString(i2))))
+				整数到时间 = m5243(C0893_算术运算.m6855(DoubleVariant
+						.getDoubleVariant(((double) C0899_转换操作.m6944_字符串转整数(Integer.toString(i)))
+								/ ((double) C0899_转换操作.m6944_字符串转整数(Integer.toString(i2))))
 						.mul(IntegerVariant.getIntegerVariant(3600000))));
 			} catch (Throwable th2) {
 				th = th2;
@@ -2493,23 +2501,23 @@ public class C06521_详情页 extends C0645Impl {
 			long 参数2;
 			long 参数3;
 			if (LongVariant.getLongVariant(j).cmp(IntegerVariant.getIntegerVariant(36000000)) > 0) {
-				long 参数1 = C0893.m6855(DoubleVariant.getDoubleVariant(((double) j) / 3600000.0d));
-				参数2 = C0893.m6855(DoubleVariant.getDoubleVariant(LongVariant.getLongVariant(j)
+				long 参数1 = C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(((double) j) / 3600000.0d));
+				参数2 = C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(LongVariant.getLongVariant(j)
 						.sub(LongVariant.getLongVariant(参数1).mul(IntegerVariant.getIntegerVariant(3600000))).getDouble()
 						/ 60000.0d));
-				参数3 = C0893.m6855(DoubleVariant.getDoubleVariant(LongVariant.getLongVariant(j)
+				参数3 = C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(LongVariant.getLongVariant(j)
 						.sub(LongVariant.getLongVariant(参数1).mul(IntegerVariant.getIntegerVariant(3600000)))
 						.sub(LongVariant.getLongVariant(参数2).mul(IntegerVariant.getIntegerVariant(60000))).getDouble()
 						/ 1000.0d));
-				整数到时间 = ((C0899.m6959_整数转文本((int) 参数1) + "小时") + m5261(C0899.m6959_整数转文本((int) 参数2))) + bi_常量类.f6358b_空串;
+				整数到时间 = ((C0899_转换操作.m6959_整数转文本((int) 参数1) + "小时") + m5261(C0899_转换操作.m6959_整数转文本((int) 参数2))) + bi_常量类.f6358b_空串;
 				this.f40973.mo776_可视(false);
 				return 整数到时间;
 			}
-			参数2 = C0893.m6855(DoubleVariant.getDoubleVariant(((double) j) / 60000.0d));
-			参数3 = C0893.m6855(DoubleVariant.getDoubleVariant(LongVariant.getLongVariant(j)
+			参数2 = C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(((double) j) / 60000.0d));
+			参数3 = C0893_算术运算.m6855(DoubleVariant.getDoubleVariant(LongVariant.getLongVariant(j)
 					.sub(LongVariant.getLongVariant(参数2).mul(IntegerVariant.getIntegerVariant(60000))).getDouble()
 					/ 1000.0d));
-			return m5261(C0899.m6959_整数转文本((int) 参数2)) + bi_常量类.f6358b_空串;
+			return m5261(C0899_转换操作.m6959_整数转文本((int) 参数2)) + bi_常量类.f6358b_空串;
 		} catch (Throwable th) {
 			RuntimeError.convertToRuntimeError(th);
 			return 整数到时间;
@@ -2587,7 +2595,7 @@ public class C06521_详情页 extends C0645Impl {
 					.getInteger();
 			for (int 计数 = 0; 计数 <= integer; 计数++) {
 				((C0723) this.f4114_站点名集合.m5455_集合get元素(计数).getObject()).mo802();
-				((C0739) this.f4113_站图.m5455_集合get元素(计数).getObject()).mo802();
+				((C0739_图片框) this.f4113_站图.m5455_集合get元素(计数).getObject()).mo802();
 			}
 			this.f40771.mo928(0);
 			this.f40793.mo928(0);
@@ -2750,15 +2758,15 @@ public class C06521_详情页 extends C0645Impl {
 		if (!C0889_文件操作.m6797_文件是否存在(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt")) {
 			C0889_文件操作.m6783_创建文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt");
 		}
-		int i = (int) C0899.m6943(C0843_加密操作.m6604Authcode_Authcode解密(
+		int i = (int) C0899_转换操作.m6943(C0843_加密操作.m6604Authcode_Authcode解密(
 				C0889_文件操作.m6802(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt", "UTF-8"), "yangbosen123"));
 		if (IntegerVariant.getIntegerVariant(i).cmp(ByteVariant.getByteVariant((byte) 20)) < 0) {
 			this.f40782.mo928(0);
 		}
 		i = IntegerVariant.getIntegerVariant(i).sub(ByteVariant.getByteVariant((byte) 20)).getInteger();
-		this.f409017.mo895(C0890_文本操作.m6819_子文本替换("我的积分：" + C0899.m6945((double) i), ".0", bi_常量类.f6358b_空串));
+		this.f409017.mo895(C0890_文本操作.m6819_子文本替换("我的积分：" + C0899_转换操作.m6945_转文本((double) i), ".0", bi_常量类.f6358b_空串));
 		C0889_文件操作.m6781_写出文本文件(C0852_存储卡类.m6665_取存储卡路径() + "/Android/tents.txt",
-				C0843_加密操作.m6603Authcode(C0899.m6945((double) i), "yangbosen123"), "UTF-8");
+				C0843_加密操作.m6603Authcode(C0899_转换操作.m6945_转文本((double) i), "yangbosen123"), "UTF-8");
 	}
 
 	/* renamed from: 标签18$被单击 */
@@ -2839,8 +2847,8 @@ public class C06521_详情页 extends C0645Impl {
 		this.f408714.mo776_可视(false);
 		this.f408815.mo776_可视(false);
 		C0723 名字 = (C0723) this.f4114_站点名集合.m5455_集合get元素(0).getObject();
-		C0739 图标 = (C0739) this.f4113_站图.m5455_集合get元素(0).getObject();
-		this.f4073 = 0;
+		C0739_图片框 图标 = (C0739_图片框) this.f4113_站图.m5455_集合get元素(0).getObject();
+		this.f4073_当前位置 = 0;
 		图标.mo1139("ic_dot_red23.png");
 		名字.mo889_字体颜色(Component.f3916);
 		图标.mo806((int) (DoubleVariant.getDoubleVariant(((double) C0894.m6882()) / 12.0d)
@@ -2859,7 +2867,7 @@ public class C06521_详情页 extends C0645Impl {
 				.getInteger();
 		for (int 计数 = 0; 计数 <= integer; 计数++) {
 			((C0723) this.f4114_站点名集合.m5455_集合get元素(计数).getObject()).mo802();
-			((C0739) this.f4113_站图.m5455_集合get元素(计数).getObject()).mo802();
+			((C0739_图片框) this.f4113_站图.m5455_集合get元素(计数).getObject()).mo802();
 		}
 		this.f40771.mo928(0);
 		this.f40793.mo928(0);

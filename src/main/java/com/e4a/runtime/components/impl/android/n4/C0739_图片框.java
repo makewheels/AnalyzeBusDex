@@ -11,7 +11,7 @@ import com.e4a.runtime.components.VisibleComponent;
 @SimpleComponent
 @SimpleObject
 /* renamed from: com.e4a.runtime.components.impl.android.n4.图片框 */
-public interface C0739 extends VisibleComponent {
+public interface C0739_图片框 extends VisibleComponent {
     @SimpleFunction
     /* renamed from: 取组件索引 */
     int mo1137();

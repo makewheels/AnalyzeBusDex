@@ -8,8 +8,8 @@ import p054u.aly.bi_常量类;
 
 @SimpleObject
 /* renamed from: com.e4a.runtime.转换操作 */
-public final class C0899 {
-    private C0899() {
+public final class C0899_转换操作 {
+    private C0899_转换操作() {
     }
 
     @SimpleFunction
@@ -86,7 +86,7 @@ public final class C0899 {
 
     @SimpleFunction
     /* renamed from: 到文本 */
-    public static String m6945(double v) {
+    public static String m6945_转文本(double v) {
         try {
             return String.valueOf(v);
         } catch (Exception e) {
@@ -129,7 +129,7 @@ public final class C0899 {
 
     @SimpleFunction
     /* renamed from: 到整数 */
-    public static int m6944(String v) {
+    public static int m6944_字符串转整数(String v) {
         int i = 0;
         try {
             if (!bi_常量类.f6358b_空串.equals(v)) {
@@ -280,7 +280,7 @@ public final class C0899 {
         String chineseStr = bi_常量类.f6358b_空串;
         i = 0;
         while (i < numParts) {
-            String partChinese = C0899.partTranslate(parts[i]);
+            String partChinese = C0899_转换操作.partTranslate(parts[i]);
             if (i % 2 == 0) {
                 if (bi_常量类.f6358b_空串.equals(partChinese)) {
                     beforeWanIsZero = true;
@@ -397,7 +397,7 @@ public final class C0899 {
                 int j2 = j + 1;
                 char c0 = hexstr.charAt(j);
                 j = j2 + 1;
-                b[i] = (byte) ((C0899.parse(c0) << 4) | C0899.parse(hexstr.charAt(j2)));
+                b[i] = (byte) ((C0899_转换操作.parse(c0) << 4) | C0899_转换操作.parse(hexstr.charAt(j2)));
             }
             return b;
         }

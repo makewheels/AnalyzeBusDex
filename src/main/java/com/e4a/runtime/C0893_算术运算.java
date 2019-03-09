@@ -12,14 +12,14 @@ import p054u.aly.bi_常量类;
 
 @SimpleObject
 /* renamed from: com.e4a.runtime.算术运算 */
-public final class C0893 {
+public final class C0893_算术运算 {
     @SimpleDataElement
     /* renamed from: E */
     public static final double f4335E = 2.718281828459045d;
     @SimpleDataElement
     public static final double PI = 3.141592653589793d;
 
-    private C0893() {
+    private C0893_算术运算() {
     }
 
     @SimpleFunction
@@ -129,7 +129,7 @@ public final class C0893 {
 
     @SimpleFunction
     /* renamed from: 四舍五入 */
-    public static double m6861(double r, int p) {
+    public static double m6861_四舍五入(double r, int p) {
         return new BigDecimal(String.valueOf(r)).setScale(p, 4).doubleValue();
     }
 

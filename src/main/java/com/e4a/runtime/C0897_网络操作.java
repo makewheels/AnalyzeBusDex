@@ -929,7 +929,7 @@ public final class C0897_网络操作 {
         }
         to2 = "auto";
         int salt = new Random().nextInt(10000);
-        String temp = C0899.m6952(C0897_网络操作.m6918("http://api.fanyi.baidu.com/api/trans/vip/translate?q=" + C0895.m6905URL(text, "UTF-8") + "&from=" + from2 + "&to=" + to2 + "&appid=" + appid + "&salt=" + salt + "&sign=" + C0890_文本操作.m6811(C0843_加密操作.m6613MD5(C0899.m6961(appid + text + salt + token, "UTF-8"))), 5000), "UTF-8");
+        String temp = C0899_转换操作.m6952(C0897_网络操作.m6918("http://api.fanyi.baidu.com/api/trans/vip/translate?q=" + C0895.m6905URL(text, "UTF-8") + "&from=" + from2 + "&to=" + to2 + "&appid=" + appid + "&salt=" + salt + "&sign=" + C0890_文本操作.m6811(C0843_加密操作.m6613MD5(C0899_转换操作.m6961(appid + text + salt + token, "UTF-8"))), 5000), "UTF-8");
         if (C0890_文本操作.m6817_获取字符串长度(temp) <= 5 || C0890_文本操作.m6821_寻找文本(temp, "error", 0) != -1) {
             return bi_常量类.f6358b_空串;
         }
